@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hexo</title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/wiki/atom.xml" rel="self"/>
   
-  <link href="http://wiki.greenwicher.com/"/>
+  <link href="http://greenwicher.com/wiki/"/>
   <updated>2016-02-13T05:24:01.000Z</updated>
-  <id>http://wiki.greenwicher.com/</id>
+  <id>http://greenwicher.com/wiki/</id>
   
   <author>
     <name>John Doe</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wiki.greenwicher.com/2016/02/13/hello-world/"/>
-    <id>http://wiki.greenwicher.com/2016/02/13/hello-world/</id>
+    <link href="http://greenwicher.com/wiki/2016/02/13/hello-world/"/>
+    <id>http://greenwicher.com/wiki/2016/02/13/hello-world/</id>
     <published>2016-02-13T05:24:05.000Z</published>
     <updated>2016-02-13T05:24:01.000Z</updated>
     
