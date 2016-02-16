@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2016-02-13T05:24:01.000Z</updated>
+  <updated>2016-02-16T09:03:17.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -16,29 +16,62 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://wiki.greenwicher.com/2016/02/14/hello-world/"/>
-    <id>http://wiki.greenwicher.com/2016/02/14/hello-world/</id>
-    <published>2016-02-14T06:32:29.000Z</published>
-    <updated>2016-02-13T05:24:01.000Z</updated>
+    <title>阅读-魔镜</title>
+    <link href="http://wiki.greenwicher.com/2016/02/16/%E9%98%85%E8%AF%BB-%E9%AD%94%E9%95%9C/"/>
+    <id>http://wiki.greenwicher.com/2016/02/16/阅读-魔镜/</id>
+    <published>2016-02-16T00:00:00.000Z</published>
+    <updated>2016-02-16T09:03:17.000Z</updated>
     
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick_Start&quot;&gt;&lt;a href=&quot;#Quick_Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create_a_new_post&quot;&gt;&lt;a href=&quot;#Create_a_new_post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run_server&quot;&gt;&lt;a href=&quot;#Run_server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate_static_files&quot;&gt;&lt;a href=&quot;#Generate_static_files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy_to_remote_sites&quot;&gt;&lt;a href=&quot;#Deploy_to_remote_sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+    <content type="html">
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+      
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
     
     </summary>
     
+      <category term="阅读" scheme="http://wiki.greenwicher.com/categories/%E9%98%85%E8%AF%BB/"/>
+    
+    
+      <category term="不可能的世界" scheme="http://wiki.greenwicher.com/tags/%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+      <category term="埃舍尔" scheme="http://wiki.greenwicher.com/tags/%E5%9F%83%E8%88%8D%E5%B0%94/"/>
+    
+      <category term="版画" scheme="http://wiki.greenwicher.com/tags/%E7%89%88%E7%94%BB/"/>
+    
+      <category term="纪念碑谷" scheme="http://wiki.greenwicher.com/tags/%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阅读-万历十五年</title>
+    <link href="http://wiki.greenwicher.com/2016/02/16/%E9%98%85%E8%AF%BB-%E4%B8%87%E5%8E%86%E5%8D%81%E4%BA%94%E5%B9%B4/"/>
+    <id>http://wiki.greenwicher.com/2016/02/16/阅读-万历十五年/</id>
+    <published>2016-02-16T00:00:00.000Z</published>
+    <updated>2016-02-16T09:03:37.000Z</updated>
+    
+    <content type="html">
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+    
+      <category term="历史" scheme="http://wiki.greenwicher.com/tags/%E5%8E%86%E5%8F%B2/"/>
     
   </entry>
   
@@ -47,44 +80,44 @@
     <link href="http://wiki.greenwicher.com/2016/02/14/egg-tart/"/>
     <id>http://wiki.greenwicher.com/2016/02/14/egg-tart/</id>
     <published>2016-02-14T00:00:00.000Z</published>
-    <updated>2016-02-14T06:48:28.000Z</updated>
+    <updated>2016-02-16T09:02:31.000Z</updated>
     
     <content type="html">
 
 
 &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; &amp;#x6750;&amp;#x6599;&amp;#x51C6;&amp;#x5907;&lt;/h2&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&amp;#x6750;&amp;#x6599;&amp;#x51C6;&amp;#x5907;&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-1-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.1&lt;/span&gt; &amp;#x9E21;&amp;#x86CB;&lt;/h3&gt;
+&lt;h3 id=&quot;sec-1-1&quot;&gt;&amp;#x9E21;&amp;#x86CB;&lt;/h3&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-sec-1-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-1-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.2&lt;/span&gt; &amp;#x70BC;&amp;#x4E73;&lt;/h3&gt;
+&lt;h3 id=&quot;sec-1-2&quot;&gt;&amp;#x70BC;&amp;#x4E73;&lt;/h3&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-sec-1-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-1-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.3&lt;/span&gt; &amp;#x6DE1;&amp;#x5976;&amp;#x6CB9;&lt;/h3&gt;
+&lt;h3 id=&quot;sec-1-3&quot;&gt;&amp;#x6DE1;&amp;#x5976;&amp;#x6CB9;&lt;/h3&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-sec-1-4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-1-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.4&lt;/span&gt; &amp;#x725B;&amp;#x5976;&lt;/h3&gt;
+&lt;h3 id=&quot;sec-1-4&quot;&gt;&amp;#x725B;&amp;#x5976;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; &amp;#x86CB;&amp;#x631E;&amp;#x76AE;&lt;/h2&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&amp;#x86CB;&amp;#x631E;&amp;#x76AE;&lt;/h2&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; &amp;#x86CB;&amp;#x631E;&amp;#x6DB2;&lt;/h2&gt;
+&lt;h2 id=&quot;sec-3&quot;&gt;&amp;#x86CB;&amp;#x631E;&amp;#x6DB2;&lt;/h2&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; &amp;#x70D8;&amp;#x7119;&amp;#x86CB;&amp;#x631E;&lt;/h2&gt;
+&lt;h2 id=&quot;sec-4&quot;&gt;&amp;#x70D8;&amp;#x7119;&amp;#x86CB;&amp;#x631E;&lt;/h2&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-sec-5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; &amp;#x51FA;&amp;#x7089;&lt;/h2&gt;
+&lt;h2 id=&quot;sec-5&quot;&gt;&amp;#x51FA;&amp;#x7089;&lt;/h2&gt;
 &lt;/div&gt;
 </content>
     
@@ -94,11 +127,12 @@
 
 
 &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; &amp;#x6750;&amp;#x6599;&amp;#x51C6;&amp;#x59
+&lt;h2 id=&quot;sec-1&quot;&gt;&amp;#x6750;&amp;#x6599;&amp;#x51C6;&amp;#x5907;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=
     
     </summary>
     
-      <category term="Cooking" scheme="http://wiki.greenwicher.com/categories/Cooking/"/>
+      <category term="美食" scheme="http://wiki.greenwicher.com/categories/%E7%BE%8E%E9%A3%9F/"/>
     
     
       <category term="烘焙，甜品，美食" scheme="http://wiki.greenwicher.com/tags/%E7%83%98%E7%84%99%EF%BC%8C%E7%94%9C%E5%93%81%EF%BC%8C%E7%BE%8E%E9%A3%9F/"/>
