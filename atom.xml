@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2016-02-16T09:40:20.000Z</updated>
+  <updated>2016-02-16T09:37:41.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>魔镜 - 埃舍尔的不可能世界</title>
+    <link href="http://wiki.greenwicher.com/2016/02/16/%E9%98%85%E8%AF%BB-%E9%AD%94%E9%95%9C/"/>
+    <id>http://wiki.greenwicher.com/2016/02/16/阅读-魔镜/</id>
+    <published>2016-02-16T00:00:00.000Z</published>
+    <updated>2016-02-16T09:37:41.000Z</updated>
+    
+    <content type="html">
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="Reading" scheme="http://wiki.greenwicher.com/categories/Reading/"/>
+    
+    
+      <category term="不可能的世界" scheme="http://wiki.greenwicher.com/tags/%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+      <category term="埃舍尔" scheme="http://wiki.greenwicher.com/tags/%E5%9F%83%E8%88%8D%E5%B0%94/"/>
+    
+      <category term="版画" scheme="http://wiki.greenwicher.com/tags/%E7%89%88%E7%94%BB/"/>
+    
+      <category term="纪念碑谷" scheme="http://wiki.greenwicher.com/tags/%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>失控：全人类最终命运和结局</title>
@@ -68,11 +102,11 @@
   </entry>
   
   <entry>
-    <title>魔镜 - 埃舍尔的不可能世界</title>
-    <link href="http://wiki.greenwicher.com/2016/02/16/%E9%98%85%E8%AF%BB-%E9%AD%94%E9%95%9C/"/>
-    <id>http://wiki.greenwicher.com/2016/02/16/阅读-魔镜/</id>
+    <title>博弈-围棋入门</title>
+    <link href="http://wiki.greenwicher.com/2016/02/16/%E5%8D%9A%E5%BC%88-%E5%9B%B4%E6%A3%8B%E5%85%A5%E9%97%A8/"/>
+    <id>http://wiki.greenwicher.com/2016/02/16/博弈-围棋入门/</id>
     <published>2016-02-16T00:00:00.000Z</published>
-    <updated>2016-02-16T09:37:41.000Z</updated>
+    <updated>2016-02-16T09:46:04.000Z</updated>
     
     <content type="html">
 
@@ -88,16 +122,8 @@
     
     </summary>
     
-      <category term="Reading" scheme="http://wiki.greenwicher.com/categories/Reading/"/>
+      <category term="Game" scheme="http://wiki.greenwicher.com/categories/Game/"/>
     
-    
-      <category term="不可能的世界" scheme="http://wiki.greenwicher.com/tags/%E4%B8%8D%E5%8F%AF%E8%83%BD%E7%9A%84%E4%B8%96%E7%95%8C/"/>
-    
-      <category term="埃舍尔" scheme="http://wiki.greenwicher.com/tags/%E5%9F%83%E8%88%8D%E5%B0%94/"/>
-    
-      <category term="版画" scheme="http://wiki.greenwicher.com/tags/%E7%89%88%E7%94%BB/"/>
-    
-      <category term="纪念碑谷" scheme="http://wiki.greenwicher.com/tags/%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7/"/>
     
   </entry>
   
