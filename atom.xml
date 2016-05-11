@@ -2064,7 +2064,7 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated%20C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-05-11T13:28:48.000Z</updated>
+    <updated>2016-05-11T13:34:49.000Z</updated>
     
     <content type="html">
 
@@ -2676,6 +2676,26 @@ while (condition)
 &lt;p&gt;
 &amp;#x5176;&amp;#x4E2D;statement&amp;#x8BED;&amp;#x53E5;&amp;#x88AB;&amp;#x79F0;&amp;#x4E3A;while&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#x3002;while&amp;#x8BED;&amp;#x53E5;&amp;#x68C0;&amp;#x6D4B;condition&amp;#x7684;&amp;#x503C;&amp;#xFF0C;&amp;#x82E5;&amp;#x4E3A;&amp;#x771F;&amp;#xFF0C;&amp;#x5219;&amp;#x6267;&amp;#x884C;&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#xFF0C;&amp;#x4E00;&amp;#x76F4;&amp;#x5230;&amp;#x6761;&amp;#x4EF6;&amp;#x4E3A;&amp;#x5047;&amp;#xFF1B;&amp;#x5426;&amp;#x5219;&amp;#x9000;&amp;#x51FA;&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#x3002;
 &lt;/p&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;statement&amp;#x540E;&amp;#x65E0;&amp;#x5206;&amp;#x53F7;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x82E5;statement&amp;#x4E3A;&amp;#x666E;&amp;#x901A;&amp;#x8BED;&amp;#x53E5;&amp;#xFF0C;&amp;#x5728;&amp;#x8FD9;&amp;#x6761;&amp;#x8BED;&amp;#x53E5;&amp;#x7684;&amp;#x672B;&amp;#x5C3E;&amp;#x4F1A;&amp;#x6709;&amp;#x5B83;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684;&amp;#x5206;&amp;#x53F7;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x82E5;statement&amp;#x4E3A;&amp;#x5757;&amp;#x8BED;&amp;#x53E5;&amp;#xFF0C;&amp;#x5219;&amp;#x5757;&amp;#x7684; &lt;code&gt;}&lt;/code&gt; &amp;#x7B26;&amp;#x53F7;&amp;#x6807;&amp;#x5FD7;&amp;#x7740;&amp;#x8BED;&amp;#x53E5;&amp;#x7684;&amp;#x7ED3;&amp;#x675F;&amp;#xFF0C;&amp;#x90A3;&amp;#x4E48;&amp;#x4E5F;&amp;#x6CA1;&amp;#x5FC5;&amp;#x8981;&amp;#x7528;&amp;#x5206;&amp;#x53F7;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;condition&amp;#x8BED;&amp;#x53E5;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x4E0D;&amp;#x7B49;&amp;#x5F0F;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#x7684;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5E03;&amp;#x5C14;&amp;#x7C7B;&amp;#x578B;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x589E;&amp;#x91CF;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#xFF1A;~++~
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
