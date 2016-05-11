@@ -2064,7 +2064,7 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated%20C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-05-11T06:44:46.000Z</updated>
+    <updated>2016-05-11T07:03:39.000Z</updated>
     
     <content type="html">
 
@@ -2408,6 +2408,21 @@ Please enter your first name: Hello, Greenwicher!
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-2&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-2-2&quot;&gt;&amp;#x4E3A;&amp;#x59D3;&amp;#x540D;&amp;#x88C5;&amp;#x6846;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//&amp;#x8BF7;&amp;#x6C42;&amp;#x7528;&amp;#x6237;&amp;#x8F93;&amp;#x5165;&amp;#x59D3;&amp;#x540D;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x4EA7;&amp;#x751F;&amp;#x4E00;&amp;#x4E2A;&amp;#x5E26;&amp;#x6846;&amp;#x67B6;&amp;#x7684;&amp;#x95EE;&amp;#x5019;&amp;#x8BED;&amp;#x53E5;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#include &amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#include &amp;lt;string&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cout &amp;lt;&amp;lt; &amp;quot;Please enter your first name: &amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::string name;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cin &amp;gt;&amp;gt; name;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  //&amp;#x6784;&amp;#x9020;&amp;#x6211;&amp;#x4EEC;&amp;#x5C06;&amp;#x8981;&amp;#x8F93;&amp;#x51FA;&amp;#x7684;&amp;#x4FE1;&amp;#x606F;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  const std::string greeting = &amp;quot;Hello, &amp;quot; + name + &amp;quot;!&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  //&amp;#x6784;&amp;#x5EFA;&amp;#x8F93;&amp;#x51FA;&amp;#x7684;&amp;#x7B2C;&amp;#x4E8C;&amp;#x548C;&amp;#x7B2C;&amp;#x56DB;&amp;#x884C;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  const std::string spaces(greeting.size(), &amp;apos; &amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  const std::string second = &amp;quot;* &amp;quot; + spaces + &amp;quot; *&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  //&amp;#x6784;&amp;#x5EFA;&amp;#x8F93;&amp;#x51FA;&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x548C;&amp;#x7B2C;&amp;#x4E94;&amp;#x884C;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  const std::string first(second.size(), &amp;apos;*&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  //&amp;#x8F93;&amp;#x51FA;&amp;#x6240;&amp;#x6709;&amp;#x5185;&amp;#x5BB9;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cout &amp;lt;&amp;lt; std::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cout &amp;lt;&amp;lt; first &amp;lt;&amp;lt; std::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cout &amp;lt;&amp;lt; second &amp;lt;&amp;lt; std::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cout &amp;lt;&amp;lt; &amp;quot;* &amp;quot; &amp;lt;&amp;lt; greeting &amp;lt;&amp;lt; &amp;quot; *&amp;quot; &amp;lt;&amp;lt; std::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cout &amp;lt;&amp;lt; second &amp;lt;&amp;lt; std::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  std::cout &amp;lt;&amp;lt; first &amp;lt;&amp;lt; std::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;pre class=&quot;example&quot;&gt;
+Please enter your first name:
+***********************
+*                     *
+* Hello, Greenwicher! *
+*                     *
+***********************
+&lt;/pre&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
