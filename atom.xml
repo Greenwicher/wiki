@@ -2064,7 +2064,7 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated%20C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-05-11T13:34:49.000Z</updated>
+    <updated>2016-05-11T13:36:17.000Z</updated>
     
     <content type="html">
 
@@ -2667,12 +2667,10 @@ And what is yours?Hello, Beckett; nice to meet you too!
 &lt;li&gt;&amp;#x8BED;&amp;#x53E5;&amp;#x5F62;&amp;#x5F0F;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
+&lt;pre class=&quot;example&quot;&gt;
 while (condition)
   statement
-&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/pre&gt;
 &lt;p&gt;
 &amp;#x5176;&amp;#x4E2D;statement&amp;#x8BED;&amp;#x53E5;&amp;#x88AB;&amp;#x79F0;&amp;#x4E3A;while&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#x3002;while&amp;#x8BED;&amp;#x53E5;&amp;#x68C0;&amp;#x6D4B;condition&amp;#x7684;&amp;#x503C;&amp;#xFF0C;&amp;#x82E5;&amp;#x4E3A;&amp;#x771F;&amp;#xFF0C;&amp;#x5219;&amp;#x6267;&amp;#x884C;&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#xFF0C;&amp;#x4E00;&amp;#x76F4;&amp;#x5230;&amp;#x6761;&amp;#x4EF6;&amp;#x4E3A;&amp;#x5047;&amp;#xFF1B;&amp;#x5426;&amp;#x5219;&amp;#x9000;&amp;#x51FA;&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#x3002;
 &lt;/p&gt;
@@ -2693,7 +2691,7 @@ while (condition)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&amp;#x589E;&amp;#x91CF;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#xFF1A;~++~
+&lt;li&gt;&amp;#x589E;&amp;#x91CF;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#xFF1A; &lt;code&gt;++&lt;/code&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
