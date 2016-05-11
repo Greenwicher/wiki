@@ -2064,7 +2064,7 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated%20C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-05-11T07:03:39.000Z</updated>
+    <updated>2016-05-11T07:14:53.000Z</updated>
     
     <content type="html">
 
@@ -2422,6 +2422,22 @@ Please enter your first name:
 *                     *
 ***********************
 &lt;/pre&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x8D4B;&amp;#x503C;&amp;#xFF1A; &amp;#x53D8;&amp;#x91CF;&amp;#x521D;&amp;#x59CB;&amp;#x5316;&amp;#x65F6;&amp;#xFF0C;&amp;#x53EF;&amp;#x901A;&amp;#x8FC7; &lt;code&gt;=&lt;/code&gt; &amp;#x5BF9;&amp;#x5176;&amp;#x8D4B;&amp;#x503C;&amp;#xFF0C;&amp;#x5E76;&amp;#x4E14;&amp;#x53D8;&amp;#x91CF;&amp;#x7C7B;&amp;#x578B;&amp;#x5C06;&amp;#x8FDB;&amp;#x884C;&amp;#x8F6C;&amp;#x6362;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#x91CD;&amp;#x8F7D;&amp;#xFF1A; &amp;#x5BF9;&amp;#x4E8E;&amp;#x4E0D;&amp;#x540C;&amp;#x7C7B;&amp;#x578B;&amp;#x7684;&amp;#x64CD;&amp;#x4F5C;&amp;#x6570;&amp;#x6765;&amp;#x8BF4;&amp;#x5177;&amp;#x6709;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x542B;&amp;#x4E49;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5E38;&amp;#x91CF;&amp;#xFF1A; &lt;code&gt;const&lt;/code&gt; &amp;#x6307;&amp;#x660E;&amp;#x4E86;&amp;#x8BE5;&amp;#x53D8;&amp;#x91CF;&amp;#x5728;&amp;#x5176;&amp;#x751F;&amp;#x5B58;&amp;#x671F;&amp;#x5185;&amp;#x4E0D;&amp;#x53EF;&amp;#x53D8;&amp;#xFF0C;&amp;#x56E0;&amp;#x6B64;&amp;#x5FC5;&amp;#x987B;&amp;#x5728;&amp;#x521D;&amp;#x59CB;&amp;#x5316;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x8D4B;&amp;#x503C;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#x5DE6;&amp;#x7ED3;&amp;#x5408;&amp;#xFF1A;&amp;#x540C; &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt; &amp;#x4E00;&amp;#x6837;&amp;#xFF0C; &lt;code&gt;+&lt;/code&gt; &amp;#x4E5F;&amp;#x662F;&amp;#x5DE6;&amp;#x7ED3;&amp;#x5408;&amp;#x7684;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6210;&amp;#x5458;&amp;#x51FD;&amp;#x6570;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x81EA;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&amp;#x7684;&amp;#x53D8;&amp;#x91CF;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;const std::string spaces(greeting.size(), &amp;apos; &amp;apos;);&lt;/code&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
