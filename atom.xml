@@ -2064,7 +2064,7 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated%20C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-05-11T03:26:00.000Z</updated>
+    <updated>2016-05-11T05:41:08.000Z</updated>
     
     <content type="html">
 
@@ -2139,22 +2139,73 @@ Hello, World!
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;&amp;#x540D;&amp;#x5B57;&amp;#x7A7A;&amp;#x95F4;&amp;#xFF1A;&amp;#x8FD9;&amp;#x91CC;&amp;#x7684; &lt;code&gt;std&lt;/code&gt; &amp;#x79F0;&amp;#x4E3A;&amp;#x540D;&amp;#x5B57;&amp;#x7A7A;&amp;#x95F4;&amp;#xFF0C;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x76F8;&amp;#x5173;&amp;#x540D;&amp;#x79F0;&amp;#x7684;&amp;#x96C6;&amp;#x5408;&amp;#xFF0C;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E86;&amp;#x6807;&amp;#x51C6;&amp;#x5E93;&amp;#x4E2D;&amp;#x6240;&amp;#x6709;&amp;#x5B9A;&amp;#x4E49;&amp;#x7684;&amp;#x540D;&amp;#x79F0;
 &lt;/li&gt;
-&lt;li&gt;&amp;#x4F5C;&amp;#x7528;&amp;#x57DF;&amp;#x7B26;
+&lt;li&gt;&amp;#x4F5C;&amp;#x7528;&amp;#x57DF;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#xFF1A; &lt;code&gt;::&lt;/code&gt;
 &lt;/li&gt;
 &lt;li&gt;&amp;#x6807;&amp;#x51C6;&amp;#x8F93;&amp;#x51FA;&amp;#x6D41;&amp;#xFF1A; &lt;code&gt;std::cout&lt;/code&gt; &amp;#xFF0C;&amp;#x6307;&amp;#x660E;&amp;#x548C;&amp;#x7A0B;&amp;#x5E8F;&amp;#x6587;&amp;#x4EF6;&amp;#x76F8;&amp;#x8054;&amp;#x7CFB;&amp;#x7684;&amp;#x4E00;&amp;#x4E2A;&amp;#x7A97;&amp;#x53E3;
 &lt;/li&gt;
 &lt;li&gt;&amp;#x8F93;&amp;#x51FA;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#xFF1A; &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;
 &lt;/li&gt;
+&lt;li&gt;&amp;#x63A7;&amp;#x5236;&amp;#x5668;: &lt;code&gt;std::endl&lt;/code&gt; &amp;#xFF0C;&amp;#x5B9E;&amp;#x73B0;&amp;#x5BF9;&amp;#x6D41;&amp;#x7684;&amp;#x63A7;&amp;#x5236;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
 &lt;div id=&quot;outline-container-sec-1-7&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-1-7&quot;&gt;&amp;#x9898;&amp;#x89E3;&lt;/h3&gt;
+&lt;h3 id=&quot;sec-1-7&quot;&gt;&amp;#x8FD4;&amp;#x56DE;&amp;#x8BED;&amp;#x53E5;&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-7&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-7-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-1&quot;&gt;0-0&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x51FD;&amp;#x6570;&amp;#x5C06;&amp;#x5728;&amp;#x8FD4;&amp;#x56DE;&amp;#x8BED;&amp;#x53E5;&amp;#x51FA;&amp;#x73B0;&amp;#x7684;&amp;#x4F4D;&amp;#x7F6E;&amp;#x7EC8;&amp;#x6B62;&amp;#x51FD;&amp;#x6570;&amp;#x7684;&amp;#x6267;&amp;#x884C;&amp;#xFF0C;&amp;#x5E76;&amp;#x628A;&amp;#x4E00;&amp;#x4E2A;&amp;#x503C;&amp;#x8FD4;&amp;#x56DE;&amp;#x7ED9;&amp;#x8C03;&amp;#x7528;&amp;#x8FD9;&amp;#x4E2A;&amp;#x51FD;&amp;#x6570;&amp;#x7684;&amp;#x7A0B;&amp;#x5E8F;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8FD4;&amp;#x56DE;&amp;#x503C;&amp;#x7C7B;&amp;#x578B;&amp;#x5FC5;&amp;#x987B;&amp;#x7B26;&amp;#x5408;&amp;#x51FD;&amp;#x6570;&amp;#x7684;&amp;#x5B9A;&amp;#x4E49;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6709;&amp;#x53EF;&amp;#x80FD;&amp;#x5728;&amp;#x591A;&amp;#x4E2A;&amp;#x4F4D;&amp;#x7F6E;&amp;#x4E0A;&amp;#x5408;&amp;#x7406;&amp;#x5730;&amp;#x7EC8;&amp;#x6B62;&amp;#x7A0B;&amp;#x5E8F;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-8&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-8&quot;&gt;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-8&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&amp;#x4F1A;&amp;#x8BA9;&amp;#x7F16;&amp;#x8BD1;&amp;#x5668;&amp;#x5BF9;&amp;#x67D0;&amp;#x4E9B;&amp;#x4E8B;&amp;#x7269;&amp;#x8FDB;&amp;#x884C;&amp;#x8FD0;&amp;#x7B97;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8FD0;&amp;#x7B97;&amp;#x4F1A;&amp;#x4EA7;&amp;#x751F;&amp;#x4E00;&amp;#x4E2A;&amp;#x7ED3;&amp;#x679C;&amp;#xFF0C;&amp;#x540C;&amp;#x65F6;&amp;#x8FD8;&amp;#x53EF;&amp;#x80FD;&amp;#x4F1A;&amp;#x5177;&amp;#x6709;&amp;#x526F;&amp;#x4F5C;&amp;#x7528;&amp;#x3002;&amp;#x4E5F;&amp;#x5C31;&amp;#x662F;&amp;#x8BF4;&amp;#x526F;&amp;#x4F5C;&amp;#x7528;&amp;#x4E0D;&amp;#x662F;&amp;#x7ED3;&amp;#x679C;&amp;#x7684;&amp;#x76F4;&amp;#x63A5;&amp;#x90E8;&amp;#x5206;&amp;#xFF0C;&amp;#x4F46;&amp;#x5B83;&amp;#x4F1A;&amp;#x5F71;&amp;#x54CD;&amp;#x7A0B;&amp;#x5E8F;&amp;#x6216;&amp;#x7CFB;&amp;#x7EDF;&amp;#x73AF;&amp;#x5883;&amp;#x7684;&amp;#x72B6;&amp;#x6001;&amp;#x3002;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&amp;#x5305;&amp;#x542B;&amp;#x64CD;&amp;#x4F5C;&amp;#x6570;&amp;#x548C;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Hello, World&amp;#xFF01;&amp;#x4F8B;&amp;#x5B50;&amp;#x91CC; &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt; &amp;#x5373;&amp;#x4E3A;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#xFF0C; &lt;code&gt;std::cout&lt;/code&gt; &amp;#xFF0C; &lt;code&gt;std::endl&lt;/code&gt; &amp;#xFF0C; &amp;quot;Hello, World&amp;quot; &amp;#x5219;&amp;#x662F;&amp;#x64CD;&amp;#x4F5C;&amp;#x6570;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x64CD;&amp;#x4F5C;&amp;#x6570;&amp;#xFF1A;&amp;#x5177;&amp;#x6709;&amp;#x4E00;&amp;#x5B9A;&amp;#x7684;&amp;#x7C7B;&amp;#x578B;&amp;#xFF0C;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E86;&amp;#x8BE5;&amp;#x64CD;&amp;#x4F5C;&amp;#x6570;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x7ED3;&amp;#x6784;&amp;#x548C;&amp;#x5BF9;&amp;#x8BE5;&amp;#x6570;&amp;#x636E;&amp;#x7ED3;&amp;#x6784;&amp;#x7684;&amp;#x5408;&amp;#x7406;&amp;#x64CD;&amp;#x4F5C;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#xFF1A;&amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#x7684;&amp;#x884C;&amp;#x4E3A;&amp;#x53D6;&amp;#x51B3;&amp;#x4E8E;&amp;#x64CD;&amp;#x4F5C;&amp;#x6570;&amp;#x7684;&amp;#x7C7B;&amp;#x578B;&amp;#xFF0C;&amp;#x8FD9;&amp;#x91CC;&amp;#x7684; &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt; &amp;#x662F;&amp;#x5DE6;&amp;#x7ED3;&amp;#x5408;&amp;#x7684;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-9&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-9&quot;&gt;&amp;#x4F5C;&amp;#x7528;&amp;#x57DF;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-9&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x540D;&amp;#x5B57;&amp;#x7A7A;&amp;#x95F4;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x82B1;&amp;#x62EC;&amp;#x53F7;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-10&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-10&quot;&gt;&amp;#x7A0B;&amp;#x5E8F;&amp;#x7ED3;&amp;#x6784; / &amp;#x81EA;&amp;#x7531;&amp;#x98CE;&amp;#x683C;&lt;/h3&gt;
+&lt;/div&gt;
+
+
+&lt;div id=&quot;outline-container-sec-1-11&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-11&quot;&gt;&amp;#x9898;&amp;#x89E3;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-11&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-11-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-1&quot;&gt;0-0&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-1&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;string&quot;&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2165,18 +2216,18 @@ Hello, world!
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-1-7-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-2&quot;&gt;0-1&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-2&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-2&quot;&gt;0-1&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-2&quot;&gt;
 &lt;p&gt;
 This statement calculates the sum of 3 and 4.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-3&quot;&gt;0-2&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-3&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-3&quot;&gt;0-2&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-3&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;string&quot;&gt;&amp;quot;This (\&amp;quot;) is a quote, and this (\\) is a backlash.&amp;quot;&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2188,9 +2239,9 @@ This (&amp;quot;) is a quote, and this (\) is a backlash.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-4&quot;&gt;0-3&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-4&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-4&quot;&gt;0-3&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-4&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;string&quot;&gt;&amp;quot;a\tbb\tccc\tdddd\teeeee\tffffff\t&amp;quot;&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2202,9 +2253,9 @@ a       bb      ccc     dddd    eeeee   ffffff
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-5&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-5&quot;&gt;0-4&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-5&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-5&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-5&quot;&gt;0-4&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-5&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;string&quot;&gt;&amp;quot;#include &amp;lt;iostream&amp;gt;\n int main(){\n std::cout&amp;lt;&amp;lt;\&amp;quot;Hello, world!\&amp;quot;&amp;lt;&amp;lt;std::endl;\n return 0;\n}&amp;quot;&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2220,9 +2271,9 @@ a       bb      ccc     dddd    eeeee   ffffff
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-6&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-6&quot;&gt;0-5&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-6&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-6&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-6&quot;&gt;0-5&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-6&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#include &amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int main() std::cout&amp;lt;&amp;lt;&amp;quot;Hello, world!&amp;quot;&amp;lt;&amp;lt;std::endl;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2234,36 +2285,36 @@ This is not a valid program.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-7&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-7&quot;&gt;0-6&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-7&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-7&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-7&quot;&gt;0-6&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-7&quot;&gt;
 &lt;p&gt;
 This is a valid program.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-8&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-8&quot;&gt;0-7&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-8&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-8&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-8&quot;&gt;0-7&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-8&quot;&gt;
 &lt;p&gt;
 This is not a valid program.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-9&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-9&quot;&gt;0-8&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-9&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-9&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-9&quot;&gt;0-8&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-9&quot;&gt;
 &lt;p&gt;
 This is a valid program.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-10&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-10&quot;&gt;0-9&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-10&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-10&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-10&quot;&gt;0-9&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-10&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2271,9 +2322,9 @@ This is a valid program.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-sec-1-7-11&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1-7-11&quot;&gt;0-10&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-7-11&quot;&gt;
+&lt;div id=&quot;outline-container-sec-1-11-11&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-11-11&quot;&gt;0-10&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-11-11&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
 &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
