@@ -2064,7 +2064,7 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated%20C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-05-11T13:16:02.000Z</updated>
+    <updated>2016-05-11T13:28:48.000Z</updated>
     
     <content type="html">
 
@@ -2657,7 +2657,25 @@ And what is yours?Hello, Beckett; nice to meet you too!
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-3&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
-&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;//&amp;#x56F4;&amp;#x4F4F;&amp;#x95EE;&amp;#x5019;&amp;#x8BED;&amp;#x53E5;&amp;#x7684;&amp;#x7A7A;&amp;#x767D;&amp;#x884C;&amp;#x6570;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; pad = &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;//&amp;#x56F4;&amp;#x4F4F;&amp;#x95EE;&amp;#x5019;&amp;#x8BED;&amp;#x53E5;&amp;#x7684;&amp;#x7A7A;&amp;#x767D;&amp;#x884C;&amp;#x6570;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; pad = &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;//&amp;#x6240;&amp;#x6709;&amp;#x8981;&amp;#x8F93;&amp;#x51FA;&amp;#x7684;&amp;#x884C;&amp;#x6570;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; rows = pad * &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; + &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;//&amp;#x628A;&amp;#x8F93;&amp;#x51FA;&amp;#x548C;&amp;#x8F93;&amp;#x5165;&amp;#x5206;&amp;#x5F00;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;//&amp;#x8F93;&amp;#x51FA;rows&amp;#x884C;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; r = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; (r != rows){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;//&amp;#x8F93;&amp;#x51FA;&amp;#x4E00;&amp;#x884C;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt;&amp;lt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    ++r;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-3-3-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-3-3-1&quot;&gt;while&amp;#x8BED;&amp;#x53E5;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x8BED;&amp;#x53E5;&amp;#x5F62;&amp;#x5F0F;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+while (condition)
+  statement
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+&amp;#x5176;&amp;#x4E2D;statement&amp;#x8BED;&amp;#x53E5;&amp;#x88AB;&amp;#x79F0;&amp;#x4E3A;while&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#x3002;while&amp;#x8BED;&amp;#x53E5;&amp;#x68C0;&amp;#x6D4B;condition&amp;#x7684;&amp;#x503C;&amp;#xFF0C;&amp;#x82E5;&amp;#x4E3A;&amp;#x771F;&amp;#xFF0C;&amp;#x5219;&amp;#x6267;&amp;#x884C;&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#xFF0C;&amp;#x4E00;&amp;#x76F4;&amp;#x5230;&amp;#x6761;&amp;#x4EF6;&amp;#x4E3A;&amp;#x5047;&amp;#xFF1B;&amp;#x5426;&amp;#x5219;&amp;#x9000;&amp;#x51FA;&amp;#x5FAA;&amp;#x73AF;&amp;#x4F53;&amp;#x3002;
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
