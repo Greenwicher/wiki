@@ -1020,17 +1020,79 @@ Please enter your first name:
 </div>
 <div id="outline-container-sec-3-8-8" class="outline-4">
 <h4 id="sec-3-8-8">2-7</h4>
+<div class="outline-text-4" id="text-3-8-8">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">10</span>;i&gt;=-<span class="number">5</span>;--i){</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;i&lt;&lt;endl;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 </div>
+
+<pre class="example">
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+-1
+-2
+-3
+-4
+-5
+</pre>
+</div>
+</div>
+
 <div id="outline-container-sec-3-8-9" class="outline-4">
 <h4 id="sec-3-8-9">2-8</h4>
+<div class="outline-text-4" id="text-3-8-9">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">  <span class="keyword">int</span> ans = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i!=<span class="number">10</span>;++i){</span><br><span class="line">    ans *= i;</span><br><span class="line">  }</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;ans&lt;&lt;endl;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 </div>
+
+<pre class="example">
+362880
+</pre>
+</div>
+</div>
+
 <div id="outline-container-sec-3-8-10" class="outline-4">
 <h4 id="sec-3-8-10">2-9</h4>
+<div class="outline-text-4" id="text-3-8-10">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">  <span class="keyword">int</span> a,b;</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;<span class="string">&quot;Please enter two numders&quot;</span>&lt;&lt;endl;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b;</span><br><span class="line">  <span class="keyword">if</span> (a&gt;b){</span><br><span class="line">   <span class="built_in">cout</span>&lt;&lt;a&lt;&lt;endl;</span><br><span class="line">  } <span class="keyword">else</span> {</span><br><span class="line">   <span class="built_in">cout</span>&lt;&lt;b&lt;&lt;endl;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 </div>
+
+<pre class="example">
+Please enter two numders
+20
+</pre>
+</div>
+</div>
+
 <div id="outline-container-sec-3-8-11" class="outline-4">
 <h4 id="sec-3-8-11">2-10</h4>
+<div class="outline-text-4" id="text-3-8-11">
+<ul class="org-ul">
+<li><code>std::cout</code> &#x8FD9;&#x91CC;&#x662F;&#x6307;&#x7528; <code>cout</code> &#x6765;&#x8868;&#x793A;&#x540D;&#x5B57;&#x7A7A;&#x95F4; <code>std</code> &#x4E2D;&#x5B9A;&#x4E49;&#x7684; <code>cout</code> &#xFF0C;&#x5E76;&#x4E14;&#x5176;&#x4F5C;&#x7528;&#x57DF;&#x4EC5;&#x5728;while&#x8BED;&#x53E5;&#x7684;&#x5757;&#x8BED;&#x53E5;&#x4E2D;
+</li>
+<li><code>std::cout</code> &#x8FD9;&#x91CC;&#x662F;&#x6307;&#x540D;&#x5B57;&#x7A7A;&#x95F4; <code>std</code> &#x4E2D;&#x7C7B;&#x578B;&#x4E3A; <code>ostream</code> &#x7684;&#x53D8;&#x91CF; <code>cout</code> &#xFF0C;&#x5373;&#x6807;&#x51C6;&#x8F93;&#x51FA;&#x6D41;
+</li>
+<li><code>std::endl</code> &#x8FD9;&#x91CC;&#x662F;&#x6307;&#x540D;&#x5B57;&#x7A7A;&#x95F4; <code>std</code> &#x4E2D;&#x7684;&#x63A7;&#x5236;&#x6D41;
+</li>
+</ul>
 </div>
 </div>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">&#x7B2C;3&#x7AE0; &#x4F7F;&#x7528;&#x6279;&#x91CF;&#x6570;&#x636E;</h2>
 </div>
 	  
 
