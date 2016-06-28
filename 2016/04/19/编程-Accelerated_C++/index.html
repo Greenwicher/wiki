@@ -1485,6 +1485,60 @@ Please enter your midterm and final exam grades: Enter all your homework grades,
 </div>
 <div id="outline-container-sec-5-2" class="outline-3">
 <h3 id="sec-5-2">&#x7EC4;&#x7EC7;&#x6570;&#x636E;</h3>
+<div class="outline-text-3" id="text-5-2">
+</div><div id="outline-container-sec-5-2-1" class="outline-4">
+<h4 id="sec-5-2-1">&#x628A;&#x4E00;&#x4E2A;&#x5B66;&#x751F;&#x7684;&#x6240;&#x6709;&#x6570;&#x636E;&#x653E;&#x7F6E;&#x5728;&#x4E00;&#x8D77;</h4>
+<div class="outline-text-4" id="text-5-2-1">
+<ul class="org-ul">
+<li><code>struct</code> &#x7ED3;&#x6784;&#x4F53;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> Student_info{</span><br><span class="line">  <span class="built_in">string</span> name;</span><br><span class="line">  <span class="keyword">double</span> midterm, final;</span><br><span class="line">  <span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; homework;</span><br><span class="line">}; <span class="comment">//&#x6CE8;&#x610F;&#x8FD9;&#x91CC;&#x7684;&#x5206;&#x53F7;&#x2014;&#x2014;&#x5B83;&#x662F;&#x4E0D;&#x53EF;&#x7F3A;&#x5C11;&#x7684;</span></span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5-2-2" class="outline-4">
+<h4 id="sec-5-2-2">&#x5904;&#x7406;&#x5B66;&#x751F;&#x8BB0;&#x5F55;</h4>
+<div class="outline-text-4" id="text-5-2-2">
+<ul class="org-ul">
+<li>&#x8BFB;&#x53D6;&#x5B66;&#x751F;&#x8BB0;&#x5F55;
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">istream&amp; <span class="title">read</span><span class="params">(istream&amp; is, Student_info&amp; s)</span></span>{</span><br><span class="line">  <span class="comment">//&#x8BFB;&#x5165;&#x5E76;&#x5B58;&#x50A8;&#x5B66;&#x751F;&#x7684;&#x59D3;&#x540D;&#x4EE5;&#x53CA;&#x671F;&#x4E2D;&#x3001;&#x671F;&#x672B;&#x8003;&#x8BD5;&#x6210;&#x7EE9;</span></span><br><span class="line">  is &gt;&gt; s.name &gt;&gt; s.midterm &gt;&gt; s.final;</span><br><span class="line">  read_hw(is, s.homework);</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</li>
+<li>&#x8BA1;&#x7B97;&#x5B66;&#x751F;&#x6210;&#x7EE9;
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">double</span> <span class="title">grade</span><span class="params">(<span class="keyword">const</span> Student_info&amp; s)</span></span>{</span><br><span class="line">  <span class="keyword">return</span> grade(s.midterm, s.final, s.homework);</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li>&#x51FD;&#x6570;&#x53C2;&#x6570;&#x901A;&#x8FC7;&#x5E38;&#x91CF;&#x5F15;&#x7528;&#x800C;&#x907F;&#x514D;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x590D;&#x5236;&#x5F00;&#x9500;
+</li>
+<li>&#x5F02;&#x5E38;&#x5904;&#x7406;&#x7684;&#x5408;&#x7406;&#x4F4D;&#x7F6E;
+</li>
+</ul>
+</li>
+<li>&#x6309;&#x7167;&#x59D3;&#x540D;&#x6392;&#x5E8F;
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">compare</span><span class="params">(<span class="keyword">const</span> Student_info&amp; x, <span class="keyword">const</span> Student_info&amp; y)</span></span>{</span><br><span class="line">  <span class="keyword">return</span> x.name &lt; y.name;</span><br><span class="line">}</span><br><span class="line">sort(students.begin(), students.end(), compare)</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li><code>sort()</code> &#x51FD;&#x6570;&#x7684;&#x7B2C;&#x4E09;&#x4E2A;&#x53C2;&#x6570;&#x79F0;&#x4E3A;&#x8C13;&#x8BCD;&#xFF0C;&#x5176;&#x4E3A;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x8FD4;&#x56DE;&#x5E03;&#x5C14;&#x503C;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E24;&#x4E24;&#x5143;&#x7D20;&#x300E;&#x5927;&#x5C0F;&#x300F;&#x6BD4;&#x8F83;&#x7684;&#x6807;&#x51C6;
+</li>
+<li><code>string</code> &#x7C7B;&#x5B9A;&#x4E49;&#x4E86; <code>&lt;</code> &#x8FD0;&#x7B97;&#x7B26;&#x901A;&#x8FC7;&#x5B57;&#x5178;&#x5E8F;&#x6765;&#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x5927;&#x5C0F;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-5-2-3" class="outline-4">
+<h4 id="sec-5-2-3">&#x751F;&#x6210;&#x62A5;&#x8868;</h4>
+</div>
 </div>
 <div id="outline-container-sec-5-3" class="outline-3">
 <h3 id="sec-5-3">&#x628A;&#x5404;&#x90E8;&#x5206;&#x4EE3;&#x7801;&#x8FDE;&#x63A5;&#x5230;&#x4E00;&#x8D77;</h3>

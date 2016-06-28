@@ -2084,7 +2084,7 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-06-28T08:25:07.000Z</updated>
+    <updated>2016-06-28T08:55:44.000Z</updated>
     
     <content type="html">
 
@@ -3504,6 +3504,60 @@ Please enter your midterm and final exam grades: Enter all your homework grades,
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-5-2&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-5-2&quot;&gt;&amp;#x7EC4;&amp;#x7EC7;&amp;#x6570;&amp;#x636E;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-5-2-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-5-2-1&quot;&gt;&amp;#x628A;&amp;#x4E00;&amp;#x4E2A;&amp;#x5B66;&amp;#x751F;&amp;#x7684;&amp;#x6240;&amp;#x6709;&amp;#x6570;&amp;#x636E;&amp;#x653E;&amp;#x7F6E;&amp;#x5728;&amp;#x4E00;&amp;#x8D77;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-2-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&lt;code&gt;struct&lt;/code&gt; &amp;#x7ED3;&amp;#x6784;&amp;#x4F53;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; Student_info{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt; name;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;double&lt;/span&gt; midterm, final;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;vector&lt;/span&gt;&amp;lt;&lt;span class=&quot;keyword&quot;&gt;double&lt;/span&gt;&amp;gt; homework;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}; &lt;span class=&quot;comment&quot;&gt;//&amp;#x6CE8;&amp;#x610F;&amp;#x8FD9;&amp;#x91CC;&amp;#x7684;&amp;#x5206;&amp;#x53F7;&amp;#x2014;&amp;#x2014;&amp;#x5B83;&amp;#x662F;&amp;#x4E0D;&amp;#x53EF;&amp;#x7F3A;&amp;#x5C11;&amp;#x7684;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-5-2-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-5-2-2&quot;&gt;&amp;#x5904;&amp;#x7406;&amp;#x5B66;&amp;#x751F;&amp;#x8BB0;&amp;#x5F55;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-2-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x8BFB;&amp;#x53D6;&amp;#x5B66;&amp;#x751F;&amp;#x8BB0;&amp;#x5F55;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;istream&amp;amp; &lt;span class=&quot;title&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(istream&amp;amp; is, Student_info&amp;amp; s)&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;//&amp;#x8BFB;&amp;#x5165;&amp;#x5E76;&amp;#x5B58;&amp;#x50A8;&amp;#x5B66;&amp;#x751F;&amp;#x7684;&amp;#x59D3;&amp;#x540D;&amp;#x4EE5;&amp;#x53CA;&amp;#x671F;&amp;#x4E2D;&amp;#x3001;&amp;#x671F;&amp;#x672B;&amp;#x8003;&amp;#x8BD5;&amp;#x6210;&amp;#x7EE9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  is &amp;gt;&amp;gt; s.name &amp;gt;&amp;gt; s.midterm &amp;gt;&amp;gt; s.final;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  read_hw(is, s.homework);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8BA1;&amp;#x7B97;&amp;#x5B66;&amp;#x751F;&amp;#x6210;&amp;#x7EE9;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;grade&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Student_info&amp;amp; s)&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; grade(s.midterm, s.final, s.homework);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x51FD;&amp;#x6570;&amp;#x53C2;&amp;#x6570;&amp;#x901A;&amp;#x8FC7;&amp;#x5E38;&amp;#x91CF;&amp;#x5F15;&amp;#x7528;&amp;#x800C;&amp;#x907F;&amp;#x514D;&amp;#x4E0D;&amp;#x5FC5;&amp;#x8981;&amp;#x7684;&amp;#x590D;&amp;#x5236;&amp;#x5F00;&amp;#x9500;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5F02;&amp;#x5E38;&amp;#x5904;&amp;#x7406;&amp;#x7684;&amp;#x5408;&amp;#x7406;&amp;#x4F4D;&amp;#x7F6E;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6309;&amp;#x7167;&amp;#x59D3;&amp;#x540D;&amp;#x6392;&amp;#x5E8F;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;compare&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Student_info&amp;amp; x, &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Student_info&amp;amp; y)&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; x.name &amp;lt; y.name;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sort(students.begin(), students.end(), compare)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&lt;code&gt;sort()&lt;/code&gt; &amp;#x51FD;&amp;#x6570;&amp;#x7684;&amp;#x7B2C;&amp;#x4E09;&amp;#x4E2A;&amp;#x53C2;&amp;#x6570;&amp;#x79F0;&amp;#x4E3A;&amp;#x8C13;&amp;#x8BCD;&amp;#xFF0C;&amp;#x5176;&amp;#x4E3A;&amp;#x4E00;&amp;#x4E2A;&amp;#x51FD;&amp;#x6570;&amp;#xFF0C;&amp;#x8FD4;&amp;#x56DE;&amp;#x5E03;&amp;#x5C14;&amp;#x503C;&amp;#xFF0C;&amp;#x4F5C;&amp;#x4E3A;&amp;#x4E24;&amp;#x4E24;&amp;#x5143;&amp;#x7D20;&amp;#x300E;&amp;#x5927;&amp;#x5C0F;&amp;#x300F;&amp;#x6BD4;&amp;#x8F83;&amp;#x7684;&amp;#x6807;&amp;#x51C6;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;string&lt;/code&gt; &amp;#x7C7B;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E86; &lt;code&gt;&amp;lt;&lt;/code&gt; &amp;#x8FD0;&amp;#x7B97;&amp;#x7B26;&amp;#x901A;&amp;#x8FC7;&amp;#x5B57;&amp;#x5178;&amp;#x5E8F;&amp;#x6765;&amp;#x6BD4;&amp;#x8F83;&amp;#x4E24;&amp;#x4E2A;&amp;#x5B57;&amp;#x7B26;&amp;#x4E32;&amp;#x5927;&amp;#x5C0F;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-5-2-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-5-2-3&quot;&gt;&amp;#x751F;&amp;#x6210;&amp;#x62A5;&amp;#x8868;&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-5-3&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-5-3&quot;&gt;&amp;#x628A;&amp;#x5404;&amp;#x90E8;&amp;#x5206;&amp;#x4EE3;&amp;#x7801;&amp;#x8FDE;&amp;#x63A5;&amp;#x5230;&amp;#x4E00;&amp;#x8D77;&lt;/h3&gt;
