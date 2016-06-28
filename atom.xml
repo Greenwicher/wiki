@@ -2084,12 +2084,12 @@
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-05-23T08:41:55.000Z</updated>
+    <updated>2016-06-28T08:25:07.000Z</updated>
     
     <content type="html">
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-05-13 Fri&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-06-28 Tue&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
 &lt;/p&gt;
 
 &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
@@ -3488,8 +3488,20 @@ Please enter your midterm and final exam grades: Enter all your homework grades,
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-5-1-5&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-5-1-5&quot;&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x51FD;&amp;#x6570;&amp;#x6765;&amp;#x8BA1;&amp;#x7B97;&amp;#x5B66;&amp;#x751F;&amp;#x7684;&amp;#x6210;&amp;#x7EE9;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-1-5&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&lt;code&gt;try&lt;/code&gt; &amp;#x548C; &lt;code&gt;catch&lt;/code&gt; &amp;#xFF1A;&amp;#x7A0B;&amp;#x5E8F;&amp;#x9996;&amp;#x5148;&amp;#x6267;&amp;#x884C; &lt;code&gt;try&lt;/code&gt; &amp;#x540E;&amp;#x82B1;&amp;#x62EC;&amp;#x53F7;&amp;#x4E2D;&amp;#x7684;&amp;#x8BED;&amp;#x53E5;&amp;#x3002;&amp;#x5982;&amp;#x679C;&amp;#x53D1;&amp;#x751F; &lt;code&gt;catch&lt;/code&gt; &amp;#x4E2D;&amp;#x6307;&amp;#x660E;&amp;#x7684;&amp;#x9519;&amp;#x8BEF;&amp;#x5F02;&amp;#x5E38;&amp;#x8BDD;&amp;#xFF0C;&amp;#x90A3;&amp;#x4E48;&amp;#x4FBF;&amp;#x505C;&amp;#x6B62; &lt;code&gt;try&lt;/code&gt; &amp;#x4E2D;&amp;#x7684;&amp;#x8BED;&amp;#x53E5;&amp;#x6267;&amp;#x884C;&amp;#x800C;&amp;#x53BB;&amp;#x6267;&amp;#x884C; &lt;code&gt;catch&lt;/code&gt; &amp;#x540E;&amp;#x82B1;&amp;#x62EC;&amp;#x53F7;&amp;#x4E2D;&amp;#x7684;&amp;#x8BED;&amp;#x53E5;&amp;#xFF1B;&amp;#x5426;&amp;#x5219;&amp;#x8DF3;&amp;#x8FC7; &lt;code&gt;catch&lt;/code&gt; &amp;#x82B1;&amp;#x62EC;&amp;#x53F7;&amp;#x7684;&amp;#x8BED;&amp;#x53E5;&amp;#x3002;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6BCF;&amp;#x5F53;&amp;#x7F16;&amp;#x5199;&amp;#x4E00;&amp;#x6761; &lt;code&gt;try&lt;/code&gt; &amp;#x8BED;&amp;#x53E5;&amp;#x65F6;&amp;#xFF0C;&amp;#x90FD;&amp;#x8981;&amp;#x8003;&amp;#x8651;&amp;#x526F;&amp;#x4F5C;&amp;#x7528;&amp;#x4EE5;&amp;#x53CA;&amp;#x526F;&amp;#x4F5C;&amp;#x7528;&amp;#x53D1;&amp;#x751F;&amp;#x7684;&amp;#x65F6;&amp;#x523B;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8981;&amp;#x4FDD;&amp;#x8BC1;&amp;#x4E00;&amp;#x6761;&amp;#x8BED;&amp;#x53E5;&amp;#x4E2D;&amp;#x7684;&amp;#x526F;&amp;#x4F5C;&amp;#x7528;&amp;#x4E2A;&amp;#x6570;&amp;#x4E0D;&amp;#x4F1A;&amp;#x8D85;&amp;#x8FC7;&amp;#x4E00;&amp;#x4E2A;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
-
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-5-2&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-5-2&quot;&gt;&amp;#x7EC4;&amp;#x7EC7;&amp;#x6570;&amp;#x636E;&lt;/h3&gt;
 &lt;/div&gt;
@@ -3516,7 +3528,7 @@ Please enter your midterm and final exam grades: Enter all your homework grades,
       
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-05-13 Fri&amp;gt;&lt;/span&gt;&lt;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-06-28 Tue&amp;gt;&lt;/span&gt;&lt;
     
     </summary>
     
