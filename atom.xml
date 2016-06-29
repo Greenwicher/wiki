@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2016-06-29T08:32:35.000Z</updated>
+  <updated>2016-06-29T09:00:21.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -16,16 +16,339 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://wiki.greenwicher.com/2016/06/29/%E9%98%85%E8%AF%BB-Starting_Your_Career_as_a_Wall_Street_Quant/"/>
+    <id>http://wiki.greenwicher.com/2016/06/29/阅读-Starting_Your_Career_as_a_Wall_Street_Quant/</id>
+    <published>2016-06-29T09:00:21.000Z</published>
+    <updated>2016-06-29T09:00:21.000Z</updated>
+    
+    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;!-- 2016-06-29 Wed 17:00 --&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;title&gt;Starting Your Career as a Wall Street Quant&lt;/title&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Org-mode&quot;&gt;
+&lt;meta name=&quot;author&quot; content=&quot;LIU Weizhi&quot;&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+ &lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: &#39;sh&#39;; }
+  pre.src-bash:before  { content: &#39;sh&#39;; }
+  pre.src-emacs-lisp:before { content: &#39;Emacs Lisp&#39;; }
+  pre.src-R:before     { content: &#39;R&#39;; }
+  pre.src-perl:before  { content: &#39;Perl&#39;; }
+  pre.src-java:before  { content: &#39;Java&#39;; }
+  pre.src-sql:before   { content: &#39;SQL&#39;; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]&gt;*/--&gt;
+&lt;/style&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = &quot;code-highlighted&quot;;
+     elem.className   = &quot;code-highlighted&quot;;
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]&gt;*///--&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;content&quot;&gt;
+&lt;h1 class=&quot;title&quot;&gt;Starting Your Career as a Wall Street Quant&lt;/h1&gt;
+&lt;p&gt;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-06-29 Wed&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
+&lt;/p&gt;
+
+&lt;div id=&quot;outline-container-orgheadline2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgheadline2&quot;&gt;Introduction: Get Ready to Launch&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orgheadline2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-orgheadline1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline1&quot;&gt;Chapter 0: Why You Should Read This Book&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-orgheadline1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Goal
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;help you find a quant job in the financial investment industry&lt;/li&gt;
+&lt;li&gt;readers are expected to be more informed and more shrewed job hunter after reading&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Readers
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;people who are not familar with quant jobs&lt;/li&gt;
+&lt;li&gt;people who are eager to be a quant&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Features
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;author as a working quant&lt;/li&gt;
+&lt;li&gt;practical, no-BS guide&lt;/li&gt;
+&lt;li&gt;first book on finding a quant job&lt;/li&gt;
+&lt;li&gt;every facet of the job search process and what it&amp;apos;s like to work on Wall Street&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Supplementary website: &lt;a href=&quot;http://www.quantcareer.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;QuantCareer.com&lt;/a&gt; [not working now]&lt;/li&gt;
+&lt;li&gt;Major section of a typical quant resume
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Objective&lt;/li&gt;
+&lt;li&gt;Education&lt;/li&gt;
+&lt;li&gt;Experience&lt;/li&gt;
+&lt;li&gt;Bright Future&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+A thousand-mile journey begins with the first step.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline14&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgheadline14&quot;&gt;Objective: Get a Job as a Wall Street Quant&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orgheadline14&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-orgheadline10&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline10&quot;&gt;Chapter 1: The Lure of a Quant Career&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-orgheadline10&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-orgheadline3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgheadline3&quot;&gt;A Rewarding Career&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-orgheadline3&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Monetary: a six-figure compensation (salary plus bonus, in US dollars) is almost a given, rougly $200k~$300k and even million bucks for some lucky and bright quants&lt;/li&gt;
+&lt;li&gt;Psychological: &lt;code&gt;aphrodisiac&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Spiritual: solve the challenges&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+If you cannot see the risk to every poential reward, you should not be working as a quant - in fact, you shouldn&amp;apos;t be considering a financial career to begin with.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgheadline4&quot;&gt;What is a Quant&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-orgheadline4&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+On Wall Street, a quant designs, constructs, implements
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;pre class=&quot;src src-python&quot;&gt;&lt;span style=&quot;color: #859900;&quot;&gt;print&lt;/span&gt;(127*8888)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline5&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgheadline5&quot;&gt;A Typical Workday in a Quant&amp;apos;s Life&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline6&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgheadline6&quot;&gt;Is a Quant Job Right for You?&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline7&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgheadline7&quot;&gt;Non-Quant Finance Jobs&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline8&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgheadline8&quot;&gt;Where Quants Work&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline9&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgheadline9&quot;&gt;Designing an Overall Strategy for Getting a Quant Job&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline11&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline11&quot;&gt;Chapter 2: Brushing Up Your Resume&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline12&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline12&quot;&gt;Chapter 3: Hunting for Openings&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline13&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline13&quot;&gt;Chapter 4: Acing the Quant Interview&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline18&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgheadline18&quot;&gt;Education: Arm Yourself with Knowledge&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orgheadline18&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-orgheadline15&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline15&quot;&gt;Chapter 5: Undergraduate Preparations&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline16&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline16&quot;&gt;Chapter 6: Graduate Studies&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline17&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline17&quot;&gt;Chapter 7: Self-Education&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline21&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgheadline21&quot;&gt;Experience: Acquire Real-world Skills&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orgheadline21&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-orgheadline19&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline19&quot;&gt;Chapter 8: Working While in School&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline20&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline20&quot;&gt;Chapter 9: Already a Full-Timer&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgheadline23&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgheadline23&quot;&gt;Bright Future: Go Far and Prosper&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orgheadline23&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-orgheadline22&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgheadline22&quot;&gt;Chapter 10: Evaluating Offers and Starting Job&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-stri
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Starting Your Career as a Wall Street Quant</title>
     <link href="http://wiki.greenwicher.com/2016/06/29/%E9%98%85%E8%AF%BB-Starting_Your_Career_as_a_Wall_Street_Quant/"/>
     <id>http://wiki.greenwicher.com/2016/06/29/阅读-Starting_Your_Career_as_a_Wall_Street_Quant/</id>
     <published>2016-06-28T16:00:00.000Z</published>
-    <updated>2016-06-29T08:32:35.000Z</updated>
+    <updated>2016-06-29T09:03:12.000Z</updated>
     
     <content type="html">
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-06-28 Tue&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-06-29 Wed&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
 &lt;/p&gt;
 
 &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
@@ -53,7 +376,7 @@
 &lt;/li&gt;
 &lt;li&gt;Features
 &lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;authors as a working quant
+&lt;li&gt;author as a working quant
 &lt;/li&gt;
 &lt;li&gt;practical, no-BS guide
 &lt;/li&gt;
@@ -63,7 +386,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Supplementary: &lt;a href=&quot;http://www.quantcareer.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;QuantCareer.com&lt;/a&gt;
+&lt;li&gt;Supplementary website: &lt;a href=&quot;http://www.quantcareer.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;QuantCareer.com&lt;/a&gt; [not working now]
 &lt;/li&gt;
 &lt;li&gt;Major section of a typical quant resume
 &lt;ul class=&quot;org-ul&quot;&gt;
@@ -92,6 +415,56 @@ A thousand-mile journey begins with the first step.
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-2-1&quot;&gt;Chapter 1: The Lure of a Quant Career&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1-1&quot;&gt;A Rewarding Career&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Monetary: a six-figure compensation (salary plus bonus, in US dollars) is almost a given, rougly $200k~$300k and even million bucks for some lucky and bright quants
+&lt;/li&gt;
+&lt;li&gt;Psychological: &lt;code&gt;aphrodisiac&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;Spiritual: solve the challenges
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+If you cannot see the risk to every poential reward, you should not be working as a quant - in fact, you shouldn&amp;apos;t be considering a financial career to begin with.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-2-1-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1-2&quot;&gt;What is a Quant&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-2&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+On Wall Street, a quant designs, constructs, implements
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-2-1-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1-3&quot;&gt;A Typical Workday in a Quant&amp;apos;s Life&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-2-1-4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1-4&quot;&gt;Is a Quant Job Right for You?&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-2-1-5&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1-5&quot;&gt;Non-Quant Finance Jobs&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-2-1-6&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1-6&quot;&gt;Where Quants Work&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-2-1-7&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1-7&quot;&gt;Designing an Overall Strategy for Getting a Quant Job&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-sec-2-2&quot; class=&quot;outline-3&quot;&gt;
@@ -106,7 +479,6 @@ A thousand-mile journey begins with the first step.
 &lt;h3 id=&quot;sec-2-4&quot;&gt;Chapter 4: Acing the Quant Interview&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
 &lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-3&quot;&gt;Education: Arm Yourself with Knowledge&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
@@ -122,7 +494,6 @@ A thousand-mile journey begins with the first step.
 &lt;h3 id=&quot;sec-3-3&quot;&gt;Chapter 7: Self-Education&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
 &lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-4&quot;&gt;Experience: Acquire Real-world Skills&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
@@ -134,7 +505,6 @@ A thousand-mile journey begins with the first step.
 &lt;h3 id=&quot;sec-4-2&quot;&gt;Chapter 9: Already a Full-Timer&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
 &lt;div id=&quot;outline-container-sec-5&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-5&quot;&gt;Bright Future: Go Far and Prosper&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
@@ -149,7 +519,7 @@ A thousand-mile journey begins with the first step.
       
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-06-28 Tue&amp;gt;&lt;/span&gt;&lt;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-06-29 Wed&amp;gt;&lt;/span&gt;&lt;
     
     </summary>
     
