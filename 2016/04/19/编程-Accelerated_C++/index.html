@@ -1538,10 +1538,63 @@ Please enter your midterm and final exam grades: Enter all your homework grades,
 </div>
 <div id="outline-container-sec-5-2-3" class="outline-4">
 <h4 id="sec-5-2-3">&#x751F;&#x6210;&#x62A5;&#x8868;</h4>
+<div class="outline-text-4" id="text-5-2-3">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">  <span class="built_in">vector</span>&lt;Student_info&gt; students;</span><br><span class="line">  Student_info record;</span><br><span class="line">  <span class="built_in">string</span>::size_type maxlen = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">//&#x8BFB;&#x5E76;&#x5B58;&#x50A8;&#x6240;&#x6709;&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x7136;&#x540E;&#x627E;&#x51FA;&#x6700;&#x957F;&#x7684;&#x59D3;&#x540D;&#x7684;&#x957F;&#x5EA6;</span></span><br><span class="line">  <span class="keyword">while</span>(read(<span class="built_in">cin</span>, record)){</span><br><span class="line">    maxlen = max(maxlen, record.name.size());</span><br><span class="line">    students.push_back(record);</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="comment">//&#x6309;&#x5B57;&#x6BCD;&#x987A;&#x5E8F;&#x6392;&#x5217;&#x8BB0;&#x5F55;</span></span><br><span class="line">  sort(students.begin(), students.end(), compare);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span>(<span class="built_in">vector</span>&lt;Student_info&gt;::size i = <span class="number">0</span>; i!= students.size(); ++i){</span><br><span class="line">    <span class="comment">//&#x8F93;&#x51FA;&#x59D3;&#x540D;&#xFF0C;&#x586B;&#x5145;&#x59D3;&#x540D;&#x4EE5;&#x8FBE;&#x5230;maxlen + 1&#x7684;&#x957F;&#x5EA6;</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; setw(maxlen+<span class="number">1</span>) &lt;&lt; students[i].name;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//&#x8BA1;&#x7B97;&#x5E76;&#x8F93;&#x51FA;&#x6210;&#x7EE9;</span></span><br><span class="line">    <span class="keyword">try</span>{</span><br><span class="line">      <span class="keyword">double</span> final_grade = grade(students[i]);</span><br><span class="line">      streamsize prec = <span class="built_in">cout</span>.precision();</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; setprecision(<span class="number">3</span>) &lt;&lt; final_grade &lt;&lt; setprecision(prec);</span><br><span class="line">    }<span class="keyword">catch</span>(domain_error e){</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; e.what();</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li><code>max()</code> &#x51FD;&#x6570;&#x8981;&#x6C42;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x7C7B;&#x578B;&#x4E00;&#x81F4;
+</li>
+<li><code>setw()</code> &#x63A7;&#x5236;&#x5668;&#x8BA9;&#x5E93;&#x628A;&#x4E0B;&#x4E00;&#x4E2A;&#x8F93;&#x51FA;&#x9879;&#x586B;&#x5145;&#x6210;&#x6709;&#x7279;&#x5B9A;&#x6570;&#x76EE;&#x7684;&#x5B57;&#x7B26;&#x96C6;&#xFF08;&#x901A;&#x8FC7;&#x7ED9;&#x8F93;&#x51FA;&#x9879;&#x6DFB;&#x52A0;&#x7A7A;&#x683C;&#x6765;&#x5B8C;&#x6210;&#xFF09;&#xFF0C;&#x5E76;&#x4E14;&#x5BF9;&#x5BBD;&#x5EA6;&#x7684;&#x4FEE;&#x6539;&#x662F;&#x77ED;&#x6682;&#x7684;
+</li>
+<li><code>e.what()</code> &#x63CF;&#x8FF0;&#x5BFC;&#x81F4;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#x7684;&#x95EE;&#x9898;
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-5-3" class="outline-3">
 <h3 id="sec-5-3">&#x628A;&#x5404;&#x90E8;&#x5206;&#x4EE3;&#x7801;&#x8FDE;&#x63A5;&#x5230;&#x4E00;&#x8D77;</h3>
+<div class="outline-text-3" id="text-5-3">
+<blockquote>
+<p>
+&#x8DDF;&#x8BB8;&#x591A;&#x5176;&#x4ED6;&#x8BED;&#x8A00;&#x4E00;&#x6837;&#xFF0C;C++&#x4E3A;&#x4E86;&#x964D;&#x4F4E;&#x590D;&#x6742;&#x5EA6;&#x800C;&#x5206;&#x5757;&#x7F16;&#x8BD1;&#x7684;&#x6982;&#x5FF5;&#x63D0;&#x4F9B;&#x4E86;&#x652F;&#x6301;&#xFF0C;&#x8FD9;&#x4E2A;&#x6982;&#x5FF5;&#x5141;&#x8BB8;&#x6211;&#x4EEC;&#x628A;&#x7A0B;&#x5E8F;&#x653E;&#x8FDB;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x4E2D;&#x5E76;&#x72EC;&#x7ACB;&#x7684;&#x7F16;&#x8BD1;&#x8FD9;&#x4E9B;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x3002;
+</p>
+</blockquote>
+<ul class="org-ul">
+<li><code>median()</code> &#x51FD;&#x6570;&#x5B9A;&#x4E49;&#x7684;&#x6E90;&#x6587;&#x4EF6;
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//median&#x51FD;&#x6570;&#x7684;&#x6E90;&#x6587;&#x4EF6;</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span> //&#x83B7;&#x53D6;sort&#x7684;&#x58F0;&#x660E;</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;stdexcept&gt;</span> //&#x83B7;&#x53D6;domain_error&#x7684;&#x58F0;&#x660E;</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span> //&#x83B7;&#x53D6;vector&#x7684;&#x58F0;&#x660E;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::domain_error; <span class="keyword">using</span> <span class="built_in">std</span>::sort; <span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">vector</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//&#x8BA1;&#x7B97;&#x4E00;&#x4E2A;vector&lt;double&gt;&#x7C7B;&#x578B;&#x7684;&#x5BF9;&#x8C61;&#x7684;&#x4E2D;&#x503C;</span></span><br><span class="line"><span class="function"><span class="keyword">double</span> <span class="title">median</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; vec)</span></span>{</span><br><span class="line">  <span class="keyword">typedef</span> <span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt;::size_type vec_sz;</span><br><span class="line"></span><br><span class="line">  vec_sz size = vec.size();</span><br><span class="line">  <span class="keyword">if</span> (size == <span class="number">0</span>)</span><br><span class="line">    <span class="keyword">throw</span> domain_error(<span class="string">&quot;median of an empty vector&quot;</span>);</span><br><span class="line"></span><br><span class="line">  sort(vec.begin(), vec.end());</span><br><span class="line"></span><br><span class="line">  vec_sz mid = size/<span class="number">2</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> size % <span class="number">2</span> == <span class="number">0</span> ? (vec[mid] + vec[mid-<span class="number">1</span>])/<span class="number">2</span> : vec[mid];</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</li>
+<li><code>median()</code> &#x51FD;&#x6570;&#x7684;&#x5934;&#x6587;&#x4EF6; &#xFF08;&#x4E3A;&#x4E86;&#x5BF9;&#x5176;&#x4ED6;&#x7528;&#x6237;&#x4E5F;&#x53EF;&#x7528;&#xFF09;
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">ifndef</span> GUARD_median_h</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">define</span> GUARD_median_h</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//median.h&#x7684;&#x6700;&#x7EC8;&#x7248;&#x672C;</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">double</span> <span class="title">median</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt;)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#<span class="keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li>&#x7528;&#x4E00;&#x4E2A;&#x5206;&#x53F7;&#x4EE3;&#x66FF;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x7684;&#x51FD;&#x6570;&#x4F53;&#xFF0C;&#x540C;&#x65F6;&#x6211;&#x4EEC;&#x8FD8;&#x53EF;&#x4EE5;&#x53BB;&#x6389;&#x53C2;&#x6570;&#x7684;&#x540D;&#x79F0;&#xFF0C;&#x56E0;&#x4E3A;&#x5728;&#x6CA1;&#x6709;&#x51FD;&#x6570;&#x4F53;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x5B83;&#x4EEC;&#x662F;&#x4E0D;&#x76F8;&#x5E72;&#x7684;
+</li>
+<li>&#x8FD8;&#x9700;&#x8981;&#x628A;&#x751F;&#x547D;&#x672C;&#x8EAB;&#x6240;&#x7528;&#x5230;&#x7684;&#x6240;&#x6709;&#x540D;&#x79F0;&#x90FD;&#x5305;&#x542B;&#x8FDB;&#x53BB;
+</li>
+<li>&#x5934;&#x6587;&#x4EF6;&#x5E94;&#x8BE5;&#x53EA;&#x58F0;&#x660E;&#x5FC5;&#x8981;&#x7684;&#x540D;&#x79F0;&#xFF0C;&#x5148;&#x5B9A;&#x4E86;&#x5305;&#x542B;&#x5728;&#x5934;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x540D;&#x79F0;&#x4E4B;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x4E3A;&#x6211;&#x4EEC;&#x7684;&#x7528;&#x6237;&#x4FDD;&#x7559;&#x6700;&#x5927;&#x9650;&#x5EA6;&#x7684;&#x7075;&#x6D3B;&#x6027;&#x4E86;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5934;&#x6587;&#x4EF6;&#x5E94;&#x8BE5;&#x4F7F;&#x7528;&#x5B8C;&#x6574;&#x9650;&#x5B9A;&#x540D;&#x800C;&#x4E0D;&#x662F;&#x4F7F;&#x7528; <code>using</code> &#x58F0;&#x660E;
+</li>
+<li>&#x901A;&#x8FC7;&#x9884;&#x5904;&#x7406;&#x7A0B;&#x5E8F;&#x6765;&#x4FDD;&#x8BC1;&#x591A;&#x6B21;&#x5BF9;&#x5934;&#x6587;&#x4EF6;&#x5305;&#x542B;&#x7684;&#x5B89;&#x5168;&#x6027;
+</li>
+<li><code>#ifndef</code> &#x6307;&#x4EE4;&#x68C0;&#x67E5;&#x5176;&#x540E;&#x7684;&#x53D8;&#x91CF;&#x662F;&#x5426;&#x5457;&#x5B9A;&#x4E49;
+</li>
+<li>&#x590D;&#x5236;&#x5934;&#x6587;&#x4EF6;&#x4E2D;&#x5185;&#x5BB9;&#x5230;&#x7A0B;&#x5E8F;&#x4E2D;
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&quot;median.h&quot;</span></span></span><br></pre></td></tr></table></figure>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-5-4" class="outline-3">
 <h3 id="sec-5-4">&#x628A;&#x8BA1;&#x7B97;&#x6210;&#x7EE9;&#x7684;&#x7A0B;&#x5E8F;&#x5206;&#x5757;</h3>
