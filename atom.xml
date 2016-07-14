@@ -3386,7 +3386,7 @@ At the beginning of your carrer, it&amp;apos;s probably best to stay away from s
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-07-14T11:48:22.000Z</updated>
+    <updated>2016-07-14T11:50:23.000Z</updated>
     
     <content type="html">
 
@@ -5124,7 +5124,7 @@ f&amp;#x7684;&amp;#x8FD4;&amp;#x56DE;&amp;#x7C7B;&amp;#x578B;&amp;#x5E94;&amp;#x
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-7-10&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;string spaces(maxlen+1-students[i].name.size(), &amp;apos; &amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cout &amp;lt;&amp;lt; spaces + students[i].name;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;string spaces(maxlen+1-students[i].name.size(), &amp;apos; &amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cout &amp;lt;&amp;lt; students[i].name + spaces;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
