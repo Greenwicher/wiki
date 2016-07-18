@@ -70,7 +70,7 @@
 	  
 
 <p>
-&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2016-07-14 Thu&gt;</span></span>&#x3011;
+&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2016-07-18 Mon&gt;</span></span>&#x3011;
 </p>
 
 <div id="outline-container-sec-1" class="outline-2">
@@ -1811,6 +1811,81 @@ f&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x5E94;&#x8BE5;&#x662F;&#x6570;&#x7EC4
 </div>
 <div id="outline-container-sec-6" class="outline-2">
 <h2 id="sec-6">&#x7B2C;5&#x7AE0; &#x4F7F;&#x7528;&#x987A;&#x5E8F;&#x5BB9;&#x5668;&#x5E76;&#x5206;&#x6790;&#x5B57;&#x7B26;&#x4E32;</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1">&#x6309;&#x7C7B;&#x522B;&#x6765;&#x533A;&#x5206;&#x5B66;&#x751F;</h3>
+<div class="outline-text-3" id="text-6-1">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//&#x7B2C;&#x4E00;&#x6B21;&#x5C1D;&#x8BD5;&#xFF1A;&#x628A;&#x53CA;&#x683C;&#x548C;&#x4E0D;&#x53CA;&#x683C;&#x7684;&#x5B66;&#x751F;&#x8BB0;&#x5F55;&#x5206;&#x79BB;&#x5F00;&#x6765;</span></span><br><span class="line"><span class="built_in">vector</span>&lt;Student_info&gt; extract_fails(<span class="built_in">vector</span>&lt;Student_info&gt;&amp; students){</span><br><span class="line">  <span class="built_in">vector</span>&lt;Student_info&gt; pass,fail;</span><br><span class="line">  <span class="keyword">for</span>(<span class="built_in">vector</span>&lt;Student_info&gt;::size_type i=<span class="number">0</span>; i!=students.size();++i){</span><br><span class="line">    <span class="keyword">if</span>(fgrade(students[i]))</span><br><span class="line">      fail.push_back(student[i]);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">      pass.push_back(student[i]);</span><br><span class="line">  }</span><br><span class="line">  students = pass;</span><br><span class="line">  <span class="keyword">return</span> fail;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+<div id="outline-container-sec-6-1-1" class="outline-4">
+<h4 id="sec-6-1-1">&#x5C31;&#x5730;&#x5220;&#x9664;&#x5143;&#x7D20;</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<ul class="org-ul">
+<li>&#x9664;&#x975E;&#x662F;&#x7279;&#x522B;&#x9700;&#x8981;&#xFF0C;&#x5426;&#x5219;&#x6211;&#x4EEC;&#x90FD;&#x4E0D;&#x5E0C;&#x671B;&#x540C;&#x4E2A;&#x6570;&#x636E;&#x6709;&#x591A;&#x4E2A;&#x526F;&#x672C;&#xFF0C;&#x4EE5;&#x81F4;&#x5185;&#x5B58;&#x6D6A;&#x8D39;
+</li>
+<li>&#x4ECE;&#x5411;&#x91CF;&#x4E2D;&#x5220;&#x9664;&#x5143;&#x7D20;&#x5C06;&#x4F1A;&#x8017;&#x8D39;&#x5927;&#x91CF;&#x7684;&#x65F6;&#x95F4;
+<ul class="org-ul">
+<li>&#x91C7;&#x7528;&#x66F4;&#x52A0;&#x5408;&#x9002;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;
+</li>
+<li>&#x4F7F;&#x7528;&#x66F4;&#x52A0;&#x806A;&#x660E;&#x7684;&#x7B97;&#x6CD5;
+</li>
+</ul>
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//&#x7B2C;&#x4E8C;&#x6B21;&#x5C1D;&#x8BD5;&#xFF1A;&#x51FD;&#x6570;&#x6B63;&#x786E;&#xFF0C;&#x4E0D;&#x8FC7;&#x53EF;&#x80FD;&#x4F1A;&#x76F8;&#x5F53;&#x6162;</span></span><br><span class="line"><span class="built_in">vector</span>&lt;Student_info&gt; extract_fails(<span class="built_in">vector</span>&lt;Student_info&gt;&amp; students){</span><br><span class="line">  <span class="built_in">vector</span>&lt;Student_info&gt; fail;</span><br><span class="line">  <span class="built_in">vector</span>&lt;Student_info&gt;::size_type i=<span class="number">0</span>;</span><br><span class="line">  <span class="comment">//&#x4E0D;&#x53D8;&#x5F0F;&#xFF1A;students&#x7684;&#x7D22;&#x5F15;&#x5728;[0,i)&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x4EE3;&#x8868;&#x7684;&#x6210;&#x7EE9;&#x662F;&#x53CA;&#x683C;&#x7684;</span></span><br><span class="line">  <span class="keyword">while</span>(i != students.size()){</span><br><span class="line">    <span class="keyword">if</span>(fgrade(students[i])){</span><br><span class="line">      fail.push_back(students[i]);</span><br><span class="line">      students.erase(students.begin()+i);</span><br><span class="line">    } <span class="keyword">else</span></span><br><span class="line">      ++i;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> fail;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li><code>vector</code> &#x7C7B;&#x578B;&#x6709;&#x6210;&#x5458;&#x51FD;&#x6570; <code>erase</code> &#x6765;&#x4F9D;&#x636E;&#x7D22;&#x5F15;&#x6307;&#x660E;&#x5220;&#x9664;&#x7279;&#x5B9A;&#x7684;&#x5411;&#x91CF;&#x5143;&#x7D20;&#xFF0C;&#x5E76;&#x5F71;&#x54CD;&#x5411;&#x91CF;&#x7684;&#x7D22;&#x5F15;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-6-1-2" class="outline-4">
+<h4 id="sec-6-1-2">&#x987A;&#x5E8F;&#x5B58;&#x53D6;&#x4E0E;&#x968F;&#x673A;&#x5B58;&#x53D6;</h4>
+<div class="outline-text-4" id="text-6-1-2">
+<ul class="org-ul">
+<li>&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x5BB9;&#x5668;&#x4F1A;&#x6709;&#x4E0D;&#x540C;&#x7684;&#x6027;&#x80FD;&#x7279;&#x6027;&#xFF0C;&#x5E76;&#x4E14;&#x4F1A;&#x652F;&#x6301;&#x4E0D;&#x540C;&#x7684;&#x64CD;&#x4F5C;
+</li>
+<li>&#x5982;&#x679C;&#x4EC5;&#x4EC5;&#x9700;&#x8981;&#x987A;&#x5E8F;&#x8BBF;&#x95EE;&#xFF0C;&#x90A3;&#x4E48;&#x968F;&#x673A;&#x8BBF;&#x95EE;&#x7684;&#x7279;&#x6027;&#x5C31;&#x4F1A;&#x53D8;&#x5F97;&#x5197;&#x4F59;&#x4E86;
+</li>
+<li>&#x8FED;&#x4EE3;&#x5668;&#x7C7B;&#x578B;&#xFF0C;&#x5141;&#x8BB8;&#x6211;&#x4EEC;&#x4EE5;&#x5E93;&#x80FD;&#x591F;&#x63A7;&#x5236;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x8BBF;&#x95EE;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x8FD9;&#x4E2A;&#x63A7;&#x5236;&#x4FDD;&#x8BC1;&#x4E86;&#x5E93;&#x7684;&#x9AD8;&#x6548;&#x5B9E;&#x73B0;
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2">&#x8FED;&#x4EE3;&#x5668;</h3>
+</div>
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3">&#x7528;&#x8FED;&#x4EE3;&#x5668;&#x6765;&#x4EE3;&#x66FF;&#x7D22;&#x5F15;</h3>
+</div>
+<div id="outline-container-sec-6-4" class="outline-3">
+<h3 id="sec-6-4">&#x91CD;&#x65B0;&#x601D;&#x8003;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x4EE5;&#x5B9E;&#x73B0;&#x66F4;&#x597D;&#x7684;&#x6027;&#x80FD;</h3>
+</div>
+<div id="outline-container-sec-6-5" class="outline-3">
+<h3 id="sec-6-5">list&#x7C7B;&#x578B;</h3>
+</div>
+<div id="outline-container-sec-6-6" class="outline-3">
+<h3 id="sec-6-6">&#x5206;&#x5272;&#x5B57;&#x7B26;&#x4E32;</h3>
+</div>
+<div id="outline-container-sec-6-7" class="outline-3">
+<h3 id="sec-6-7">&#x6D4B;&#x8BD5;split&#x51FD;&#x6570;</h3>
+</div>
+<div id="outline-container-sec-6-8" class="outline-3">
+<h3 id="sec-6-8">&#x8FDE;&#x63A5;&#x5B57;&#x7B26;&#x4E32;</h3>
+</div>
+<div id="outline-container-sec-6-9" class="outline-3">
+<h3 id="sec-6-9">&#x5C0F;&#x7ED3;</h3>
+</div>
+<div id="outline-container-sec-6-10" class="outline-3">
+<h3 id="sec-6-10">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-7" class="outline-2">
 <h2 id="sec-7">&#x7B2C;6&#x7AE0; &#x4F7F;&#x7528;&#x5E93;&#x7B97;&#x6CD5;</h2>
