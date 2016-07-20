@@ -70,7 +70,7 @@
 	  
 
 <p>
-&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2016-07-18 Mon&gt;</span></span>&#x3011;
+&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2016-07-20 Wed&gt;</span></span>&#x3011;
 </p>
 
 <div id="outline-container-sec-1" class="outline-2">
@@ -1861,16 +1861,105 @@ f&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x5E94;&#x8BE5;&#x662F;&#x6570;&#x7EC4
 </div>
 <div id="outline-container-sec-6-2" class="outline-3">
 <h3 id="sec-6-2">&#x8FED;&#x4EE3;&#x5668;</h3>
+<div class="outline-text-3" id="text-6-2">
+<ul class="org-ul">
+<li>&#x4E00;&#x4E2A; <code>&#x8FED;&#x4EE3;&#x5668;</code> &#xFF08; <code>iterator</code> &#xFF09; &#x662F;&#x4E00;&#x4E2A;&#x503C;&#xFF0C;&#x5B83;&#x80FD;&#x591F;
+<ul class="org-ul">
+<li>&#x8BC6;&#x522B;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;&#x4EE5;&#x53CA;&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x5143;&#x7D20;
+</li>
+<li>&#x8BA9;&#x6211;&#x4EEC;&#x68C0;&#x67E5;&#x5B58;&#x50A8;&#x5728;&#x8FD9;&#x4E2A;&#x5143;&#x7D20;&#x4E2D;&#x7684;&#x503C;
+</li>
+<li>&#x63D0;&#x4F9B;&#x64CD;&#x4F5C;&#x6765;&#x79FB;&#x52A8;&#x5B58;&#x50A8;&#x5728;&#x8FD9;&#x4E2A;&#x5143;&#x7D20;&#x4E2D;&#x7684;&#x503C;
+</li>
+<li>&#x91C7;&#x7528;&#x5BF9;&#x7528;&#x4E8E;&#x5BB9;&#x5668;&#x6240;&#x80FD;&#x591F;&#x6709;&#x6548;&#x5904;&#x7406;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x5BF9;&#x53EF;&#x7528;&#x7684;&#x64CD;&#x4F5C;&#x8FDB;&#x884C;&#x7EA6;&#x675F;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-6-2-1" class="outline-4">
+<h4 id="sec-6-2-1">&#x8FED;&#x4EE3;&#x5668;&#x7C7B;&#x578B;</h4>
+<div class="outline-text-4" id="text-6-2-1">
+<ul class="org-ul">
+<li><code>container_type::const_iterator</code> &#xFF1A;&#x8BFB;&#x64CD;&#x4F5C;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">vector</span>&lt;Student_info&gt;::const_iterator iter = students.begin();</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li><code>container_type::iterator</code> &#xFF1A;&#x8BFB;&#x5199;&#x64CD;&#x4F5C;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-6-2-2" class="outline-4">
+<h4 id="sec-6-2-2">&#x8FED;&#x4EE3;&#x5668;&#x64CD;&#x4F5C;</h4>
+<div class="outline-text-4" id="text-6-2-2">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="built_in">vector</span>&lt;Student_info&gt;::const_iterator iter = students.begin(); iter!= students.end(); ++iter) {</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; (*iter).name &lt;&lt; endl;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li>&#x4E24;&#x4E2A;&#x8FED;&#x4EE3;&#x5668;&#x662F;&#x5426;&#x76F8;&#x7B49;&#x7684;&#x5224;&#x65AD;
+</li>
+<li>&#x589E;&#x91CF;&#x8FD0;&#x7B97;&#x7B26;&#x5BF9;&#x8FED;&#x4EE3;&#x5668;&#x7684;&#x91CD;&#x8F7D;
+</li>
+<li>&#x95F4;&#x63A5;&#x5F15;&#x7528;&#x8FD0;&#x7B97;&#x7B26; <code>*</code> &#xFF08;&#x5176;&#x4F18;&#x5148;&#x7EA7;&#x4F4E;&#x4E8E; <code>.</code> &#xFF09;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-6-2-3" class="outline-4">
+<h4 id="sec-6-2-3">&#x4E00;&#x70B9;&#x8BED;&#x6CD5;&#x77E5;&#x8BC6;</h4>
+<div class="outline-text-4" id="text-6-2-3">
+<ul class="org-ul">
+<li><code>(*iter).name</code>
+</li>
+<li><code>iter-&gt;name</code> &#xFF08;&#x7528;&#x4E8E;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x66FF;&#x5F62;&#x5F0F;&#xFF09;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-6-2-4" class="outline-4">
+<h4 id="sec-6-2-4">students.erase(students.begin() + i)&#x7684;&#x542B;&#x610F;</h4>
+<div class="outline-text-4" id="text-6-2-4">
+<ul class="org-ul">
+<li>&#x968F;&#x673A;&#x8BBF;&#x95EE;&#x548C;&#x987A;&#x5E8F;&#x8BBF;&#x95EE;
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-6-3" class="outline-3">
 <h3 id="sec-6-3">&#x7528;&#x8FED;&#x4EE3;&#x5668;&#x6765;&#x4EE3;&#x66FF;&#x7D22;&#x5F15;</h3>
+<div class="outline-text-3" id="text-6-3">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//&#x7248;&#x672C;3&#xFF1A;&#x7528;&#x8FED;&#x4EE3;&#x5668;&#x6765;&#x4EE3;&#x66FF;&#x7D22;&#x5F15;&#xFF1B;&#x6548;&#x7387;&#x53EF;&#x80FD;&#x8FD8;&#x662F;&#x4E0D;&#x9AD8;</span></span><br><span class="line"><span class="built_in">vector</span>&lt;Student_info&gt; extract_fails(<span class="built_in">vector</span>&lt;Student_info&gt;&amp; students){</span><br><span class="line">  <span class="built_in">vector</span>&lt;Student_info&gt;::iterator iter = students.begin();</span><br><span class="line">  <span class="built_in">vector</span>&lt;Student_info&gt; fail;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">while</span>(iter != students.end()){</span><br><span class="line">    <span class="keyword">if</span> (fgrade(*iter)){</span><br><span class="line">      fail.push_back(*iter);</span><br><span class="line">      iter = student.erase(iter);</span><br><span class="line">    } <span class="keyword">else</span></span><br><span class="line">      ++iter;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> fail;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li><code>erase()</code> &#x8FD4;&#x56DE;&#x88AB;&#x5220;&#x9664;&#x5143;&#x7D20;&#x540E;&#x7684;&#x90A3;&#x4E2A;&#x5143;&#x7D20;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-6-4" class="outline-3">
 <h3 id="sec-6-4">&#x91CD;&#x65B0;&#x601D;&#x8003;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x4EE5;&#x5B9E;&#x73B0;&#x66F4;&#x597D;&#x7684;&#x6027;&#x80FD;</h3>
+<div class="outline-text-3" id="text-6-4">
+<ul class="org-ul">
+<li>&#x5728;&#x5411;&#x91CF;&#x672B;&#x5C3E;&#x6DFB;&#x52A0;&#x5143;&#x7D20; vs &#x5728;&#x5411;&#x91CF;&#x5185;&#x90E8;&#x63D2;&#x5165;&#x6216;&#x5220;&#x9664;&#x5143;&#x7D20;
+</li>
+<li>&#x66F4;&#x597D;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF1A;&#x53EF;&#x4EE5;&#x4E0D;&#x652F;&#x6301;&#x7D22;&#x5F15;&#x7684;&#x968F;&#x673A;&#x8BBF;&#x95EE;&#xFF0C;&#x4F46;&#x66F4;&#x65B9;&#x4FBF;&#x7684;&#x5141;&#x8BB8;&#x5728;&#x5BB9;&#x5668;&#x4EFB;&#x4F55;&#x4F4D;&#x7F6E;&#x63D2;&#x5165;&#x548C;&#x5220;&#x9664;&#x5143;&#x7D20;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-6-5" class="outline-3">
 <h3 id="sec-6-5">list&#x7C7B;&#x578B;</h3>
 </div>
+
 <div id="outline-container-sec-6-6" class="outline-3">
 <h3 id="sec-6-6">&#x5206;&#x5272;&#x5B57;&#x7B26;&#x4E32;</h3>
 </div>
