@@ -2090,12 +2090,101 @@ f&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x5E94;&#x8BE5;&#x662F;&#x6570;&#x7EC4
 
 <tr>
 <td class="left"><code>c.end()</code></td>
-<td class="left">&#x5BB9;&#x5668;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x4F4D;&#x7F6E;&#x7684;&#x8FED;&#x4EE3;&#x5668;</td>
+<td class="left">&#x5BB9;&#x5668;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x4E0B;&#x9762;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#x7684;&#x8FED;&#x4EE3;&#x5668;</td>
 </tr>
 
 <tr>
-<td class="left">&#xA0;</td>
-<td class="left">&#xA0;</td>
+<td class="left"><code>c.rbegin()</code></td>
+<td class="left">&#x5BB9;&#x5668;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x4F4D;&#x7F6E;&#x7684;&#x9006;&#x5411;&#x8FED;&#x4EE3;&#x5668;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c.rend()</code></td>
+<td class="left">&#x5BB9;&#x5668;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x4E4B;&#x524D;&#x7684;&#x90A3;&#x4E2A;&#x4F4D;&#x7F6E;&#x7684;&#x9006;&#x5411;&#x8FED;&#x4EE3;&#x5668;</td>
+</tr>
+
+<tr>
+<td class="left"><code>container&lt;T&gt; c;</code></td>
+<td class="left">&#x5B9A;&#x4E49;&#x5BB9;&#x5668; <code>c</code></td>
+</tr>
+
+<tr>
+<td class="left"><code>container&lt;T&gt; c(c2);</code></td>
+<td class="left">&#x5BB9;&#x5668; <code>c</code> &#x662F; <code>c2</code> &#x7684;&#x4E00;&#x4E2A;&#x590D;&#x4EF6;</td>
+</tr>
+
+<tr>
+<td class="left"><code>container&lt;T&gt; c(n);</code></td>
+<td class="left">&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6709;n&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5BB9;&#x5668; <code>c</code></td>
+</tr>
+
+<tr>
+<td class="left"><code>container&lt;T&gt; c(n,t);</code></td>
+<td class="left">&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6709;n&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5BB9;&#x5668; <code>c</code> &#xFF0C; <code>c</code> &#x7684;&#x5143;&#x7D20;&#x662F;t&#x7684;&#x590D;&#x4EF6;</td>
+</tr>
+
+<tr>
+<td class="left"><code>container&lt;T&gt; c(b,e);</code></td>
+<td class="left">&#x521B;&#x5EFA;&#x5BB9;&#x5668;&#xFF0C;&#x5E76;&#x4FDD;&#x5B58;&#x4F4D;&#x4E8E;&#x533A;&#x95F4;[b,e)&#x7684;&#x8FED;&#x4EE3;&#x5668;&#x6240;&#x6307;&#x793A;&#x5143;&#x7D20;&#x7684;&#x4E00;&#x4E2A;&#x590D;&#x4EF6;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c=c2;</code></td>
+<td class="left">&#x7528;&#x5BB9;&#x5668; <code>c2</code> &#x7684;&#x4E00;&#x4E2A;&#x590D;&#x4EF6;&#x6765;&#x66FF;&#x6362;&#x5BB9;&#x5668; <code>c</code> &#x7684;&#x5185;&#x5BB9;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c.size()</code></td>
+<td class="left">&#x8FD4;&#x56DE; <code>c</code> &#x7684;&#x5143;&#x7D20;&#x4E2A;&#x6570;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c.empty()</code></td>
+<td class="left">&#x5224;&#x5B9A; <code>c</code> &#x662F;&#x5426;&#x5B58;&#x5728;&#x5143;&#x7D20;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c.insert(d,b,e)</code></td>
+<td class="left">&#x590D;&#x5236; [b,e) &#x8FED;&#x4EE3;&#x5668;&#x6240;&#x6307;&#x793A;&#x7684;&#x5143;&#x7D20;&#x81F3; <code>c</code> &#x4E2D;&#x4F4D;&#x4E8E;d&#x4E4B;&#x524D;&#x7684;&#x4F4D;&#x7F6E;&#x4E2D;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c.erase(it)</code></td>
+<td class="left">&#x5220;&#x9664;it&#x6307;&#x793A;&#x7684;&#x5143;&#x7D20;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c.erase(b,e)</code></td>
+<td class="left">&#x5220;&#x9664;[b,e)&#x6307;&#x793A;&#x7684;&#x5143;&#x7D20;</td>
+</tr>
+
+<tr>
+<td class="left"><code>c.push_back(t)</code></td>
+<td class="left">&#x5728; <code>c</code> &#x7684;&#x672B;&#x5C3E;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x5176;&#x503C;&#x4E3A; <code>t</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="center">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#x652F;&#x6301;&#x968F;&#x673A;&#x8BBF;&#x95EE;&#x5BB9;&#x5668;&#x548C; <code>string</code> &#x7C7B;&#x578B;&#x652F;&#x6301;&#x7684;&#x64CD;&#x4F5C;</th>
+<th scope="col" class="left">&#x89E3;&#x91CA;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left"><code>c[n]</code></td>
+<td class="left">&#x4ECE;&#x5BB9;&#x5668;&#x4E2D;&#x53D6;&#x51FA;&#x4F4D;&#x4E8E;&#x4F4D;&#x7F6E;n&#x7684;&#x5143;&#x7D20;&#x6570;&#x503C;</td>
 </tr>
 </tbody>
 </table>
