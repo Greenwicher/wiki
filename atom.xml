@@ -3386,7 +3386,7 @@ At the beginning of your carrer, it&amp;apos;s probably best to stay away from s
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2016-07-22T06:04:27.000Z</updated>
+    <updated>2016-07-22T06:06:44.000Z</updated>
     
     <content type="html">
 
@@ -5383,14 +5383,14 @@ f&amp;#x7684;&amp;#x8FD4;&amp;#x56DE;&amp;#x7C7B;&amp;#x578B;&amp;#x5E94;&amp;#x
 &lt;/colgroup&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th scope=&quot;col&quot; class=&quot;left&quot;&gt;Attr1&lt;/th&gt;
-&lt;th scope=&quot;col&quot; class=&quot;right&quot;&gt;Attr2&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;left&quot;&gt;&amp;#x987A;&amp;#x5E8F;&amp;#x5BB9;&amp;#x5668;&amp;#x548C; &lt;code&gt;string&lt;/code&gt; &amp;#x7C7B;&amp;#x578B;&amp;#x652F;&amp;#x6301;&amp;#x7684;&amp;#x64CD;&amp;#x4F5C;&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;right&quot;&gt;&amp;#x89E3;&amp;#x91CA;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td class=&quot;left&quot;&gt;&lt;code&gt;a&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;right&quot;&gt;245&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;container&amp;lt;T&amp;gt;::iterator&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;&amp;#x5BB9;&amp;#x5668;&amp;#x7684;&amp;#x53EF;&amp;#x8BFB;&amp;#x5199;&amp;#x8FED;&amp;#x4EE3;&amp;#x5668;&amp;#x7C7B;&amp;#x578B;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
