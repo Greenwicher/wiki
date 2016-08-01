@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2016-08-01T03:08:46.000Z</updated>
+  <updated>2016-08-01T03:41:08.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://wiki.greenwicher.com/2016/06/29/%E9%98%85%E8%AF%BB-Starting_Your_Career_as_a_Wall_Street_Quant/"/>
     <id>http://wiki.greenwicher.com/2016/06/29/阅读-Starting_Your_Career_as_a_Wall_Street_Quant/</id>
     <published>2016-06-28T16:00:00.000Z</published>
-    <updated>2016-08-01T03:08:46.000Z</updated>
+    <updated>2016-08-01T03:41:08.000Z</updated>
     
     <content type="html">
 
@@ -397,7 +397,13 @@ When you put down a skill on your resume, make sure you can back it up with conc
 &lt;div id=&quot;outline-container-sec-2-3&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-2-3&quot;&gt;Chapter 3: Hunting for Openings&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-3-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+For many potential quants, the most difficult part of the job hunt process is probably finding where the job are.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2-3-1&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-2-3-1&quot;&gt;When to Start Looking&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-1&quot;&gt;
 &lt;blockquote&gt;
@@ -619,51 +625,321 @@ After you&amp;apos;ve made the connection, be sure to keep it warm.
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-4&quot;&gt;
 &lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-4-1&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-2-4-1&quot;&gt;Types of Interviews&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;In terms of medium
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;phone interviews
+&lt;/li&gt;
+&lt;li&gt;in-person interviews
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;In terms of content
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;informational interviews
+&lt;/li&gt;
+&lt;li&gt;technical interviews
+&lt;/li&gt;
+&lt;li&gt;case interviews
+&lt;/li&gt;
+&lt;li&gt;combinationof the three
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-2&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-2-4-2&quot;&gt;Interviewer Styles&lt;/h4&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-3&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-2-4-3&quot;&gt;Scheduling and Interview&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-3&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+Schedule first the intervies for positions that you are the least interested in and place the important interviews (for the jobs that you really wat) in the middle of the pack.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+The bottom line is, if you have any wiggle room at all at controlling an interview&amp;apos;s time and day, use that flexibility to your greatest advantage.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-4&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-2-4-4&quot;&gt;Before Intervie Time&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-4&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+Any practive is better than no practice. (mock intervies)
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;backgroud check
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;compnay.department
+&lt;/li&gt;
+&lt;li&gt;position
+&lt;/li&gt;
+&lt;li&gt;interviewers
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-5&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-2-4-5&quot;&gt;General Tips for Handling Interviews&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-5&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+Prepare, prepare, prepare.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Groom and dress well for the in-person interview.
+&lt;/li&gt;
+&lt;li&gt;Be sure to have had a good night&amp;apos;s sleep and, in the morning, taken a shower.
+&lt;/li&gt;
+&lt;li&gt;If it&amp;apos;s a phone interview and you plan to use a cellphone, make sure your phone is fully charged and has good signal strength.
+&lt;/li&gt;
+&lt;li&gt;For an onsite interview, or an offsite interview where you have an appointed time, it should be plenty obvious that you must arrive on time.
+&lt;/li&gt;
+&lt;li&gt;When you meet  the interviewer for a face-to-face interview, try to initiate the greeting as well as handshake.
+&lt;/li&gt;
+&lt;li&gt;As you talk to the interviewer, it&amp;apos;s vitally important that you maintain constant eye contact, meaning you look him or her in the eyes.
+&lt;/li&gt;
+&lt;li&gt;As you make eye contact, you should also smile from time to time.
+&lt;/li&gt;
+&lt;li&gt;Candidate&amp;apos;s communication skills.
+&lt;/li&gt;
+&lt;li&gt;Speed of speech is important.
+&lt;/li&gt;
+&lt;li&gt;Speak clearly.
+&lt;/li&gt;
+&lt;li&gt;Your body language is important
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;how you sit
+&lt;/li&gt;
+&lt;li&gt;how you listen to
+&lt;/li&gt;
+&lt;li&gt;how you properly use your hands
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-6&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-6&quot;&gt;Tips for Short Interviews&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-6&quot;&gt;Intelligent Questions to Ask&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-6&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+A jog interview is a two-way exchange: the interviewer examines your qualification, and you, the candidate, find out if the job and the environment are right for you.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;intelligent questions
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;questions that can actually flatter the interviewer
+&lt;/li&gt;
+&lt;li&gt;questions that you really care about
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-7&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-7&quot;&gt;Tips for Long Interviews&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-7&quot;&gt;Stupid Questions to Ask&lt;/h4&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-8&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-8&quot;&gt;Handling Background Questions&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-8&quot;&gt;More General Tips&lt;/h4&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-9&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-9&quot;&gt;Dealing With Difficult Questions&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-9&quot;&gt;Tips for Short Interviews&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-9&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;be likeable
+&lt;/li&gt;
+&lt;li&gt;size the opportunity and drag the interview into your comfort zone
+&lt;/li&gt;
+&lt;li&gt;you might want to make some deliberate (but harmeless) mistakes, to allow the interviewer to point them out, which in turn allows you to talk and talk and talk
+&lt;/li&gt;
+&lt;li&gt;if you are given a difficult technical question, work through it as fast as you can, but make sure you don&amp;apos;t lose precious time on any particular step.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-10&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-10&quot;&gt;Answering Technical Questions&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-10&quot;&gt;Tips for Long Interviews&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-10&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+The best way to prepare for long interviews is to know your stuff well, the stuff here being all those skills your resume says you possess and the quantitative education your resume says yuo undertook.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+For long interviews, the closing is especially important.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-11&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-11&quot;&gt;Handling Case Questions&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-11&quot;&gt;Handling Background Questions&lt;/h4&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-12&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-12&quot;&gt;The Dont&amp;apos;s of Interviewing&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-12&quot;&gt;Dealing With Difficult Questions&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-12&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+Answer the tough question truthfully, politely, and confidently.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-13&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-13&quot;&gt;Taking a Break (Between Interviews)&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-13&quot;&gt;Answering Technical Questions&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-13&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;modeling know-how: from theory to empirical techniques to programming aptitude
+&lt;/li&gt;
+&lt;li&gt;short technical questions: define some concepts and solve a quick problem
+&lt;/li&gt;
+&lt;li&gt;long technical questions: more advanced concept or longer problem to solve
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;think out loud
+&lt;/li&gt;
+&lt;li&gt;you need to know when you get stuck
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-14&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-14&quot;&gt;What to Do If Interview Not Going Well&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-14&quot;&gt;Handling Case Questions&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-14&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;case questions are actually not common at quant interviews
+&lt;/li&gt;
+&lt;li&gt;some quant interviewers do ask case questions
+&lt;/li&gt;
+&lt;li&gt;No right or wrong answers but they want to see how you think
+&lt;/li&gt;
+&lt;li&gt;Every problem requires two major steps
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;identifying the issues
+&lt;/li&gt;
+&lt;li&gt;comming up with solutions to these issues
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+As mentioned before, a subtle yet powerful efffect of thinking aloud is you turn the problem solving itself into a collaborative effort, with the interviewer acting as your senior partner (since he or she knows the anser). Thus, you also prove your teamwork ability. One stone, two (or is it three?) birds.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+In other words, don&amp;apos;t use a job interview as the time to show off your creativity or originality.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;types of case questions
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;involes using quant skills to solve a fairly big problem
+&lt;/li&gt;
+&lt;li&gt;brainteasers, puzzles that test your general logical reasoning without resorting to technical skills
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;how to approach case questions
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;rephrase: make sure you and the interviewer are on the same page regarding every detail
+&lt;/li&gt;
+&lt;li&gt;it&amp;apos;s the thought process that counts / thinking out aloud
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-15&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-15&quot;&gt;If You Speak English With an Accent&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-15&quot;&gt;The Dont&amp;apos;s of Interviewing&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-15&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;don&amp;apos;t be late
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t show up in casual wear
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t forget to bring a copy of your resume
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t forget to make eye contact and smile
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t your tableside manners
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t argure with the interviewer
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t look or act arrogant
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t be too aggressive
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t interrupt the interviewer
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t act clownish
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t ask stupid questions
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t ramble or BS
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t overuse excuses
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t put on an act
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t talk too much
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t read off index cards
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t lie
+&lt;/li&gt;
+&lt;li&gt;don&amp;apos;t forget to send your interviewer a thank-you note
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2-4-16&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-16&quot;&gt;Interviews That Are Not Interviews&lt;/h4&gt;
+&lt;h4 id=&quot;sec-2-4-16&quot;&gt;Taking a Break (Between Interviews)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2-4-17&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-4-17&quot;&gt;What to Do If Interview Not Going Well&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-17&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+First, don&amp;apos;t forget to shate the interviewer&amp;apos;s hand at the end and offer thanks in a sincere tone. Second, don&amp;apos;t forget to send him or her a thank-you note when you get home.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2-4-18&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-4-18&quot;&gt;If You Speak English With an Accent&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2-4-19&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-4-19&quot;&gt;Interviews That Are Not Interviews&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-19&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;written exams
+&lt;/li&gt;
+&lt;li&gt;fun group event
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
