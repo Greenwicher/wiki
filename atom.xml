@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2016-09-01T07:12:52.000Z</updated>
+  <updated>2016-11-11T03:36:09.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://wiki.greenwicher.com/2016/08/01/%E9%98%85%E8%AF%BB-%E4%B9%A6%E5%8D%95/"/>
     <id>http://wiki.greenwicher.com/2016/08/01/阅读-书单/</id>
     <published>2016-07-31T16:00:00.000Z</published>
-    <updated>2016-09-01T07:12:52.000Z</updated>
+    <updated>2016-11-11T03:36:09.000Z</updated>
     
     <content type="html">
 
@@ -62,6 +62,17 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/1031526/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x4E00;&amp;#x4E2A;&amp;#x5E7F;&amp;#x544A;&amp;#x4EBA;&amp;#x7684;&amp;#x81EA;&amp;#x767D;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x5927;&amp;#x536B;&amp;#xB7;&amp;#x5965;&amp;#x683C;&amp;#x5A01;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;2003&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;194&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x8425;&amp;#x9500;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;8&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;-&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-11-11 Fri&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/1061242/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x5199;&amp;#x5728;&amp;#x4EBA;&amp;#x751F;&amp;#x7684;&amp;#x8FB9;&amp;#x4E0A;&lt;/a&gt;&lt;/td&gt;
 &lt;td class=&quot;left&quot;&gt;&amp;#x94B1;&amp;#x949F;&amp;#x4E66;&lt;/td&gt;
