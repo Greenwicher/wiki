@@ -2224,6 +2224,30 @@ f&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x5E94;&#x8BE5;&#x662F;&#x6570;&#x7EC4
 </div>
 <div id="outline-container-sec-7-1-1" class="outline-4">
 <h4 id="sec-7-1-1">&#x53E6;&#x4E00;&#x4E2A;&#x5B9E;&#x73B0;split&#x7684;&#x65B9;&#x6CD5;</h4>
+<div class="outline-text-4" id="text-7-1-1">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#x5982;&#x679C;&#x53C2;&#x6570;&#x662F;&#x7A7A;&#x767D;&#x533A;&#x57DF;&#xFF0C;&#x8FD4;&#x56DE;true</span></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">space</span><span class="params">(<span class="keyword">char</span> c)</span></span>{</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">isspace</span>(c);</span><br><span class="line">}</span><br><span class="line"><span class="comment">// &#x5982;&#x679C;&#x53C2;&#x6570;&#x662F;&#x7A7A;&#x767D;&#x533A;&#x57DF;&#xFF0C;&#x8FD4;&#x56DE;false</span></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">not_space</span><span class="params">(<span class="keyword">char</span> c)</span></span>{</span><br><span class="line">  <span class="keyword">return</span> !<span class="built_in">isspace</span>(c);</span><br><span class="line">}</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="built_in">string</span>&gt; split(<span class="keyword">const</span> <span class="built_in">string</span>&amp; str){</span><br><span class="line">  <span class="keyword">typedef</span> <span class="built_in">string</span>::const_iterator iter;</span><br><span class="line">  <span class="built_in">vector</span>&lt;<span class="built_in">string</span>&gt; ret;</span><br><span class="line"></span><br><span class="line">  iter i = str.begin();</span><br><span class="line">  <span class="keyword">while</span>(i != str.end){</span><br><span class="line">    <span class="comment">// &#x627E;&#x5230;&#x9996;&#x4E2A;&#x975E;&#x7A7A;&#x767D;&#x5B57;&#x7B26;&#x8FED;&#x4EE3;&#x5668;</span></span><br><span class="line">    i = find_if(i, str.end(), not_space);</span><br><span class="line">    <span class="comment">// &#x627E;&#x5230;i&#x4E4B;&#x540E;&#x9996;&#x4E2A;&#x7A7A;&#x767D;&#x5B57;&#x8FED;&#x4EE3;&#x5668;</span></span><br><span class="line">    iter j = find_if(i, str.end(), space);</span><br><span class="line">    <span class="comment">// &#x590D;&#x5236;[i, j)&#x4E2D;&#x7684;&#x5B57;&#x7B26;</span></span><br><span class="line">    <span class="keyword">if</span> (i != str.end())</span><br><span class="line">      ret.push_back(<span class="built_in">string</span>(i,j));</span><br><span class="line">    i = j;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> ret;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-7-1-2" class="outline-4">
+<h4 id="sec-7-1-2">&#x56DE;&#x6587;</h4>
+<div class="outline-text-4" id="text-7-1-2">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">is_palindrome</span><span class="params">(<span class="keyword">const</span> <span class="built_in">string</span>&amp; s)</span></span>{</span><br><span class="line">  <span class="keyword">return</span> equal(s.begin(), s.end(), s.rbegin());</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-7-1-3" class="outline-4">
+<h4 id="sec-7-1-3">&#x67E5;&#x627E;URL</h4>
+<div class="outline-text-4" id="text-7-1-3">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">vector</span>&lt;<span class="built_in">string</span>&gt; find_urls(<span class="keyword">const</span> <span class="built_in">string</span>&amp; s){</span><br><span class="line">  <span class="built_in">vector</span>&lt;<span class="built_in">string</span>&gt; ret;</span><br><span class="line">  <span class="keyword">typedef</span> <span class="built_in">string</span>::const_iterator iter;</span><br><span class="line">  iter b = s.begin(), e = s.end();</span><br><span class="line">  <span class="comment">// &#x68C0;&#x67E5;&#x6574;&#x4E2A;&#x8F93;&#x5165;</span></span><br><span class="line">  <span class="keyword">while</span>(b != e){</span><br><span class="line">    <span class="comment">// &#x67E5;&#x627E;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7D27;&#x8DDF;&#x771F;://&#x7684;&#x5B57;&#x6BCD;</span></span><br><span class="line">    b = url_beg(b, e);</span><br><span class="line">    <span class="comment">// &#x5982;&#x679C;&#x67E5;&#x627E;&#x6210;&#x529F;</span></span><br><span class="line">    <span class="keyword">if</span> (b != e){</span><br><span class="line">     <span class="comment">// &#x83B7;&#x53D6;&#x6B64;URL&#x7684;&#x5176;&#x4F59;&#x90E8;&#x5206;</span></span><br><span class="line">     iter after = url_end(b, e);</span><br><span class="line">     <span class="comment">// &#x8BB0;&#x4F4F;&#x8FD9;&#x4E2A;URL</span></span><br><span class="line">     ret.push_back(<span class="built_in">string</span>(b, after));</span><br><span class="line">     <span class="comment">// &#x5C06;b&#x5411;&#x524D;&#x63A8;&#x8FDB;&#x5E76;&#x67E5;&#x627E;&#x4F4D;&#x4E8E;&#x672C;&#x884C;&#x4E2D;&#x7684;&#x5176;&#x4ED6;URL</span></span><br><span class="line">     b = after;</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> ret;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-7-2" class="outline-3">
