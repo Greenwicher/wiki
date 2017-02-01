@@ -70,7 +70,7 @@
 	  
 
 <p>
-&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-01-31 Tue&gt;</span></span>&#x3011;
+&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-02-01 Wed&gt;</span></span>&#x3011;
 </p>
 
 <div id="outline-container-sec-1" class="outline-2">
@@ -2561,25 +2561,260 @@ f&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x5E94;&#x8BE5;&#x662F;&#x6570;&#x7EC4
 <div class="outline-text-2" id="text-9">
 </div><div id="outline-container-sec-9-1" class="outline-3">
 <h3 id="sec-9-1">&#x6CDB;&#x578B;&#x51FD;&#x6570;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li>&#x6CDB;&#x578B;&#x51FD;&#x6570;&#xFF1A;&#x5176;&#x53C2;&#x6570;&#x4EE5;&#x53CA;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x4E8B;&#x5148;&#x4E0D;&#x77E5;&#x9053;&#xFF0C;&#x76F4;&#x5230;&#x8C03;&#x7528;&#x4E86;&#x624D;&#x77E5;&#x9053;&#x7684;&#x51FD;&#x6570;&#x7C7B;&#x578B;
+<ul class="org-ul">
+<li>&#x5728;&#x8C03;&#x7528;&#x51FD;&#x6570;&#x65F6;&#xFF0C;C++&#x5185;&#x90E8;&#x4F1A;&#x68C0;&#x67E5;&#x76F8;&#x5E94;&#x53C2;&#x6570;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x517C;&#x5BB9;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#x4E2D;&#x7684;&#x64CD;&#x4F5C;
+</li>
+<li>&#x6807;&#x51C6;&#x5E93;&#x5BF9;&#x5176;&#x51FD;&#x6570;&#x53C2;&#x6570;&#x7684;&#x7EA6;&#x675F;&#x6761;&#x4EF6;&#x6240;&#x91C7;&#x7528;&#x7684;&#x7EC4;&#x7EC7;&#x65B9;&#x5F0F;&#xFF08;&#x5982;&#x8FED;&#x4EE3;&#x5668;&#x7C7B;&#x578B;&#xFF09;
+</li>
+</ul>
+</li>
+<li>&#x6A21;&#x677F;&#x51FD;&#x6570;&#xFF1A;&#x5B9E;&#x73B0;&#x4E86;&#x6CDB;&#x578B;&#x51FD;&#x6570;&#x7684;&#x8BED;&#x8A00;&#x7279;&#x5F81;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x4E0D;&#x540C;&#x51FD;&#x6570;&#x7684;&#x5DEE;&#x5F02;&#x53D6;&#x51B3;&#x4E8E;&#x6A21;&#x677F;&#x53C2;&#x6570;
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-9-1-1" class="outline-4">
+<h4 id="sec-9-1-1">&#x672A;&#x77E5;&#x7C7B;&#x578B;&#x7684;&#x4E2D;&#x503C;</h4>
+<div class="outline-text-4" id="text-9-1-1">
+<p>
+#+begin<sub>src</sub> C++
+template &lt;class T&gt;
+T median(vector&lt;T&gt; v){
+  typedef typename vector&lt;T&gt;::size<sub>type</sub> vec<sub>sz</sub>;
+</p>
+
+<p>
+vec<sub>sz</sub> size = v.size();
+if (size == 0)
+  throw domain<sub>error</sub>(&quot;median of an empty vector&quot;);
+</p>
+
+<p>
+sort(v.begin, v.end());
+</p>
+
+<p>
+vec<sub>sz</sub> mid = size / 2;
+</p>
+
+<p>
+  return size % 2 == 0 ? (v[mid] + v[mid-1]) / 2 : v[mid];
+ }
+#+end<sub>src</sub> C++
+</p>
+<ul class="org-ul">
+<li>&#x7C7B;&#x578B;&#x53C2;&#x6570;&#xFF1A;&#x8868;&#x793A;&#x7C7B;&#x578B;&#x800C;&#x4E0D;&#x662F;&#x53D8;&#x91CF;
+</li>
+<li><code>typename</code> &#xFF1A;&#x5BF9;&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x58F0;&#x660E;&#x4E00;&#x4E2A;&#x4F9D;&#x8D56;&#x4E8E;&#x6A21;&#x677F;&#x53C2;&#x6570;&#x7684;&#x7C7B;&#x578B;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-9-1-2" class="outline-4">
+<h4 id="sec-9-1-2">&#x6A21;&#x677F;&#x5B9E;&#x4F8B;&#x5316;</h4>
+</div>
+<div id="outline-container-sec-9-1-3" class="outline-4">
+<h4 id="sec-9-1-3">&#x6CDB;&#x578B;&#x51FD;&#x6570;&#x548C;&#x7C7B;&#x578B;</h4>
+<div class="outline-text-4" id="text-9-1-3">
+<ul class="org-ul">
+<li>&#x6A21;&#x677F;&#x7684;&#x53C2;&#x6570;&#x7C7B;&#x578B;&#x662F;&#x4F9D;&#x636E;&#x5B9E;&#x4F8B;&#x5316;&#x540E;&#x7684;&#x53C2;&#x6570;&#x7C7B;&#x578B;&#x800C;&#x88AB;&#x63A8;&#x65AD;&#x51FA;&#x6765;&#x7684;
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-9-2" class="outline-3">
 <h3 id="sec-9-2">&#x6570;&#x636E;&#x7ED3;&#x6784;&#x72EC;&#x7ACB;&#x6027;</h3>
+<div class="outline-text-3" id="text-9-2">
+<ul class="org-ul">
+<li>&#x4E09;&#x79CD;&#x51FD;&#x6570;&#x6784;&#x5EFA;&#x601D;&#x8DEF;
+<ul class="org-ul">
+<li>find(c.begin(), c.end(), val)&#xFF0C;&#x80FD;&#x5904;&#x7406;&#x5BB9;&#x5668;&#x4E2D;&#x4EFB;&#x610F;&#x8FDE;&#x7EED;&#x7684;&#x4E00;&#x90E8;&#x5206;
+</li>
+<li>c.find(val)&#xFF0C;find()&#x4EC5;&#x4EC5;&#x662F;&#x6570;&#x636E;&#x7ED3;&#x6784;c&#x7684;&#x4E00;&#x4E2A;&#x6210;&#x5458;&#xFF0C;&#x56E0;&#x6B64;&#x522B;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x5F97;&#x91CD;&#x65B0;&#x5B9A;&#x4E49;
+</li>
+<li>find(c, val)&#xFF0C;&#x53EA;&#x80FD;&#x5904;&#x7406;&#x5BB9;&#x5668;&#x7684;&#x6574;&#x4F53;&#x90E8;&#x5206;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-9-2-1" class="outline-4">
+<h4 id="sec-9-2-1">&#x7B97;&#x6CD5;&#x4E0E;&#x8FED;&#x4EE3;&#x5668;</h4>
+<div class="outline-text-4" id="text-9-2-1">
+<ul class="org-ul">
+<li>&#x4E0D;&#x540C;&#x79CD;&#x7C7B;&#x7684;&#x8FED;&#x4EE3;&#x5668;&#x63D0;&#x4F9B;&#x4E0D;&#x540C;&#x79CD;&#x7C7B;&#x7684;&#x64CD;&#x4F5C;
+</li>
+<li>&#x4F9D;&#x636E;&#x7B97;&#x6CD5;&#x6765;&#x770B;&#x5BF9;&#x4E0D;&#x540C;&#x8FED;&#x4EE3;&#x5668;&#x7684;&#x9700;&#x6C42;
+</li>
+<li>&#x5E93;&#x5B9A;&#x4E49;&#x4E86;&#x4E94;&#x79CD;&#x8FED;&#x4EE3;&#x5668;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-9-2-2" class="outline-4">
+<h4 id="sec-9-2-2">&#x987A;&#x5E8F;&#x53EA;&#x8BFB;&#x8BBF;&#x95EE; / &#x8F93;&#x5165;&#x8FED;&#x4EE3;&#x5668;</h4>
+<div class="outline-text-4" id="text-9-2-2">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> In, <span class="keyword">class</span> X&gt;</span><br><span class="line"><span class="function">In <span class="title">find</span><span class="params">(In begin, In end, <span class="keyword">const</span> X&amp; x)</span></span>{</span><br><span class="line">  <span class="keyword">while</span>(begin != end &amp;&amp; *begin != x)</span><br><span class="line">    ++begin;</span><br><span class="line">  <span class="keyword">return</span> begin;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-9-2-3" class="outline-4">
+<h4 id="sec-9-2-3">&#x987A;&#x5E8F;&#x53EA;&#x5199;&#x8BBF;&#x95EE; / &#x8F93;&#x51FA;&#x8FED;&#x4EE3;&#x5668;</h4>
+<div class="outline-text-4" id="text-9-2-3">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> In, <span class="keyword">class</span> Out&gt;</span><br><span class="line"><span class="function">Out <span class="title">copy</span><span class="params">(In begin, In end, Out dest)</span></span>{</span><br><span class="line">  <span class="keyword">while</span> (begin != end)</span><br><span class="line">    *dest++ = *begin++;</span><br><span class="line">  <span class="keyword">return</span> dest;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-9-2-4" class="outline-4">
+<h4 id="sec-9-2-4">&#x987A;&#x5E8F;&#x8BFB;-&#x5199;&#x8BBF;&#x95EE; / &#x6B63;&#x5411;&#x8FED;&#x4EE3;&#x5668;</h4>
+<div class="outline-text-4" id="text-9-2-4">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> For, <span class="keyword">class</span> X&gt;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">replace</span><span class="params">(For beg, For end, <span class="keyword">const</span> X&amp; x, <span class="keyword">const</span> X&amp; y)</span></span>{</span><br><span class="line">  <span class="keyword">while</span>(beg != end){</span><br><span class="line">    <span class="keyword">if</span> (*beg == x)</span><br><span class="line">      *beg = y;</span><br><span class="line">    ++beg;</span><br><span class="line">  }</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-9-2-5" class="outline-4">
+<h4 id="sec-9-2-5">&#x53EF;&#x9006;&#x8BBF;&#x95EE; / &#x53CC;&#x5411;&#x8FED;&#x4EE3;&#x5668;</h4>
+<div class="outline-text-4" id="text-9-2-5">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> Bi&gt; <span class="function"><span class="keyword">void</span> <span class="title">reverse</span><span class="params">(Bi begin, Bi end)</span></span>{</span><br><span class="line">  <span class="keyword">while</span> (begin != end){</span><br><span class="line">    --end;</span><br><span class="line">    <span class="keyword">if</span> (begin != end)</span><br><span class="line">      swap(*begin++, *end);</span><br><span class="line">  }</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-9-2-6" class="outline-4">
+<h4 id="sec-9-2-6">&#x968F;&#x673A;&#x8BBF;&#x95EE; / &#x968F;&#x673A;&#x8FED;&#x4EE3;&#x5668;</h4>
+<div class="outline-text-4" id="text-9-2-6">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> Ran, <span class="keyword">class</span> X&gt;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">binary_search</span><span class="params">(Ran begin, Ran end, <span class="keyword">const</span> X&amp; x)</span></span>{</span><br><span class="line">  <span class="keyword">while</span>(begin &lt; end){</span><br><span class="line">    Ran mid = begin + (end - begin) / <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span> (x &lt; *mid)</span><br><span class="line">      end = mid;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (*mid &lt; x)</span><br><span class="line">      begin = mid + <span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-9-2-7" class="outline-4">
+<h4 id="sec-9-2-7">&#x8FED;&#x4EE3;&#x5668;&#x533A;&#x95F4;&#x548C;&#x8D8A;&#x754C;&#x503C;</h4>
+<div class="outline-text-4" id="text-9-2-7">
+<ul class="org-ul">
+<li>&#x5728;&#x5E93;&#x4E2D;&#x6709;&#x4E00;&#x4E2A;&#x51E0;&#x4E4E;&#x662F;&#x901A;&#x7528;&#x7684;&#x7EA6;&#x5B9A;&#xFF0C;&#x7B97;&#x6CD5;&#x8981;&#x7528;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#x6765;&#x6307;&#x5B9A;&#x533A;&#x95F4;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x6307;&#x5411;&#x533A;&#x95F4;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x5219;&#x6307;&#x5411;&#x4E86;&#x7D27;&#x4F4D;&#x4E8E;&#x533A;&#x95F4;&#x6700;&#x540E;&#x7684;&#x5143;&#x7D20;&#x540E;&#x9762;&#x7684;&#x90A3;&#x4E2A;&#x4F4D;&#x7F6E;&#x3002;
+</li>
+<li>&#x4E3A;&#x4EC0;&#x4E48;c.end()&#x662F;&#x6700;&#x540E;&#x5143;&#x7D20;&#x7D27;&#x63A5;&#x7740;&#x7684;&#x4F4D;&#x7F6E;&#xFF1F;
+<ul class="org-ul">
+<li>&#x786E;&#x5B9A;&#x5F00;&#x653E;&#x533A;&#x95F4;&#x4E0A;&#x754C;
+</li>
+<li>&#x5982;&#x679C;&#x533A;&#x95F4;&#x6839;&#x672C;&#x6CA1;&#x6709;&#x5143;&#x7D20;
+</li>
+<li>&#x5229;&#x7528;&#x8FED;&#x4EE3;&#x5668;&#x662F;&#x5426;&#x76F8;&#x7B49;&#x6765;&#x987A;&#x5E8F;&#x904D;&#x5386;&#x533A;&#x95F4;
+</li>
+<li>&#x4E00;&#x79CD;&#x81EA;&#x7136;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x8868;&#x793A;&#x300E;&#x533A;&#x95F4;&#x4E4B;&#x5916;&#x300F;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-9-3" class="outline-3">
 <h3 id="sec-9-3">&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x8FED;&#x4EE3;&#x5668;</h3>
+<div class="outline-text-3" id="text-9-3">
+<ul class="org-ul">
+<li>&#x6807;&#x51C6;&#x5E93;&#x63D0;&#x4F9B;&#x4E86;&#x80FD;&#x88AB;&#x8FDE;&#x63A5;&#x5230;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;&#x6D41;&#x7684;&#x8FED;&#x4EE3;&#x5668;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-9-4" class="outline-3">
 <h3 id="sec-9-4">&#x7528;&#x8FED;&#x4EE3;&#x5668;&#x6765;&#x63D0;&#x9AD8;&#x9002;&#x5E94;&#x6027;</h3>
+<div class="outline-text-3" id="text-9-4">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> Out&gt;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">split</span><span class="params">(<span class="keyword">const</span> <span class="built_in">string</span>&amp; str, Out os)</span></span>{</span><br><span class="line">  <span class="keyword">typedef</span> <span class="built_in">string</span>::const_iterator iter;</span><br><span class="line"></span><br><span class="line">  iter i = str.begin();</span><br><span class="line">  <span class="keyword">while</span> (i != str.end()){</span><br><span class="line">    i = find_if(i, str.end(), not_space);</span><br><span class="line">    iter j = find_if(i, str.end(), space());</span><br><span class="line">    <span class="keyword">if</span> (i != str.end())</span><br><span class="line">      *os++ = <span class="built_in">string</span>(i, j);</span><br><span class="line">    i = j;</span><br><span class="line">  }</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-9-5" class="outline-3">
 <h3 id="sec-9-5">&#x5C0F;&#x7ED3;</h3>
+<div class="outline-text-3" id="text-9-5">
+<ul class="org-ul">
+<li>&#x6A21;&#x677F;&#x51FD;&#x6570;
+</li>
+<li>&#x8FED;&#x4EE3;&#x5668;
+<ul class="org-ul">
+<li>&#x4F5C;&#x4E3A;&#x7B97;&#x6CD5;&#x4E0E;&#x5BB9;&#x5668;&#x4E4B;&#x95F4;&#x7684;&#x300E;&#x7C98;&#x5408;&#x5242;&#x300F;&#xFF0C;&#x4ECE;&#x800C;&#x83B7;&#x5F97;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x72EC;&#x7ACB;&#x6027;
+</li>
+<li>&#x8FED;&#x4EE3;&#x5668;&#x7684;&#x4E94;&#x4E2A;&#x79CD;&#x7C7B;
+</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-9-6" class="outline-3">
 <h3 id="sec-9-6">&#x4E60;&#x9898;</h3>
+<div class="outline-text-3" id="text-9-6">
+</div><div id="outline-container-sec-9-6-1" class="outline-4">
+<h4 id="sec-9-6-1">8-0</h4>
+</div>
+<div id="outline-container-sec-9-6-2" class="outline-4">
+<h4 id="sec-9-6-2">8-1</h4>
+</div>
+<div id="outline-container-sec-9-6-3" class="outline-4">
+<h4 id="sec-9-6-3">8-2</h4>
+</div>
+<div id="outline-container-sec-9-6-4" class="outline-4">
+<h4 id="sec-9-6-4">8-3</h4>
+</div>
+<div id="outline-container-sec-9-6-5" class="outline-4">
+<h4 id="sec-9-6-5">8-4</h4>
+</div>
+<div id="outline-container-sec-9-6-6" class="outline-4">
+<h4 id="sec-9-6-6">8-5</h4>
+</div>
+<div id="outline-container-sec-9-6-7" class="outline-4">
+<h4 id="sec-9-6-7">8-6</h4>
+</div>
+<div id="outline-container-sec-9-6-8" class="outline-4">
+<h4 id="sec-9-6-8">8-7</h4>
+</div>
+<div id="outline-container-sec-9-6-9" class="outline-4">
+<h4 id="sec-9-6-9">8-8</h4>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-10" class="outline-2">
 <h2 id="sec-10">&#x7B2C;9&#x7AE0; &#x5B9A;&#x4E49;&#x65B0;&#x7C7B;&#x578B;</h2>
+<div class="outline-text-2" id="text-10">
+</div><div id="outline-container-sec-10-1" class="outline-3">
+<h3 id="sec-10-1">&#x56DE;&#x987E;&#x4E00;&#x4E0B;Student<sub>info</sub></h3>
+</div>
+<div id="outline-container-sec-10-2" class="outline-3">
+<h3 id="sec-10-2">&#x81EA;&#x5B9A;&#x4E49;&#x7C7B;&#x578B;</h3>
+</div>
+<div id="outline-container-sec-10-3" class="outline-3">
+<h3 id="sec-10-3">&#x4FDD;&#x62A4;</h3>
+</div>
+<div id="outline-container-sec-10-4" class="outline-3">
+<h3 id="sec-10-4">Student<sub>info&#x7C7B;</sub></h3>
+</div>
+<div id="outline-container-sec-10-5" class="outline-3">
+<h3 id="sec-10-5">&#x6784;&#x9020;&#x51FD;&#x6570;</h3>
+</div>
+<div id="outline-container-sec-10-6" class="outline-3">
+<h3 id="sec-10-6">&#x4F7F;&#x7528;Student<sub>info&#x7C7B;</sub></h3>
+</div>
+<div id="outline-container-sec-10-7" class="outline-3">
+<h3 id="sec-10-7">&#x5C0F;&#x7ED3;</h3>
+</div>
+<div id="outline-container-sec-10-8" class="outline-3">
+<h3 id="sec-10-8">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-11" class="outline-2">
 <h2 id="sec-11">&#x7B2C;10&#x7AE0; &#x7BA1;&#x7406;&#x5185;&#x5B58;&#x548C;&#x4F4E;&#x7EA7;&#x6570;&#x636E;&#x7ED3;&#x6784;</h2>
