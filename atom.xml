@@ -5124,7 +5124,7 @@ At the beginning of your carrer, it&amp;apos;s probably best to stay away from s
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2017-02-01T09:11:46.000Z</updated>
+    <updated>2017-02-01T10:03:36.000Z</updated>
     
     <content type="html">
 
@@ -7637,32 +7637,10 @@ f&amp;#x7684;&amp;#x8FD4;&amp;#x56DE;&amp;#x7C7B;&amp;#x578B;&amp;#x5E94;&amp;#x
 &lt;div id=&quot;outline-container-sec-9-1-1&quot; class=&quot;outline-4&quot;&gt;
 &lt;h4 id=&quot;sec-9-1-1&quot;&gt;&amp;#x672A;&amp;#x77E5;&amp;#x7C7B;&amp;#x578B;&amp;#x7684;&amp;#x4E2D;&amp;#x503C;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-9-1-1&quot;&gt;
-&lt;p&gt;
-#+begin&lt;sub&gt;src&lt;/sub&gt; C++
-template &amp;lt;class T&amp;gt;
-T median(vector&amp;lt;T&amp;gt; v){
-  typedef typename vector&amp;lt;T&amp;gt;::size&lt;sub&gt;type&lt;/sub&gt; vec&lt;sub&gt;sz&lt;/sub&gt;;
-&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
 
-&lt;p&gt;
-vec&lt;sub&gt;sz&lt;/sub&gt; size = v.size();
-if (size == 0)
-  throw domain&lt;sub&gt;error&lt;/sub&gt;(&amp;quot;median of an empty vector&amp;quot;);
-&lt;/p&gt;
-
-&lt;p&gt;
-sort(v.begin, v.end());
-&lt;/p&gt;
-
-&lt;p&gt;
-vec&lt;sub&gt;sz&lt;/sub&gt; mid = size / 2;
-&lt;/p&gt;
-
-&lt;p&gt;
-  return size % 2 == 0 ? (v[mid] + v[mid-1]) / 2 : v[mid];
- }
-#+end&lt;sub&gt;src&lt;/sub&gt; C++
-&lt;/p&gt;
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt; &amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;T &lt;span class=&quot;title&quot;&gt;median&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;built_in&quot;&gt;vector&lt;/span&gt;&amp;lt;T&amp;gt; v)&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;typename&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;vector&lt;/span&gt;&amp;lt;T&amp;gt;::size_type vec_sz;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  vec_sz size = v.size();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (size == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;throw&lt;/span&gt; domain_error(&lt;span class=&quot;string&quot;&gt;&amp;quot;median of an empty vector&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  sort(v.begin, v.end());&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  vec_sz mid = size / &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; size % &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; ? (v[mid] + v[mid-&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;]) / &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; : v[mid];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; }&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;&amp;#x7C7B;&amp;#x578B;&amp;#x53C2;&amp;#x6570;&amp;#xFF1A;&amp;#x8868;&amp;#x793A;&amp;#x7C7B;&amp;#x578B;&amp;#x800C;&amp;#x4E0D;&amp;#x662F;&amp;#x53D8;&amp;#x91CF;
 &lt;/li&gt;
