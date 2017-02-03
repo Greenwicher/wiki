@@ -2816,25 +2816,193 @@ f&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x5E94;&#x8BE5;&#x662F;&#x6570;&#x7EC4
 </div>
 <div id="outline-container-sec-10-3" class="outline-3">
 <h3 id="sec-10-3">&#x4FDD;&#x62A4;</h3>
+<div class="outline-text-3" id="text-10-3">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> Student_info{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="keyword">double</span> <span class="title">grade</span><span class="params">()</span> <span class="keyword">const</span></span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="function">istream&amp; <span class="title">read</span><span class="params">(<span class="built_in">std</span>::istream&amp;)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">string</span> name;</span><br><span class="line">  <span class="keyword">double</span> midterm, final;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; homewok;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li><code>class</code> &#xFF1A;&#x540C; <code>struct</code> &#x7684;&#x5DEE;&#x522B;&#x5728;&#x4E8E;&#x5BF9;&#x7B2C;&#x4E00;&#x4E2A;&#x4FDD;&#x62A4;&#x6807;&#x8BC6;&#x7B26;&#x4E4B;&#x524D;&#x6210;&#x5458;&#x8BBF;&#x95EE;&#x5C5E;&#x6027;&#x7684;&#x7F3A;&#x7701;&#x5904;&#x7406;&#x65B9;&#x5F0F;&#x4E0D;&#x540C;&#xFF08; <code>class</code> &#x5B9A;&#x4E49;&#x4E3A;&#x79C1;&#x6709;&#x7684;&#xFF0C; <code>struct</code> &#x521A;&#x597D;&#x76F8;&#x53CD;&#xFF09;
+</li>
+<li>&#x4FDD;&#x62A4;&#x6807;&#x8BC6;&#x7B26;&#xFF1A; <code>public</code> &#x4EE5;&#x53CA; <code>private</code>
+</li>
+<li>&#x6570;&#x636E;&#x9690;&#x85CF;&#x673A;&#x5236;
+<ul class="org-ul">
+<li>&#x516C;&#x6709;&#x7684;&#xFF08;public&#xFF09;&#xFF1A;&#x53EF;&#x88AB;&#x7C7B;&#x578B;&#x7684;&#x6240;&#x6709;&#x7528;&#x6237;&#x8BBF;&#x95EE;
+</li>
+<li>&#x79C1;&#x6709;&#x7684;&#xFF08;private&#xFF09;&#xFF1A;&#x5BF9;&#x7528;&#x6237;&#x4E0D;&#x53EF;&#x8BBF;&#x95EE;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-10-3-1" class="outline-4">
+<h4 id="sec-10-3-1">&#x5B58;&#x53D6;&#x5668;&#x51FD;&#x6570;</h4>
+<div class="outline-text-4" id="text-10-3-1">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> Student_info{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="keyword">double</span> <span class="title">grade</span><span class="params">()</span> <span class="keyword">const</span></span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="function">istream&amp; <span class="title">read</span><span class="params">(<span class="built_in">std</span>::istream&amp;)</span></span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="function"><span class="built_in">string</span> <span class="title">name</span><span class="params">()</span> <span class="keyword">const</span> </span>{<span class="keyword">return</span> n; }</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">string</span> n;</span><br><span class="line">  <span class="keyword">double</span> midterm, final;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; homewok;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">compare</span><span class="params">(<span class="keyword">const</span> Student_info&amp;x, <span class="keyword">const</span> Student_info&amp; y)</span></span>{</span><br><span class="line">  <span class="keyword">return</span> x.name() &lt; y.name();</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li>&#x5B58;&#x53D6;&#x5668;&#x51FD;&#x6570;&#xFF1A;&#x5BF9;&#x79C1;&#x6709;&#x7684;&#x6570;&#x636E;&#x63D0;&#x4F9B;&#x63A5;&#x53E3;&#x7684;&#x51FD;&#x6570;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-10-3-2" class="outline-4">
+<h4 id="sec-10-3-2">&#x68C0;&#x67E5;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x4E3A;&#x7A7A;</h4>
+<div class="outline-text-4" id="text-10-3-2">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> Student_info{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">valid</span><span class="params">()</span> <span class="keyword">const</span> </span>{<span class="keyword">return</span> !homework.empty(); }</span><br><span class="line">  <span class="comment">// same as previous</span></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-10-4" class="outline-3">
 <h3 id="sec-10-4">Student_info&#x7C7B;</h3>
+<div class="outline-text-3" id="text-10-4">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> Student_info{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="keyword">double</span> <span class="title">grade</span><span class="params">()</span> <span class="keyword">const</span></span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="function">istream&amp; <span class="title">read</span><span class="params">(<span class="built_in">std</span>::istream&amp;)</span></span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="function"><span class="built_in">string</span> <span class="title">name</span><span class="params">()</span> <span class="keyword">const</span> </span>{<span class="keyword">return</span> n; }</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">valid</span><span class="params">()</span> <span class="keyword">const</span> </span>{<span class="keyword">return</span> !homework.empty()}</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">string</span> n;</span><br><span class="line">  <span class="keyword">double</span> midterm, final;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; homewok;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">compare</span><span class="params">(<span class="keyword">const</span> Student_info&amp;x, <span class="keyword">const</span> Student_info&amp; y)</span></span>;</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-10-5" class="outline-3">
 <h3 id="sec-10-5">&#x6784;&#x9020;&#x51FD;&#x6570;</h3>
+<div class="outline-text-3" id="text-10-5">
+<ul class="org-ul">
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF1A;&#x5B9A;&#x4E49;&#x4E86;&#x5BF9;&#x8C61;&#x7684;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x5728;&#x5BF9;&#x8C61;&#x88AB;&#x5B9A;&#x4E49;&#x65F6;&#x81EA;&#x52A8;&#x8C03;&#x7528;&#xFF0C;&#x800C;&#x4E0D;&#x80FD;&#x88AB;&#x663E;&#x5F0F;&#x5730;&#x8C03;&#x7528;&#xFF1B;&#x82E5;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x5219;&#x7531;&#x7F16;&#x8BD1;&#x7A0B;&#x5E8F;&#x5408;&#x6210;&#x4E00;&#x4E2A;&#x6784;&#x9020;&#x51FD;&#x6570;&#x3002;
+</li>
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x521D;&#x59CB;&#x5316;&#x65B9;&#x5F0F;
+<ul class="org-ul">
+<li>&#x5982;&#x679C;&#x5BF9;&#x8C61;&#x5C5E;&#x4E8E;&#x4E00;&#x79CD;&#x81EA;&#x5B9A;&#x4E49;&#x7C7B;&#x578B;&#xFF1A;&#x501F;&#x52A9;&#x76F8;&#x5E94;&#x5B9A;&#x4E49;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;
+</li>
+<li>&#x5982;&#x679C;&#x5BF9;&#x8C61;&#x5C5E;&#x4E8E;&#x5185;&#x90E8;&#x7C7B;&#x578B;&#xFF1A;&#x6570;&#x503C;&#x521D;&#x59CB;&#x5316;&#x65B9;&#x5F0F;&#x628A;&#x5B83;&#x8BBE;&#x4E3A;0&#xFF0C;&#x800C;&#x7F3A;&#x7701;&#x521D;&#x59CB;&#x5316;&#x65B9;&#x5F0F;&#x4F1A;&#x7ED9;&#x5B83;&#x4E00;&#x4E2A;&#x672A;&#x5B9A;&#x4E49;&#x503C;
+</li>
+<li>&#x5426;&#x5219;&#xFF0C;&#x6309;&#x7167;&#x6570;&#x503C;&#x521D;&#x59CB;&#x5316;&#x6216;&#x8005;&#x7F3A;&#x7701;&#x521D;&#x59CB;&#x5316;&#x8FDB;&#x884C;
+</li>
+</ul>
+</li>
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x7279;&#x70B9;
+<ul class="org-ul">
+<li>&#x540D;&#x79F0;&#x548C;&#x7C7B;&#x672C;&#x8EAB;&#x76F8;&#x540C;
+</li>
+<li>&#x6CA1;&#x6709;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;
+</li>
+</ul>
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> Student_info{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  Student_info();</span><br><span class="line">  Student_info(<span class="built_in">std</span>::istream&amp;);</span><br><span class="line">  <span class="comment">// same as the previous</span></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+<div id="outline-container-sec-10-5-1" class="outline-4">
+<h4 id="sec-10-5-1">&#x7F3A;&#x7701;&#x6784;&#x9020;&#x51FD;&#x6570;</h4>
+<div class="outline-text-4" id="text-10-5-1">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Student_info::Student_info(): midterm(<span class="number">0</span>), final(<span class="number">0</span>) {}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;&#x521D;&#x59CB;&#x5316;&#x7A0B;&#x5E8F;&#xFF1A;&#x663E;&#x793A;&#x521D;&#x59CB;&#x5316;&#x5185;&#x90E8;&#x7C7B;&#x578B;&#x6216;&#x6709;&#x81EA;&#x5B9A;&#x4E49;&#x521D;&#x59CB;&#x503C;&#x7684;&#x6570;&#x636E;&#x5143;&#x7D20;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-10-5-2" class="outline-4">
+<h4 id="sec-10-5-2">&#x5E26;&#x53C2;&#x6570;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;</h4>
+<div class="outline-text-4" id="text-10-5-2">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Student_info::Student_info(istream&amp; s) {read(is); }</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-10-6" class="outline-3">
 <h3 id="sec-10-6">&#x4F7F;&#x7528;Student_info&#x7C7B;</h3>
+<div class="outline-text-3" id="text-10-6">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">  <span class="built_in">vector</span>&lt;Student_info&gt; students;</span><br><span class="line">  Student_info record;</span><br><span class="line">  <span class="built_in">string</span>::size_type maxlen = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// read and store the data</span></span><br><span class="line">  <span class="keyword">while</span> (record.read(<span class="built_in">cin</span>)) { <span class="comment">// changed</span></span><br><span class="line">    maxlen = max(maxlen, record.name().size()) <span class="comment">// changed</span></span><br><span class="line">    students.push_back(record);</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="comment">// alphabetize the student records</span></span><br><span class="line">  sort(students.begin(), students.end(), compare);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// write the names and grades</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="built_in">vector</span>&lt;Student_info&gt;::size_type i = <span class="number">0</span>; i != students.size(); ++i) {</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; students[i].name() <span class="comment">// changed</span></span><br><span class="line">      &lt;&lt; <span class="built_in">string</span>(maxlen + <span class="number">1</span> - students[i].name.size(), <span class="string">&apos; &apos;</span>);</span><br><span class="line">    <span class="keyword">try</span> {</span><br><span class="line">      <span class="keyword">double</span> final_grade = students[i].grade();  <span class="comment">//changed</span></span><br><span class="line">      streamsize prec = <span class="built_in">cout</span>.precision();</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; setprecision(<span class="number">3</span>) &lt;&lt; final_grade</span><br><span class="line">	&lt;&lt; setprecision(prec) &lt;&lt; endl;</span><br><span class="line">    }<span class="keyword">catch</span> (domain_error e) {</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; e.what() &lt;&lt; endl;</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-10-7" class="outline-3">
 <h3 id="sec-10-7">&#x5C0F;&#x7ED3;</h3>
+<div class="outline-text-3" id="text-10-7">
+<ul class="org-ul">
+<li>&#x7528;&#x6237;&#x81EA;&#x5B9A;&#x4E49;&#x7C7B;&#x578B;
+</li>
+<li>&#x4FDD;&#x62A4;&#x6807;&#x8BC6;&#x7B26;
+</li>
+<li>&#x6210;&#x5458;&#x51FD;&#x6570;
+</li>
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;
+</li>
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;&#x521D;&#x59CB;&#x5316;&#x7A0B;&#x5E8F;&#x5217;&#x8868;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-10-8" class="outline-3">
 <h3 id="sec-10-8">&#x4E60;&#x9898;</h3>
+<div class="outline-text-3" id="text-10-8">
+</div><div id="outline-container-sec-10-8-1" class="outline-4">
+<h4 id="sec-10-8-1">9-0</h4>
+</div>
+<div id="outline-container-sec-10-8-2" class="outline-4">
+<h4 id="sec-10-8-2">9-1</h4>
+</div>
+<div id="outline-container-sec-10-8-3" class="outline-4">
+<h4 id="sec-10-8-3">9-2</h4>
+</div>
+<div id="outline-container-sec-10-8-4" class="outline-4">
+<h4 id="sec-10-8-4">9-3</h4>
+</div>
+<div id="outline-container-sec-10-8-5" class="outline-4">
+<h4 id="sec-10-8-5">9-4</h4>
+</div>
+<div id="outline-container-sec-10-8-6" class="outline-4">
+<h4 id="sec-10-8-6">9-5</h4>
+</div>
+<div id="outline-container-sec-10-8-7" class="outline-4">
+<h4 id="sec-10-8-7">9-6</h4>
+</div>
+<div id="outline-container-sec-10-8-8" class="outline-4">
+<h4 id="sec-10-8-8">9-7</h4>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-11" class="outline-2">
 <h2 id="sec-11">&#x7B2C;10&#x7AE0; &#x7BA1;&#x7406;&#x5185;&#x5B58;&#x548C;&#x4F4E;&#x7EA7;&#x6570;&#x636E;&#x7ED3;&#x6784;</h2>
+<div class="outline-text-2" id="text-11">
+</div><div id="outline-container-sec-11-1" class="outline-3">
+<h3 id="sec-11-1">&#x6307;&#x9488;&#x548C;&#x6570;&#x7EC4;</h3>
+</div>
+<div id="outline-container-sec-11-2" class="outline-3">
+<h3 id="sec-11-2">&#x518D;&#x770B;&#x5B57;&#x7B26;&#x4E32;&#x5E38;&#x91CF;</h3>
+</div>
+<div id="outline-container-sec-11-3" class="outline-3">
+<h3 id="sec-11-3">&#x521D;&#x59CB;&#x5316;&#x5B57;&#x7B26;&#x4E32;&#x6307;&#x9488;&#x6570;&#x7EC4;</h3>
+</div>
+<div id="outline-container-sec-11-4" class="outline-3">
+<h3 id="sec-11-4">main&#x51FD;&#x6570;&#x7684;&#x53C2;&#x6570;</h3>
+</div>
+<div id="outline-container-sec-11-5" class="outline-3">
+<h3 id="sec-11-5">&#x6587;&#x4EF6;&#x8BFB;&#x5199;</h3>
+</div>
+<div id="outline-container-sec-11-6" class="outline-3">
+<h3 id="sec-11-6">&#x4E09;&#x79CD;&#x5185;&#x5B58;&#x5206;&#x914D;&#x65B9;&#x6CD5;</h3>
+</div>
+<div id="outline-container-sec-11-7" class="outline-3">
+<h3 id="sec-11-7">&#x5C0F;&#x7ED3;</h3>
+</div>
+<div id="outline-container-sec-11-8" class="outline-3">
+<h3 id="sec-11-8">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-12" class="outline-2">
 <h2 id="sec-12">&#x7B2C;11&#x7AE0; &#x5B9A;&#x4E49;&#x62BD;&#x8C61;&#x6570;&#x636E;&#x7C7B;&#x578B;</h2>
