@@ -3158,6 +3158,18 @@ x=6
 </div>
 <div id="outline-container-sec-11-5-2" class="outline-4">
 <h4 id="sec-11-5-2">&#x5904;&#x7406;&#x591A;&#x4E2A;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6587;&#x4EF6;</h4>
+<div class="outline-text-4" id="text-11-5-2">
+<ul class="org-ul">
+<li><code>ifstream</code> &#x4E0E; <code>ofstream</code>
+</li>
+<li>&#x6587;&#x4EF6;&#x540D;&#x8981;&#x4E3A;&#x6307;&#x5411;&#x4E00;&#x4E2A;&#x4EE5;&#x7A7A;&#x5B57;&#x7B26;&#x7ED3;&#x5C3E;&#x7684;&#x5B57;&#x7B26;&#x6570;&#x7EC4;&#x7684;&#x9996;&#x5143;&#x7D20;&#x7684;&#x6307;&#x9488;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> ** argv)</span></span>{</span><br><span class="line">  <span class="keyword">int</span> fail_count = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; argc; ++i){</span><br><span class="line">    <span class="function">ifstream <span class="title">in</span><span class="params">(argv[i])</span></span>;</span><br><span class="line">    <span class="keyword">if</span> (in){</span><br><span class="line">      <span class="built_in">string</span> s:</span><br><span class="line">      <span class="keyword">while</span>(getline(in, s))</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; s &lt;&lt; endl;</span><br><span class="line">    } <span class="keyword">else</span> {</span><br><span class="line">      <span class="built_in">cerr</span> &lt;&lt; <span class="string">&quot;cannot open file&quot;</span> &lt;&lt; argv[i] &lt;&lt; endl;</span><br><span class="line">      ++fail_count;</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> fail_count;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-11-6" class="outline-3">
@@ -3165,20 +3177,96 @@ x=6
 <div class="outline-text-3" id="text-11-6">
 </div><div id="outline-container-sec-11-6-1" class="outline-4">
 <h4 id="sec-11-6-1">&#x4E3A;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x5206;&#x914D;/&#x91CA;&#x653E;&#x5185;&#x5B58;</h4>
+<div class="outline-text-4" id="text-11-6-1">
+<ul class="org-ul">
+<li>T *p = new T(args);
+</li>
+<li>delete p;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">pointer_to_dynamic</span><span class="params">(<span class="keyword">int</span> num)</span></span>{</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="keyword">int</span>(num);</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">  <span class="keyword">int</span>* p = pointer_to_dynamic(<span class="number">21</span>);</span><br><span class="line">  ++ *p;</span><br><span class="line">  <span class="keyword">delete</span> p;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-11-6-2" class="outline-4">
 <h4 id="sec-11-6-2">&#x4E3A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x5206;&#x914D;/&#x91CA;&#x653E;&#x5185;&#x5B58;</h4>
+<div class="outline-text-4" id="text-11-6-2">
+<ul class="org-ul">
+<li>T *p = new T[n];
+</li>
+<li>delete[] p;
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-11-7" class="outline-3">
 <h3 id="sec-11-7">&#x5C0F;&#x7ED3;</h3>
+<div class="outline-text-3" id="text-11-7">
+<ul class="org-ul">
+<li>&#x6307;&#x9488;
+</li>
+<li>&#x4E3B;&#x51FD;&#x6570;
+</li>
+<li>&#x8F93;&#x5165;/&#x8F93;&#x51FA;
+</li>
+<li>&#x5185;&#x5B58;&#x5206;&#x914D;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-11-8" class="outline-3">
 <h3 id="sec-11-8">&#x4E60;&#x9898;</h3>
+<div class="outline-text-3" id="text-11-8">
+</div><div id="outline-container-sec-11-8-1" class="outline-4">
+<h4 id="sec-11-8-1">10-0</h4>
+</div>
+<div id="outline-container-sec-11-8-2" class="outline-4">
+<h4 id="sec-11-8-2">10-1</h4>
+</div>
+<div id="outline-container-sec-11-8-3" class="outline-4">
+<h4 id="sec-11-8-3">10-2</h4>
+</div>
+<div id="outline-container-sec-11-8-4" class="outline-4">
+<h4 id="sec-11-8-4">10-3</h4>
+</div>
+<div id="outline-container-sec-11-8-5" class="outline-4">
+<h4 id="sec-11-8-5">10-4</h4>
+</div>
+<div id="outline-container-sec-11-8-6" class="outline-4">
+<h4 id="sec-11-8-6">10-5</h4>
+</div>
+<div id="outline-container-sec-11-8-7" class="outline-4">
+<h4 id="sec-11-8-7">10-6</h4>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-12" class="outline-2">
 <h2 id="sec-12">&#x7B2C;11&#x7AE0; &#x5B9A;&#x4E49;&#x62BD;&#x8C61;&#x6570;&#x636E;&#x7C7B;&#x578B;</h2>
+<div class="outline-text-2" id="text-12">
+</div><div id="outline-container-sec-12-1" class="outline-3">
+<h3 id="sec-12-1">Vec&#x7C7B;</h3>
+</div>
+<div id="outline-container-sec-12-2" class="outline-3">
+<h3 id="sec-12-2">&#x5B9E;&#x73B0;Vec&#x7C7B;</h3>
+</div>
+<div id="outline-container-sec-12-3" class="outline-3">
+<h3 id="sec-12-3">&#x590D;&#x5236;&#x63A7;&#x5236;</h3>
+</div>
+<div id="outline-container-sec-12-4" class="outline-3">
+<h3 id="sec-12-4">&#x52A8;&#x6001;&#x7684;Vec&#x7C7B;&#x578B;&#x5BF9;&#x8C61;</h3>
+</div>
+<div id="outline-container-sec-12-5" class="outline-3">
+<h3 id="sec-12-5">&#x7075;&#x6D3B;&#x7684;&#x5185;&#x5B58;&#x7BA1;&#x7406;</h3>
+</div>
+<div id="outline-container-sec-12-6" class="outline-3">
+<h3 id="sec-12-6">&#x5C0F;&#x7ED3;</h3>
+</div>
+<div id="outline-container-sec-12-7" class="outline-3">
+<h3 id="sec-12-7">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-13" class="outline-2">
 <h2 id="sec-13">&#x7B2C;12&#x7AE0; &#x4F7F;&#x7C7B;&#x5BF9;&#x8C61;&#x50CF;&#x4E00;&#x4E2A;&#x6570;&#x503C;&#x4E00;&#x6837;&#x5DE5;&#x4F5C;</h2>
