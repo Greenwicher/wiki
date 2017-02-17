@@ -70,7 +70,7 @@
 	  
 
 <p>
-&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-02-10 Fri&gt;</span></span>&#x3011;
+&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-02-17 Fri&gt;</span></span>&#x3011;
 </p>
 
 <div id="outline-container-sec-1" class="outline-2">
@@ -3248,28 +3248,283 @@ x=6
 <div class="outline-text-2" id="text-12">
 </div><div id="outline-container-sec-12-1" class="outline-3">
 <h3 id="sec-12-1">Vec&#x7C7B;</h3>
+<div class="outline-text-3" id="text-12-1">
+<ul class="org-ul">
+<li>&#x6309;&#x7167;&#x4F7F;&#x7528;&#x8005;&#x7684;&#x6F5C;&#x5728;&#x9700;&#x6C42;&#x6765;&#x5B9A;&#x4E49;&#x7C7B;&#x7684;&#x63A5;&#x53E3;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">vector</span>&lt;Student_info&gt; vs;</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; v(<span class="number">100</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">vector</span>&lt;Student_info&gt;::const_iterator b, e;</span><br><span class="line"><span class="built_in">vector</span>&lt;Student_info&gt;::size_type i = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(i = <span class="number">0</span>; i != vs.size(); ++i){</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; vs[i].name();</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">b = vs.begin(); e = vs.end();</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-12-2" class="outline-3">
 <h3 id="sec-12-2">&#x5B9E;&#x73B0;Vec&#x7C7B;</h3>
+<div class="outline-text-3" id="text-12-2">
+<ul class="org-ul">
+<li>&#x7528;&#x4E8E;&#x51FD;&#x6570;&#x7684;&#x6A21;&#x677F;&#x6280;&#x5DE7;&#x540C;&#x6837;&#x9002;&#x7528;&#x4E8E;&#x7C7B;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">template &lt;class T&gt; class Vec{</span><br><span class="line">public:</span><br><span class="line">  typedef T* iterator;</span><br><span class="line">  typedef const T* const_iterator;</span><br><span class="line">  typedef size_t size_type;</span><br><span class="line">  typedet T value_type;</span><br><span class="line"></span><br><span class="line">  Vec() {create(); }</span><br><span class="line">  explicit Vec(size_type n, const T&amp; val = T()) {create(n, val);}</span><br><span class="line"></span><br><span class="line">  T&amp; operator[](size_type i){return data[i];}</span><br><span class="line">  const T&amp; operator[](size_type i) const {return data[i];}</span><br><span class="line"></span><br><span class="line">  size_type size() const {return limit - data;}</span><br><span class="line"></span><br><span class="line">  iterator begin() {return data;}</span><br><span class="line">  const_iterator begin() const {return data;}</span><br><span class="line"></span><br><span class="line">  iterator end() {return limit;}</span><br><span class="line">  const_iterator end() const {return limit;}</span><br><span class="line"></span><br><span class="line">private:</span><br><span class="line">  iterator data;</span><br><span class="line">  iterator limit;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+<div id="outline-container-sec-12-2-1" class="outline-4">
+<h4 id="sec-12-2-1">&#x5185;&#x5B58;&#x5206;&#x914D;</h4>
+<div class="outline-text-4" id="text-12-2-1">
+<ul class="org-ul">
+<li>&#x5185;&#x5B58;&#x5206;&#x914D;&#x7C7B;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-12-2-2" class="outline-4">
+<h4 id="sec-12-2-2">&#x6784;&#x9020;&#x51FD;&#x6570;</h4>
+<div class="outline-text-4" id="text-12-2-2">
+<ul class="org-ul">
+<li>&#x4E09;&#x7C7B;&#x6784;&#x9020;&#x51FD;&#x6570;
+<ul class="org-ul">
+<li>&#x4EC5;&#x4EC5;&#x662F;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;
+</li>
+<li>&#x58F0;&#x660E;&#x5BF9;&#x8C61;&#x7684;&#x5927;&#x5C0F;
+</li>
+<li>&#x58F0;&#x660E;&#x5BF9;&#x8C61;&#x7684;&#x5927;&#x5C0F;&#x548C;&#x521D;&#x59CB;&#x503C;
+</li>
+</ul>
+</li>
+<li><code>explicit</code> &#xFF1A;&#x663E;&#x5F0F;&#x4E0E;&#x9690;&#x5F0F;&#x7684;&#x8C03;&#x7528;&#x6784;&#x9020;&#x51FD;&#x6570;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-12-2-3" class="outline-4">
+<h4 id="sec-12-2-3">&#x7C7B;&#x578B;&#x5B9A;&#x4E49;</h4>
+<div class="outline-text-4" id="text-12-2-3">
+<ul class="org-ul">
+<li>&#x4E3A;&#x5E38;&#x91CF;&#x4E0E;&#x975E;&#x5E38;&#x91CF;&#x8FED;&#x4EE3;&#x5668;&#x7C7B;&#x578B;&#x4EE5;&#x53CA;&#x6211;&#x4EEC;&#x7528;&#x6765;&#x8868;&#x793A;Vec&#x7684;&#x5927;&#x5C0F;&#x7684;&#x7C7B;&#x578B;&#x63D0;&#x4F9B;&#x7C7B;&#x578B;&#x5B9A;&#x4E49;&#xFF08;typedef&#xFF09;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-12-2-4" class="outline-4">
+<h4 id="sec-12-2-4">&#x7D22;&#x5F15;&#x4E0E;&#x5927;&#x5C0F;</h4>
+<div class="outline-text-4" id="text-12-2-4">
+<ul class="org-ul">
+<li>&#x8FD0;&#x7B97;&#x7B26;&#x7684;&#x91CD;&#x8F7D;
+</li>
+<li>&#x6307;&#x9488;&#x7684;&#x5DEE;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-12-2-5" class="outline-4">
+<h4 id="sec-12-2-5">&#x8FD4;&#x56DE;&#x8FED;&#x4EE3;&#x5668;&#x7684;&#x64CD;&#x4F5C;</h4>
+<div class="outline-text-4" id="text-12-2-5">
+<ul class="org-ul">
+<li>&#x51FD;&#x6570;&#x91CD;&#x8F7D;
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-12-3" class="outline-3">
 <h3 id="sec-12-3">&#x590D;&#x5236;&#x63A7;&#x5236;</h3>
+<div class="outline-text-3" id="text-12-3">
+</div><div id="outline-container-sec-12-3-1" class="outline-4">
+<h4 id="sec-12-3-1">&#x590D;&#x5236;&#x6784;&#x9020;&#x51FD;&#x6570;</h4>
+<div class="outline-text-4" id="text-12-3-1">
+<ul class="org-ul">
+<li>&#x663E;&#x5F0F;&#x4EE5;&#x53CA;&#x9690;&#x5F0F;&#x590D;&#x5236;
+</li>
+<li><code>copy constructor</code>
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">class</span> Vec{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  Vec(<span class="keyword">const</span> Vec&amp; v){create(v.begin(), v.end()); }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-12-3-2" class="outline-4">
+<h4 id="sec-12-3-2">&#x8D4B;&#x503C;&#x8FD0;&#x7B97;&#x7B26;</h4>
+<div class="outline-text-4" id="text-12-3-2">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;classs T&gt; <span class="keyword">class</span> Vec{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  Vec&amp; <span class="keyword">operator</span>=(<span class="keyword">const</span> Vec&amp;);</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li>&#x81EA;&#x6211;&#x590D;&#x5236;
+<ul class="org-ul">
+<li>&#x6A21;&#x677F;&#x53C2;&#x6570;&#x5728;&#x5934;&#x6587;&#x4EF6;&#x91CC;&#x662F;&#x9690;&#x5F0F;&#x7684;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x590D;&#x5199;&#xFF1B;&#x800C;&#x5728;&#x5934;&#x6587;&#x4EF6;&#x5916;&#x9762;&#xFF0C;&#x5FC5;&#x987B;&#x58F0;&#x660E;&#x6A21;&#x677F;&#x53C2;&#x6570;&#x7684;&#x7C7B;&#x578B;
+</li>
+<li><code>this</code> &#xFF1A;&#x4EC5;&#x5728;&#x6210;&#x5458;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x6709;&#x6548;&#xFF0C;&#x4EE3;&#x8868;&#x6307;&#x5411;&#x51FD;&#x6570;&#x64CD;&#x4F5C;&#x7684;&#x5BF9;&#x8C61;&#x7684;&#x6307;&#x9488;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-12-3-3" class="outline-4">
+<h4 id="sec-12-3-3">&#x8D4B;&#x503C;&#x4E0D;&#x662F;&#x521D;&#x59CB;&#x5316;</h4>
+<div class="outline-text-4" id="text-12-3-3">
+<ul class="org-ul">
+<li>&#x8D4B;&#x503C;&#x4E0E;&#x521D;&#x59CB;&#x5316;&#x7684;&#x533A;&#x522B;
+<ul class="org-ul">
+<li>&#x8D4B;&#x503C;&#x603B;&#x662F;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x65E7;&#x7684;&#x503C;&#xFF0C;&#x800C;&#x521D;&#x59CB;&#x5316;&#x6CA1;&#x6709;&#x8FD9;&#x6B65;&#x64CD;&#x4F5C;
+</li>
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;&#x65F6;&#x949F;&#x53EA;&#x63A7;&#x5236;&#x521D;&#x59CB;&#x5316;&#x64CD;&#x4F5C;&#xFF1B;operator=&#x6210;&#x5458;&#x51FD;&#x6570;&#x53EA;&#x63A7;&#x5236;&#x8D4B;&#x503C;&#x64CD;&#x4F5C;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-12-3-4" class="outline-4">
+<h4 id="sec-12-3-4">&#x6790;&#x6784;&#x51FD;&#x6570;</h4>
+<div class="outline-text-4" id="text-12-3-4">
+<ul class="org-ul">
+<li><code>destructor</code> &#xFF1A;&#x5B9A;&#x4E49;&#x5982;&#x4F55;&#x5220;&#x9664;&#x8BE5;&#x7C7B;&#x7684;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x5B9E;&#x4F8B;&#xFF0C;&#x51FD;&#x6570;&#x540D;&#x4E3A;&#x5728;&#x7C7B;&#x7684;&#x540D;&#x5B57;&#x524D;&#x52A0;&#x4E00;&#x6CE2;&#x6D6A;&#x7EBF;&#x524D;&#x7F00;&#xFF08;~&#xFF09;&#xFF0C;&#x6790;&#x6784;&#x51FD;&#x6570;&#x4E0D;&#x5E26;&#x4EFB;&#x4F55;&#x53C2;&#x6570;&#xFF0C;&#x800C;&#x4E14;&#x6CA1;&#x6709;&#x8FD4;&#x56DE;&#x503C;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; clas Vec{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  ~Vec() {uncreate(); }</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-12-3-5" class="outline-4">
+<h4 id="sec-12-3-5">&#x9ED8;&#x8BA4;&#x64CD;&#x4F5C;</h4>
+<div class="outline-text-4" id="text-12-3-5">
+<ul class="org-ul">
+<li>&#x7F16;&#x8BD1;&#x5668;&#x81EA;&#x52A8;&#x4E3A;&#x7C7B;&#x751F;&#x6210;&#x6784;&#x9020;&#x51FD;&#x6570;&#x3001;&#x8D4B;&#x503C;&#x8FD0;&#x7B97;&#x7B26;&#x51FD;&#x6570;&#x4EE5;&#x53CA;&#x6790;&#x6784;&#x51FD;&#x6570;&#xFF0C;&#x82E5;&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x6CA1;&#x6709;&#x88AB;&#x663E;&#x793A;&#x7684;&#x5B9A;&#x4E49;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-12-3-6" class="outline-4">
+<h4 id="sec-12-3-6">&#x300E;&#x4E09;&#x4F4D;&#x4E00;&#x4F53;&#x300F;&#x89C4;&#x5219;</h4>
+<div class="outline-text-4" id="text-12-3-6">
+<ul class="org-ul">
+<li>&#x4E09;&#x4F4D;&#x4E00;&#x4F53;&#xFF1A;&#x590D;&#x5236;&#x6784;&#x9020;&#x51FD;&#x6570;&#x3001;&#x6790;&#x6784;&#x51FD;&#x6570;&#x3001;&#x8D4B;&#x503C;&#x8FD0;&#x7B97;&#x7B26;&#x51FD;&#x6570;
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-12-4" class="outline-3">
 <h3 id="sec-12-4">&#x52A8;&#x6001;&#x7684;Vec&#x7C7B;&#x578B;&#x5BF9;&#x8C61;</h3>
+<div class="outline-text-3" id="text-12-4">
+<ul class="org-ul">
+<li>&#x4E3A;&#x968F;&#x673A;&#x5B58;&#x50A8;&#x7C7B;&#x5BF9;&#x8C61;&#x5206;&#x914D;&#x6BD4;&#x5B9E;&#x9645;&#x9700;&#x8981;&#x66F4;&#x591A;&#x7684;&#x5185;&#x5B58;&#xFF0C;&#x53EA;&#x6709;&#x5728;&#x4F7F;&#x7528;&#x5B8C;&#x9884;&#x5206;&#x914D;&#x7684;&#x5185;&#x5B58;&#x65F6;&#xFF0C;&#x624D;&#x53EF;&#x4EE5;&#x7533;&#x8BF7;&#x5206;&#x914D;&#x66F4;&#x591A;&#x7684;&#x5185;&#x5B58;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">class</span> Vec {</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">push_back</span><span class="params">(<span class="keyword">const</span> T&amp; val)</span></span>{</span><br><span class="line">    <span class="keyword">if</span> (avail == limit)</span><br><span class="line">      grow();</span><br><span class="line">    unckecked_append(val);</span><br><span class="line">  }</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  iterator data;</span><br><span class="line">  iterator avail;</span><br><span class="line">  iterator limit;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-12-5" class="outline-3">
 <h3 id="sec-12-5">&#x7075;&#x6D3B;&#x7684;&#x5185;&#x5B58;&#x7BA1;&#x7406;</h3>
+<div class="outline-text-3" id="text-12-5">
+<ul class="org-ul">
+<li><code>&lt;memory&gt;</code> &#xFF1A; <code>allocator&lt;T&gt;</code>
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-12-5-1" class="outline-4">
+<h4 id="sec-12-5-1">&#x6700;&#x540E;&#x7684;Vec&#x7C7B;</h4>
+<div class="outline-text-4" id="text-12-5-1">
+<ul class="org-ul">
+<li>&#x7C7B;&#x4E0D;&#x53D8;&#x5F0F;
+</li>
+<li>create()&#x51FD;&#x6570;
+</li>
+<li>uncreate()&#x51FD;&#x6570;
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-12-6" class="outline-3">
 <h3 id="sec-12-6">&#x5C0F;&#x7ED3;</h3>
+<div class="outline-text-3" id="text-12-6">
+<ul class="org-ul">
+<li>&#x6A21;&#x677F;&#x7C7B;
+</li>
+<li>&#x590D;&#x5236;&#x63A7;&#x5236;
+</li>
+<li>&#x81EA;&#x52A8;&#x751F;&#x6210;&#x7684;&#x64CD;&#x4F5C;
+</li>
+<li>&#x91CD;&#x8F7D;&#x8FD0;&#x7B97;&#x7B26;&#x51FD;&#x6570;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-12-7" class="outline-3">
 <h3 id="sec-12-7">&#x4E60;&#x9898;</h3>
+<div class="outline-text-3" id="text-12-7">
+</div><div id="outline-container-sec-12-7-1" class="outline-4">
+<h4 id="sec-12-7-1">11-0</h4>
+</div>
+<div id="outline-container-sec-12-7-2" class="outline-4">
+<h4 id="sec-12-7-2">11-1</h4>
+</div>
+<div id="outline-container-sec-12-7-3" class="outline-4">
+<h4 id="sec-12-7-3">11-2</h4>
+</div>
+<div id="outline-container-sec-12-7-4" class="outline-4">
+<h4 id="sec-12-7-4">11-3</h4>
+</div>
+<div id="outline-container-sec-12-7-5" class="outline-4">
+<h4 id="sec-12-7-5">11-4</h4>
+</div>
+<div id="outline-container-sec-12-7-6" class="outline-4">
+<h4 id="sec-12-7-6">11-5</h4>
+</div>
+<div id="outline-container-sec-12-7-7" class="outline-4">
+<h4 id="sec-12-7-7">11-6</h4>
+</div>
+<div id="outline-container-sec-12-7-8" class="outline-4">
+<h4 id="sec-12-7-8">11-7</h4>
+</div>
+<div id="outline-container-sec-12-7-9" class="outline-4">
+<h4 id="sec-12-7-9">11-8</h4>
+</div>
+<div id="outline-container-sec-12-7-10" class="outline-4">
+<h4 id="sec-12-7-10">11-9</h4>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-13" class="outline-2">
 <h2 id="sec-13">&#x7B2C;12&#x7AE0; &#x4F7F;&#x7C7B;&#x5BF9;&#x8C61;&#x50CF;&#x4E00;&#x4E2A;&#x6570;&#x503C;&#x4E00;&#x6837;&#x5DE5;&#x4F5C;</h2>
+<div class="outline-text-2" id="text-13">
+</div><div id="outline-container-sec-13-1" class="outline-3">
+<h3 id="sec-13-1">&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;String&#x7C7B;</h3>
+</div>
+<div id="outline-container-sec-13-2" class="outline-3">
+<h3 id="sec-13-2">&#x81EA;&#x52A8;&#x8F6C;&#x6362;</h3>
+</div>
+<div id="outline-container-sec-13-3" class="outline-3">
+<h3 id="sec-13-3">Str&#x64CD;&#x4F5C;</h3>
+</div>
+<div id="outline-container-sec-13-4" class="outline-3">
+<h3 id="sec-13-4">&#x6709;&#x4E9B;&#x8F6C;&#x6362;&#x662F;&#x5371;&#x9669;&#x7684;</h3>
+</div>
+<div id="outline-container-sec-13-5" class="outline-3">
+<h3 id="sec-13-5">&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x64CD;&#x4F5C;&#x51FD;&#x6570;</h3>
+</div>
+<div id="outline-container-sec-13-6" class="outline-3">
+<h3 id="sec-13-6">&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E0E;&#x5185;&#x5B58;&#x7BA1;&#x7406;</h3>
+</div>
+<div id="outline-container-sec-13-7" class="outline-3">
+<h3 id="sec-13-7">&#x5C0F;&#x7ED3;</h3>
+</div>
+<div id="outline-container-sec-13-8" class="outline-3">
+<h3 id="sec-13-8">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-14" class="outline-2">
 <h2 id="sec-14">&#x7B2C;13&#x7AE0; &#x4F7F;&#x7528;&#x7EE7;&#x627F;&#x4E0E;&#x52A8;&#x6001;&#x7ED1;&#x5B9A;</h2>
