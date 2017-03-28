@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2017-03-24T03:04:49.000Z</updated>
+  <updated>2017-03-28T02:01:15.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://wiki.greenwicher.com/2016/08/01/booklist/"/>
     <id>http://wiki.greenwicher.com/2016/08/01/booklist/</id>
     <published>2016-07-31T16:00:00.000Z</published>
-    <updated>2017-03-24T03:04:49.000Z</updated>
+    <updated>2017-03-28T02:01:15.000Z</updated>
     
     <content type="html">
 
@@ -35,7 +35,7 @@
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-&amp;#x5171;&amp;#x8BA1;6&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
+&amp;#x5171;&amp;#x8BA1;7&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
@@ -68,6 +68,16 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/2070012/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x7B2C;&amp;#x4E00;&amp;#x6B21;&amp;#x4E00;&amp;#x4E2A;&amp;#x4EBA;&amp;#x65C5;&amp;#x884C;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x9AD8;&amp;#x6728;&amp;#x76F4;&amp;#x5B50;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;2007&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x7ED8;&amp;#x672C;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;6&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;-&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-03-28 Tue&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/1361264/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x6492;&amp;#x54C8;&amp;#x62C9;&amp;#x7684;&amp;#x6545;&amp;#x4E8B;&lt;/a&gt;&lt;/td&gt;
 &lt;td class=&quot;left&quot;&gt;&amp;#x4E09;&amp;#x6BDB;&lt;/td&gt;
