@@ -70,7 +70,7 @@
 	  
 
 <p>
-&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-04-13 Thu&gt;</span></span>&#x3011;
+&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-04-27 Thu&gt;</span></span>&#x3011;
 </p>
 
 <div id="outline-container-sec-1" class="outline-2">
@@ -3733,31 +3733,169 @@ x=6
 <div class="outline-text-2" id="text-14">
 </div><div id="outline-container-sec-14-1" class="outline-3">
 <h3 id="sec-14-1">&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;string&#x7C7B;</h3>
+<div class="outline-text-3" id="text-14-1">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> Core{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  Core();</span><br><span class="line">  Core(<span class="built_in">std</span>::istream&amp;);</span><br><span class="line">  <span class="built_in">std</span>::<span class="function"><span class="built_in">string</span> <span class="title">name</span><span class="params">()</span> <span class="keyword">const</span></span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="function">istream&amp; <span class="title">read</span><span class="params">(<span class="built_in">std</span>::istream&amp;)</span></span>;</span><br><span class="line">  <span class="function"><span class="keyword">double</span> <span class="title">grade</span><span class="params">()</span> <span class="keyword">const</span></span>;</span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">  <span class="built_in">std</span>::<span class="function">istream&amp; <span class="title">read_common</span><span class="params">(<span class="built_in">std</span>::istream&amp;)</span></span>;</span><br><span class="line">  <span class="keyword">double</span> midterm, final;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">double</span>&gt; homework;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">string</span> n;</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> Grad: <span class="keyword">public</span> Core{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  Grad();</span><br><span class="line">  Grad(<span class="built_in">std</span>::istream&amp;);</span><br><span class="line">  <span class="function"><span class="keyword">double</span> <span class="title">grade</span><span class="params">()</span> <span class="keyword">const</span></span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="function">istream&amp; <span class="title">read</span><span class="params">(<span class="built_in">std</span>::istream&amp;)</span></span>;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  <span class="keyword">double</span> thesis;</span><br><span class="line">};</span><br></pre></td></tr></table></figure>
+</div>
+<ul class="org-ul">
+<li>&#x5728;&#x4E00;&#x4E2A;&#x7C7B;&#x4E0E;&#x53E6;&#x4E00;&#x4E2A;&#x7C7B;&#x6BD4;&#x8F83;&#x8D77;&#x6765;&#xFF0C;&#x9664;&#x4E86;&#x4E00;&#x4E9B;&#x6269;&#x5145;&#x4EE5;&#x5916;&#x5176;&#x4F59;&#x90E8;&#x5206;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x8003;&#x8651;&#x4F7F;&#x7528; <code>&#x7EE7;&#x627F;</code> &#x7279;&#x6027;&#x3002;
+</li>
+<li>&#x57FA;&#x7C7B;&#xFF08;Core&#xFF09;&#x4E0E;&#x6D3E;&#x751F;&#x7C7B;&#xFF08;Grad&#xFF09;&#xFF1A;&#x6D3E;&#x751F;&#x7C7B;&#x7EE7;&#x627F;&#x4E86;&#x57FA;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x6210;&#x5458;&#xFF0C;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x4E8C;&#x6B21;&#x4FEE;&#x6539;&#x4F46;&#x4E0D;&#x53EF;&#x5220;&#x9664;&#xFF1B;&#x81EA;&#x7136;&#x53EF;&#x4EE5;&#x5355;&#x72EC;&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684;&#x6210;&#x5458;
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-14-1-1" class="outline-4">
+<h4 id="sec-14-1-1">&#x56DE;&#x987E;&#x4FDD;&#x62A4;&#x7C7B;&#x578B;</h4>
+<div class="outline-text-4" id="text-14-1-1">
+<ul class="org-ul">
+<li><code>protected</code> &#xFF1A;&#x5141;&#x8BB8;&#x6D3E;&#x751F;&#x7C7B;&#x8BBF;&#x95EE;&#x57FA;&#x7C7B;&#x4E2D;&#x7684;&#x6210;&#x5458;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-14-1-2" class="outline-4">
+<h4 id="sec-14-1-2">&#x64CD;&#x4F5C;&#x51FD;&#x6570;</h4>
+</div>
+<div id="outline-container-sec-14-1-3" class="outline-4">
+<h4 id="sec-14-1-3">&#x7EE7;&#x627F;&#x4E0E;&#x6784;&#x9020;&#x7C7B;&#x51FD;&#x6570;</h4>
+</div>
 </div>
 <div id="outline-container-sec-14-2" class="outline-3">
 <h3 id="sec-14-2">&#x591A;&#x6001;&#x548C;&#x865A;&#x62DF;&#x51FD;&#x6570;</h3>
+<div class="outline-text-3" id="text-14-2">
+</div><div id="outline-container-sec-14-2-1" class="outline-4">
+<h4 id="sec-14-2-1">&#x5728;&#x4E0D;&#x77E5;&#x9053;&#x5BF9;&#x8C61;&#x7C7B;&#x578B;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x83B7;&#x5F97;&#x5BF9;&#x8C61;&#x7684;&#x503C;</h4>
+<div class="outline-text-4" id="text-14-2-1">
+<ul class="org-ul">
+<li>&#x865A;&#x51FD;&#x6570;&#xFF1A; <code>virtual</code>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-14-2-2" class="outline-4">
+<h4 id="sec-14-2-2">&#x52A8;&#x6001;&#x7ED1;&#x5B9A;</h4>
+<div class="outline-text-4" id="text-14-2-2">
+<ul class="org-ul">
+<li>&#x52A8;&#x6001;&#x7ED1;&#x5B9A;&#x4E0E;&#x9759;&#x6001;&#x7ED1;&#x5B9A;&#xFF1A;&#x6307;&#x5728;&#x8FD0;&#x884C;&#x7684;&#x65F6;&#x5019;&#x624D;&#x51B3;&#x5B9A;&#x8C03;&#x7528;&#x4EC0;&#x4E48;&#x51FD;&#x6570;&#xFF1B;&#x5728;&#x7F16;&#x8BD1;&#x7684;&#x65F6;&#x5019;&#x51B3;&#x5B9A;&#x8C03;&#x7528;&#x4EC0;&#x4E48;&#x51FD;&#x6570;
+</li>
+<li>&#x591A;&#x6001;&#x6027;&#xFF1A;&#x5728;&#x8981;&#x6C42;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x57FA;&#x7C7B;&#x5BF9;&#x8C61;&#x7684;&#x6307;&#x9488;&#x6216;&#x5F15;&#x7528;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x6211;&#x4EEC;&#x5374;&#x53EF;&#x4EE5;&#x7528;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x6D3E;&#x751F;&#x7C7B;&#x7684;&#x6307;&#x9488;&#x6216;&#x5F15;&#x7528;&#x6765;&#x4EE3;&#x66FF;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-14-2-3" class="outline-4">
+<h4 id="sec-14-2-3">&#x7B80;&#x5355;&#x56DE;&#x987E;</h4>
+</div>
 </div>
 <div id="outline-container-sec-14-3" class="outline-3">
 <h3 id="sec-14-3">&#x7528;&#x7EE7;&#x627F;&#x6765;&#x89E3;&#x51B3;&#x6211;&#x4EEC;&#x7684;&#x95EE;&#x9898;</h3>
+<div class="outline-text-3" id="text-14-3">
+</div><div id="outline-container-sec-14-3-1" class="outline-4">
+<h4 id="sec-14-3-1">&#x5BB9;&#x7EB3;&#xFF08;&#x5B9E;&#x9645;&#x4E0A;&#xFF09;&#x672A;&#x77E5;&#x7C7B;&#x578B;&#x7684;&#x5BB9;&#x5668;</h4>
+</div>
+<div id="outline-container-sec-14-3-2" class="outline-4">
+<h4 id="sec-14-3-2">&#x865A;&#x62DF;&#x6790;&#x6784;&#x51FD;&#x6570;</h4>
+</div>
 </div>
 <div id="outline-container-sec-14-4" class="outline-3">
 <h3 id="sec-14-4">&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x53E5;&#x67C4;&#x7C7B;</h3>
+<div class="outline-text-3" id="text-14-4">
+</div><div id="outline-container-sec-14-4-1" class="outline-4">
+<h4 id="sec-14-4-1">&#x8BFB;&#x53D6;&#x53E5;&#x67C4;</h4>
+</div>
+<div id="outline-container-sec-14-4-2" class="outline-4">
+<h4 id="sec-14-4-2">&#x590D;&#x5236;&#x53E5;&#x67C4;&#x5BF9;&#x8C61;</h4>
+</div>
 </div>
 <div id="outline-container-sec-14-5" class="outline-3">
 <h3 id="sec-14-5">&#x4F7F;&#x7528;&#x53E5;&#x67C4;&#x7C7B;</h3>
 </div>
 <div id="outline-container-sec-14-6" class="outline-3">
 <h3 id="sec-14-6">&#x5FAE;&#x79D2;&#x4E4B;&#x5904;</h3>
+<div class="outline-text-3" id="text-14-6">
+</div><div id="outline-container-sec-14-6-1" class="outline-4">
+<h4 id="sec-14-6-1">&#x7EE7;&#x627F;&#x4E0E;&#x5BB9;&#x5668;</h4>
+</div>
+<div id="outline-container-sec-14-6-2" class="outline-4">
+<h4 id="sec-14-6-2">&#x9700;&#x8981;&#x54EA;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF1F;</h4>
+</div>
 </div>
 <div id="outline-container-sec-14-7" class="outline-3">
 <h3 id="sec-14-7">&#x5C0F;&#x7ED3;</h3>
+<div class="outline-text-3" id="text-14-7">
+<ul class="org-ul">
+<li>&#x7EE7;&#x627F;
+</li>
+<li>&#x52A8;&#x6001;&#x7ED1;&#x5B9A;
+</li>
+<li>&#x8986;&#x76D6;
+</li>
+<li>&#x865A;&#x62DF;&#x6790;&#x6784;&#x51FD;&#x6570;
+</li>
+<li>&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E0E;&#x865A;&#x62DF;&#x51FD;&#x6570;
+</li>
+<li>&#x9759;&#x6001;&#x6210;&#x5458;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-14-8" class="outline-3">
 <h3 id="sec-14-8">&#x4E60;&#x9898;</h3>
+<div class="outline-text-3" id="text-14-8">
+</div><div id="outline-container-sec-14-8-1" class="outline-4">
+<h4 id="sec-14-8-1">13-0</h4>
+</div>
+<div id="outline-container-sec-14-8-2" class="outline-4">
+<h4 id="sec-14-8-2">13-1</h4>
+</div>
+<div id="outline-container-sec-14-8-3" class="outline-4">
+<h4 id="sec-14-8-3">13-2</h4>
+</div>
+<div id="outline-container-sec-14-8-4" class="outline-4">
+<h4 id="sec-14-8-4">13-3</h4>
+</div>
+<div id="outline-container-sec-14-8-5" class="outline-4">
+<h4 id="sec-14-8-5">13-4</h4>
+</div>
+<div id="outline-container-sec-14-8-6" class="outline-4">
+<h4 id="sec-14-8-6">13-5</h4>
+</div>
+<div id="outline-container-sec-14-8-7" class="outline-4">
+<h4 id="sec-14-8-7">13-6</h4>
+</div>
+<div id="outline-container-sec-14-8-8" class="outline-4">
+<h4 id="sec-14-8-8">13-7</h4>
+</div>
+<div id="outline-container-sec-14-8-9" class="outline-4">
+<h4 id="sec-14-8-9">13-8</h4>
+</div>
+<div id="outline-container-sec-14-8-10" class="outline-4">
+<h4 id="sec-14-8-10">13-9</h4>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-15" class="outline-2">
 <h2 id="sec-15">&#x7B2C;14&#x7AE0; &#x8FD1;&#x4E4E;&#x81EA;&#x52A8;&#x5730;&#x7BA1;&#x7406;&#x5185;&#x5B58;</h2>
+<div class="outline-text-2" id="text-15">
+</div><div id="outline-container-sec-15-1" class="outline-3">
+<h3 id="sec-15-1">&#x7528;&#x6765;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#x7684;&#x53E5;&#x67C4;</h3>
+</div>
+<div id="outline-container-sec-15-2" class="outline-3">
+<h3 id="sec-15-2">&#x5F15;&#x7528;&#x8BA1;&#x6570;&#x53E5;&#x67C4;</h3>
+</div>
+<div id="outline-container-sec-15-3" class="outline-3">
+<h3 id="sec-15-3">&#x53EF;&#x4EE5;&#x8BA9;&#x4F60;&#x51B3;&#x5B9A;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5171;&#x4EAB;&#x6570;&#x636E;&#x7684;&#x53E5;&#x67C4;</h3>
+</div>
+<div id="outline-container-sec-15-4" class="outline-3">
+<h3 id="sec-15-4">&#x53EF;&#x63A7;&#x53E5;&#x67C4;&#x7684;&#x4E00;&#x4E2A;&#x6539;&#x8FDB;</h3>
+</div>
+<div id="outline-container-sec-15-5" class="outline-3">
+<h3 id="sec-15-5">&#x5C0F;&#x7ED3;</h3>
+</div>
+<div id="outline-container-sec-15-6" class="outline-3">
+<h3 id="sec-15-6">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-16" class="outline-2">
 <h2 id="sec-16">&#x7B2C;15&#x7AE0; &#x518D;&#x63A2;&#x5B57;&#x7B26;&#x56FE;&#x5F62;</h2>
