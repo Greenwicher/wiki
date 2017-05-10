@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2017-04-30T04:19:15.000Z</updated>
+  <updated>2017-05-10T03:16:22.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://wiki.greenwicher.com/2016/08/01/booklist/"/>
     <id>http://wiki.greenwicher.com/2016/08/01/booklist/</id>
     <published>2016-07-31T16:00:00.000Z</published>
-    <updated>2017-04-30T04:19:15.000Z</updated>
+    <updated>2017-05-10T03:16:22.000Z</updated>
     
     <content type="html">
 
@@ -35,7 +35,7 @@
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-&amp;#x5171;&amp;#x8BA1;12&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
+&amp;#x5171;&amp;#x8BA1;13&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
@@ -68,6 +68,16 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/25926542/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x4E00;&amp;#x672C;&amp;#x4E66;&amp;#x8BFB;&amp;#x61C2;&amp;#x8D22;&amp;#x62A5;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x8096;&amp;#x661F;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;2014&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x6295;&amp;#x8D44;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;8&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;-&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-05-10 Wed&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/5974407/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Big Secret for the Small Investor&lt;/a&gt;&lt;/td&gt;
 &lt;td class=&quot;left&quot;&gt;Joel Greenblatt&lt;/td&gt;
@@ -5237,7 +5247,7 @@ At the beginning of your carrer, it&amp;apos;s probably best to stay away from s
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2017-04-27T12:25:18.000Z</updated>
+    <updated>2017-05-01T09:21:06.000Z</updated>
     
     <content type="html">
 
