@@ -5247,12 +5247,12 @@ At the beginning of your carrer, it&amp;apos;s probably best to stay away from s
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2017-05-01T09:21:06.000Z</updated>
+    <updated>2017-05-11T06:43:13.000Z</updated>
     
     <content type="html">
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-04-27 Thu&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-05-11 Thu&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
 &lt;/p&gt;
 
 &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
@@ -9060,30 +9060,145 @@ x=6
 &lt;div id=&quot;outline-container-sec-15&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-15&quot;&gt;&amp;#x7B2C;14&amp;#x7AE0; &amp;#x8FD1;&amp;#x4E4E;&amp;#x81EA;&amp;#x52A8;&amp;#x5730;&amp;#x7BA1;&amp;#x7406;&amp;#x5185;&amp;#x5B58;&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-15&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-15-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x63A5;&amp;#x53E3;&amp;#x7C7B;&amp;#x4E0E;&amp;#x7C7B;&amp;#x6307;&amp;#x9488;&amp;#x7C7B;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5728;&amp;#x590D;&amp;#x5236;&amp;#x4E00;&amp;#x4E2A;&amp;#x5BF9;&amp;#x8C61;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x7A0B;&amp;#x5E8F;&amp;#x5B9E;&amp;#x9645;&amp;#x505A;&amp;#x4E86;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF1F;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-1&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-15-1&quot;&gt;&amp;#x7528;&amp;#x6765;&amp;#x590D;&amp;#x5236;&amp;#x5BF9;&amp;#x8C61;&amp;#x7684;&amp;#x53E5;&amp;#x67C4;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-15-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x6307;&amp;#x9488;&amp;#x53EF;&amp;#x80FD;&amp;#x5F15;&amp;#x53D1;&amp;#x7684;&amp;#x95EE;&amp;#x9898;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x4E24;&amp;#x4E2A;&amp;#x6307;&amp;#x9488;&amp;#x6307;&amp;#x5411;&amp;#x540C;&amp;#x4E00;&amp;#x4E2A;&amp;#x5BF9;&amp;#x8C61;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5220;&amp;#x9664;&amp;#x4E00;&amp;#x4E2A;&amp;#x6307;&amp;#x9488;&amp;#xFF0C;&amp;#x800C;&amp;#x4E0D;&amp;#x91CA;&amp;#x653E;&amp;#x6240;&amp;#x6307;&amp;#x5BF9;&amp;#x8C61;&amp;#x5360;&amp;#x7528;&amp;#x7684;&amp;#x5185;&amp;#x5B58;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5220;&amp;#x9664;&amp;#x4E00;&amp;#x4E2A;&amp;#x5BF9;&amp;#x8C61;&amp;#xFF0C;&amp;#x800C;&amp;#x6CA1;&amp;#x6709;&amp;#x5220;&amp;#x9664;&amp;#x6307;&amp;#x5411;&amp;#x8BE5;&amp;#x5BF9;&amp;#x8C61;&amp;#x7684;&amp;#x6307;&amp;#x9488;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E86;&amp;#x4E00;&amp;#x4E2A;&amp;#x6307;&amp;#x9488;&amp;#xFF0C;&amp;#x4F46;&amp;#x4E3A;&amp;#x5BF9;&amp;#x5176;&amp;#x8FDB;&amp;#x884C;&amp;#x521D;&amp;#x59CB;&amp;#x5316;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-1-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-1-1&quot;&gt;&amp;#x4E00;&amp;#x4E2A;&amp;#x901A;&amp;#x7528;&amp;#x53E5;&amp;#x67C4;&amp;#x7C7B;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-15-1-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt; &amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt; &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; Handle {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Handle(): p(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) {}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Handle(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Handle&amp;amp; s): p(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) {&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (s.p) p = s.p-&amp;gt;clone(); }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Handle&amp;amp; &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;=(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Handle&amp;amp;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ~Handle() {&lt;span class=&quot;keyword&quot;&gt;delete&lt;/span&gt; p;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Handle(T* t): p(t) {}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;/span&gt;{&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; p;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  T&amp;amp; &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;*() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  T* &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;-&amp;gt;() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  T* p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;};&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt;&amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Handle&amp;lt;T&amp;gt;&amp;amp; Handle&amp;lt;T&amp;gt;::&lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;=(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Handle&amp;amp; rhs){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (&amp;amp;rhs != &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;delete&lt;/span&gt; p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    p = rhs.p ? rhs.p-&amp;gt;clonse() : &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; *&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt;&amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;T&amp;amp; Handle&amp;lt;T&amp;gt;::&lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;*() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (p)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; *p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;throw&lt;/span&gt; runtime_error(&lt;span class=&quot;string&quot;&gt;&amp;quot;unbound Handle&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt;&amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;T* Handle&amp;lt;T&amp;gt;::&lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;-&amp;gt;() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (p)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;throw&lt;/span&gt; runtime_error(&lt;span class=&quot;string&quot;&gt;&amp;quot;unbound Handle&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-1-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-1-2&quot;&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x4E00;&amp;#x4E2A;&amp;#x901A;&amp;#x7528;&amp;#x53E5;&amp;#x67C4;&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-15-2&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-15-2&quot;&gt;&amp;#x5F15;&amp;#x7528;&amp;#x8BA1;&amp;#x6570;&amp;#x53E5;&amp;#x67C4;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-15-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x5F15;&amp;#x7528;&amp;#x8BA1;&amp;#x6570;&amp;#xFF1A;&amp;#x8BB0;&amp;#x5F55;&amp;#x6709;&amp;#x591A;&amp;#x5C11;&amp;#x4E2A;&amp;#x5BF9;&amp;#x8C61;&amp;#x6307;&amp;#x5411;&amp;#x540C;&amp;#x4E00;&amp;#x4E2A;&amp;#x5E95;&amp;#x5C42;&amp;#x5BF9;&amp;#x8C61;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt;&amp;lt;classs T&amp;gt; &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; Ref_handle{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Ref_handle(): refptr(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;size_t&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)), p(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) {}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Ref_handle(T* t): refptr(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;size_t&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)), p(t) {}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Ref_handle(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Ref_handle&amp;amp; h): refptr(h.refptr), p(h.p) { ++*refptr;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  Ref_handle&amp;amp; &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;=(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Ref_handle&amp;amp;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ~Ref_handle();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;/span&gt;{&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; p;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  T&amp;amp; &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;*() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (p)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; *p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;::runtime_error(&lt;span class=&quot;string&quot;&gt;&amp;quot;unbound Ref_handle&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  T* &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;-&amp;gt;() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (p)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;:runtime_error(&lt;span class=&quot;string&quot;&gt;&amp;quot;unbound Ref_handle&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  T* p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;size_t&lt;/span&gt;* refptr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt;&amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Ref_handle&amp;lt;T&amp;gt;&amp;amp; Ref_handle&amp;lt;T&amp;gt;::&lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;=(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Ref_handle&amp;amp; rhs){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ++*rhs.refptr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (--*refptr == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;delete&lt;/span&gt; refptr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;delete&lt;/span&gt; p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  refptr = rhs.refptr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  p = rhs.p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; *&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt;&amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt; Ref_handle&amp;lt;T&amp;gt;::~Ref_handle(){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (--*refptr == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;delete&lt;/span&gt; refptr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;delete&lt;/span&gt; p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-15-3&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-15-3&quot;&gt;&amp;#x53EF;&amp;#x4EE5;&amp;#x8BA9;&amp;#x4F60;&amp;#x51B3;&amp;#x5B9A;&amp;#x4EC0;&amp;#x4E48;&amp;#x65F6;&amp;#x5019;&amp;#x5171;&amp;#x4EAB;&amp;#x6570;&amp;#x636E;&amp;#x7684;&amp;#x53E5;&amp;#x67C4;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-15-3&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;template&lt;/span&gt;&amp;lt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; T&amp;gt; &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; Ptr{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;make_unique&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (*refptr != &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     --*refptr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     refptr = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;size_t&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     p = p ? p-&amp;gt;clone() : &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Ptr():refptr(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;size_t&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)), p(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) {}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Ptr(T* t): refptr(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;size_t&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)), p(t) {}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Ptr(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Ptr&amp;amp; h): refptr(h.refptr), p(h.p) {++*refptr; }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Ptr&amp;amp; &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;=(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; Ptr&amp;amp;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;~Ptr();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;/span&gt;{&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; p;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;T&amp;amp; &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;*() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;T* &lt;span class=&quot;keyword&quot;&gt;operator&lt;/span&gt;-&amp;gt;() &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  T* p;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;size_t&lt;/span&gt;* refptr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-15-4&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-15-4&quot;&gt;&amp;#x53EF;&amp;#x63A7;&amp;#x53E5;&amp;#x67C4;&amp;#x7684;&amp;#x4E00;&amp;#x4E2A;&amp;#x6539;&amp;#x8FDB;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-15-4&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-15-4-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-4-1&quot;&gt;&amp;#x590D;&amp;#x5236;&amp;#x6211;&amp;#x4EEC;&amp;#x4E0D;&amp;#x80FD;&amp;#x63A7;&amp;#x5236;&amp;#x7684;&amp;#x7C7B;&amp;#x578B;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-15-4-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x6240;&amp;#x6709;&amp;#x7684;&amp;#x95EE;&amp;#x9898;&amp;#x90FD;&amp;#x53EF;&amp;#x4EE5;&amp;#x901A;&amp;#x8FC7;&amp;#x5F15;&amp;#x5165;&amp;#x4E00;&amp;#x4E2A;&amp;#x989D;&amp;#x5916;&amp;#x7684;&amp;#x95F4;&amp;#x63A5;&amp;#x5C42;&amp;#x6765;&amp;#x89E3;&amp;#x51B3;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-4-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-4-2&quot;&gt;&amp;#x590D;&amp;#x5236;&amp;#x5728;&amp;#x4EC0;&amp;#x4E48;&amp;#x65F6;&amp;#x5019;&amp;#x662F;&amp;#x5FC5;&amp;#x8981;&amp;#x7684;&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-15-5&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-15-5&quot;&gt;&amp;#x5C0F;&amp;#x7ED3;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-15-5&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x6A21;&amp;#x677F;&amp;#x7279;&amp;#x5316;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-15-6&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-15-6&quot;&gt;&amp;#x4E60;&amp;#x9898;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-15-6&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-15-6-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-6-1&quot;&gt;14-0&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-6-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-6-2&quot;&gt;14-1&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-6-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-6-3&quot;&gt;14-2&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-6-4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-6-4&quot;&gt;14-3&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-6-5&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-6-5&quot;&gt;14-4&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-6-6&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-6-6&quot;&gt;14-5&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-15-6-7&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-15-6-7&quot;&gt;14-6&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-16&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-16&quot;&gt;&amp;#x7B2C;15&amp;#x7AE0; &amp;#x518D;&amp;#x63A2;&amp;#x5B57;&amp;#x7B26;&amp;#x56FE;&amp;#x5F62;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-16&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-16-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-16-1&quot;&gt;&amp;#x8BBE;&amp;#x8BA1;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-16-2&quot;&gt;&amp;#x5B9E;&amp;#x73B0;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-16-3&quot;&gt;&amp;#x5C0F;&amp;#x7ED3;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-16-4&quot;&gt;&amp;#x4E60;&amp;#x9898;&lt;/h3&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-17&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-17&quot;&gt;&amp;#x7B2C;16&amp;#x7AE0; &amp;#x4ECA;&amp;#x540E;&amp;#x5982;&amp;#x4F55;&amp;#x5B66;&amp;#x4E60;C++&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-17&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-17-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-17-1&quot;&gt;&amp;#x597D;&amp;#x597D;&amp;#x5730;&amp;#x5229;&amp;#x7528;&amp;#x4F60;&amp;#x5DF2;&amp;#x7ECF;&amp;#x638C;&amp;#x63E1;&amp;#x7684;&amp;#x77E5;&amp;#x8BC6;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-17-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-17-2&quot;&gt;&amp;#x5B66;&amp;#x4E60;&amp;#x66F4;&amp;#x591A;&amp;#x7684;&amp;#x4E1C;&amp;#x897F;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-17-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-17-3&quot;&gt;&amp;#x4E60;&amp;#x9898;&lt;/h3&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-18&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-18&quot;&gt;&amp;#x9644;&amp;#x5F55;A C++&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h2&gt;
@@ -9098,7 +9213,7 @@ x=6
       
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-04-27 Thu&amp;gt;&lt;/span&gt;&lt;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-05-11 Thu&amp;gt;&lt;/span&gt;&lt;
     
     </summary>
     

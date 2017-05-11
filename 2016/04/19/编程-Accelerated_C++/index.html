@@ -70,7 +70,7 @@
 	  
 
 <p>
-&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-04-27 Thu&gt;</span></span>&#x3011;
+&#x3010;&#x66F4;&#x65B0;&#x65E5;&#x671F;&#xFF1A;<span class="timestamp-wrapper"><span class="timestamp">&lt;2017-05-11 Thu&gt;</span></span>&#x3011;
 </p>
 
 <div id="outline-container-sec-1" class="outline-2">
@@ -3878,30 +3878,145 @@ x=6
 <div id="outline-container-sec-15" class="outline-2">
 <h2 id="sec-15">&#x7B2C;14&#x7AE0; &#x8FD1;&#x4E4E;&#x81EA;&#x52A8;&#x5730;&#x7BA1;&#x7406;&#x5185;&#x5B58;</h2>
 <div class="outline-text-2" id="text-15">
-</div><div id="outline-container-sec-15-1" class="outline-3">
+<ul class="org-ul">
+<li>&#x63A5;&#x53E3;&#x7C7B;&#x4E0E;&#x7C7B;&#x6307;&#x9488;&#x7C7B;
+</li>
+<li>&#x5728;&#x590D;&#x5236;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x65F6;&#x5019;&#x7A0B;&#x5E8F;&#x5B9E;&#x9645;&#x505A;&#x4E86;&#x4EC0;&#x4E48;&#xFF1F;
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-15-1" class="outline-3">
 <h3 id="sec-15-1">&#x7528;&#x6765;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#x7684;&#x53E5;&#x67C4;</h3>
+<div class="outline-text-3" id="text-15-1">
+<ul class="org-ul">
+<li>&#x6307;&#x9488;&#x53EF;&#x80FD;&#x5F15;&#x53D1;&#x7684;&#x95EE;&#x9898;
+<ul class="org-ul">
+<li>&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;
+</li>
+<li>&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x6307;&#x9488;&#xFF0C;&#x800C;&#x4E0D;&#x91CA;&#x653E;&#x6240;&#x6307;&#x5BF9;&#x8C61;&#x5360;&#x7528;&#x7684;&#x5185;&#x5B58;
+</li>
+<li>&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x6CA1;&#x6709;&#x5220;&#x9664;&#x6307;&#x5411;&#x8BE5;&#x5BF9;&#x8C61;&#x7684;&#x6307;&#x9488;
+</li>
+<li>&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x6307;&#x9488;&#xFF0C;&#x4F46;&#x4E3A;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-15-1-1" class="outline-4">
+<h4 id="sec-15-1-1">&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x53E5;&#x67C4;&#x7C7B;</h4>
+<div class="outline-text-4" id="text-15-1-1">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">class</span> Handle {</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  Handle(): p(<span class="number">0</span>) {}</span><br><span class="line">  Handle(<span class="keyword">const</span> Handle&amp; s): p(<span class="number">0</span>) {<span class="keyword">if</span> (s.p) p = s.p-&gt;clone(); }</span><br><span class="line">  Handle&amp; <span class="keyword">operator</span>=(<span class="keyword">const</span> Handle&amp;);</span><br><span class="line">  ~Handle() {<span class="keyword">delete</span> p;}</span><br><span class="line"></span><br><span class="line">  Handle(T* t): p(t) {}</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">operator</span> <span class="title">bool</span><span class="params">()</span> <span class="keyword">const</span> </span>{<span class="keyword">return</span> p;}</span><br><span class="line">  T&amp; <span class="keyword">operator</span>*() <span class="keyword">const</span>;</span><br><span class="line">  T* <span class="keyword">operator</span>-&gt;() <span class="keyword">const</span>;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  T* p;</span><br><span class="line">};</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</span><br><span class="line">Handle&lt;T&gt;&amp; Handle&lt;T&gt;::<span class="keyword">operator</span>=(<span class="keyword">const</span> Handle&amp; rhs){</span><br><span class="line">  <span class="keyword">if</span> (&amp;rhs != <span class="keyword">this</span>){</span><br><span class="line">    <span class="keyword">delete</span> p;</span><br><span class="line">    p = rhs.p ? rhs.p-&gt;clonse() : <span class="number">0</span>;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</span><br><span class="line">T&amp; Handle&lt;T&gt;::<span class="keyword">operator</span>*() <span class="keyword">const</span>{</span><br><span class="line">  <span class="keyword">if</span> (p)</span><br><span class="line">    <span class="keyword">return</span> *p;</span><br><span class="line">  <span class="keyword">throw</span> runtime_error(<span class="string">&quot;unbound Handle&quot;</span>);</span><br><span class="line">}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</span><br><span class="line">T* Handle&lt;T&gt;::<span class="keyword">operator</span>-&gt;() <span class="keyword">const</span>{</span><br><span class="line">  <span class="keyword">if</span> (p)</span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">  <span class="keyword">throw</span> runtime_error(<span class="string">&quot;unbound Handle&quot;</span>);</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-15-1-2" class="outline-4">
+<h4 id="sec-15-1-2">&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x53E5;&#x67C4;</h4>
+</div>
 </div>
 <div id="outline-container-sec-15-2" class="outline-3">
 <h3 id="sec-15-2">&#x5F15;&#x7528;&#x8BA1;&#x6570;&#x53E5;&#x67C4;</h3>
+<div class="outline-text-3" id="text-15-2">
+<ul class="org-ul">
+<li>&#x5F15;&#x7528;&#x8BA1;&#x6570;&#xFF1A;&#x8BB0;&#x5F55;&#x6709;&#x591A;&#x5C11;&#x4E2A;&#x5BF9;&#x8C61;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x5E95;&#x5C42;&#x5BF9;&#x8C61;
+</li>
+</ul>
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;classs T&gt; <span class="keyword">class</span> Ref_handle{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  Ref_handle(): refptr(<span class="keyword">new</span> <span class="keyword">size_t</span>(<span class="number">1</span>)), p(<span class="number">0</span>) {}</span><br><span class="line">  Ref_handle(T* t): refptr(<span class="keyword">new</span> <span class="keyword">size_t</span>(<span class="number">1</span>)), p(t) {}</span><br><span class="line">  Ref_handle(<span class="keyword">const</span> Ref_handle&amp; h): refptr(h.refptr), p(h.p) { ++*refptr;}</span><br><span class="line"></span><br><span class="line">  Ref_handle&amp; <span class="keyword">operator</span>=(<span class="keyword">const</span> Ref_handle&amp;);</span><br><span class="line">  ~Ref_handle();</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">operator</span> <span class="title">bool</span><span class="params">()</span> <span class="keyword">const</span> </span>{<span class="keyword">return</span> p;}</span><br><span class="line">  T&amp; <span class="keyword">operator</span>*() <span class="keyword">const</span>{</span><br><span class="line">    <span class="keyword">if</span> (p)</span><br><span class="line">      <span class="keyword">return</span> *p;</span><br><span class="line">    <span class="keyword">throw</span> <span class="built_in">std</span>::runtime_error(<span class="string">&quot;unbound Ref_handle&quot;</span>);</span><br><span class="line">  }</span><br><span class="line">  T* <span class="keyword">operator</span>-&gt;() <span class="keyword">const</span>{</span><br><span class="line">    <span class="keyword">if</span> (p)</span><br><span class="line">      <span class="keyword">return</span> p;</span><br><span class="line">    <span class="keyword">throw</span> <span class="built_in">std</span>:runtime_error(<span class="string">&quot;unbound Ref_handle&quot;</span>);</span><br><span class="line">  }</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  T* p;</span><br><span class="line">  <span class="keyword">size_t</span>* refptr;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</span><br><span class="line">Ref_handle&lt;T&gt;&amp; Ref_handle&lt;T&gt;::<span class="keyword">operator</span>=(<span class="keyword">const</span> Ref_handle&amp; rhs){</span><br><span class="line">  ++*rhs.refptr;</span><br><span class="line">  <span class="keyword">if</span> (--*refptr == <span class="number">0</span>){</span><br><span class="line">    <span class="keyword">delete</span> refptr;</span><br><span class="line">    <span class="keyword">delete</span> p;</span><br><span class="line">  }</span><br><span class="line">  refptr = rhs.refptr;</span><br><span class="line">  p = rhs.p;</span><br><span class="line">  <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt; Ref_handle&lt;T&gt;::~Ref_handle(){</span><br><span class="line">  <span class="keyword">if</span> (--*refptr == <span class="number">0</span>){</span><br><span class="line">    <span class="keyword">delete</span> refptr;</span><br><span class="line">    <span class="keyword">delete</span> p;</span><br><span class="line">  }</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-15-3" class="outline-3">
 <h3 id="sec-15-3">&#x53EF;&#x4EE5;&#x8BA9;&#x4F60;&#x51B3;&#x5B9A;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5171;&#x4EAB;&#x6570;&#x636E;&#x7684;&#x53E5;&#x67C4;</h3>
+<div class="outline-text-3" id="text-15-3">
+<div class="org-src-container">
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt; <span class="keyword">class</span> Ptr{</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">make_unique</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="keyword">if</span> (*refptr != <span class="number">1</span>){</span><br><span class="line">     --*refptr;</span><br><span class="line">     refptr = <span class="keyword">new</span> <span class="keyword">size_t</span>(<span class="number">1</span>);</span><br><span class="line">     p = p ? p-&gt;clone() : <span class="number">0</span>;</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">Ptr():refptr(<span class="keyword">new</span> <span class="keyword">size_t</span>(<span class="number">1</span>)), p(<span class="number">0</span>) {}</span><br><span class="line">Ptr(T* t): refptr(<span class="keyword">new</span> <span class="keyword">size_t</span>(<span class="number">1</span>)), p(t) {}</span><br><span class="line">Ptr(<span class="keyword">const</span> Ptr&amp; h): refptr(h.refptr), p(h.p) {++*refptr; }</span><br><span class="line"></span><br><span class="line">Ptr&amp; <span class="keyword">operator</span>=(<span class="keyword">const</span> Ptr&amp;);</span><br><span class="line">~Ptr();</span><br><span class="line"><span class="function"><span class="keyword">operator</span> <span class="title">bool</span><span class="params">()</span> <span class="keyword">const</span> </span>{<span class="keyword">return</span> p;}</span><br><span class="line">T&amp; <span class="keyword">operator</span>*() <span class="keyword">const</span>;</span><br><span class="line">T* <span class="keyword">operator</span>-&gt;() <span class="keyword">const</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  T* p;</span><br><span class="line">  <span class="keyword">size_t</span>* refptr;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-15-4" class="outline-3">
 <h3 id="sec-15-4">&#x53EF;&#x63A7;&#x53E5;&#x67C4;&#x7684;&#x4E00;&#x4E2A;&#x6539;&#x8FDB;</h3>
+<div class="outline-text-3" id="text-15-4">
+</div><div id="outline-container-sec-15-4-1" class="outline-4">
+<h4 id="sec-15-4-1">&#x590D;&#x5236;&#x6211;&#x4EEC;&#x4E0D;&#x80FD;&#x63A7;&#x5236;&#x7684;&#x7C7B;&#x578B;</h4>
+<div class="outline-text-4" id="text-15-4-1">
+<ul class="org-ul">
+<li>&#x6240;&#x6709;&#x7684;&#x95EE;&#x9898;&#x90FD;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5F15;&#x5165;&#x4E00;&#x4E2A;&#x989D;&#x5916;&#x7684;&#x95F4;&#x63A5;&#x5C42;&#x6765;&#x89E3;&#x51B3;
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-15-4-2" class="outline-4">
+<h4 id="sec-15-4-2">&#x590D;&#x5236;&#x5728;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x662F;&#x5FC5;&#x8981;&#x7684;</h4>
+</div>
 </div>
 <div id="outline-container-sec-15-5" class="outline-3">
 <h3 id="sec-15-5">&#x5C0F;&#x7ED3;</h3>
+<div class="outline-text-3" id="text-15-5">
+<ul class="org-ul">
+<li>&#x6A21;&#x677F;&#x7279;&#x5316;
+</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-sec-15-6" class="outline-3">
 <h3 id="sec-15-6">&#x4E60;&#x9898;</h3>
+<div class="outline-text-3" id="text-15-6">
+</div><div id="outline-container-sec-15-6-1" class="outline-4">
+<h4 id="sec-15-6-1">14-0</h4>
+</div>
+<div id="outline-container-sec-15-6-2" class="outline-4">
+<h4 id="sec-15-6-2">14-1</h4>
+</div>
+<div id="outline-container-sec-15-6-3" class="outline-4">
+<h4 id="sec-15-6-3">14-2</h4>
+</div>
+<div id="outline-container-sec-15-6-4" class="outline-4">
+<h4 id="sec-15-6-4">14-3</h4>
+</div>
+<div id="outline-container-sec-15-6-5" class="outline-4">
+<h4 id="sec-15-6-5">14-4</h4>
+</div>
+<div id="outline-container-sec-15-6-6" class="outline-4">
+<h4 id="sec-15-6-6">14-5</h4>
+</div>
+<div id="outline-container-sec-15-6-7" class="outline-4">
+<h4 id="sec-15-6-7">14-6</h4>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-16" class="outline-2">
 <h2 id="sec-16">&#x7B2C;15&#x7AE0; &#x518D;&#x63A2;&#x5B57;&#x7B26;&#x56FE;&#x5F62;</h2>
+<div class="outline-text-2" id="text-16">
+</div><div id="outline-container-sec-16-1" class="outline-3">
+<h3 id="sec-16-1">&#x8BBE;&#x8BA1;</h3>
+</div>
+<div id="outline-container-sec-16-2" class="outline-3">
+<h3 id="sec-16-2">&#x5B9E;&#x73B0;</h3>
+</div>
+<div id="outline-container-sec-16-3" class="outline-3">
+<h3 id="sec-16-3">&#x5C0F;&#x7ED3;</h3>
+</div>
+<div id="outline-container-sec-16-4" class="outline-3">
+<h3 id="sec-16-4">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-17" class="outline-2">
 <h2 id="sec-17">&#x7B2C;16&#x7AE0; &#x4ECA;&#x540E;&#x5982;&#x4F55;&#x5B66;&#x4E60;C++</h2>
+<div class="outline-text-2" id="text-17">
+</div><div id="outline-container-sec-17-1" class="outline-3">
+<h3 id="sec-17-1">&#x597D;&#x597D;&#x5730;&#x5229;&#x7528;&#x4F60;&#x5DF2;&#x7ECF;&#x638C;&#x63E1;&#x7684;&#x77E5;&#x8BC6;</h3>
+</div>
+<div id="outline-container-sec-17-2" class="outline-3">
+<h3 id="sec-17-2">&#x5B66;&#x4E60;&#x66F4;&#x591A;&#x7684;&#x4E1C;&#x897F;</h3>
+</div>
+<div id="outline-container-sec-17-3" class="outline-3">
+<h3 id="sec-17-3">&#x4E60;&#x9898;</h3>
+</div>
 </div>
 <div id="outline-container-sec-18" class="outline-2">
 <h2 id="sec-18">&#x9644;&#x5F55;A C++&#x8BED;&#x6CD5;&#x7EC6;&#x8282;</h2>
