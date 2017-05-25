@@ -5247,12 +5247,12 @@ At the beginning of your carrer, it&amp;apos;s probably best to stay away from s
     <link href="http://wiki.greenwicher.com/2016/04/19/%E7%BC%96%E7%A8%8B-Accelerated_C++/"/>
     <id>http://wiki.greenwicher.com/2016/04/19/编程-Accelerated_C++/</id>
     <published>2016-04-18T16:00:00.000Z</published>
-    <updated>2017-05-11T06:43:13.000Z</updated>
+    <updated>2017-05-25T05:50:45.000Z</updated>
     
     <content type="html">
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-05-11 Thu&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-05-25 Thu&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
 &lt;/p&gt;
 
 &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
@@ -9176,35 +9176,169 @@ x=6
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-16&quot;&gt;
 &lt;/div&gt;&lt;div id=&quot;outline-container-sec-16-1&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-16-1&quot;&gt;&amp;#x8BBE;&amp;#x8BA1;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-16-1&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-16-1-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-1-1&quot;&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x7EE7;&amp;#x627F;&amp;#x6765;&amp;#x6A21;&amp;#x62DF;&amp;#x7ED3;&amp;#x6784;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-16-1-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x5B9A;&amp;#x4E49;&amp;#x57FA;&amp;#x7C7B;&amp;#x3001;&amp;#x6D3E;&amp;#x751F;&amp;#x7C7B;&amp;#x4EE5;&amp;#x53CA;&amp;#x63A5;&amp;#x53E3;&amp;#x7C7B;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-1-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-1-2&quot;&gt;Pic_base&amp;#x7C7B;&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-16-1-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x5B9A;&amp;#x4E49;&amp;#x63A5;&amp;#x53E3;
+&lt;/li&gt;
+&lt;li&gt;=0: &amp;#x8BE5;&amp;#x865A;&amp;#x51FD;&amp;#x6570;&amp;#x6CA1;&amp;#x6709;&amp;#x5176;&amp;#x4ED6;&amp;#x5B9A;&amp;#x4E49;&amp;#xFF0C;&amp;#x76F8;&amp;#x5E94;&amp;#x7684;&amp;#x4E0D;&amp;#x4F1A;&amp;#x6709;&amp;#x8FD9;&amp;#x4E2A;&amp;#x7C7B;&amp;#x672C;&amp;#x8EAB;&amp;#x7684;&amp;#x5BF9;&amp;#x8C61;&amp;#xFF1B;&amp;#x8FD9;&amp;#x6837;&amp;#x7684;&amp;#x865A;&amp;#x51FD;&amp;#x6570;&amp;#x88AB;&amp;#x79F0;&amp;#x4E3A;&amp;#x7EAF;&amp;#x865A;&amp;#x62DF;&amp;#x51FD;&amp;#x6570;&amp;#xFF0C;&amp;#x76F8;&amp;#x5E94;&amp;#x7684;&amp;#x7C7B;&amp;#x4E3A;&amp;#x62BD;&amp;#x8C61;&amp;#x57FA;&amp;#x7C7B;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-1-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-1-3&quot;&gt;&amp;#x6D3E;&amp;#x751F;&amp;#x7C7B;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-1-4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-1-4&quot;&gt;&amp;#x590D;&amp;#x5236;&amp;#x63A7;&amp;#x5236;&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-16-2&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-16-2&quot;&gt;&amp;#x5B9E;&amp;#x73B0;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-16-2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-16-2-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-2-1&quot;&gt;&amp;#x5B9E;&amp;#x73B0;&amp;#x7528;&amp;#x6237;&amp;#x63A5;&amp;#x53E3;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-2-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-2-2&quot;&gt;String_Pic&amp;#x7C7B;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-2-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-2-3&quot;&gt;&amp;#x8865;&amp;#x9F50;&amp;#x8F93;&amp;#x51FA;&amp;#x7ED3;&amp;#x679C;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-2-4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-2-4&quot;&gt;VCat_Pic&amp;#x7C7B;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-2-5&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-2-5&quot;&gt;HCat_Pic&amp;#x7C7B;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-2-6&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-2-6&quot;&gt;Framew_Pic&amp;#x7C7B;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-2-7&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-2-7&quot;&gt;&amp;#x4E0D;&amp;#x8981;&amp;#x5FD8;&amp;#x4E86;&amp;#x53CB;&amp;#x5458;&amp;#x7C7B;&amp;#x58F0;&amp;#x660E;&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-16-3&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-16-3&quot;&gt;&amp;#x5C0F;&amp;#x7ED3;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-16-3&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x62BD;&amp;#x8C61;&amp;#x57FA;&amp;#x7C7B;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x524D;&amp;#x7F6E;&amp;#x58F0;&amp;#x660E;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-16-4&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-16-4&quot;&gt;&amp;#x4E60;&amp;#x9898;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-16-4&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-16-4-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-4-1&quot;&gt;15-0&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-4-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-4-2&quot;&gt;15-1&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-4-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-4-3&quot;&gt;15-2&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-4-4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-4-4&quot;&gt;15-3&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-4-5&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-4-5&quot;&gt;15-4&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-4-6&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-4-6&quot;&gt;15-5&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-16-4-7&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-16-4-7&quot;&gt;15-6&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-17&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-17&quot;&gt;&amp;#x7B2C;16&amp;#x7AE0; &amp;#x4ECA;&amp;#x540E;&amp;#x5982;&amp;#x4F55;&amp;#x5B66;&amp;#x4E60;C++&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-17&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-17-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x91CD;&amp;#x65B0;&amp;#x9605;&amp;#x8BFB;&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x628A;&amp;#x6CA1;&amp;#x505A;&amp;#x5B8C;&amp;#x7684;&amp;#x4E60;&amp;#x9898;&amp;#x505A;&amp;#x5B8C;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x7F16;&amp;#x7A0B;&amp;#x98CE;&amp;#x683C;&amp;#x4EE5;&amp;#x53CA;&amp;#x7F16;&amp;#x7A0B;&amp;#x6280;&amp;#x5DE7;&amp;#xFF1A;&amp;#x300A;Ruminations on C++&amp;#x300B;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-17-1&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-17-1&quot;&gt;&amp;#x597D;&amp;#x597D;&amp;#x5730;&amp;#x5229;&amp;#x7528;&amp;#x4F60;&amp;#x5DF2;&amp;#x7ECF;&amp;#x638C;&amp;#x63E1;&amp;#x7684;&amp;#x77E5;&amp;#x8BC6;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-17-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x60F3;&amp;#x8981;&amp;#x66F4;&amp;#x52A0;&amp;#x719F;&amp;#x6089;&amp;#x5DF2;&amp;#x7ECF;&amp;#x5B66;&amp;#x8FC7;&amp;#x7684;&amp;#x77E5;&amp;#x8BC6;&amp;#xFF0C;&amp;#x6211;&amp;#x4EEC;&amp;#x53EA;&amp;#x6709;&amp;#x4E0D;&amp;#x65AD;&amp;#x5730;&amp;#x7EC3;&amp;#x4E60;&amp;#x3001;&amp;#x7EC3;&amp;#x4E60;&amp;#x3001;&amp;#x518D;&amp;#x7EC3;&amp;#x4E60;&amp;#xFF01;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-17-2&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-17-2&quot;&gt;&amp;#x5B66;&amp;#x4E60;&amp;#x66F4;&amp;#x591A;&amp;#x7684;&amp;#x4E1C;&amp;#x897F;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-17-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x300A;The C++ Programming Language&amp;#x300B;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x300A;Generic Programming and the STL&amp;#x300B;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x300A;Ruminations on C++&amp;#x300B;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.accu.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.accu.org&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-17-3&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-17-3&quot;&gt;&amp;#x4E60;&amp;#x9898;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-17-3&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-17-3-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-17-3-1&quot;&gt;16-0&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-17-3-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-17-3-2&quot;&gt;16-1&lt;/h4&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-18&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-18&quot;&gt;&amp;#x9644;&amp;#x5F55;A C++&amp;#x8BED;&amp;#x6CD5;&amp;#x7EC6;&amp;#x8282;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-18&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-18-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-18-1&quot;&gt;&amp;#x58F0;&amp;#x660E;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-18-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-18-2&quot;&gt;&amp;#x7C7B;&amp;#x578B;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-18-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-18-3&quot;&gt;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-18-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-18-4&quot;&gt;&amp;#x8BED;&amp;#x53E5;&lt;/h3&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-19&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-19&quot;&gt;&amp;#x9644;&amp;#x5F55;B &amp;#x6807;&amp;#x51C6;&amp;#x5E93;&amp;#x4E00;&amp;#x89C8;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-19&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-19-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-19-1&quot;&gt;&amp;#x8F93;&amp;#x5165;&amp;#x8F93;&amp;#x51FA;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-19-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-19-2&quot;&gt;&amp;#x5BB9;&amp;#x5668;&amp;#x548C;&amp;#x8FED;&amp;#x4EE3;&amp;#x5668;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-19-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-19-3&quot;&gt;&amp;#x7B97;&amp;#x6CD5;&lt;/h3&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </content>
     
@@ -9213,7 +9347,7 @@ x=6
       
 
 &lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-05-11 Thu&amp;gt;&lt;/span&gt;&lt;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-05-25 Thu&amp;gt;&lt;/span&gt;&lt;
     
     </summary>
     
