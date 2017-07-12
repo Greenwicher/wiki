@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2017-06-28T14:23:30.000Z</updated>
+  <updated>2017-07-12T14:35:53.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -16,11 +16,254 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>FRM - Fountations of Risk Management</title>
+    <link href="http://wiki.greenwicher.com/2017/07/07/frm-fountations-of-risk-management/"/>
+    <id>http://wiki.greenwicher.com/2017/07/07/frm-fountations-of-risk-management/</id>
+    <published>2017-07-07T05:55:39.000Z</published>
+    <updated>2017-07-12T14:35:53.000Z</updated>
+    
+    <content type="html">&lt;p&gt;[Last Update: Jul 12, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;Risk_Management_3A_A_Helicopter_View&quot;&gt;&lt;a href=&quot;#Risk_Management_3A_A_Helicopter_View&quot; class=&quot;headerlink&quot; title=&quot;Risk Management: A Helicopter View&quot;&gt;&lt;/a&gt;Risk Management: A Helicopter View&lt;/h2&gt;&lt;h3 id=&quot;The_Concept_of_Risk&quot;&gt;&lt;a href=&quot;#The_Concept_of_Risk&quot; class=&quot;headerlink&quot; title=&quot;The Concept of Risk&quot;&gt;&lt;/a&gt;The Concept of Risk&lt;/h3&gt;&lt;h4 id=&quot;LO_1-1_3A_Explain_the_concept_of_risk_and_compare_risk_management_with_risk_taking&quot;&gt;&lt;a href=&quot;#LO_1-1_3A_Explain_the_concept_of_risk_and_compare_risk_management_with_risk_taking&quot; class=&quot;headerlink&quot; title=&quot;LO 1.1: Explain the concept of risk and compare risk management with risk taking.&quot;&gt;&lt;/a&gt;LO 1.1: Explain the concept of risk and compare risk management with risk taking.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;risk&lt;/code&gt;: arises from the uncertainty regarding future losses and gains, and the most important concern is the variabilit of the loss, especially a loss that could rise to unexpectedly high levels or a loss that suddenly occurs that was not anticipated.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;risk management&lt;/code&gt;: includes the sequence of activites aimed to reduce or eliminate an entity&amp;#x2019;s poential to incur expected and unexpected losses, and further considers how an entity can consciously determine how much risk it is willing to take to earn future uncertain returns&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;risk taking&lt;/code&gt;: refers specifically to the active assumption of incremental risk in order to generate incremental gains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;The_Risk_Management_Process&quot;&gt;&lt;a href=&quot;#The_Risk_Management_Process&quot; class=&quot;headerlink&quot; title=&quot;The Risk Management Process&quot;&gt;&lt;/a&gt;The Risk Management Process&lt;/h3&gt;&lt;h4 id=&quot;LO_1-2_3A_Describe_the_risk_management_process_and_identify_problems_and_challenges_that_can_arise_in_the_risk_management_process&quot;&gt;&lt;a href=&quot;#LO_1-2_3A_Describe_the_risk_management_process_and_identify_problems_and_challenges_that_can_arise_in_the_risk_management_process&quot; class=&quot;headerlink&quot; title=&quot;LO 1.2: Describe the risk management process and identify problems and challenges that can arise in the risk management process.&quot;&gt;&lt;/a&gt;LO 1.2: Describe the risk management process and identify problems and challenges that can arise in the risk management process.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;risk management process&lt;/code&gt;&lt;ol&gt;
+&lt;li&gt;Identify the risks.&lt;/li&gt;
+&lt;li&gt;Quantify and estimate the risk expousures or determine appropriate methods to transfer the risks&lt;/li&gt;
+&lt;li&gt;Determine the collective effects of the risk exposures or perform a cost-benefit analysis on risk transfer methods&lt;/li&gt;
+&lt;li&gt;Develop a risk mitigation strategy (i.e., avoid, transfer, mitigate, or assume risk)&lt;/li&gt;
+&lt;li&gt;Assess performance and amend risk mitigation strategy as needed&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;problems&lt;ul&gt;
+&lt;li&gt;identify the corrrect risk(s)&lt;/li&gt;
+&lt;li&gt;find an efficient method of transferring the risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;challenges&lt;ul&gt;
+&lt;li&gt;risk must be sufficiently dispersed among willing and able participants in the economy&lt;/li&gt;
+&lt;li&gt;prevent market disruptions or prevent financial accounting fraud&lt;/li&gt;
+&lt;li&gt;the use of derivatives as complex trading strategies assised in overstating the financial position&lt;/li&gt;
+&lt;li&gt;may not be effective on an overall economic basis because it only involves risk transferring by one party and risk assumption by another party&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Measuring_and_Managing_Risk&quot;&gt;&lt;a href=&quot;#Measuring_and_Managing_Risk&quot; class=&quot;headerlink&quot; title=&quot;Measuring and Managing Risk&quot;&gt;&lt;/a&gt;Measuring and Managing Risk&lt;/h3&gt;&lt;h4 id=&quot;LO_1-3_3A_Evaluate_and_apply_tools_and_procedures_used_to_measure_and_manage_risk_2C_including_quantitative_measures_2C_qualitative_assessment_2C_and_enterprise_risk_management&quot;&gt;&lt;a href=&quot;#LO_1-3_3A_Evaluate_and_apply_tools_and_procedures_used_to_measure_and_manage_risk_2C_including_quantitative_measures_2C_qualitative_assessment_2C_and_enterprise_risk_management&quot; class=&quot;headerlink&quot; title=&quot;LO 1.3: Evaluate and apply tools and procedures used to measure and manage risk, including quantitative measures, qualitative assessment, and enterprise risk management.&quot;&gt;&lt;/a&gt;LO 1.3: Evaluate and apply tools and procedures used to measure and manage risk, including quantitative measures, qualitative assessment, and enterprise risk management.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Quantitative Measures&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;value at risk&lt;/code&gt;: a certain loss amount given  its probability of occurring&lt;ul&gt;
+&lt;li&gt;useful for liquid positions operating under normal market circumstances over a short period of time&lt;/li&gt;
+&lt;li&gt;less useful and potentially dangerous when attempting to measure risk in non-normal circumstances, in illiquid positions, and over a long period of time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;economic capital&lt;/code&gt;: refers to holding sufficient liquid reserves to cover a poential loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Qualitative Assessment&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;scenario analysis&lt;/code&gt;: take into account poential risk factors with uncertainties that are often non-quantifiable by considering an adverse scenario or worst-case scenario&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;stress testing&lt;/code&gt;: a form of scenario analysis that examines a financial outcome based on a given &amp;#x201C;stress&amp;#x201D; on the entity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Enterprise Risk Management&lt;/code&gt; (ERM): considers entity-wide risks and tries to integrate risk considerations into key business decisions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Expected_and_Unexpected_Loss&quot;&gt;&lt;a href=&quot;#Expected_and_Unexpected_Loss&quot; class=&quot;headerlink&quot; title=&quot;Expected and Unexpected Loss&quot;&gt;&lt;/a&gt;Expected and Unexpected Loss&lt;/h3&gt;&lt;h4 id=&quot;LO_1-4_3A_Distinguish_between_expected_loss_and_unexpected_loss_2C_and_provide_examples_of_each&quot;&gt;&lt;a href=&quot;#LO_1-4_3A_Distinguish_between_expected_loss_and_unexpected_loss_2C_and_provide_examples_of_each&quot; class=&quot;headerlink&quot; title=&quot;LO 1.4: Distinguish between expected loss and unexpected loss, and provide examples of each.&quot;&gt;&lt;/a&gt;LO 1.4: Distinguish between expected loss and unexpected loss, and provide examples of each.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;expected loss&lt;/code&gt;: considers how much an entity expects to lose in the normal course of business and can often be computed in advance (and provided for) with relative ease because of the certainty involved&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;percentage of annual credit sales that will never be collected, bad debt expense on the income statement&lt;/p&gt;
+&lt;p&gt;recovered by charing commissions and increase prices&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;unexpected loss&lt;/code&gt;: considers how much an entity could lose outside of the normal course of business, and is generally more difficult to predict, compute and provide for in advance because of the uncertainty involved&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;correlation risk (economic recession: less disposable income to spend and many more loan defaults are likely to occur)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Risk_and_Reward&quot;&gt;&lt;a href=&quot;#Risk_and_Reward&quot; class=&quot;headerlink&quot; title=&quot;Risk and Reward&quot;&gt;&lt;/a&gt;Risk and Reward&lt;/h3&gt;&lt;h4 id=&quot;LO_1-5_3A_Interpret_the_relationship_between_risk_and_reward_and_explain_how_conflicts_of_interest_can_impact_risk_management&quot;&gt;&lt;a href=&quot;#LO_1-5_3A_Interpret_the_relationship_between_risk_and_reward_and_explain_how_conflicts_of_interest_can_impact_risk_management&quot; class=&quot;headerlink&quot; title=&quot;LO 1.5: Interpret the relationship between risk and reward and explain how conflicts of interest can impact risk management.&quot;&gt;&lt;/a&gt;LO 1.5: Interpret the relationship between risk and reward and explain how conflicts of interest can impact risk management.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;trade-off: the greater the risk taken, the greater the poential reward (the variability of the poential reward should be considered, risk and uncertainty)&lt;/li&gt;
+&lt;li&gt;easier to examin with publicly traded securities, more challenging when dealing with non-publicly traded securites&lt;/li&gt;
+&lt;li&gt;adjusted returns for risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Risk_Classes&quot;&gt;&lt;a href=&quot;#Risk_Classes&quot; class=&quot;headerlink&quot; title=&quot;Risk Classes&quot;&gt;&lt;/a&gt;Risk Classes&lt;/h3&gt;&lt;h4 id=&quot;LO_1-6_3A_Describe_and_differentiate_between_the_key_classes_of_risks_2C_explain_how_each_type_of_risk_can_arise_2C_and_assess_the_poential_impact_of_each_type_of_risk_on_an_organization&quot;&gt;&lt;a href=&quot;#LO_1-6_3A_Describe_and_differentiate_between_the_key_classes_of_risks_2C_explain_how_each_type_of_risk_can_arise_2C_and_assess_the_poential_impact_of_each_type_of_risk_on_an_organization&quot; class=&quot;headerlink&quot; title=&quot;LO 1.6: Describe and differentiate between the key classes of risks, explain how each type of risk can arise, and assess the poential impact of each type of risk on an organization.&quot;&gt;&lt;/a&gt;LO 1.6: Describe and differentiate between the key classes of risks, explain how each type of risk can arise, and assess the poential impact of each type of risk on an organization.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;market risk&lt;/code&gt;: considers how changes in market prices and rates will result in investment losses&lt;ul&gt;
+&lt;li&gt;interest rate risk&lt;/li&gt;
+&lt;li&gt;equity price risk&lt;ul&gt;
+&lt;li&gt;general market risk&lt;/li&gt;
+&lt;li&gt;specific risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;foreign exchange risk&lt;/li&gt;
+&lt;li&gt;commodity price risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;credit risk&lt;/code&gt;: refers to a loss suffered by a party whereby the counterparty fails to meet its financial obligations to the party under the contract (recovery value, loss given default)&lt;ul&gt;
+&lt;li&gt;default risk&lt;/li&gt;
+&lt;li&gt;bankruptcy risk&lt;/li&gt;
+&lt;li&gt;downgrade risk&lt;/li&gt;
+&lt;li&gt;settlement risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;liquidity risk&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;funding liquidity risk&lt;/li&gt;
+&lt;li&gt;trading liquidity risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;operational risk&lt;/code&gt;: considers a wide range of &amp;#x201C;non-financial&amp;#x201D; problems &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;legal and regulatory risk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;business risk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;strategic risk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reputation risk&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Corporate_Risk_Management_3A_A_Primer&quot;&gt;&lt;a href=&quot;#Corporate_Risk_Management_3A_A_Primer&quot; class=&quot;headerlink&quot; title=&quot;Corporate Risk Management: A Primer&quot;&gt;&lt;/a&gt;Corporate Risk Management: A Primer&lt;/h2&gt;&lt;h3 id=&quot;Hedging_Risk_Exposures&quot;&gt;&lt;a href=&quot;#Hedging_Risk_Exposures&quot; class=&quot;headerlink&quot; title=&quot;Hedging Risk Exposures&quot;&gt;&lt;/a&gt;Hedging Risk Exposures&lt;/h3&gt;&lt;h4 id=&quot;LO_2-1_Evaluate_some_advantages_and_disadvantages_of_hedging_risk_exposures&quot;&gt;&lt;a href=&quot;#LO_2-1_Evaluate_some_advantages_and_disadvantages_of_hedging_risk_exposures&quot; class=&quot;headerlink&quot; title=&quot;LO 2.1 Evaluate some advantages and disadvantages of hedging risk exposures&quot;&gt;&lt;/a&gt;LO 2.1 Evaluate some advantages and disadvantages of hedging risk exposures&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Disadvantages&lt;ul&gt;
+&lt;li&gt;In Theory&lt;ul&gt;
+&lt;li&gt;M&amp;amp;M Theory: no need to hedge in perfectly competitive capital markets with no transaction costs or taxes&lt;/li&gt;
+&lt;li&gt;CAPM: firms should only be concerned with systematic risk (beta risk) instead of unsystematic risk (idiosyncratic risk) under perfect capital markets&lt;/li&gt;
+&lt;li&gt;Zero-sum game: derivatives pricing fully reflects all of its risk factors in perfect capital markets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;In practice&lt;ul&gt;
+&lt;li&gt;cause management to lose focus on the core business&lt;/li&gt;
+&lt;li&gt;use a flawed hedging strategy&lt;/li&gt;
+&lt;li&gt;incur compliance costs&lt;/li&gt;
+&lt;li&gt;reveal operational information that a firm may otherwise prefer to keep private&lt;/li&gt;
+&lt;li&gt;may end up increasing the variability of the firm&amp;#x2019;s earnings due to the difference between accounting earnings and cash flows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Advantages&lt;ul&gt;
+&lt;li&gt;In practice&lt;ul&gt;
+&lt;li&gt;the possibility of lowering its cost of capital&lt;/li&gt;
+&lt;li&gt;reduce the volatility and greater stability of earnings/cash flows&lt;/li&gt;
+&lt;li&gt;allow managment to control its financial performance to meet the requirements of the board of directors&lt;/li&gt;
+&lt;li&gt;operational improvements within a firm&lt;/li&gt;
+&lt;li&gt;derivatives may be cheaper than insurance&lt;/li&gt;
+&lt;li&gt;tax ductions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Hedging_Decisions&quot;&gt;&lt;a href=&quot;#Hedging_Decisions&quot; class=&quot;headerlink&quot; title=&quot;Hedging Decisions&quot;&gt;&lt;/a&gt;Hedging Decisions&lt;/h3&gt;&lt;h4 id=&quot;LO_2-2_Explain_considerations_and_procedures_in_determining_a_firm_u2019s_risk_appetite_and_its_business_objectives&quot;&gt;&lt;a href=&quot;#LO_2-2_Explain_considerations_and_procedures_in_determining_a_firm_u2019s_risk_appetite_and_its_business_objectives&quot; class=&quot;headerlink&quot; title=&quot;LO 2.2 Explain considerations and procedures in determining a firm&amp;#x2019;s risk appetite and its business objectives&quot;&gt;&lt;/a&gt;LO 2.2 Explain considerations and procedures in determining a firm&amp;#x2019;s risk appetite and its business objectives&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;set the firm&amp;#x2019;s risk appetite using qualitative statements of risk tolerance, value at risk, and strees testing&lt;/li&gt;
+&lt;li&gt;know its risk and return goals (must be clear and actionable)&lt;/li&gt;
+&lt;li&gt;positive net present value (NPV) after taking risk into account&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;LO_2-3_Explain_how_a_company_can_determine_whether_to_hedge_specific_risk_factors_2C_including_the_role_of_the_board_of_directors_and_the_process_of_mapping_risks&quot;&gt;&lt;a href=&quot;#LO_2-3_Explain_how_a_company_can_determine_whether_to_hedge_specific_risk_factors_2C_including_the_role_of_the_board_of_directors_and_the_process_of_mapping_risks&quot; class=&quot;headerlink&quot; title=&quot;LO 2.3 Explain how a company can determine whether to hedge specific risk factors, including the role of the board of directors and the process of mapping risks.&quot;&gt;&lt;/a&gt;LO 2.3 Explain how a company can determine whether to hedge specific risk factors, including the role of the board of directors and the process of mapping risks.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;the role of the board of directors&lt;ul&gt;
+&lt;li&gt;set and communicate the firm&amp;#x2019;s risk appetite&lt;/li&gt;
+&lt;li&gt;goals must be clear and actionable, criteria to determine the relative success in meeting these goals must be set in advance&lt;/li&gt;
+&lt;li&gt;clarify its objectives in terms of whether it is accounting or economic profits that are to be hedged (impossible to hedge both of them at the same time)&lt;/li&gt;
+&lt;li&gt;the issue of hedging short-term versus long-term accounting profits needs to be considered&lt;/li&gt;
+&lt;li&gt;the board must be definitive in the time horizon when determining its risk management goals for management to achieve&lt;/li&gt;
+&lt;li&gt;the board may wish to implement definitive and quantitative risk limits within which management is allowed to transact at its own discretion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the process of mapping risks&lt;ul&gt;
+&lt;li&gt;which risks to accept and which ones to manage&lt;/li&gt;
+&lt;li&gt;various risk classes&lt;/li&gt;
+&lt;li&gt;detailed analysis of the impacts of such risks on the firm&amp;#x2019;s financial position (balance sheet) and financial performance (income statement)&lt;/li&gt;
+&lt;li&gt;research and identify the top 10 risk exposures &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Hedging_Operational_and_Financial_Risks&quot;&gt;&lt;a href=&quot;#Hedging_Operational_and_Financial_Risks&quot; class=&quot;headerlink&quot; title=&quot;Hedging Operational and Financial Risks&quot;&gt;&lt;/a&gt;Hedging Operational and Financial Risks&lt;/h3&gt;&lt;h4 id=&quot;LO_2-4_Apply_appropriate_methods_to_hedge_operational_and_financial_risks_2C_including_pricing_2C_foreign_currency_2C_and_interest_rate_risk&quot;&gt;&lt;a href=&quot;#LO_2-4_Apply_appropriate_methods_to_hedge_operational_and_financial_risks_2C_including_pricing_2C_foreign_currency_2C_and_interest_rate_risk&quot; class=&quot;headerlink&quot; title=&quot;LO 2.4 Apply appropriate methods to hedge operational and financial risks, including pricing, foreign currency, and interest rate risk.&quot;&gt;&lt;/a&gt;LO 2.4 Apply appropriate methods to hedge operational and financial risks, including pricing, foreign currency, and interest rate risk.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;risk&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;operational risk&lt;/code&gt;: the risk arises from a firm&amp;#x2019;s activities in production (costs) and sales (revenue)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;financial position risk&lt;/code&gt;: risk arises from a firm&amp;#x2019;s balance sheet&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pricing risk&lt;/code&gt;: the variability of the price/cost of inputs&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;foreign currency risk&lt;/code&gt;: exchange rate fluctuations&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;interest rate risk&lt;/code&gt;: interest rate fluctuations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;methods&lt;ul&gt;
+&lt;li&gt;static hedging strategies&lt;/li&gt;
+&lt;li&gt;dynamic hedging strategies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Risk_Management_Instruments&quot;&gt;&lt;a href=&quot;#Risk_Management_Instruments&quot; class=&quot;headerlink&quot; title=&quot;Risk Management Instruments&quot;&gt;&lt;/a&gt;Risk Management Instruments&lt;/h3&gt;&lt;h4 id=&quot;LO_2-5_Assess_the_impact_of_risk_management_instruments&quot;&gt;&lt;a href=&quot;#LO_2-5_Assess_the_impact_of_risk_management_instruments&quot; class=&quot;headerlink&quot; title=&quot;LO 2.5 Assess the impact of risk management instruments.&quot;&gt;&lt;/a&gt;LO 2.5 Assess the impact of risk management instruments.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;exchange-traded&lt;/li&gt;
+&lt;li&gt;over the counter (OTC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Corporate_Governance_and_Risk_Management&quot;&gt;&lt;a href=&quot;#Corporate_Governance_and_Risk_Management&quot; class=&quot;headerlink&quot; title=&quot;Corporate Governance and Risk Management&quot;&gt;&lt;/a&gt;Corporate Governance and Risk Management&lt;/h2&gt;&lt;h4 id=&quot;Best_Practices&quot;&gt;&lt;a href=&quot;#Best_Practices&quot; class=&quot;headerlink&quot; title=&quot;Best Practices&quot;&gt;&lt;/a&gt;Best Practices&lt;/h4&gt;&lt;h4 id=&quot;LO_3-1_Compare_and_contrast_best_practices_in_corporate_governance_with_those_of_risk_management&quot;&gt;&lt;a href=&quot;#LO_3-1_Compare_and_contrast_best_practices_in_corporate_governance_with_those_of_risk_management&quot; class=&quot;headerlink&quot; title=&quot;LO 3.1 Compare and contrast best practices in corporate governance with those of risk management.&quot;&gt;&lt;/a&gt;LO 3.1 Compare and contrast best practices in corporate governance with those of risk management.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;best practices in corporate governance&lt;ul&gt;
+&lt;li&gt;a majority of independent members with basic knowledge of the frim&amp;#x2019;s business and industry&lt;/li&gt;
+&lt;li&gt;watch out for the interests of all stakeholders including shareholders and debtholders&lt;/li&gt;
+&lt;li&gt;aware of any agency risks and takes steps to reduce them (e.g. compensation committee)&lt;/li&gt;
+&lt;li&gt;maintains its independence from management&lt;/li&gt;
+&lt;li&gt;consider the introduction of a chief risk officer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;best practices in risk management&lt;ul&gt;
+&lt;li&gt;focus on the firm&amp;#x2019;s economic performance over accounting performance&lt;/li&gt;
+&lt;li&gt;promote a robust risk management process within the firm&lt;/li&gt;
+&lt;li&gt;set up an ethics commitee&lt;/li&gt;
+&lt;li&gt;compensation is based on risk-adjusted performance&lt;/li&gt;
+&lt;li&gt;approve all major transactions&lt;/li&gt;
+&lt;li&gt;apply professional skepticism to ask probing and relevant questions to management&lt;/li&gt;
+&lt;li&gt;a risk committee in place&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;Risk_Governance&quot;&gt;&lt;a href=&quot;#Risk_Governance&quot; class=&quot;headerlink&quot; title=&quot;Risk Governance&quot;&gt;&lt;/a&gt;Risk Governance&lt;/h4&gt;&lt;h4 id=&quot;LO_3-2_Assess_the_role_and_responsibilities_of_the_board_of_directiors_in_risk_governance&quot;&gt;&lt;a href=&quot;#LO_3-2_Assess_the_role_and_responsibilities_of_the_board_of_directiors_in_risk_governance&quot; class=&quot;headerlink&quot; title=&quot;LO 3.2 Assess the role and responsibilities of the board of directiors in risk governance.&quot;&gt;&lt;/a&gt;LO 3.2 Assess the role and responsibilities of the board of directiors in risk governance.&lt;/h4&gt;&lt;p&gt;The role of the board of directors in governance would include the review and analysis of &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;risk management policies&lt;/li&gt;
+&lt;li&gt;periodic risk management reports&lt;/li&gt;
+&lt;li&gt;appetite and its impact on business strategy&lt;/li&gt;
+&lt;li&gt;internal controls&lt;/li&gt;
+&lt;li&gt;financial statements and disclosures&lt;/li&gt;
+&lt;li&gt;related parties and related party transactions&lt;/li&gt;
+&lt;li&gt;any audit reports from internal or external audits&lt;/li&gt;
+&lt;li&gt;coporate governance best practices for the industry&lt;/li&gt;
+&lt;li&gt;risk management practices of competitors and the industry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;LO_3-4_Distinguish_the_different_mechanisms_for_transmitting_risk_governance_throughout_an_organization&quot;&gt;&lt;a href=&quot;#LO_3-4_Distinguish_the_different_mechanisms_for_transmitting_risk_governance_throughout_an_organization&quot; class=&quot;headerlink&quot; title=&quot;LO 3.4 Distinguish the different mechanisms for transmitting risk governance throughout an organization.&quot;&gt;&lt;/a&gt;LO 3.4 Distinguish the different mechanisms for transmitting risk governance throughout an organization.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;the audit committee of the board&lt;/li&gt;
+&lt;li&gt;a risk advisory director&lt;/li&gt;
+&lt;li&gt;risk management committee and the compensation committee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Risk_Appetite_and_Business_Strategy&quot;&gt;&lt;a href=&quot;#Risk_Appetite_and_Business_Strategy&quot; class=&quot;headerlink&quot; title=&quot;Risk Appetite and Business Strategy&quot;&gt;&lt;/a&gt;Risk Appetite and Business Strategy&lt;/h3&gt;&lt;h4 id=&quot;LO_3-3_Evaluate_the_relationship_between_a_firm_u2019s_risk_appetite_and_its_business_strategy_2C_including_the_role_of_incentives&quot;&gt;&lt;a href=&quot;#LO_3-3_Evaluate_the_relationship_between_a_firm_u2019s_risk_appetite_and_its_business_strategy_2C_including_the_role_of_incentives&quot; class=&quot;headerlink&quot; title=&quot;LO 3.3 Evaluate the relationship between a firm&amp;#x2019;s risk appetite and its business strategy, including the role of incentives.&quot;&gt;&lt;/a&gt;LO 3.3 Evaluate the relationship between a firm&amp;#x2019;s risk appetite and its business strategy, including the role of incentives.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;risk appetite (willingness or tolerance to accept risk)&lt;/li&gt;
+&lt;li&gt;define the firm&amp;#x2019;s risk limits&lt;/li&gt;
+&lt;li&gt;logical relationship between the firm&amp;#x2019;s risk appetite and its business strategy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Interdependence_of_Functional_Units&quot;&gt;&lt;a href=&quot;#Interdependence_of_Functional_Units&quot; class=&quot;headerlink&quot; title=&quot;Interdependence of Functional Units&quot;&gt;&lt;/a&gt;Interdependence of Functional Units&lt;/h3&gt;&lt;h4 id=&quot;LO_3-5_Illustrate_the_interdependence_of_functional_units_within_a_firm_as_it_relates_to_risk_management&quot;&gt;&lt;a href=&quot;#LO_3-5_Illustrate_the_interdependence_of_functional_units_within_a_firm_as_it_relates_to_risk_management&quot; class=&quot;headerlink&quot; title=&quot;LO 3.5 Illustrate the interdependence of functional units within a firm as it relates to risk management.&quot;&gt;&lt;/a&gt;LO 3.5 Illustrate the interdependence of functional units within a firm as it relates to risk management.&lt;/h4&gt;&lt;p&gt;using an investment bank as an example&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;senior management&lt;/li&gt;
+&lt;li&gt;risk management&lt;/li&gt;
+&lt;li&gt;trading room management&lt;/li&gt;
+&lt;li&gt;operations&lt;/li&gt;
+&lt;li&gt;finance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/2017/07/07/frm-fountations-of-risk-management/interdependence_functional_units.png&quot; alt=&quot;interdependence_functional_units&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Interdependence_of_Functional_Units-1&quot;&gt;&lt;a href=&quot;#Interdependence_of_Functional_Units-1&quot; class=&quot;headerlink&quot; title=&quot;Interdependence of Functional Units&quot;&gt;&lt;/a&gt;Interdependence of Functional Units&lt;/h3&gt;&lt;h4 id=&quot;LO_3-6_Assess_the_role_and_responsibilities_of_a_firm_u2019s_audit_committee&quot;&gt;&lt;a href=&quot;#LO_3-6_Assess_the_role_and_responsibilities_of_a_firm_u2019s_audit_committee&quot; class=&quot;headerlink&quot; title=&quot;LO 3.6 Assess the role and responsibilities of a firm&amp;#x2019;s audit committee.&quot;&gt;&lt;/a&gt;LO 3.6 Assess the role and responsibilities of a firm&amp;#x2019;s audit committee.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;audit committee&lt;/code&gt;: responsible for the reasonable accuracy of the firm&amp;#x2019;s financial statements and its regulatory reporing requirements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;What_is_ERM_3F&quot;&gt;&lt;a href=&quot;#What_is_ERM_3F&quot; class=&quot;headerlink&quot; title=&quot;What is ERM?&quot;&gt;&lt;/a&gt;What is ERM?&lt;/h2&gt;&lt;h3 id=&quot;Enterprise_Risk_Management&quot;&gt;&lt;a href=&quot;#Enterprise_Risk_Management&quot; class=&quot;headerlink&quot; title=&quot;Enterprise Risk Management&quot;&gt;&lt;/a&gt;Enterprise Risk Management&lt;/h3&gt;&lt;h4 id=&quot;LO_4-1_Describe_enterprise_risk_management__28ERM_29_and_compare_and_contrast_differing_definitions_of_ERM&quot;&gt;&lt;a href=&quot;#LO_4-1_Describe_enterprise_risk_management__28ERM_29_and_compare_and_contrast_differing_definitions_of_ERM&quot; class=&quot;headerlink&quot; title=&quot;LO 4.1 Describe enterprise risk management (ERM) and compare and contrast differing definitions of ERM.&quot;&gt;&lt;/a&gt;LO 4.1 Describe enterprise risk management (ERM) and compare and contrast differing definitions of ERM.&lt;/h4&gt;&lt;h3 id=&quot;ERM_Benefits_and_Costs&quot;&gt;&lt;a href=&quot;#ERM_Benefits_and_Costs&quot; class=&quot;headerlink&quot; title=&quot;ERM Benefits and Costs&quot;&gt;&lt;/a&gt;ERM Benefits and Costs&lt;/h3&gt;&lt;h4 id=&quot;LO_4-2_Compare_the_benefits_and_costs_of_ERM_and_describe_the_motivations_for_a_firm_to_adopt_an_ERM_initiative&quot;&gt;&lt;a href=&quot;#LO_4-2_Compare_the_benefits_and_costs_of_ERM_and_describe_the_motivations_for_a_firm_to_adopt_an_ERM_initiative&quot; class=&quot;headerlink&quot; title=&quot;LO 4.2 Compare the benefits and costs of ERM and describe the motivations for a firm to adopt an ERM initiative.&quot;&gt;&lt;/a&gt;LO 4.2 Compare the benefits and costs of ERM and describe the motivations for a firm to adopt an ERM initiative.&lt;/h4&gt;&lt;h3 id=&quot;The_Chief_Risk_Officer&quot;&gt;&lt;a href=&quot;#The_Chief_Risk_Officer&quot; class=&quot;headerlink&quot; title=&quot;The Chief Risk Officer&quot;&gt;&lt;/a&gt;The Chief Risk Officer&lt;/h3&gt;&lt;h4 id=&quot;LO_4-3_Describe_the_role_and_responsibilities_of_a_chief_risk_officer__28CRO_29_and_assess_how_the_CRO_should_interact_with_other_senior_management&quot;&gt;&lt;a href=&quot;#LO_4-3_Describe_the_role_and_responsibilities_of_a_chief_risk_officer__28CRO_29_and_assess_how_the_CRO_should_interact_with_other_senior_management&quot; class=&quot;headerlink&quot; title=&quot;LO 4.3 Describe the role and responsibilities of a chief risk officer (CRO) and assess how the CRO should interact with other senior management.&quot;&gt;&lt;/a&gt;LO 4.3 Describe the role and responsibilities of a chief risk officer (CRO) and assess how the CRO should interact with other senior management.&lt;/h4&gt;&lt;h3 id=&quot;ERM_Frameworks_Components&quot;&gt;&lt;a href=&quot;#ERM_Frameworks_Components&quot; class=&quot;headerlink&quot; title=&quot;ERM Frameworks Components&quot;&gt;&lt;/a&gt;ERM Frameworks Components&lt;/h3&gt;&lt;h4 id=&quot;LO_4-4_Distinguish_between_components_of_an_ERM_program&quot;&gt;&lt;a href=&quot;#LO_4-4_Distinguish_between_components_of_an_ERM_program&quot; class=&quot;headerlink&quot; title=&quot;LO 4.4 Distinguish between components of an ERM program.&quot;&gt;&lt;/a&gt;LO 4.4 Distinguish between components of an ERM program.&lt;/h4&gt;&lt;h2 id=&quot;Risk_Management_2C_Governance_2C_Culture_2C_and_Risk_Taking_in_Banks&quot;&gt;&lt;a href=&quot;#Risk_Management_2C_Governance_2C_Culture_2C_and_Risk_Taking_in_Banks&quot; class=&quot;headerlink&quot; title=&quot;Risk Management, Governance, Culture, and Risk Taking in Banks&quot;&gt;&lt;/a&gt;Risk Management, Governance, Culture, and Risk Taking in Banks&lt;/h2&gt;&lt;h2 id=&quot;Financial_Disasters&quot;&gt;&lt;a href=&quot;#Financial_Disasters&quot; class=&quot;headerlink&quot; title=&quot;Financial Disasters&quot;&gt;&lt;/a&gt;Financial Disasters&lt;/h2&gt;&lt;h2 id=&quot;Deciphering_the_Liquidity_and_Credit_Crunch_2007_u20132008&quot;&gt;&lt;a href=&quot;#Deciphering_the_Liquidity_and_Credit_Crunch_2007_u20132008&quot; class=&quot;headerlink&quot; title=&quot;Deciphering the Liquidity and Credit Crunch 2007&amp;#x2013;2008&quot;&gt;&lt;/a&gt;Deciphering the Liquidity and Credit Crunch 2007&amp;#x2013;2008&lt;/h2&gt;&lt;h2 id=&quot;Gettring_Up_to_Speed_on_the_Financial_Crisis_3A_A_One-Weekend-Reader_u2019s_Guide&quot;&gt;&lt;a href=&quot;#Gettring_Up_to_Speed_on_the_Financial_Crisis_3A_A_One-Weekend-Reader_u2019s_Guide&quot; class=&quot;headerlink&quot; title=&quot;Gettring Up to Speed on the Financial Crisis: A One-Weekend-Reader&amp;#x2019;s Guide&quot;&gt;&lt;/a&gt;Gettring Up to Speed on the Financial Crisis: A One-Weekend-Reader&amp;#x2019;s Guide&lt;/h2&gt;&lt;h2 id=&quot;Risk_Management_Failures_3A_What_Are_They_and_When_Do_They_Happen_3F&quot;&gt;&lt;a href=&quot;#Risk_Management_Failures_3A_What_Are_They_and_When_Do_They_Happen_3F&quot; class=&quot;headerlink&quot; title=&quot;Risk Management Failures: What Are They and When Do They Happen?&quot;&gt;&lt;/a&gt;Risk Management Failures: What Are They and When Do They Happen?&lt;/h2&gt;&lt;h2 id=&quot;The_Standard_Capital_Asset_Pricing_Model&quot;&gt;&lt;a href=&quot;#The_Standard_Capital_Asset_Pricing_Model&quot; class=&quot;headerlink&quot; title=&quot;The Standard Capital Asset Pricing Model&quot;&gt;&lt;/a&gt;The Standard Capital Asset Pricing Model&lt;/h2&gt;&lt;h2 id=&quot;Applying_the_CAPM_to_Performance_Measurement_3A_Single-Index_Performance_Measurement_Indicators&quot;&gt;&lt;a href=&quot;#Applying_the_CAPM_to_Performance_Measurement_3A_Single-Index_Performance_Measurement_Indicators&quot; class=&quot;headerlink&quot; title=&quot;Applying the CAPM to Performance Measurement: Single-Index Performance Measurement Indicators&quot;&gt;&lt;/a&gt;Applying the CAPM to Performance Measurement: Single-Index Performance Measurement Indicators&lt;/h2&gt;&lt;h2 id=&quot;Arbitrage_Pricing_Theory_and_Multifactor_Models_of_Risk_and_Return&quot;&gt;&lt;a href=&quot;#Arbitrage_Pricing_Theory_and_Multifactor_Models_of_Risk_and_Return&quot; class=&quot;headerlink&quot; title=&quot;Arbitrage Pricing Theory and Multifactor Models of Risk and Return&quot;&gt;&lt;/a&gt;Arbitrage Pricing Theory and Multifactor Models of Risk and Return&lt;/h2&gt;&lt;h2 id=&quot;Principles_for_Effective_Data_Aggregation_and_Risk_Reporting&quot;&gt;&lt;a href=&quot;#Principles_for_Effective_Data_Aggregation_and_Risk_Reporting&quot; class=&quot;headerlink&quot; title=&quot;Principles for Effective Data Aggregation and Risk Reporting&quot;&gt;&lt;/a&gt;Principles for Effective Data Aggregation and Risk Reporting&lt;/h2&gt;&lt;h2 id=&quot;GARP_Code_of_Conduct&quot;&gt;&lt;a href=&quot;#GARP_Code_of_Conduct&quot; class=&quot;headerlink&quot; title=&quot;GARP Code of Conduct&quot;&gt;&lt;/a&gt;GARP Code of Conduct&lt;/h2&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Last Update: Jul 12, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;Risk_Management_3A_A_Helicopter_View&quot;&gt;&lt;a href=&quot;#Risk_Management_3A_A_Helicopter_View&quot; class=&quot;head
+    
+    </summary>
+    
+      <category term="金融" scheme="http://wiki.greenwicher.com/categories/%E9%87%91%E8%9E%8D/"/>
+    
+    
+      <category term="FRM, 风险管理" scheme="http://wiki.greenwicher.com/tags/FRM-%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>书单</title>
     <link href="http://wiki.greenwicher.com/2016/08/01/booklist/"/>
     <id>http://wiki.greenwicher.com/2016/08/01/booklist/</id>
     <published>2016-07-31T16:00:00.000Z</published>
-    <updated>2017-06-28T14:23:30.000Z</updated>
+    <updated>2017-07-08T04:17:05.000Z</updated>
     
     <content type="html">
 
@@ -35,7 +278,7 @@
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-&amp;#x5171;&amp;#x8BA1;16&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
+&amp;#x5171;&amp;#x8BA1;17&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
@@ -68,6 +311,16 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://goo.gl/YZg8fN&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OKR&amp;#x5B9E;&amp;#x8DF5;&amp;#x6307;&amp;#x5357;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x4EFB;&amp;#x5411;&amp;#x8F89;&amp;#x7B49;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;2017&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x7BA1;&amp;#x7406;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;8&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;-&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-07-08 Sat&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/1058131/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x91D1;&amp;#x878D;&amp;#x70BC;&amp;#x91D1;&amp;#x672F;&lt;/a&gt;&lt;/td&gt;
 &lt;td class=&quot;left&quot;&gt;&amp;#x4E54;&amp;#x6CBB;&amp;#xB7;&amp;#x7D22;&amp;#x7F57;&amp;#x65AF;&lt;/td&gt;
@@ -3210,7 +3463,7 @@ At the beginning of your carrer, it&amp;apos;s probably best to stay away from s
     <link href="http://wiki.greenwicher.com/2016/05/07/%E9%98%85%E8%AF%BB-%E7%8E%9B%E9%9B%85/"/>
     <id>http://wiki.greenwicher.com/2016/05/07/阅读-玛雅/</id>
     <published>2016-05-07T00:00:00.000Z</published>
-    <updated>2016-12-03T12:21:17.000Z</updated>
+    <updated>2016-08-26T02:54:00.000Z</updated>
     
     <content type="html">
 
