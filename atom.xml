@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2017-07-23T08:37:14.000Z</updated>
+  <updated>2017-07-23T13:42:59.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -14,6 +14,89 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Practical Guide to Quantitative Finance Interviews</title>
+    <link href="http://wiki.greenwicher.com/2017/07/23/quant-green-bible/"/>
+    <id>http://wiki.greenwicher.com/2017/07/23/quant-green-bible/</id>
+    <published>2017-07-23T13:24:00.000Z</published>
+    <updated>2017-07-23T13:42:59.000Z</updated>
+    
+    <content type="html">&lt;p&gt;[Last Update: Jul 23, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;Chapter_1_General_Principles&quot;&gt;&lt;a href=&quot;#Chapter_1_General_Principles&quot; class=&quot;headerlink&quot; title=&quot;Chapter 1 General Principles&quot;&gt;&lt;/a&gt;Chapter 1 General Principles&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Build a broad knowledge base&lt;/li&gt;
+&lt;li&gt;Practice your interview skills&lt;/li&gt;
+&lt;li&gt;Listen carefully&lt;/li&gt;
+&lt;li&gt;Speak your mind&lt;/li&gt;
+&lt;li&gt;Make reasonable assumptions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;Chapter_2_Brain_Teasers&quot;&gt;&lt;a href=&quot;#Chapter_2_Brain_Teasers&quot; class=&quot;headerlink&quot; title=&quot;Chapter 2 Brain Teasers&quot;&gt;&lt;/a&gt;Chapter 2 Brain Teasers&lt;/h2&gt;&lt;h3 id=&quot;2-1_Problem_Simplification&quot;&gt;&lt;a href=&quot;#2-1_Problem_Simplification&quot; class=&quot;headerlink&quot; title=&quot;2.1 Problem Simplification&quot;&gt;&lt;/a&gt;2.1 Problem Simplification&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Screwy pirates&lt;/li&gt;
+&lt;li&gt;Tiger and sheep&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-2_Logic_Reasoning&quot;&gt;&lt;a href=&quot;#2-2_Logic_Reasoning&quot; class=&quot;headerlink&quot; title=&quot;2.2 Logic Reasoning&quot;&gt;&lt;/a&gt;2.2 Logic Reasoning&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;River crossing&lt;/li&gt;
+&lt;li&gt;Birthday problem&lt;/li&gt;
+&lt;li&gt;Card game&lt;/li&gt;
+&lt;li&gt;Burning ropes&lt;/li&gt;
+&lt;li&gt;Defective ball&lt;/li&gt;
+&lt;li&gt;Trailing zeros&lt;/li&gt;
+&lt;li&gt;Horse race&lt;/li&gt;
+&lt;li&gt;Infinite sequence&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-3_Thinking_Out_of_the_Box&quot;&gt;&lt;a href=&quot;#2-3_Thinking_Out_of_the_Box&quot; class=&quot;headerlink&quot; title=&quot;2.3 Thinking Out of the Box&quot;&gt;&lt;/a&gt;2.3 Thinking Out of the Box&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Box packing&lt;/li&gt;
+&lt;li&gt;Calendar cubes&lt;/li&gt;
+&lt;li&gt;Door to offer&lt;/li&gt;
+&lt;li&gt;Message delivery&lt;/li&gt;
+&lt;li&gt;Last ball&lt;/li&gt;
+&lt;li&gt;Light switches&lt;/li&gt;
+&lt;li&gt;Quant salary&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-4_Application_of_Symmetry&quot;&gt;&lt;a href=&quot;#2-4_Application_of_Symmetry&quot; class=&quot;headerlink&quot; title=&quot;2.4 Application of Symmetry&quot;&gt;&lt;/a&gt;2.4 Application of Symmetry&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Coin piles&lt;/li&gt;
+&lt;li&gt;Mislabeled bags&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-5_Series_Summation&quot;&gt;&lt;a href=&quot;#2-5_Series_Summation&quot; class=&quot;headerlink&quot; title=&quot;2.5 Series Summation&quot;&gt;&lt;/a&gt;2.5 Series Summation&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Clock pieces&lt;/li&gt;
+&lt;li&gt;Missing integers&lt;/li&gt;
+&lt;li&gt;Countefeit coins I&lt;/li&gt;
+&lt;li&gt;Glass balls&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-6_The_Pigeon_Hole_Principle&quot;&gt;&lt;a href=&quot;#2-6_The_Pigeon_Hole_Principle&quot; class=&quot;headerlink&quot; title=&quot;2.6 The Pigeon Hole Principle&quot;&gt;&lt;/a&gt;2.6 The Pigeon Hole Principle&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Matching socks&lt;/li&gt;
+&lt;li&gt;Handshakes&lt;/li&gt;
+&lt;li&gt;Have we met before?&lt;/li&gt;
+&lt;li&gt;Ants on a square&lt;/li&gt;
+&lt;li&gt;Counterfeit coins II&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-7_Modular_Arithmetic&quot;&gt;&lt;a href=&quot;#2-7_Modular_Arithmetic&quot; class=&quot;headerlink&quot; title=&quot;2.7 Modular Arithmetic&quot;&gt;&lt;/a&gt;2.7 Modular Arithmetic&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Prisoner problem&lt;/li&gt;
+&lt;li&gt;Division by 9&lt;/li&gt;
+&lt;li&gt;Chameleon colors&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-8_Math_Induction&quot;&gt;&lt;a href=&quot;#2-8_Math_Induction&quot; class=&quot;headerlink&quot; title=&quot;2.8 Math Induction&quot;&gt;&lt;/a&gt;2.8 Math Induction&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Coin split problem&lt;/li&gt;
+&lt;li&gt;Chocolate bar problem&lt;/li&gt;
+&lt;li&gt;Race track&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-9_Proof_by_Contradiction&quot;&gt;&lt;a href=&quot;#2-9_Proof_by_Contradiction&quot; class=&quot;headerlink&quot; title=&quot;2.9 Proof by Contradiction&quot;&gt;&lt;/a&gt;2.9 Proof by Contradiction&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Irrational number&lt;/li&gt;
+&lt;li&gt;Rainbow hats&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;Chapter_3_Calculus_and_Linear_Algebra&quot;&gt;&lt;a href=&quot;#Chapter_3_Calculus_and_Linear_Algebra&quot; class=&quot;headerlink&quot; title=&quot;Chapter 3 Calculus and Linear Algebra&quot;&gt;&lt;/a&gt;Chapter 3 Calculus and Linear Algebra&lt;/h2&gt;&lt;h2 id=&quot;Chapter_4_Probability_Theory&quot;&gt;&lt;a href=&quot;#Chapter_4_Probability_Theory&quot; class=&quot;headerlink&quot; title=&quot;Chapter 4 Probability Theory&quot;&gt;&lt;/a&gt;Chapter 4 Probability Theory&lt;/h2&gt;&lt;h2 id=&quot;Chapter_5_Stochastic_Process_and_Stochastic_Calculus&quot;&gt;&lt;a href=&quot;#Chapter_5_Stochastic_Process_and_Stochastic_Calculus&quot; class=&quot;headerlink&quot; title=&quot;Chapter 5 Stochastic Process and Stochastic Calculus&quot;&gt;&lt;/a&gt;Chapter 5 Stochastic Process and Stochastic Calculus&lt;/h2&gt;&lt;h2 id=&quot;Chapter_6_Finance&quot;&gt;&lt;a href=&quot;#Chapter_6_Finance&quot; class=&quot;headerlink&quot; title=&quot;Chapter 6  Finance&quot;&gt;&lt;/a&gt;Chapter 6  Finance&lt;/h2&gt;&lt;h2 id=&quot;Chapter_7_Algorithms_and_Numerical_Methods&quot;&gt;&lt;a href=&quot;#Chapter_7_Algorithms_and_Numerical_Methods&quot; class=&quot;headerlink&quot; title=&quot;Chapter 7 Algorithms and Numerical Methods&quot;&gt;&lt;/a&gt;Chapter 7 Algorithms and Numerical Methods&lt;/h2&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Last Update: Jul 23, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;Chapter_1_General_Principles&quot;&gt;&lt;a href=&quot;#Chapter_1_General_Principles&quot; class=&quot;headerlink&quot; title=&quot;C
+    
+    </summary>
+    
+      <category term="面经" scheme="http://wiki.greenwicher.com/categories/%E9%9D%A2%E7%BB%8F/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>FRM - Fountations of Risk Management</title>
