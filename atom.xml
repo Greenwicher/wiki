@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2017-10-27T10:27:45.000Z</updated>
+  <updated>2017-10-30T13:16:31.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FRM - Financial Markets and Products</title>
+    <link href="http://wiki.greenwicher.com/2017/10/30/frm-financial-markets-and-products/"/>
+    <id>http://wiki.greenwicher.com/2017/10/30/frm-financial-markets-and-products/</id>
+    <published>2017-10-30T13:12:00.000Z</published>
+    <updated>2017-10-30T13:16:31.000Z</updated>
+    
+    <content type="html">&lt;p&gt;[Last Update: Oct 30, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;Banks&quot;&gt;&lt;a href=&quot;#Banks&quot; class=&quot;headerlink&quot; title=&quot;Banks&quot;&gt;&lt;/a&gt;Banks&lt;/h2&gt;&lt;h2 id=&quot;Insurance_Companies_and_Pension_Plans&quot;&gt;&lt;a href=&quot;#Insurance_Companies_and_Pension_Plans&quot; class=&quot;headerlink&quot; title=&quot;Insurance Companies and Pension Plans&quot;&gt;&lt;/a&gt;Insurance Companies and Pension Plans&lt;/h2&gt;&lt;h2 id=&quot;Mutual_Funds_and_Hedge_Funds&quot;&gt;&lt;a href=&quot;#Mutual_Funds_and_Hedge_Funds&quot; class=&quot;headerlink&quot; title=&quot;Mutual Funds and Hedge Funds&quot;&gt;&lt;/a&gt;Mutual Funds and Hedge Funds&lt;/h2&gt;&lt;h2 id=&quot;Introduction__28Options_2C_Futures_2C_and_Other_Derivatives_29&quot;&gt;&lt;a href=&quot;#Introduction__28Options_2C_Futures_2C_and_Other_Derivatives_29&quot; class=&quot;headerlink&quot; title=&quot;Introduction (Options, Futures, and Other Derivatives)&quot;&gt;&lt;/a&gt;Introduction (Options, Futures, and Other Derivatives)&lt;/h2&gt;&lt;h2 id=&quot;Mechanics_of_Futures_Markets&quot;&gt;&lt;a href=&quot;#Mechanics_of_Futures_Markets&quot; class=&quot;headerlink&quot; title=&quot;Mechanics of Futures Markets&quot;&gt;&lt;/a&gt;Mechanics of Futures Markets&lt;/h2&gt;&lt;h2 id=&quot;Hedging_Strategies_Using_Futures&quot;&gt;&lt;a href=&quot;#Hedging_Strategies_Using_Futures&quot; class=&quot;headerlink&quot; title=&quot;Hedging Strategies Using Futures&quot;&gt;&lt;/a&gt;Hedging Strategies Using Futures&lt;/h2&gt;&lt;h2 id=&quot;Interest_Rates&quot;&gt;&lt;a href=&quot;#Interest_Rates&quot; class=&quot;headerlink&quot; title=&quot;Interest Rates&quot;&gt;&lt;/a&gt;Interest Rates&lt;/h2&gt;&lt;h2 id=&quot;Determination_of_Forward_and_Future_Prices&quot;&gt;&lt;a href=&quot;#Determination_of_Forward_and_Future_Prices&quot; class=&quot;headerlink&quot; title=&quot;Determination of Forward and Future Prices&quot;&gt;&lt;/a&gt;Determination of Forward and Future Prices&lt;/h2&gt;&lt;h2 id=&quot;Interest_Rate_Futures&quot;&gt;&lt;a href=&quot;#Interest_Rate_Futures&quot; class=&quot;headerlink&quot; title=&quot;Interest Rate Futures&quot;&gt;&lt;/a&gt;Interest Rate Futures&lt;/h2&gt;&lt;h2 id=&quot;Swaps&quot;&gt;&lt;a href=&quot;#Swaps&quot; class=&quot;headerlink&quot; title=&quot;Swaps&quot;&gt;&lt;/a&gt;Swaps&lt;/h2&gt;&lt;h2 id=&quot;Mechanics_of_Options_Markets&quot;&gt;&lt;a href=&quot;#Mechanics_of_Options_Markets&quot; class=&quot;headerlink&quot; title=&quot;Mechanics of Options Markets&quot;&gt;&lt;/a&gt;Mechanics of Options Markets&lt;/h2&gt;&lt;h2 id=&quot;Properties_of_Stock_Options&quot;&gt;&lt;a href=&quot;#Properties_of_Stock_Options&quot; class=&quot;headerlink&quot; title=&quot;Properties of Stock Options&quot;&gt;&lt;/a&gt;Properties of Stock Options&lt;/h2&gt;&lt;h2 id=&quot;Trading_Strategies_Involving_Options&quot;&gt;&lt;a href=&quot;#Trading_Strategies_Involving_Options&quot; class=&quot;headerlink&quot; title=&quot;Trading Strategies Involving Options&quot;&gt;&lt;/a&gt;Trading Strategies Involving Options&lt;/h2&gt;&lt;h2 id=&quot;Exotic_Options&quot;&gt;&lt;a href=&quot;#Exotic_Options&quot; class=&quot;headerlink&quot; title=&quot;Exotic Options&quot;&gt;&lt;/a&gt;Exotic Options&lt;/h2&gt;&lt;h2 id=&quot;Commodity_Forwards_and_Futures&quot;&gt;&lt;a href=&quot;#Commodity_Forwards_and_Futures&quot; class=&quot;headerlink&quot; title=&quot;Commodity Forwards and Futures&quot;&gt;&lt;/a&gt;Commodity Forwards and Futures&lt;/h2&gt;&lt;h2 id=&quot;Exchanges_2C_OTC_Derivatives_2C_DPCs_and_SPVs&quot;&gt;&lt;a href=&quot;#Exchanges_2C_OTC_Derivatives_2C_DPCs_and_SPVs&quot; class=&quot;headerlink&quot; title=&quot;Exchanges, OTC Derivatives, DPCs and SPVs&quot;&gt;&lt;/a&gt;Exchanges, OTC Derivatives, DPCs and SPVs&lt;/h2&gt;&lt;h2 id=&quot;Basic_Principles_of_Central_Clearing&quot;&gt;&lt;a href=&quot;#Basic_Principles_of_Central_Clearing&quot; class=&quot;headerlink&quot; title=&quot;Basic Principles of Central Clearing&quot;&gt;&lt;/a&gt;Basic Principles of Central Clearing&lt;/h2&gt;&lt;h2 id=&quot;Risks_Caused_by_CCPs&quot;&gt;&lt;a href=&quot;#Risks_Caused_by_CCPs&quot; class=&quot;headerlink&quot; title=&quot;Risks Caused by CCPs&quot;&gt;&lt;/a&gt;Risks Caused by CCPs&lt;/h2&gt;&lt;h2 id=&quot;Foreign_Exchange_Risk&quot;&gt;&lt;a href=&quot;#Foreign_Exchange_Risk&quot; class=&quot;headerlink&quot; title=&quot;Foreign Exchange Risk&quot;&gt;&lt;/a&gt;Foreign Exchange Risk&lt;/h2&gt;&lt;h2 id=&quot;Corporate_Bonds&quot;&gt;&lt;a href=&quot;#Corporate_Bonds&quot; class=&quot;headerlink&quot; title=&quot;Corporate Bonds&quot;&gt;&lt;/a&gt;Corporate Bonds&lt;/h2&gt;&lt;h2 id=&quot;Mortages_and_Mortage-Backed_Securities&quot;&gt;&lt;a href=&quot;#Mortages_and_Mortage-Backed_Securities&quot; class=&quot;headerlink&quot; title=&quot;Mortages and Mortage-Backed Securities&quot;&gt;&lt;/a&gt;Mortages and Mortage-Backed Securities&lt;/h2&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Last Update: Oct 30, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;Banks&quot;&gt;&lt;a href=&quot;#Banks&quot; class=&quot;headerlink&quot; title=&quot;Banks&quot;&gt;&lt;/a&gt;Banks&lt;/h2&gt;&lt;h2 id=&quot;Insurance_Companie
+    
+    </summary>
+    
+      <category term="金融" scheme="http://wiki.greenwicher.com/categories/%E9%87%91%E8%9E%8D/"/>
+    
+    
+      <category term="FRM, 风险管理" scheme="http://wiki.greenwicher.com/tags/FRM-%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>FRM - Quantitative Analysis</title>
@@ -920,7 +944,7 @@
     <link href="http://wiki.greenwicher.com/2016/08/01/booklist/"/>
     <id>http://wiki.greenwicher.com/2016/08/01/booklist/</id>
     <published>2016-07-31T16:00:00.000Z</published>
-    <updated>2017-10-17T03:29:44.000Z</updated>
+    <updated>2017-10-27T16:48:07.000Z</updated>
     
     <content type="html">
 
@@ -935,7 +959,7 @@
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-&amp;#x5171;&amp;#x8BA1;23&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
+&amp;#x5171;&amp;#x8BA1;24&amp;#x672C;&amp;#x4E66;&amp;#xFF0C;&amp;#x7D2F;&amp;#x8BA1;&amp;#x9605;&amp;#x8BFB;XX&amp;#x5C0F;&amp;#x65F6;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
@@ -968,6 +992,16 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/26957509/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;FRM Part 1 Book 2&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;Kaplan Inc&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;2017&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&amp;#x91D1;&amp;#x878D;&lt;/td&gt;
+&lt;td class=&quot;right&quot;&gt;7&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;-&lt;/td&gt;
+&lt;td class=&quot;left&quot;&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-10-27 Fri&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td class=&quot;left&quot;&gt;&lt;a href=&quot;https://book.douban.com/subject/26886337/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Python&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x53CA;&amp;#x5B9E;&amp;#x8DF5;&lt;/a&gt;&lt;/td&gt;
 &lt;td class=&quot;left&quot;&gt;&amp;#x8303;&amp;#x6DFC;&amp;#x3001;&amp;#x674E;&amp;#x8D85;&lt;/td&gt;
