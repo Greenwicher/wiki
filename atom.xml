@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2017-11-05T14:37:22.000Z</updated>
+  <updated>2017-11-07T05:40:43.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -16,13 +16,51 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>FRM - Valuation and Risk Models</title>
+    <link href="http://wiki.greenwicher.com/2017/11/07/frm-valuation-and-risk-models/"/>
+    <id>http://wiki.greenwicher.com/2017/11/07/frm-valuation-and-risk-models/</id>
+    <published>2017-11-07T02:24:13.000Z</published>
+    <updated>2017-11-07T05:40:43.000Z</updated>
+    
+    <content type="html">&lt;p&gt;[Last Update: Nov 7, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;VaR_Methods&quot;&gt;&lt;a href=&quot;#VaR_Methods&quot; class=&quot;headerlink&quot; title=&quot;VaR Methods&quot;&gt;&lt;/a&gt;VaR Methods&lt;/h2&gt;&lt;h3 id=&quot;Defining_VaR&quot;&gt;&lt;a href=&quot;#Defining_VaR&quot; class=&quot;headerlink&quot; title=&quot;Defining VaR&quot;&gt;&lt;/a&gt;Defining VaR&lt;/h3&gt;&lt;h3 id=&quot;Calculating_VaR&quot;&gt;&lt;a href=&quot;#Calculating_VaR&quot; class=&quot;headerlink&quot; title=&quot;Calculating VaR&quot;&gt;&lt;/a&gt;Calculating VaR&lt;/h3&gt;&lt;h3 id=&quot;VaR_Conversions&quot;&gt;&lt;a href=&quot;#VaR_Conversions&quot; class=&quot;headerlink&quot; title=&quot;VaR Conversions&quot;&gt;&lt;/a&gt;VaR Conversions&lt;/h3&gt;&lt;h3 id=&quot;The_VaR_Methods&quot;&gt;&lt;a href=&quot;#The_VaR_Methods&quot; class=&quot;headerlink&quot; title=&quot;The VaR Methods&quot;&gt;&lt;/a&gt;The VaR Methods&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Linear methods (the delta-normal valuation)&lt;/li&gt;
+&lt;li&gt;Full valuation (Monte Carlo and historic simulation models)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Comparing_the_Methods&quot;&gt;&lt;a href=&quot;#Comparing_the_Methods&quot; class=&quot;headerlink&quot; title=&quot;Comparing the Methods&quot;&gt;&lt;/a&gt;Comparing the Methods&lt;/h3&gt;&lt;h2 id=&quot;Quantifying_Volatility_in_VaR_Models&quot;&gt;&lt;a href=&quot;#Quantifying_Volatility_in_VaR_Models&quot; class=&quot;headerlink&quot; title=&quot;Quantifying Volatility in VaR Models&quot;&gt;&lt;/a&gt;Quantifying Volatility in VaR Models&lt;/h2&gt;&lt;h4 id=&quot;LO_52-1_3A_Explain_how_asset_return_distributions_tend_to_deviate_from_the_normal_distribution&quot;&gt;&lt;a href=&quot;#LO_52-1_3A_Explain_how_asset_return_distributions_tend_to_deviate_from_the_normal_distribution&quot; class=&quot;headerlink&quot; title=&quot;LO 52.1: Explain how asset return distributions tend to deviate from the normal distribution.&quot;&gt;&lt;/a&gt;LO 52.1: Explain how asset return distributions tend to deviate from the normal distribution.&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;fat-tailed&lt;/li&gt;
+&lt;li&gt;skewed&lt;/li&gt;
+&lt;li&gt;unstable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;LO_52-2_3A_Explain_reasons_for_fat_tails_in_a_return_distribution_and_describe_their_implications&quot;&gt;&lt;a href=&quot;#LO_52-2_3A_Explain_reasons_for_fat_tails_in_a_return_distribution_and_describe_their_implications&quot; class=&quot;headerlink&quot; title=&quot;LO 52.2: Explain reasons for fat tails in a return distribution and describe their implications.&quot;&gt;&lt;/a&gt;LO 52.2: Explain reasons for fat tails in a return distribution and describe their implications.&lt;/h4&gt;&lt;h4 id=&quot;LO_52-3_3A_Distinguish_between_conditional_and_unconditional_distributions&quot;&gt;&lt;a href=&quot;#LO_52-3_3A_Distinguish_between_conditional_and_unconditional_distributions&quot; class=&quot;headerlink&quot; title=&quot;LO 52.3: Distinguish between conditional and unconditional distributions.&quot;&gt;&lt;/a&gt;LO 52.3: Distinguish between conditional and unconditional distributions.&lt;/h4&gt;&lt;h3 id=&quot;Market_Regimes_and_Conditional_Distributions&quot;&gt;&lt;a href=&quot;#Market_Regimes_and_Conditional_Distributions&quot; class=&quot;headerlink&quot; title=&quot;Market Regimes and Conditional Distributions&quot;&gt;&lt;/a&gt;Market Regimes and Conditional Distributions&lt;/h3&gt;&lt;h4 id=&quot;LO_52-4_3A_Describe_the_implications_of_regimes_switching_on_quantifying_volatility&quot;&gt;&lt;a href=&quot;#LO_52-4_3A_Describe_the_implications_of_regimes_switching_on_quantifying_volatility&quot; class=&quot;headerlink&quot; title=&quot;LO 52.4: Describe the implications of regimes switching on quantifying volatility.&quot;&gt;&lt;/a&gt;LO 52.4: Describe the implications of regimes switching on quantifying volatility.&lt;/h4&gt;&lt;h3 id=&quot;Value_at_Risk&quot;&gt;&lt;a href=&quot;#Value_at_Risk&quot; class=&quot;headerlink&quot; title=&quot;Value at Risk&quot;&gt;&lt;/a&gt;Value at Risk&lt;/h3&gt;&lt;h4 id=&quot;LO_52-5_3A_Explain_the_various_approaches_for_estimating_VaR&quot;&gt;&lt;a href=&quot;#LO_52-5_3A_Explain_the_various_approaches_for_estimating_VaR&quot; class=&quot;headerlink&quot; title=&quot;LO 52.5: Explain the various approaches for estimating VaR&quot;&gt;&lt;/a&gt;LO 52.5: Explain the various approaches for estimating VaR&lt;/h4&gt;&lt;h4 id=&quot;LO_52-6_3A_Compare_and_contrast_different_parametric_and_non-parametric_approaches_for_estimating_conditional_volatility&quot;&gt;&lt;a href=&quot;#LO_52-6_3A_Compare_and_contrast_different_parametric_and_non-parametric_approaches_for_estimating_conditional_volatility&quot; class=&quot;headerlink&quot; title=&quot;LO 52.6: Compare and contrast different parametric and non-parametric approaches for estimating conditional volatility&quot;&gt;&lt;/a&gt;LO 52.6: Compare and contrast different parametric and non-parametric approaches for estimating conditional volatility&lt;/h4&gt;&lt;h4 id=&quot;LO_52-7_3A_Calculate_conditional_volatility_using_parametric_and_non-parametric_approaches&quot;&gt;&lt;a href=&quot;#LO_52-7_3A_Calculate_conditional_volatility_using_parametric_and_non-parametric_approaches&quot; class=&quot;headerlink&quot; title=&quot;LO 52.7: Calculate conditional volatility using parametric and non-parametric approaches&quot;&gt;&lt;/a&gt;LO 52.7: Calculate conditional volatility using parametric and non-parametric approaches&lt;/h4&gt;&lt;h3 id=&quot;Parametric_Approaches_for_VaR&quot;&gt;&lt;a href=&quot;#Parametric_Approaches_for_VaR&quot; class=&quot;headerlink&quot; title=&quot;Parametric Approaches for VaR&quot;&gt;&lt;/a&gt;Parametric Approaches for VaR&lt;/h3&gt;&lt;h3 id=&quot;GARCH&quot;&gt;&lt;a href=&quot;#GARCH&quot; class=&quot;headerlink&quot; title=&quot;GARCH&quot;&gt;&lt;/a&gt;GARCH&lt;/h3&gt;&lt;h3 id=&quot;Nonparametric_vs-_Parametric_VaR_Methods&quot;&gt;&lt;a href=&quot;#Nonparametric_vs-_Parametric_VaR_Methods&quot; class=&quot;headerlink&quot; title=&quot;Nonparametric vs. Parametric VaR Methods&quot;&gt;&lt;/a&gt;Nonparametric vs. Parametric VaR Methods&lt;/h3&gt;&lt;h3 id=&quot;Nonparametric_Approaches_for_VaR&quot;&gt;&lt;a href=&quot;#Nonparametric_Approaches_for_VaR&quot; class=&quot;headerlink&quot; title=&quot;Nonparametric Approaches for VaR&quot;&gt;&lt;/a&gt;Nonparametric Approaches for VaR&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Historical Simulation Method&lt;/li&gt;
+&lt;li&gt;Hybrid Approach&lt;/li&gt;
+&lt;li&gt;Multivariate Density Estimation (MDE)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Return_Aggregation&quot;&gt;&lt;a href=&quot;#Return_Aggregation&quot; class=&quot;headerlink&quot; title=&quot;Return Aggregation&quot;&gt;&lt;/a&gt;Return Aggregation&lt;/h3&gt;&lt;h4 id=&quot;LO_52-8_3A_Explain_the_process_of_return_aggregation_in_the_context_of_volatility_forecasting_methods&quot;&gt;&lt;a href=&quot;#LO_52-8_3A_Explain_the_process_of_return_aggregation_in_the_context_of_volatility_forecasting_methods&quot; class=&quot;headerlink&quot; title=&quot;LO 52.8: Explain the process of return aggregation in the context of volatility forecasting methods.&quot;&gt;&lt;/a&gt;LO 52.8: Explain the process of return aggregation in the context of volatility forecasting methods.&lt;/h4&gt;&lt;h3 id=&quot;Implied_Volatility&quot;&gt;&lt;a href=&quot;#Implied_Volatility&quot; class=&quot;headerlink&quot; title=&quot;Implied Volatility&quot;&gt;&lt;/a&gt;Implied Volatility&lt;/h3&gt;&lt;h4 id=&quot;LO_52-9_3A_Evaluate_implied_volatility_as_a_predictor_of_future_volatility_and_its_shortcomings&quot;&gt;&lt;a href=&quot;#LO_52-9_3A_Evaluate_implied_volatility_as_a_predictor_of_future_volatility_and_its_shortcomings&quot; class=&quot;headerlink&quot; title=&quot;LO 52.9: Evaluate implied volatility as a predictor of future volatility and its shortcomings.&quot;&gt;&lt;/a&gt;LO 52.9: Evaluate implied volatility as a predictor of future volatility and its shortcomings.&lt;/h4&gt;&lt;h3 id=&quot;Mean_Reversion_and_Long_Time_Horizons&quot;&gt;&lt;a href=&quot;#Mean_Reversion_and_Long_Time_Horizons&quot; class=&quot;headerlink&quot; title=&quot;Mean Reversion and Long Time Horizons&quot;&gt;&lt;/a&gt;Mean Reversion and Long Time Horizons&lt;/h3&gt;&lt;h4 id=&quot;LO_52-10_3A_Explain_long_horizon_volatility/VaR_and_the_process_of_mean_reversion_according_to_an_AR_281_29_model&quot;&gt;&lt;a href=&quot;#LO_52-10_3A_Explain_long_horizon_volatility/VaR_and_the_process_of_mean_reversion_according_to_an_AR_281_29_model&quot; class=&quot;headerlink&quot; title=&quot;LO 52.10: Explain long horizon volatility/VaR and the process of mean reversion according to an AR(1) model.&quot;&gt;&lt;/a&gt;&lt;em&gt;LO 52.10: Explain long horizon volatility/VaR and the process of mean reversion according to an AR(1) model.&lt;/em&gt;&lt;/h4&gt;&lt;h4 id=&quot;LO_52-11_3A_Calculate_conditional_volatility_with_and_without_mean_reversion&quot;&gt;&lt;a href=&quot;#LO_52-11_3A_Calculate_conditional_volatility_with_and_without_mean_reversion&quot; class=&quot;headerlink&quot; title=&quot;LO 52.11: Calculate conditional volatility with and without mean reversion.&quot;&gt;&lt;/a&gt;&lt;em&gt;LO 52.11: Calculate conditional volatility with and without mean reversion.&lt;/em&gt;&lt;/h4&gt;&lt;h4 id=&quot;LO_52-12_3A_Describe_the_impact_of_mean_reversion_on_long_horizon_conditional_volatility_estimation&quot;&gt;&lt;a href=&quot;#LO_52-12_3A_Describe_the_impact_of_mean_reversion_on_long_horizon_conditional_volatility_estimation&quot; class=&quot;headerlink&quot; title=&quot;LO 52.12: Describe the impact of mean reversion on long horizon conditional volatility estimation.&quot;&gt;&lt;/a&gt;LO 52.12: Describe the impact of mean reversion on long horizon conditional volatility estimation.&lt;/h4&gt;&lt;h3 id=&quot;Backtesting_VaR_Methodologies&quot;&gt;&lt;a href=&quot;#Backtesting_VaR_Methodologies&quot; class=&quot;headerlink&quot; title=&quot;Backtesting VaR Methodologies&quot;&gt;&lt;/a&gt;Backtesting VaR Methodologies&lt;/h3&gt;&lt;h2 id=&quot;Putting_VaR_to_Work&quot;&gt;&lt;a href=&quot;#Putting_VaR_to_Work&quot; class=&quot;headerlink&quot; title=&quot;Putting VaR to Work&quot;&gt;&lt;/a&gt;Putting VaR to Work&lt;/h2&gt;&lt;h3 id=&quot;Linear_vs-_Non-linear_Derivatives&quot;&gt;&lt;a href=&quot;#Linear_vs-_Non-linear_Derivatives&quot; class=&quot;headerlink&quot; title=&quot;Linear vs. Non-linear Derivatives&quot;&gt;&lt;/a&gt;Linear vs. Non-linear Derivatives&lt;/h3&gt;&lt;h4 id=&quot;LO_53-1_3A_Explain_and_give_examples_of_linear_and_non-linear_derivatives&quot;&gt;&lt;a href=&quot;#LO_53-1_3A_Explain_and_give_examples_of_linear_and_non-linear_derivatives&quot; class=&quot;headerlink&quot; title=&quot;LO 53.1: Explain and give examples of linear and non-linear derivatives.&quot;&gt;&lt;/a&gt;LO 53.1: Explain and give examples of linear and non-linear derivatives.&lt;/h4&gt;&lt;h4 id=&quot;LO_53-2_3A_Describe_and_calculate_VaR_for_linear_derivatives&quot;&gt;&lt;a href=&quot;#LO_53-2_3A_Describe_and_calculate_VaR_for_linear_derivatives&quot; class=&quot;headerlink&quot; title=&quot;LO 53.2: Describe and calculate VaR for linear derivatives.&quot;&gt;&lt;/a&gt;LO 53.2: Describe and calculate VaR for linear derivatives.&lt;/h4&gt;&lt;h3 id=&quot;Taylor_Approximation&quot;&gt;&lt;a href=&quot;#Taylor_Approximation&quot; class=&quot;headerlink&quot; title=&quot;Taylor Approximation&quot;&gt;&lt;/a&gt;Taylor Approximation&lt;/h3&gt;&lt;h4 id=&quot;LO_53-3_3A_Describe_the_delta-normal_approach_for_calculating_VaR_for_non-linear_derivatives&quot;&gt;&lt;a href=&quot;#LO_53-3_3A_Describe_the_delta-normal_approach_for_calculating_VaR_for_non-linear_derivatives&quot; class=&quot;headerlink&quot; title=&quot;LO 53.3: Describe the delta-normal approach for calculating VaR for non-linear derivatives.&quot;&gt;&lt;/a&gt;LO 53.3: Describe the delta-normal approach for calculating VaR for non-linear derivatives.&lt;/h4&gt;&lt;h4 id=&quot;LO_53-4_3A_Describe_the_limitations_of_the_delta-normal_method&quot;&gt;&lt;a href=&quot;#LO_53-4_3A_Describe_the_limitations_of_the_delta-normal_method&quot; class=&quot;headerlink&quot; title=&quot;LO 53.4: Describe the limitations of the delta-normal method.&quot;&gt;&lt;/a&gt;LO 53.4: Describe the limitations of the delta-normal method.&lt;/h4&gt;&lt;h3 id=&quot;The_Delta-Normal_and_Full_Revaluation_Methods&quot;&gt;&lt;a href=&quot;#The_Delta-Normal_and_Full_Revaluation_Methods&quot; class=&quot;headerlink&quot; title=&quot;The Delta-Normal and Full Revaluation Methods&quot;&gt;&lt;/a&gt;The Delta-Normal and Full Revaluation Methods&lt;/h3&gt;&lt;h4 id=&quot;LO_53-5_3A_Explain_the_full_revaluation_method_for_computing_VaR&quot;&gt;&lt;a href=&quot;#LO_53-5_3A_Explain_the_full_revaluation_method_for_computing_VaR&quot; class=&quot;headerlink&quot; title=&quot;LO 53.5: Explain the full revaluation method for computing VaR.&quot;&gt;&lt;/a&gt;LO 53.5: Explain the full revaluation method for computing VaR.&lt;/h4&gt;&lt;h4 id=&quot;LO_53-6_3A_Compare_delta-normal_and_full_revaluation_approaches_for_computing_VaR&quot;&gt;&lt;a href=&quot;#LO_53-6_3A_Compare_delta-normal_and_full_revaluation_approaches_for_computing_VaR&quot; class=&quot;headerlink&quot; title=&quot;LO 53.6: Compare delta-normal and full revaluation approaches for computing VaR.&quot;&gt;&lt;/a&gt;LO 53.6: Compare delta-normal and full revaluation approaches for computing VaR.&lt;/h4&gt;&lt;h3 id=&quot;The_Monte_Carlo_Approach&quot;&gt;&lt;a href=&quot;#The_Monte_Carlo_Approach&quot; class=&quot;headerlink&quot; title=&quot;The Monte Carlo Approach&quot;&gt;&lt;/a&gt;The Monte Carlo Approach&lt;/h3&gt;&lt;h4 id=&quot;LO_53-7_3A_Explain_structured_Monte_Carlo_2C_stress_testing_2C_and_scenario_analysis_methods_for_computing_VaR_2C_and_identify_strengths_and_weaknesses_of_each_approach&quot;&gt;&lt;a href=&quot;#LO_53-7_3A_Explain_structured_Monte_Carlo_2C_stress_testing_2C_and_scenario_analysis_methods_for_computing_VaR_2C_and_identify_strengths_and_weaknesses_of_each_approach&quot; class=&quot;headerlink&quot; title=&quot;LO 53.7: Explain structured Monte Carlo, stress testing, and scenario analysis methods for computing VaR, and identify strengths and weaknesses of each approach.&quot;&gt;&lt;/a&gt;LO 53.7: Explain structured Monte Carlo, stress testing, and scenario analysis methods for computing VaR, and identify strengths and weaknesses of each approach.&lt;/h4&gt;&lt;h4 id=&quot;LO_53-8_3A_Describe_the_implications_of_correlation_breakdown_for_scenario_analysis&quot;&gt;&lt;a href=&quot;#LO_53-8_3A_Describe_the_implications_of_correlation_breakdown_for_scenario_analysis&quot; class=&quot;headerlink&quot; title=&quot;LO 53.8: Describe the implications of correlation breakdown for scenario analysis.&quot;&gt;&lt;/a&gt;LO 53.8: Describe the implications of correlation breakdown for scenario analysis.&lt;/h4&gt;&lt;h3 id=&quot;Correlations_during_Crisis&quot;&gt;&lt;a href=&quot;#Correlations_during_Crisis&quot; class=&quot;headerlink&quot; title=&quot;Correlations during Crisis&quot;&gt;&lt;/a&gt;Correlations during Crisis&lt;/h3&gt;&lt;h3 id=&quot;Stress_Testing&quot;&gt;&lt;a href=&quot;#Stress_Testing&quot; class=&quot;headerlink&quot; title=&quot;Stress Testing&quot;&gt;&lt;/a&gt;Stress Testing&lt;/h3&gt;&lt;h3 id=&quot;Worst_Case_Scenario_Measure&quot;&gt;&lt;a href=&quot;#Worst_Case_Scenario_Measure&quot; class=&quot;headerlink&quot; title=&quot;Worst Case Scenario Measure&quot;&gt;&lt;/a&gt;Worst Case Scenario Measure&lt;/h3&gt;&lt;h4 id=&quot;LO_53-9_3A_Describe_worst-case_scenario__28WCS_29_analysis_and_compare_WCS_to_VaR&quot;&gt;&lt;a href=&quot;#LO_53-9_3A_Describe_worst-case_scenario__28WCS_29_analysis_and_compare_WCS_to_VaR&quot; class=&quot;headerlink&quot; title=&quot;LO 53.9: Describe worst-case scenario (WCS) analysis and compare WCS to VaR.&quot;&gt;&lt;/a&gt;LO 53.9: Describe worst-case scenario (WCS) analysis and compare WCS to VaR.&lt;/h4&gt;&lt;h2 id=&quot;Measures_of_Financial_Risk&quot;&gt;&lt;a href=&quot;#Measures_of_Financial_Risk&quot; class=&quot;headerlink&quot; title=&quot;Measures of Financial Risk&quot;&gt;&lt;/a&gt;Measures of Financial Risk&lt;/h2&gt;&lt;h3 id=&quot;Mean-Variance_Framework&quot;&gt;&lt;a href=&quot;#Mean-Variance_Framework&quot; class=&quot;headerlink&quot; title=&quot;Mean-Variance Framework&quot;&gt;&lt;/a&gt;Mean-Variance Framework&lt;/h3&gt;&lt;h4 id=&quot;LO_54-1_3A_Describe_the_mean-variance_framework_and_the_efficient_frontier&quot;&gt;&lt;a href=&quot;#LO_54-1_3A_Describe_the_mean-variance_framework_and_the_efficient_frontier&quot; class=&quot;headerlink&quot; title=&quot;LO 54.1: Describe the mean-variance framework and the efficient frontier.&quot;&gt;&lt;/a&gt;LO 54.1: Describe the mean-variance framework and the efficient frontier.&lt;/h4&gt;&lt;h3 id=&quot;Mean-Variance_Framework_Limitations&quot;&gt;&lt;a href=&quot;#Mean-Variance_Framework_Limitations&quot; class=&quot;headerlink&quot; title=&quot;Mean-Variance Framework Limitations&quot;&gt;&lt;/a&gt;Mean-Variance Framework Limitations&lt;/h3&gt;&lt;h4 id=&quot;LO_54-2_3A_Explain_the_limitations_of_the_mean-variance_framework_with_respect_to_assumptions_about_the_return_distributions&quot;&gt;&lt;a href=&quot;#LO_54-2_3A_Explain_the_limitations_of_the_mean-variance_framework_with_respect_to_assumptions_about_the_return_distributions&quot; class=&quot;headerlink&quot; title=&quot;LO 54.2: Explain the limitations of the mean-variance framework with respect to assumptions about the return distributions.&quot;&gt;&lt;/a&gt;LO 54.2: Explain the limitations of the mean-variance framework with respect to assumptions about the return distributions.&lt;/h4&gt;&lt;h3 id=&quot;Value_at_Risk-1&quot;&gt;&lt;a href=&quot;#Value_at_Risk-1&quot; class=&quot;headerlink&quot; title=&quot;Value at Risk&quot;&gt;&lt;/a&gt;Value at Risk&lt;/h3&gt;&lt;h4 id=&quot;LO_54-3_3A_Define_the_Value-at-Risk__28VaR_29_measure_of_risk_2C_describe_assumptions_about_return_distributions_and_holding_period_2C_and_explain_the_limitations_of_VaR&quot;&gt;&lt;a href=&quot;#LO_54-3_3A_Define_the_Value-at-Risk__28VaR_29_measure_of_risk_2C_describe_assumptions_about_return_distributions_and_holding_period_2C_and_explain_the_limitations_of_VaR&quot; class=&quot;headerlink&quot; title=&quot;LO 54.3: Define the Value-at-Risk (VaR) measure of risk, describe assumptions about return distributions and holding period, and explain the limitations of VaR.&quot;&gt;&lt;/a&gt;LO 54.3: Define the Value-at-Risk (VaR) measure of risk, describe assumptions about return distributions and holding period, and explain the limitations of VaR.&lt;/h4&gt;&lt;h3 id=&quot;Coherent_Risk_Measures&quot;&gt;&lt;a href=&quot;#Coherent_Risk_Measures&quot; class=&quot;headerlink&quot; title=&quot;Coherent Risk Measures&quot;&gt;&lt;/a&gt;Coherent Risk Measures&lt;/h3&gt;&lt;h4 id=&quot;LO_54-4_3A_Define_the_properties_of_a_coherent_risk_measure_and_explain_the_meaning_of_each_property&quot;&gt;&lt;a href=&quot;#LO_54-4_3A_Define_the_properties_of_a_coherent_risk_measure_and_explain_the_meaning_of_each_property&quot; class=&quot;headerlink&quot; title=&quot;LO 54.4: Define the properties of a coherent risk measure and explain the meaning of each property.&quot;&gt;&lt;/a&gt;LO 54.4: Define the properties of a coherent risk measure and explain the meaning of each property.&lt;/h4&gt;&lt;h3 id=&quot;Expected_Shortfall&quot;&gt;&lt;a href=&quot;#Expected_Shortfall&quot; class=&quot;headerlink&quot; title=&quot;Expected Shortfall&quot;&gt;&lt;/a&gt;Expected Shortfall&lt;/h3&gt;&lt;h4 id=&quot;LO_54-5_3A_Explain_why_VaR_is_not_a_coherent_risk_measure&quot;&gt;&lt;a href=&quot;#LO_54-5_3A_Explain_why_VaR_is_not_a_coherent_risk_measure&quot; class=&quot;headerlink&quot; title=&quot;LO 54.5: Explain why VaR is not a coherent risk measure.&quot;&gt;&lt;/a&gt;LO 54.5: Explain why VaR is not a coherent risk measure.&lt;/h4&gt;&lt;h4 id=&quot;LO_54-6_3A_Explain_and_calculate_expected_shortfall__28ES_29_2C_and_compare_and_contrast_VaR_and_ES&quot;&gt;&lt;a href=&quot;#LO_54-6_3A_Explain_and_calculate_expected_shortfall__28ES_29_2C_and_compare_and_contrast_VaR_and_ES&quot; class=&quot;headerlink&quot; title=&quot;LO 54.6: Explain and calculate expected shortfall (ES), and compare and contrast VaR and ES.&quot;&gt;&lt;/a&gt;LO 54.6: Explain and calculate expected shortfall (ES), and compare and contrast VaR and ES.&lt;/h4&gt;&lt;h4 id=&quot;LO_54-7_3A_Describe_spectral_risk_measures_2C_and_explain_how_VaR_and_ES_are_special_cases_of_spectral_risk_measures&quot;&gt;&lt;a href=&quot;#LO_54-7_3A_Describe_spectral_risk_measures_2C_and_explain_how_VaR_and_ES_are_special_cases_of_spectral_risk_measures&quot; class=&quot;headerlink&quot; title=&quot;LO 54.7: Describe spectral risk measures, and explain how VaR and ES are special cases of spectral risk measures.&quot;&gt;&lt;/a&gt;&lt;em&gt;LO 54.7: Describe spectral risk measures, and explain how VaR and ES are special cases of spectral risk measures.&lt;/em&gt;&lt;/h4&gt;&lt;h3 id=&quot;Scenario_Analysis&quot;&gt;&lt;a href=&quot;#Scenario_Analysis&quot; class=&quot;headerlink&quot; title=&quot;Scenario Analysis&quot;&gt;&lt;/a&gt;Scenario Analysis&lt;/h3&gt;&lt;h4 id=&quot;LO_54-8_3A_Describe_how_the_results_of_scenario_analysis_can_be_interpreted_as_coherent_risk_measures&quot;&gt;&lt;a href=&quot;#LO_54-8_3A_Describe_how_the_results_of_scenario_analysis_can_be_interpreted_as_coherent_risk_measures&quot; class=&quot;headerlink&quot; title=&quot;LO 54.8: Describe how the results of scenario analysis can be interpreted as coherent risk measures.&quot;&gt;&lt;/a&gt;LO 54.8: Describe how the results of scenario analysis can be interpreted as coherent risk measures.&lt;/h4&gt;&lt;h2 id=&quot;Binomial_Trees&quot;&gt;&lt;a href=&quot;#Binomial_Trees&quot; class=&quot;headerlink&quot; title=&quot;Binomial Trees&quot;&gt;&lt;/a&gt;Binomial Trees&lt;/h2&gt;&lt;h3 id=&quot;A_One-step_Binomial_Model&quot;&gt;&lt;a href=&quot;#A_One-step_Binomial_Model&quot; class=&quot;headerlink&quot; title=&quot;A One-step Binomial Model&quot;&gt;&lt;/a&gt;A One-step Binomial Model&lt;/h3&gt;&lt;h4 id=&quot;LO_55-1_3A_Calculate_the_value_of_an_American_and_a_European_call_or_put_option_using_a_one-step_and_two-step_binomial_model&quot;&gt;&lt;a href=&quot;#LO_55-1_3A_Calculate_the_value_of_an_American_and_a_European_call_or_put_option_using_a_one-step_and_two-step_binomial_model&quot; class=&quot;headerlink&quot; title=&quot;LO 55.1: Calculate the value of an American and a European call or put option using a one-step and two-step binomial model.&quot;&gt;&lt;/a&gt;LO 55.1: Calculate the value of an American and a European call or put option using a one-step and two-step binomial model.&lt;/h4&gt;&lt;h3 id=&quot;The_Replicating_Portfolio&quot;&gt;&lt;a href=&quot;#The_Replicating_Portfolio&quot; class=&quot;headerlink&quot; title=&quot;The Replicating Portfolio&quot;&gt;&lt;/a&gt;The Replicating Portfolio&lt;/h3&gt;&lt;h3 id=&quot;Using_the_Hedge_Ratio_to_Develop_the_Replicating_Portfolio&quot;&gt;&lt;a href=&quot;#Using_the_Hedge_Ratio_to_Develop_the_Replicating_Portfolio&quot; class=&quot;headerlink&quot; title=&quot;Using the Hedge Ratio to Develop the Replicating Portfolio&quot;&gt;&lt;/a&gt;Using the Hedge Ratio to Develop the Replicating Portfolio&lt;/h3&gt;&lt;h3 id=&quot;Synthetic_Call_Replication&quot;&gt;&lt;a href=&quot;#Synthetic_Call_Replication&quot; class=&quot;headerlink&quot; title=&quot;Synthetic Call Replication&quot;&gt;&lt;/a&gt;Synthetic Call Replication&lt;/h3&gt;&lt;h3 id=&quot;Risk-neutral_Valuation&quot;&gt;&lt;a href=&quot;#Risk-neutral_Valuation&quot; class=&quot;headerlink&quot; title=&quot;Risk-neutral Valuation&quot;&gt;&lt;/a&gt;Risk-neutral Valuation&lt;/h3&gt;&lt;h3 id=&quot;Two-step_Binomial_Model&quot;&gt;&lt;a href=&quot;#Two-step_Binomial_Model&quot; class=&quot;headerlink&quot; title=&quot;Two-step Binomial Model&quot;&gt;&lt;/a&gt;Two-step Binomial Model&lt;/h3&gt;&lt;h3 id=&quot;Assessing_Volatility&quot;&gt;&lt;a href=&quot;#Assessing_Volatility&quot; class=&quot;headerlink&quot; title=&quot;Assessing Volatility&quot;&gt;&lt;/a&gt;Assessing Volatility&lt;/h3&gt;&lt;h4 id=&quot;LO_55-2_3A_Describe_how_volatility_is_captured_in_the_binomial_model&quot;&gt;&lt;a href=&quot;#LO_55-2_3A_Describe_how_volatility_is_captured_in_the_binomial_model&quot; class=&quot;headerlink&quot; title=&quot;LO 55.2: Describe how volatility is captured in the binomial model.&quot;&gt;&lt;/a&gt;LO 55.2: Describe how volatility is captured in the binomial model.&lt;/h4&gt;&lt;h3 id=&quot;Modifying_the_Binomial_Model&quot;&gt;&lt;a href=&quot;#Modifying_the_Binomial_Model&quot; class=&quot;headerlink&quot; title=&quot;Modifying the Binomial Model&quot;&gt;&lt;/a&gt;Modifying the Binomial Model&lt;/h3&gt;&lt;h4 id=&quot;LO_55-4_3A_Explain_how_the_binomial_model_can_be_altered_to_price_options_on_3A_stocks_with_dividends_2C_stock_indices_2C_currencies_2C_and_futures&quot;&gt;&lt;a href=&quot;#LO_55-4_3A_Explain_how_the_binomial_model_can_be_altered_to_price_options_on_3A_stocks_with_dividends_2C_stock_indices_2C_currencies_2C_and_futures&quot; class=&quot;headerlink&quot; title=&quot;LO 55.4: Explain how the binomial model can be altered to price options on: stocks with dividends, stock indices, currencies, and futures.&quot;&gt;&lt;/a&gt;LO 55.4: Explain how the binomial model can be altered to price options on: stocks with dividends, stock indices, currencies, and futures.&lt;/h4&gt;&lt;h3 id=&quot;American_Options&quot;&gt;&lt;a href=&quot;#American_Options&quot; class=&quot;headerlink&quot; title=&quot;American Options&quot;&gt;&lt;/a&gt;American Options&lt;/h3&gt;&lt;h4 id=&quot;Increasing_the_Number_of_Time_Periods&quot;&gt;&lt;a href=&quot;#Increasing_the_Number_of_Time_Periods&quot; class=&quot;headerlink&quot; title=&quot;Increasing the Number of Time Periods&quot;&gt;&lt;/a&gt;Increasing the Number of Time Periods&lt;/h4&gt;&lt;h4 id=&quot;LO_55-3_3A_Describe_how_the_value_calculated_using_a_binomial_model_converges_as_time_periods_are_added&quot;&gt;&lt;a href=&quot;#LO_55-3_3A_Describe_how_the_value_calculated_using_a_binomial_model_converges_as_time_periods_are_added&quot; class=&quot;headerlink&quot; title=&quot;LO 55.3: Describe how the value calculated using a binomial model converges as time periods are added.&quot;&gt;&lt;/a&gt;LO 55.3: Describe how the value calculated using a binomial model converges as time periods are added.&lt;/h4&gt;&lt;h2 id=&quot;The_Black-Scholes-Merton_Model&quot;&gt;&lt;a href=&quot;#The_Black-Scholes-Merton_Model&quot; class=&quot;headerlink&quot; title=&quot;The Black-Scholes-Merton Model&quot;&gt;&lt;/a&gt;The Black-Scholes-Merton Model&lt;/h2&gt;&lt;h2 id=&quot;Greek_Letters&quot;&gt;&lt;a href=&quot;#Greek_Letters&quot; class=&quot;headerlink&quot; title=&quot;Greek Letters&quot;&gt;&lt;/a&gt;Greek Letters&lt;/h2&gt;&lt;h2 id=&quot;Prices_2C_Discount_Factors_2C_and_Arbitrage&quot;&gt;&lt;a href=&quot;#Prices_2C_Discount_Factors_2C_and_Arbitrage&quot; class=&quot;headerlink&quot; title=&quot;Prices, Discount Factors, and Arbitrage&quot;&gt;&lt;/a&gt;Prices, Discount Factors, and Arbitrage&lt;/h2&gt;&lt;h2 id=&quot;Spot_2C_Forward_2C_and_Par_Rates&quot;&gt;&lt;a href=&quot;#Spot_2C_Forward_2C_and_Par_Rates&quot; class=&quot;headerlink&quot; title=&quot;Spot, Forward, and Par Rates&quot;&gt;&lt;/a&gt;Spot, Forward, and Par Rates&lt;/h2&gt;&lt;h2 id=&quot;Returns_2C_Spreads_2C_and_Yields&quot;&gt;&lt;a href=&quot;#Returns_2C_Spreads_2C_and_Yields&quot; class=&quot;headerlink&quot; title=&quot;Returns, Spreads, and Yields&quot;&gt;&lt;/a&gt;Returns, Spreads, and Yields&lt;/h2&gt;&lt;h2 id=&quot;One-Factor_Risk_Metrics_and_Hedges&quot;&gt;&lt;a href=&quot;#One-Factor_Risk_Metrics_and_Hedges&quot; class=&quot;headerlink&quot; title=&quot;One-Factor Risk Metrics and Hedges&quot;&gt;&lt;/a&gt;One-Factor Risk Metrics and Hedges&lt;/h2&gt;&lt;h2 id=&quot;Multi-Factor_Risk_Metrics_and_Hedges&quot;&gt;&lt;a href=&quot;#Multi-Factor_Risk_Metrics_and_Hedges&quot; class=&quot;headerlink&quot; title=&quot;Multi-Factor Risk Metrics and Hedges&quot;&gt;&lt;/a&gt;Multi-Factor Risk Metrics and Hedges&lt;/h2&gt;&lt;h2 id=&quot;Country_Risk_3A_Determinants_2C_Measures_and_Implications&quot;&gt;&lt;a href=&quot;#Country_Risk_3A_Determinants_2C_Measures_and_Implications&quot; class=&quot;headerlink&quot; title=&quot;Country Risk: Determinants, Measures and Implications&quot;&gt;&lt;/a&gt;Country Risk: Determinants, Measures and Implications&lt;/h2&gt;&lt;h2 id=&quot;External_and_Internal_Ratings&quot;&gt;&lt;a href=&quot;#External_and_Internal_Ratings&quot; class=&quot;headerlink&quot; title=&quot;External and Internal Ratings&quot;&gt;&lt;/a&gt;External and Internal Ratings&lt;/h2&gt;&lt;h2 id=&quot;Capital_Structure_in_Banks&quot;&gt;&lt;a href=&quot;#Capital_Structure_in_Banks&quot; class=&quot;headerlink&quot; title=&quot;Capital Structure in Banks&quot;&gt;&lt;/a&gt;Capital Structure in Banks&lt;/h2&gt;&lt;h2 id=&quot;Operational_Risk&quot;&gt;&lt;a href=&quot;#Operational_Risk&quot; class=&quot;headerlink&quot; title=&quot;Operational Risk&quot;&gt;&lt;/a&gt;Operational Risk&lt;/h2&gt;&lt;h2 id=&quot;Governance_Over_Stress_Testing&quot;&gt;&lt;a href=&quot;#Governance_Over_Stress_Testing&quot; class=&quot;headerlink&quot; title=&quot;Governance Over Stress Testing&quot;&gt;&lt;/a&gt;Governance Over Stress Testing&lt;/h2&gt;&lt;h2 id=&quot;Stress_Testing_and_Other_Risk_Management_Tools&quot;&gt;&lt;a href=&quot;#Stress_Testing_and_Other_Risk_Management_Tools&quot; class=&quot;headerlink&quot; title=&quot;Stress Testing and Other Risk Management Tools&quot;&gt;&lt;/a&gt;Stress Testing and Other Risk Management Tools&lt;/h2&gt;&lt;h2 id=&quot;Principles_for_Sound_Stress_Testing_Practices_and_Supervision&quot;&gt;&lt;a href=&quot;#Principles_for_Sound_Stress_Testing_Practices_and_Supervision&quot; class=&quot;headerlink&quot; title=&quot;Principles for Sound Stress Testing Practices and Supervision&quot;&gt;&lt;/a&gt;Principles for Sound Stress Testing Practices and Supervision&lt;/h2&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Last Update: Nov 7, 2017]&lt;/p&gt;
+&lt;h2 id=&quot;VaR_Methods&quot;&gt;&lt;a href=&quot;#VaR_Methods&quot; class=&quot;headerlink&quot; title=&quot;VaR Methods&quot;&gt;&lt;/a&gt;VaR Methods&lt;/h2&gt;&lt;h3
+    
+    </summary>
+    
+      <category term="金融" scheme="http://wiki.greenwicher.com/categories/%E9%87%91%E8%9E%8D/"/>
+    
+    
+      <category term="FRM, 风险管理" scheme="http://wiki.greenwicher.com/tags/FRM-%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>FRM - Financial Markets and Products</title>
     <link href="http://wiki.greenwicher.com/2017/10/30/frm-financial-markets-and-products/"/>
     <id>http://wiki.greenwicher.com/2017/10/30/frm-financial-markets-and-products/</id>
     <published>2017-10-30T13:12:00.000Z</published>
-    <updated>2017-11-05T14:37:22.000Z</updated>
+    <updated>2017-11-07T02:18:52.000Z</updated>
     
-    <content type="html">&lt;p&gt;[Last Update: Nov 5, 2017]&lt;/p&gt;
+    <content type="html">&lt;p&gt;[Last Update: Nov 7, 2017]&lt;/p&gt;
 &lt;h2 id=&quot;Banks&quot;&gt;&lt;a href=&quot;#Banks&quot; class=&quot;headerlink&quot; title=&quot;Banks&quot;&gt;&lt;/a&gt;Banks&lt;/h2&gt;&lt;h3 id=&quot;Types_of_Banks&quot;&gt;&lt;a href=&quot;#Types_of_Banks&quot; class=&quot;headerlink&quot; title=&quot;Types of Banks&quot;&gt;&lt;/a&gt;Types of Banks&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Commercial banks&lt;/li&gt;
 &lt;li&gt;Investment banks&lt;/li&gt;
@@ -103,7 +141,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;[Last Update: Nov 5, 2017]&lt;/p&gt;
+      &lt;p&gt;[Last Update: Nov 7, 2017]&lt;/p&gt;
 &lt;h2 id=&quot;Banks&quot;&gt;&lt;a href=&quot;#Banks&quot; class=&quot;headerlink&quot; title=&quot;Banks&quot;&gt;&lt;/a&gt;Banks&lt;/h2&gt;&lt;h3 id=&quot;Types_of_Banks&quot;&gt;&lt;a 
     
     </summary>
@@ -10477,6 +10515,266 @@ x=6
   </entry>
   
   <entry>
+    <title>围棋入门</title>
+    <link href="http://wiki.greenwicher.com/2016/02/16/%E5%8D%9A%E5%BC%88-%E5%9B%B4%E6%A3%8B%E5%85%A5%E9%97%A8/"/>
+    <id>http://wiki.greenwicher.com/2016/02/16/博弈-围棋入门/</id>
+    <published>2016-02-16T00:00:00.000Z</published>
+    <updated>2017-03-30T08:08:33.000Z</updated>
+    
+    <content type="html">
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+&lt;p&gt;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-03-30 Thu&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x57FA;&amp;#x672C;&amp;#x89C4;&amp;#x5219;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x8BA9;&amp;#x5B50;&amp;#x3001;&amp;#x8D34;&amp;#x76EE;&amp;#x3001;&amp;#x4E89;&amp;#x5148;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6C14;&amp;#x3001;&amp;#x7981;&amp;#x5165;&amp;#x70B9;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6253;&amp;#x52AB;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8F93;&amp;#x8D62;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x4E2D;&amp;#x76D8;&amp;#x80DC;&amp;#x8D1F;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x7EC8;&amp;#x76D8;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x63A7;&amp;#x5236;&amp;#x533A;&amp;#x57DF;&amp;#x5927;&amp;#x5C0F;&amp;#xFF08;&amp;#x6D3B;&amp;#x5B50;+&amp;#x63A7;&amp;#x5236;&amp;#x7684;&amp;#x7A7A;&amp;#x533A;&amp;#x57DF;&amp;#xFF09;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x76EE;&amp;#x4E0E;&amp;#x5355;&amp;#x5B98;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6570;&amp;#x76EE;&amp;#x6CD5;&amp;#x4E0E;&amp;#x6570;&amp;#x5B50;&amp;#x6CD5;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x9632;&amp;#x5FA1;&amp;#x6280;&amp;#x5DE7;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x864E;&amp;#x53E3;&amp;#x3001;&amp;#x773C;&amp;#x3001;&amp;#x6D3B;&amp;#x68CB;&amp;#xFF08;&amp;#x53CC;&amp;#x6D3B;&amp;#x3001;&amp;#x4E24;&amp;#x773C;&amp;#xFF09;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x773C;&amp;#x89D2;&amp;#xFF1A;&amp;#x771F;&amp;#x773C;&amp;#x4E0E;&amp;#x5047;&amp;#x773C;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x52AB;&amp;#x6750;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x57FA;&amp;#x672C;&amp;#x68CB;&amp;#x578B;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x5355;&amp;#x5173;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x4E8C;&amp;#x95F4;&amp;#x5173;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5C0F;&amp;#x98DE;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x98DE;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5927;&amp;#x98DE;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x957F;&amp;#x548C;&amp;#x6273;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x65AD;&amp;#x70B9;&amp;#x3001;&amp;#x7C98;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x63A7;&amp;#x5236;&amp;#x70B9;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x7684;&amp;#x4F5C;&amp;#x7528;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x56F4;&amp;#x7A7A;&amp;#xFF1A;&amp;#x56F4;&amp;#x7A7A;&amp;#x662F;&amp;#x5899;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x56F4;&amp;#x5B50;&amp;#xFF1A;&amp;#x56F4;&amp;#x5B50;&amp;#x662F;&amp;#x7F51;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x88AB;&amp;#x56F4;&amp;#xFF1A;&amp;#x88AB;&amp;#x56F4;&amp;#x662F;&amp;#x9C7C;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5E9F;&amp;#x5B50;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x7684;&amp;#x5927;&amp;#x5C0F;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x7684;&amp;#x5F3A;&amp;#x5F31;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x5EF6;&amp;#x4F38;&amp;#x65B9;&amp;#x5411;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x505A;&amp;#x773C;&amp;#x7A7A;&amp;#x95F4;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6709;&amp;#x65E0;&amp;#x65AD;&amp;#x70B9;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5E03;&amp;#x5C40;&amp;#x987A;&amp;#x5E8F;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x89D2;-&amp;gt;&amp;#x8FB9;-&amp;gt;&amp;#x4E2D;&amp;#x592E;-&amp;gt;&amp;#x7834;&amp;#x574F;&amp;#x4E0E;&amp;#x53CD;&amp;#x7834;&amp;#x574F;&amp;#x7ED3;&amp;#x6784;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5B88;&amp;#x89D2;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x5C0F;&amp;#x76EE;&amp;#x7F14;&amp;#x89D2;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x661F;&amp;#x4F4D;&amp;#x5B88;&amp;#x89D2;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x4E09;&amp;#x4E09;&amp;#x5B88;&amp;#x89D2;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x76EE;&amp;#x5916;&amp;#x5B88;&amp;#x89D2;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x9AD8;&amp;#x76EE;&amp;#x5B88;&amp;#x89D2;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x62C6;&amp;#x8FB9;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6B7B;&amp;#x6D3B;&amp;#x5224;&amp;#x65AD;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x6B7B;&amp;#x68CB;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x751F;&amp;#x6B7B;&amp;#x672A;&amp;#x5B9A;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6D3B;&amp;#x68CB;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x653B;&amp;#x51FB;&amp;#x6280;&amp;#x5DE7;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x6B7B;&amp;#x4EA1;&amp;#x7EBF;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x65B9;&amp;#x5411;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x5C01;&amp;#x9501;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x53CC;&amp;#x6253;&amp;#x5403;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5F81;&amp;#x5403;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x67B7;&amp;#x5403;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5012;&amp;#x6251;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x6251;&amp;#x4E0E;&amp;#x63A5;&amp;#x4E0D;&amp;#x5F52;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5BF9;&amp;#x6740;&amp;#xFF08;&amp;#x516C;&amp;#x6C14;&amp;#x4E0E;&amp;#x5916;&amp;#x6C14;&amp;#xFF09;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x70B9;&amp;#x6740;&amp;#xFF08;&amp;#x7834;&amp;#x574F;&amp;#x505A;&amp;#x773C;&amp;#xFF09;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x53E3;&amp;#x8BC0;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&amp;#x56F4;&amp;#x68CB;&amp;#x5341;&amp;#x8BC0;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x8F6F;&amp;#x4EF6;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Goban
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;CGoban
+&lt;/li&gt;
+&lt;li&gt;Goban
+&lt;/li&gt;
+&lt;li&gt;GoGUI
+&lt;/li&gt;
+&lt;li&gt;goPanda 2
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Engine
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Pachi
+&lt;/li&gt;
+&lt;li&gt;Fuego
+&lt;/li&gt;
+&lt;li&gt;GNU Go
+&lt;/li&gt;
+&lt;li&gt;Oakfoam
+&lt;/li&gt;
+&lt;li&gt;MoGo
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Online Server
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;IGS
+&lt;/li&gt;
+&lt;li&gt;OGS
+&lt;/li&gt;
+&lt;li&gt;KGS
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Apps
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;SmartGo Kifu
+&lt;/li&gt;
+&lt;li&gt;Champ Go HD
+&lt;/li&gt;
+&lt;li&gt;&amp;#x56F4;&amp;#x68CB;&amp;#x4E4B;&amp;#x773C;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x817E;&amp;#x8BAF;&amp;#x56F4;&amp;#x68CB;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x5DC5;&amp;#x5CF0;&amp;#x4E4B;&amp;#x5F08;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.weiqitv.com/index/spec?sid=53c6485d3d950b8b468b457f&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;20&amp;#x5929;&amp;#x4ECE;&amp;#x96F6;&amp;#x5B66;&amp;#x4F1A;&amp;#x4E0B;&amp;#x56F4;&amp;#x68CB;&amp;#x2013;&amp;#x56F4;&amp;#x68CB;TV&amp;#x51FA;&amp;#x54C1;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/6126239/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x56F4;&amp;#x68CB;&amp;#x5165;&amp;#x95E8; - &amp;#x65E5;&amp;#x672C;&amp;#x68CB;&amp;#x9662;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B%E6%9C%AF%E8%AF%AD&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x7EF4;&amp;#x57FA;&amp;#x767E;&amp;#x79D1;-&amp;#x56F4;&amp;#x68CB;&amp;#x672F;&amp;#x8BED;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://baike.baidu.com/view/29366.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x767E;&amp;#x5EA6;&amp;#x767E;&amp;#x79D1;-&amp;#x56F4;&amp;#x68CB;&amp;#x672F;&amp;#x8BED;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.weiqi-pandanet.cn/howtoplaygo/index.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PANDANET&amp;#x56F4;&amp;#x68CB;&amp;#x5165;&amp;#x95E8;&amp;#x6559;&amp;#x7A0B;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/topic/19555495&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x77E5;&amp;#x4E4E; - &amp;#x56F4;&amp;#x68CB;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://movie.douban.com/subject/1474243/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x68CB;&amp;#x9B42;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.weiqitv.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x56F4;&amp;#x68CB;TV&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://tv.cctv.com/2016/07/26/VIDAJ0sT5OeRs2sIv5K1zWB4160726.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CCTV&amp;#x300A;&amp;#x56F4;&amp;#x68CB;&amp;#x300B;&amp;#x7EAA;&amp;#x5F55;&amp;#x7247;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <summary type="html">
+    
+      
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+&lt;p&gt;
+&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-03
+    
+    </summary>
+    
+      <category term="博弈" scheme="http://wiki.greenwicher.com/categories/%E5%8D%9A%E5%BC%88/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>魔镜：埃舍尔的不可能世界</title>
     <link href="http://wiki.greenwicher.com/2016/02/16/%E9%98%85%E8%AF%BB-%E9%AD%94%E9%95%9C/"/>
     <id>http://wiki.greenwicher.com/2016/02/16/阅读-魔镜/</id>
@@ -11108,266 +11406,6 @@ x=6
       <category term="错觉" scheme="http://wiki.greenwicher.com/tags/%E9%94%99%E8%A7%89/"/>
     
       <category term="魔力" scheme="http://wiki.greenwicher.com/tags/%E9%AD%94%E5%8A%9B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>围棋入门</title>
-    <link href="http://wiki.greenwicher.com/2016/02/16/%E5%8D%9A%E5%BC%88-%E5%9B%B4%E6%A3%8B%E5%85%A5%E9%97%A8/"/>
-    <id>http://wiki.greenwicher.com/2016/02/16/博弈-围棋入门/</id>
-    <published>2016-02-16T00:00:00.000Z</published>
-    <updated>2017-03-30T08:08:33.000Z</updated>
-    
-    <content type="html">
-
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-03-30 Thu&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
-&lt;/p&gt;
-
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x57FA;&amp;#x672C;&amp;#x89C4;&amp;#x5219;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x8BA9;&amp;#x5B50;&amp;#x3001;&amp;#x8D34;&amp;#x76EE;&amp;#x3001;&amp;#x4E89;&amp;#x5148;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x6C14;&amp;#x3001;&amp;#x7981;&amp;#x5165;&amp;#x70B9;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x6253;&amp;#x52AB;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x8F93;&amp;#x8D62;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x4E2D;&amp;#x76D8;&amp;#x80DC;&amp;#x8D1F;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x7EC8;&amp;#x76D8;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x63A7;&amp;#x5236;&amp;#x533A;&amp;#x57DF;&amp;#x5927;&amp;#x5C0F;&amp;#xFF08;&amp;#x6D3B;&amp;#x5B50;+&amp;#x63A7;&amp;#x5236;&amp;#x7684;&amp;#x7A7A;&amp;#x533A;&amp;#x57DF;&amp;#xFF09;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x76EE;&amp;#x4E0E;&amp;#x5355;&amp;#x5B98;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x6570;&amp;#x76EE;&amp;#x6CD5;&amp;#x4E0E;&amp;#x6570;&amp;#x5B50;&amp;#x6CD5;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x9632;&amp;#x5FA1;&amp;#x6280;&amp;#x5DE7;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x864E;&amp;#x53E3;&amp;#x3001;&amp;#x773C;&amp;#x3001;&amp;#x6D3B;&amp;#x68CB;&amp;#xFF08;&amp;#x53CC;&amp;#x6D3B;&amp;#x3001;&amp;#x4E24;&amp;#x773C;&amp;#xFF09;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x773C;&amp;#x89D2;&amp;#xFF1A;&amp;#x771F;&amp;#x773C;&amp;#x4E0E;&amp;#x5047;&amp;#x773C;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x52AB;&amp;#x6750;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x57FA;&amp;#x672C;&amp;#x68CB;&amp;#x578B;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x5355;&amp;#x5173;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x4E8C;&amp;#x95F4;&amp;#x5173;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5C0F;&amp;#x98DE;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x98DE;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5927;&amp;#x98DE;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x957F;&amp;#x548C;&amp;#x6273;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x65AD;&amp;#x70B9;&amp;#x3001;&amp;#x7C98;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x63A7;&amp;#x5236;&amp;#x70B9;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x7684;&amp;#x4F5C;&amp;#x7528;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x56F4;&amp;#x7A7A;&amp;#xFF1A;&amp;#x56F4;&amp;#x7A7A;&amp;#x662F;&amp;#x5899;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x56F4;&amp;#x5B50;&amp;#xFF1A;&amp;#x56F4;&amp;#x5B50;&amp;#x662F;&amp;#x7F51;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x88AB;&amp;#x56F4;&amp;#xFF1A;&amp;#x88AB;&amp;#x56F4;&amp;#x662F;&amp;#x9C7C;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5E9F;&amp;#x5B50;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x7684;&amp;#x5927;&amp;#x5C0F;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x7684;&amp;#x5F3A;&amp;#x5F31;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x5EF6;&amp;#x4F38;&amp;#x65B9;&amp;#x5411;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x505A;&amp;#x773C;&amp;#x7A7A;&amp;#x95F4;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x6709;&amp;#x65E0;&amp;#x65AD;&amp;#x70B9;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5E03;&amp;#x5C40;&amp;#x987A;&amp;#x5E8F;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x89D2;-&amp;gt;&amp;#x8FB9;-&amp;gt;&amp;#x4E2D;&amp;#x592E;-&amp;gt;&amp;#x7834;&amp;#x574F;&amp;#x4E0E;&amp;#x53CD;&amp;#x7834;&amp;#x574F;&amp;#x7ED3;&amp;#x6784;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5B88;&amp;#x89D2;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x5C0F;&amp;#x76EE;&amp;#x7F14;&amp;#x89D2;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x661F;&amp;#x4F4D;&amp;#x5B88;&amp;#x89D2;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x4E09;&amp;#x4E09;&amp;#x5B88;&amp;#x89D2;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x76EE;&amp;#x5916;&amp;#x5B88;&amp;#x89D2;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x9AD8;&amp;#x76EE;&amp;#x5B88;&amp;#x89D2;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x62C6;&amp;#x8FB9;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x6B7B;&amp;#x6D3B;&amp;#x5224;&amp;#x65AD;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x6B7B;&amp;#x68CB;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x751F;&amp;#x6B7B;&amp;#x672A;&amp;#x5B9A;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x6D3B;&amp;#x68CB;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x653B;&amp;#x51FB;&amp;#x6280;&amp;#x5DE7;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x6B7B;&amp;#x4EA1;&amp;#x7EBF;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x68CB;&amp;#x5B50;&amp;#x65B9;&amp;#x5411;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x5C01;&amp;#x9501;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x53CC;&amp;#x6253;&amp;#x5403;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5F81;&amp;#x5403;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x67B7;&amp;#x5403;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5012;&amp;#x6251;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x6251;&amp;#x4E0E;&amp;#x63A5;&amp;#x4E0D;&amp;#x5F52;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5BF9;&amp;#x6740;&amp;#xFF08;&amp;#x516C;&amp;#x6C14;&amp;#x4E0E;&amp;#x5916;&amp;#x6C14;&amp;#xFF09;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x70B9;&amp;#x6740;&amp;#xFF08;&amp;#x7834;&amp;#x574F;&amp;#x505A;&amp;#x773C;&amp;#xFF09;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x53E3;&amp;#x8BC0;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&amp;#x56F4;&amp;#x68CB;&amp;#x5341;&amp;#x8BC0;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x8F6F;&amp;#x4EF6;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Goban
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;CGoban
-&lt;/li&gt;
-&lt;li&gt;Goban
-&lt;/li&gt;
-&lt;li&gt;GoGUI
-&lt;/li&gt;
-&lt;li&gt;goPanda 2
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Engine
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Pachi
-&lt;/li&gt;
-&lt;li&gt;Fuego
-&lt;/li&gt;
-&lt;li&gt;GNU Go
-&lt;/li&gt;
-&lt;li&gt;Oakfoam
-&lt;/li&gt;
-&lt;li&gt;MoGo
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Online Server
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;IGS
-&lt;/li&gt;
-&lt;li&gt;OGS
-&lt;/li&gt;
-&lt;li&gt;KGS
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Apps
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;SmartGo Kifu
-&lt;/li&gt;
-&lt;li&gt;Champ Go HD
-&lt;/li&gt;
-&lt;li&gt;&amp;#x56F4;&amp;#x68CB;&amp;#x4E4B;&amp;#x773C;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x817E;&amp;#x8BAF;&amp;#x56F4;&amp;#x68CB;
-&lt;/li&gt;
-&lt;li&gt;&amp;#x5DC5;&amp;#x5CF0;&amp;#x4E4B;&amp;#x5F08;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.weiqitv.com/index/spec?sid=53c6485d3d950b8b468b457f&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;20&amp;#x5929;&amp;#x4ECE;&amp;#x96F6;&amp;#x5B66;&amp;#x4F1A;&amp;#x4E0B;&amp;#x56F4;&amp;#x68CB;&amp;#x2013;&amp;#x56F4;&amp;#x68CB;TV&amp;#x51FA;&amp;#x54C1;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/6126239/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x56F4;&amp;#x68CB;&amp;#x5165;&amp;#x95E8; - &amp;#x65E5;&amp;#x672C;&amp;#x68CB;&amp;#x9662;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B%E6%9C%AF%E8%AF%AD&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x7EF4;&amp;#x57FA;&amp;#x767E;&amp;#x79D1;-&amp;#x56F4;&amp;#x68CB;&amp;#x672F;&amp;#x8BED;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://baike.baidu.com/view/29366.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x767E;&amp;#x5EA6;&amp;#x767E;&amp;#x79D1;-&amp;#x56F4;&amp;#x68CB;&amp;#x672F;&amp;#x8BED;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.weiqi-pandanet.cn/howtoplaygo/index.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PANDANET&amp;#x56F4;&amp;#x68CB;&amp;#x5165;&amp;#x95E8;&amp;#x6559;&amp;#x7A0B;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/topic/19555495&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x77E5;&amp;#x4E4E; - &amp;#x56F4;&amp;#x68CB;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://movie.douban.com/subject/1474243/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x68CB;&amp;#x9B42;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.weiqitv.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x56F4;&amp;#x68CB;TV&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://tv.cctv.com/2016/07/26/VIDAJ0sT5OeRs2sIv5K1zWB4160726.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CCTV&amp;#x300A;&amp;#x56F4;&amp;#x68CB;&amp;#x300B;&amp;#x7EAA;&amp;#x5F55;&amp;#x7247;&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    
-    <summary type="html">
-    
-      
-
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2017-03
-    
-    </summary>
-    
-      <category term="博弈" scheme="http://wiki.greenwicher.com/categories/%E5%8D%9A%E5%BC%88/"/>
-    
     
   </entry>
   

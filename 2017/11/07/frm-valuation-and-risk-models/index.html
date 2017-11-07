@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>FRM - Valuation and Risk Models | Greenwicher&#39;s Wiki</title>
+  <meta name="author" content="LIU Weizhi">
+  
+  <meta name="description" content="My Personal Wiki">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="FRM - Valuation and Risk Models"/>
+  <meta property="og:site_name" content="Greenwicher&#39;s Wiki"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="Greenwicher&#39;s Wiki" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">Greenwicher&#39;s Wiki</a><span class="split"></span><span class="title">FRM - Valuation and Risk Models</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-11-07</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <p>[Last Update: Nov 7, 2017]</p>
+<h2 id="VaR_Methods"><a href="#VaR_Methods" class="headerlink" title="VaR Methods"></a>VaR Methods</h2><h3 id="Defining_VaR"><a href="#Defining_VaR" class="headerlink" title="Defining VaR"></a>Defining VaR</h3><h3 id="Calculating_VaR"><a href="#Calculating_VaR" class="headerlink" title="Calculating VaR"></a>Calculating VaR</h3><h3 id="VaR_Conversions"><a href="#VaR_Conversions" class="headerlink" title="VaR Conversions"></a>VaR Conversions</h3><h3 id="The_VaR_Methods"><a href="#The_VaR_Methods" class="headerlink" title="The VaR Methods"></a>The VaR Methods</h3><ul>
+<li>Linear methods (the delta-normal valuation)</li>
+<li>Full valuation (Monte Carlo and historic simulation models)</li>
+</ul>
+<h3 id="Comparing_the_Methods"><a href="#Comparing_the_Methods" class="headerlink" title="Comparing the Methods"></a>Comparing the Methods</h3><h2 id="Quantifying_Volatility_in_VaR_Models"><a href="#Quantifying_Volatility_in_VaR_Models" class="headerlink" title="Quantifying Volatility in VaR Models"></a>Quantifying Volatility in VaR Models</h2><h4 id="LO_52-1_3A_Explain_how_asset_return_distributions_tend_to_deviate_from_the_normal_distribution"><a href="#LO_52-1_3A_Explain_how_asset_return_distributions_tend_to_deviate_from_the_normal_distribution" class="headerlink" title="LO 52.1: Explain how asset return distributions tend to deviate from the normal distribution."></a>LO 52.1: Explain how asset return distributions tend to deviate from the normal distribution.</h4><ul>
+<li>fat-tailed</li>
+<li>skewed</li>
+<li>unstable</li>
+</ul>
+<h4 id="LO_52-2_3A_Explain_reasons_for_fat_tails_in_a_return_distribution_and_describe_their_implications"><a href="#LO_52-2_3A_Explain_reasons_for_fat_tails_in_a_return_distribution_and_describe_their_implications" class="headerlink" title="LO 52.2: Explain reasons for fat tails in a return distribution and describe their implications."></a>LO 52.2: Explain reasons for fat tails in a return distribution and describe their implications.</h4><h4 id="LO_52-3_3A_Distinguish_between_conditional_and_unconditional_distributions"><a href="#LO_52-3_3A_Distinguish_between_conditional_and_unconditional_distributions" class="headerlink" title="LO 52.3: Distinguish between conditional and unconditional distributions."></a>LO 52.3: Distinguish between conditional and unconditional distributions.</h4><h3 id="Market_Regimes_and_Conditional_Distributions"><a href="#Market_Regimes_and_Conditional_Distributions" class="headerlink" title="Market Regimes and Conditional Distributions"></a>Market Regimes and Conditional Distributions</h3><h4 id="LO_52-4_3A_Describe_the_implications_of_regimes_switching_on_quantifying_volatility"><a href="#LO_52-4_3A_Describe_the_implications_of_regimes_switching_on_quantifying_volatility" class="headerlink" title="LO 52.4: Describe the implications of regimes switching on quantifying volatility."></a>LO 52.4: Describe the implications of regimes switching on quantifying volatility.</h4><h3 id="Value_at_Risk"><a href="#Value_at_Risk" class="headerlink" title="Value at Risk"></a>Value at Risk</h3><h4 id="LO_52-5_3A_Explain_the_various_approaches_for_estimating_VaR"><a href="#LO_52-5_3A_Explain_the_various_approaches_for_estimating_VaR" class="headerlink" title="LO 52.5: Explain the various approaches for estimating VaR"></a>LO 52.5: Explain the various approaches for estimating VaR</h4><h4 id="LO_52-6_3A_Compare_and_contrast_different_parametric_and_non-parametric_approaches_for_estimating_conditional_volatility"><a href="#LO_52-6_3A_Compare_and_contrast_different_parametric_and_non-parametric_approaches_for_estimating_conditional_volatility" class="headerlink" title="LO 52.6: Compare and contrast different parametric and non-parametric approaches for estimating conditional volatility"></a>LO 52.6: Compare and contrast different parametric and non-parametric approaches for estimating conditional volatility</h4><h4 id="LO_52-7_3A_Calculate_conditional_volatility_using_parametric_and_non-parametric_approaches"><a href="#LO_52-7_3A_Calculate_conditional_volatility_using_parametric_and_non-parametric_approaches" class="headerlink" title="LO 52.7: Calculate conditional volatility using parametric and non-parametric approaches"></a>LO 52.7: Calculate conditional volatility using parametric and non-parametric approaches</h4><h3 id="Parametric_Approaches_for_VaR"><a href="#Parametric_Approaches_for_VaR" class="headerlink" title="Parametric Approaches for VaR"></a>Parametric Approaches for VaR</h3><h3 id="GARCH"><a href="#GARCH" class="headerlink" title="GARCH"></a>GARCH</h3><h3 id="Nonparametric_vs-_Parametric_VaR_Methods"><a href="#Nonparametric_vs-_Parametric_VaR_Methods" class="headerlink" title="Nonparametric vs. Parametric VaR Methods"></a>Nonparametric vs. Parametric VaR Methods</h3><h3 id="Nonparametric_Approaches_for_VaR"><a href="#Nonparametric_Approaches_for_VaR" class="headerlink" title="Nonparametric Approaches for VaR"></a>Nonparametric Approaches for VaR</h3><ul>
+<li>Historical Simulation Method</li>
+<li>Hybrid Approach</li>
+<li>Multivariate Density Estimation (MDE)</li>
+</ul>
+<h3 id="Return_Aggregation"><a href="#Return_Aggregation" class="headerlink" title="Return Aggregation"></a>Return Aggregation</h3><h4 id="LO_52-8_3A_Explain_the_process_of_return_aggregation_in_the_context_of_volatility_forecasting_methods"><a href="#LO_52-8_3A_Explain_the_process_of_return_aggregation_in_the_context_of_volatility_forecasting_methods" class="headerlink" title="LO 52.8: Explain the process of return aggregation in the context of volatility forecasting methods."></a>LO 52.8: Explain the process of return aggregation in the context of volatility forecasting methods.</h4><h3 id="Implied_Volatility"><a href="#Implied_Volatility" class="headerlink" title="Implied Volatility"></a>Implied Volatility</h3><h4 id="LO_52-9_3A_Evaluate_implied_volatility_as_a_predictor_of_future_volatility_and_its_shortcomings"><a href="#LO_52-9_3A_Evaluate_implied_volatility_as_a_predictor_of_future_volatility_and_its_shortcomings" class="headerlink" title="LO 52.9: Evaluate implied volatility as a predictor of future volatility and its shortcomings."></a>LO 52.9: Evaluate implied volatility as a predictor of future volatility and its shortcomings.</h4><h3 id="Mean_Reversion_and_Long_Time_Horizons"><a href="#Mean_Reversion_and_Long_Time_Horizons" class="headerlink" title="Mean Reversion and Long Time Horizons"></a>Mean Reversion and Long Time Horizons</h3><h4 id="LO_52-10_3A_Explain_long_horizon_volatility/VaR_and_the_process_of_mean_reversion_according_to_an_AR_281_29_model"><a href="#LO_52-10_3A_Explain_long_horizon_volatility/VaR_and_the_process_of_mean_reversion_according_to_an_AR_281_29_model" class="headerlink" title="LO 52.10: Explain long horizon volatility/VaR and the process of mean reversion according to an AR(1) model."></a><em>LO 52.10: Explain long horizon volatility/VaR and the process of mean reversion according to an AR(1) model.</em></h4><h4 id="LO_52-11_3A_Calculate_conditional_volatility_with_and_without_mean_reversion"><a href="#LO_52-11_3A_Calculate_conditional_volatility_with_and_without_mean_reversion" class="headerlink" title="LO 52.11: Calculate conditional volatility with and without mean reversion."></a><em>LO 52.11: Calculate conditional volatility with and without mean reversion.</em></h4><h4 id="LO_52-12_3A_Describe_the_impact_of_mean_reversion_on_long_horizon_conditional_volatility_estimation"><a href="#LO_52-12_3A_Describe_the_impact_of_mean_reversion_on_long_horizon_conditional_volatility_estimation" class="headerlink" title="LO 52.12: Describe the impact of mean reversion on long horizon conditional volatility estimation."></a>LO 52.12: Describe the impact of mean reversion on long horizon conditional volatility estimation.</h4><h3 id="Backtesting_VaR_Methodologies"><a href="#Backtesting_VaR_Methodologies" class="headerlink" title="Backtesting VaR Methodologies"></a>Backtesting VaR Methodologies</h3><h2 id="Putting_VaR_to_Work"><a href="#Putting_VaR_to_Work" class="headerlink" title="Putting VaR to Work"></a>Putting VaR to Work</h2><h3 id="Linear_vs-_Non-linear_Derivatives"><a href="#Linear_vs-_Non-linear_Derivatives" class="headerlink" title="Linear vs. Non-linear Derivatives"></a>Linear vs. Non-linear Derivatives</h3><h4 id="LO_53-1_3A_Explain_and_give_examples_of_linear_and_non-linear_derivatives"><a href="#LO_53-1_3A_Explain_and_give_examples_of_linear_and_non-linear_derivatives" class="headerlink" title="LO 53.1: Explain and give examples of linear and non-linear derivatives."></a>LO 53.1: Explain and give examples of linear and non-linear derivatives.</h4><h4 id="LO_53-2_3A_Describe_and_calculate_VaR_for_linear_derivatives"><a href="#LO_53-2_3A_Describe_and_calculate_VaR_for_linear_derivatives" class="headerlink" title="LO 53.2: Describe and calculate VaR for linear derivatives."></a>LO 53.2: Describe and calculate VaR for linear derivatives.</h4><h3 id="Taylor_Approximation"><a href="#Taylor_Approximation" class="headerlink" title="Taylor Approximation"></a>Taylor Approximation</h3><h4 id="LO_53-3_3A_Describe_the_delta-normal_approach_for_calculating_VaR_for_non-linear_derivatives"><a href="#LO_53-3_3A_Describe_the_delta-normal_approach_for_calculating_VaR_for_non-linear_derivatives" class="headerlink" title="LO 53.3: Describe the delta-normal approach for calculating VaR for non-linear derivatives."></a>LO 53.3: Describe the delta-normal approach for calculating VaR for non-linear derivatives.</h4><h4 id="LO_53-4_3A_Describe_the_limitations_of_the_delta-normal_method"><a href="#LO_53-4_3A_Describe_the_limitations_of_the_delta-normal_method" class="headerlink" title="LO 53.4: Describe the limitations of the delta-normal method."></a>LO 53.4: Describe the limitations of the delta-normal method.</h4><h3 id="The_Delta-Normal_and_Full_Revaluation_Methods"><a href="#The_Delta-Normal_and_Full_Revaluation_Methods" class="headerlink" title="The Delta-Normal and Full Revaluation Methods"></a>The Delta-Normal and Full Revaluation Methods</h3><h4 id="LO_53-5_3A_Explain_the_full_revaluation_method_for_computing_VaR"><a href="#LO_53-5_3A_Explain_the_full_revaluation_method_for_computing_VaR" class="headerlink" title="LO 53.5: Explain the full revaluation method for computing VaR."></a>LO 53.5: Explain the full revaluation method for computing VaR.</h4><h4 id="LO_53-6_3A_Compare_delta-normal_and_full_revaluation_approaches_for_computing_VaR"><a href="#LO_53-6_3A_Compare_delta-normal_and_full_revaluation_approaches_for_computing_VaR" class="headerlink" title="LO 53.6: Compare delta-normal and full revaluation approaches for computing VaR."></a>LO 53.6: Compare delta-normal and full revaluation approaches for computing VaR.</h4><h3 id="The_Monte_Carlo_Approach"><a href="#The_Monte_Carlo_Approach" class="headerlink" title="The Monte Carlo Approach"></a>The Monte Carlo Approach</h3><h4 id="LO_53-7_3A_Explain_structured_Monte_Carlo_2C_stress_testing_2C_and_scenario_analysis_methods_for_computing_VaR_2C_and_identify_strengths_and_weaknesses_of_each_approach"><a href="#LO_53-7_3A_Explain_structured_Monte_Carlo_2C_stress_testing_2C_and_scenario_analysis_methods_for_computing_VaR_2C_and_identify_strengths_and_weaknesses_of_each_approach" class="headerlink" title="LO 53.7: Explain structured Monte Carlo, stress testing, and scenario analysis methods for computing VaR, and identify strengths and weaknesses of each approach."></a>LO 53.7: Explain structured Monte Carlo, stress testing, and scenario analysis methods for computing VaR, and identify strengths and weaknesses of each approach.</h4><h4 id="LO_53-8_3A_Describe_the_implications_of_correlation_breakdown_for_scenario_analysis"><a href="#LO_53-8_3A_Describe_the_implications_of_correlation_breakdown_for_scenario_analysis" class="headerlink" title="LO 53.8: Describe the implications of correlation breakdown for scenario analysis."></a>LO 53.8: Describe the implications of correlation breakdown for scenario analysis.</h4><h3 id="Correlations_during_Crisis"><a href="#Correlations_during_Crisis" class="headerlink" title="Correlations during Crisis"></a>Correlations during Crisis</h3><h3 id="Stress_Testing"><a href="#Stress_Testing" class="headerlink" title="Stress Testing"></a>Stress Testing</h3><h3 id="Worst_Case_Scenario_Measure"><a href="#Worst_Case_Scenario_Measure" class="headerlink" title="Worst Case Scenario Measure"></a>Worst Case Scenario Measure</h3><h4 id="LO_53-9_3A_Describe_worst-case_scenario__28WCS_29_analysis_and_compare_WCS_to_VaR"><a href="#LO_53-9_3A_Describe_worst-case_scenario__28WCS_29_analysis_and_compare_WCS_to_VaR" class="headerlink" title="LO 53.9: Describe worst-case scenario (WCS) analysis and compare WCS to VaR."></a>LO 53.9: Describe worst-case scenario (WCS) analysis and compare WCS to VaR.</h4><h2 id="Measures_of_Financial_Risk"><a href="#Measures_of_Financial_Risk" class="headerlink" title="Measures of Financial Risk"></a>Measures of Financial Risk</h2><h3 id="Mean-Variance_Framework"><a href="#Mean-Variance_Framework" class="headerlink" title="Mean-Variance Framework"></a>Mean-Variance Framework</h3><h4 id="LO_54-1_3A_Describe_the_mean-variance_framework_and_the_efficient_frontier"><a href="#LO_54-1_3A_Describe_the_mean-variance_framework_and_the_efficient_frontier" class="headerlink" title="LO 54.1: Describe the mean-variance framework and the efficient frontier."></a>LO 54.1: Describe the mean-variance framework and the efficient frontier.</h4><h3 id="Mean-Variance_Framework_Limitations"><a href="#Mean-Variance_Framework_Limitations" class="headerlink" title="Mean-Variance Framework Limitations"></a>Mean-Variance Framework Limitations</h3><h4 id="LO_54-2_3A_Explain_the_limitations_of_the_mean-variance_framework_with_respect_to_assumptions_about_the_return_distributions"><a href="#LO_54-2_3A_Explain_the_limitations_of_the_mean-variance_framework_with_respect_to_assumptions_about_the_return_distributions" class="headerlink" title="LO 54.2: Explain the limitations of the mean-variance framework with respect to assumptions about the return distributions."></a>LO 54.2: Explain the limitations of the mean-variance framework with respect to assumptions about the return distributions.</h4><h3 id="Value_at_Risk-1"><a href="#Value_at_Risk-1" class="headerlink" title="Value at Risk"></a>Value at Risk</h3><h4 id="LO_54-3_3A_Define_the_Value-at-Risk__28VaR_29_measure_of_risk_2C_describe_assumptions_about_return_distributions_and_holding_period_2C_and_explain_the_limitations_of_VaR"><a href="#LO_54-3_3A_Define_the_Value-at-Risk__28VaR_29_measure_of_risk_2C_describe_assumptions_about_return_distributions_and_holding_period_2C_and_explain_the_limitations_of_VaR" class="headerlink" title="LO 54.3: Define the Value-at-Risk (VaR) measure of risk, describe assumptions about return distributions and holding period, and explain the limitations of VaR."></a>LO 54.3: Define the Value-at-Risk (VaR) measure of risk, describe assumptions about return distributions and holding period, and explain the limitations of VaR.</h4><h3 id="Coherent_Risk_Measures"><a href="#Coherent_Risk_Measures" class="headerlink" title="Coherent Risk Measures"></a>Coherent Risk Measures</h3><h4 id="LO_54-4_3A_Define_the_properties_of_a_coherent_risk_measure_and_explain_the_meaning_of_each_property"><a href="#LO_54-4_3A_Define_the_properties_of_a_coherent_risk_measure_and_explain_the_meaning_of_each_property" class="headerlink" title="LO 54.4: Define the properties of a coherent risk measure and explain the meaning of each property."></a>LO 54.4: Define the properties of a coherent risk measure and explain the meaning of each property.</h4><h3 id="Expected_Shortfall"><a href="#Expected_Shortfall" class="headerlink" title="Expected Shortfall"></a>Expected Shortfall</h3><h4 id="LO_54-5_3A_Explain_why_VaR_is_not_a_coherent_risk_measure"><a href="#LO_54-5_3A_Explain_why_VaR_is_not_a_coherent_risk_measure" class="headerlink" title="LO 54.5: Explain why VaR is not a coherent risk measure."></a>LO 54.5: Explain why VaR is not a coherent risk measure.</h4><h4 id="LO_54-6_3A_Explain_and_calculate_expected_shortfall__28ES_29_2C_and_compare_and_contrast_VaR_and_ES"><a href="#LO_54-6_3A_Explain_and_calculate_expected_shortfall__28ES_29_2C_and_compare_and_contrast_VaR_and_ES" class="headerlink" title="LO 54.6: Explain and calculate expected shortfall (ES), and compare and contrast VaR and ES."></a>LO 54.6: Explain and calculate expected shortfall (ES), and compare and contrast VaR and ES.</h4><h4 id="LO_54-7_3A_Describe_spectral_risk_measures_2C_and_explain_how_VaR_and_ES_are_special_cases_of_spectral_risk_measures"><a href="#LO_54-7_3A_Describe_spectral_risk_measures_2C_and_explain_how_VaR_and_ES_are_special_cases_of_spectral_risk_measures" class="headerlink" title="LO 54.7: Describe spectral risk measures, and explain how VaR and ES are special cases of spectral risk measures."></a><em>LO 54.7: Describe spectral risk measures, and explain how VaR and ES are special cases of spectral risk measures.</em></h4><h3 id="Scenario_Analysis"><a href="#Scenario_Analysis" class="headerlink" title="Scenario Analysis"></a>Scenario Analysis</h3><h4 id="LO_54-8_3A_Describe_how_the_results_of_scenario_analysis_can_be_interpreted_as_coherent_risk_measures"><a href="#LO_54-8_3A_Describe_how_the_results_of_scenario_analysis_can_be_interpreted_as_coherent_risk_measures" class="headerlink" title="LO 54.8: Describe how the results of scenario analysis can be interpreted as coherent risk measures."></a>LO 54.8: Describe how the results of scenario analysis can be interpreted as coherent risk measures.</h4><h2 id="Binomial_Trees"><a href="#Binomial_Trees" class="headerlink" title="Binomial Trees"></a>Binomial Trees</h2><h3 id="A_One-step_Binomial_Model"><a href="#A_One-step_Binomial_Model" class="headerlink" title="A One-step Binomial Model"></a>A One-step Binomial Model</h3><h4 id="LO_55-1_3A_Calculate_the_value_of_an_American_and_a_European_call_or_put_option_using_a_one-step_and_two-step_binomial_model"><a href="#LO_55-1_3A_Calculate_the_value_of_an_American_and_a_European_call_or_put_option_using_a_one-step_and_two-step_binomial_model" class="headerlink" title="LO 55.1: Calculate the value of an American and a European call or put option using a one-step and two-step binomial model."></a>LO 55.1: Calculate the value of an American and a European call or put option using a one-step and two-step binomial model.</h4><h3 id="The_Replicating_Portfolio"><a href="#The_Replicating_Portfolio" class="headerlink" title="The Replicating Portfolio"></a>The Replicating Portfolio</h3><h3 id="Using_the_Hedge_Ratio_to_Develop_the_Replicating_Portfolio"><a href="#Using_the_Hedge_Ratio_to_Develop_the_Replicating_Portfolio" class="headerlink" title="Using the Hedge Ratio to Develop the Replicating Portfolio"></a>Using the Hedge Ratio to Develop the Replicating Portfolio</h3><h3 id="Synthetic_Call_Replication"><a href="#Synthetic_Call_Replication" class="headerlink" title="Synthetic Call Replication"></a>Synthetic Call Replication</h3><h3 id="Risk-neutral_Valuation"><a href="#Risk-neutral_Valuation" class="headerlink" title="Risk-neutral Valuation"></a>Risk-neutral Valuation</h3><h3 id="Two-step_Binomial_Model"><a href="#Two-step_Binomial_Model" class="headerlink" title="Two-step Binomial Model"></a>Two-step Binomial Model</h3><h3 id="Assessing_Volatility"><a href="#Assessing_Volatility" class="headerlink" title="Assessing Volatility"></a>Assessing Volatility</h3><h4 id="LO_55-2_3A_Describe_how_volatility_is_captured_in_the_binomial_model"><a href="#LO_55-2_3A_Describe_how_volatility_is_captured_in_the_binomial_model" class="headerlink" title="LO 55.2: Describe how volatility is captured in the binomial model."></a>LO 55.2: Describe how volatility is captured in the binomial model.</h4><h3 id="Modifying_the_Binomial_Model"><a href="#Modifying_the_Binomial_Model" class="headerlink" title="Modifying the Binomial Model"></a>Modifying the Binomial Model</h3><h4 id="LO_55-4_3A_Explain_how_the_binomial_model_can_be_altered_to_price_options_on_3A_stocks_with_dividends_2C_stock_indices_2C_currencies_2C_and_futures"><a href="#LO_55-4_3A_Explain_how_the_binomial_model_can_be_altered_to_price_options_on_3A_stocks_with_dividends_2C_stock_indices_2C_currencies_2C_and_futures" class="headerlink" title="LO 55.4: Explain how the binomial model can be altered to price options on: stocks with dividends, stock indices, currencies, and futures."></a>LO 55.4: Explain how the binomial model can be altered to price options on: stocks with dividends, stock indices, currencies, and futures.</h4><h3 id="American_Options"><a href="#American_Options" class="headerlink" title="American Options"></a>American Options</h3><h4 id="Increasing_the_Number_of_Time_Periods"><a href="#Increasing_the_Number_of_Time_Periods" class="headerlink" title="Increasing the Number of Time Periods"></a>Increasing the Number of Time Periods</h4><h4 id="LO_55-3_3A_Describe_how_the_value_calculated_using_a_binomial_model_converges_as_time_periods_are_added"><a href="#LO_55-3_3A_Describe_how_the_value_calculated_using_a_binomial_model_converges_as_time_periods_are_added" class="headerlink" title="LO 55.3: Describe how the value calculated using a binomial model converges as time periods are added."></a>LO 55.3: Describe how the value calculated using a binomial model converges as time periods are added.</h4><h2 id="The_Black-Scholes-Merton_Model"><a href="#The_Black-Scholes-Merton_Model" class="headerlink" title="The Black-Scholes-Merton Model"></a>The Black-Scholes-Merton Model</h2><h2 id="Greek_Letters"><a href="#Greek_Letters" class="headerlink" title="Greek Letters"></a>Greek Letters</h2><h2 id="Prices_2C_Discount_Factors_2C_and_Arbitrage"><a href="#Prices_2C_Discount_Factors_2C_and_Arbitrage" class="headerlink" title="Prices, Discount Factors, and Arbitrage"></a>Prices, Discount Factors, and Arbitrage</h2><h2 id="Spot_2C_Forward_2C_and_Par_Rates"><a href="#Spot_2C_Forward_2C_and_Par_Rates" class="headerlink" title="Spot, Forward, and Par Rates"></a>Spot, Forward, and Par Rates</h2><h2 id="Returns_2C_Spreads_2C_and_Yields"><a href="#Returns_2C_Spreads_2C_and_Yields" class="headerlink" title="Returns, Spreads, and Yields"></a>Returns, Spreads, and Yields</h2><h2 id="One-Factor_Risk_Metrics_and_Hedges"><a href="#One-Factor_Risk_Metrics_and_Hedges" class="headerlink" title="One-Factor Risk Metrics and Hedges"></a>One-Factor Risk Metrics and Hedges</h2><h2 id="Multi-Factor_Risk_Metrics_and_Hedges"><a href="#Multi-Factor_Risk_Metrics_and_Hedges" class="headerlink" title="Multi-Factor Risk Metrics and Hedges"></a>Multi-Factor Risk Metrics and Hedges</h2><h2 id="Country_Risk_3A_Determinants_2C_Measures_and_Implications"><a href="#Country_Risk_3A_Determinants_2C_Measures_and_Implications" class="headerlink" title="Country Risk: Determinants, Measures and Implications"></a>Country Risk: Determinants, Measures and Implications</h2><h2 id="External_and_Internal_Ratings"><a href="#External_and_Internal_Ratings" class="headerlink" title="External and Internal Ratings"></a>External and Internal Ratings</h2><h2 id="Capital_Structure_in_Banks"><a href="#Capital_Structure_in_Banks" class="headerlink" title="Capital Structure in Banks"></a>Capital Structure in Banks</h2><h2 id="Operational_Risk"><a href="#Operational_Risk" class="headerlink" title="Operational Risk"></a>Operational Risk</h2><h2 id="Governance_Over_Stress_Testing"><a href="#Governance_Over_Stress_Testing" class="headerlink" title="Governance Over Stress Testing"></a>Governance Over Stress Testing</h2><h2 id="Stress_Testing_and_Other_Risk_Management_Tools"><a href="#Stress_Testing_and_Other_Risk_Management_Tools" class="headerlink" title="Stress Testing and Other Risk Management Tools"></a>Stress Testing and Other Risk Management Tools</h2><h2 id="Principles_for_Sound_Stress_Testing_Practices_and_Supervision"><a href="#Principles_for_Sound_Stress_Testing_Practices_and_Supervision" class="headerlink" title="Principles for Sound Stress Testing Practices and Supervision"></a>Principles for Sound Stress Testing Practices and Supervision</h2>	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+			
+			
+		
+	
+		
+			
+			
+			
+		
+			
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2017/10/30/frm-financial-markets-and-products/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2017 LIU Weizhi
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
