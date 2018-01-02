@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2018-01-01T15:38:31.000Z</updated>
+  <updated>2018-01-02T10:54:38.000Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -16,11 +16,119 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>期货分析与交易入门</title>
+    <title>【金融】商品期货交易实务：单边研判</title>
+    <link href="http://wiki.greenwicher.com/2018/01/02/zhihu-live-commodity-futures-trading-practice/"/>
+    <id>http://wiki.greenwicher.com/2018/01/02/zhihu-live-commodity-futures-trading-practice/</id>
+    <published>2018-01-02T08:43:34.000Z</published>
+    <updated>2018-01-02T10:54:38.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Live_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Live_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Live&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;Live&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;p&gt;&amp;#x8BE6;&amp;#x89C1;&lt;a href=&quot;https://www.zhihu.com/lives/888426453513945088&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/lives/888426453513945088&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x6211;&amp;#x662F;&amp;#x76AE;&amp;#x5361;&amp;#x4E18;&amp;#xFF5E;&amp;#x672C;&amp;#x79D1;&amp;#x6BD5;&amp;#x4E1A;&amp;#x4E8E;&amp;#x56FD;&amp;#x5185;&amp;#x67D0;985&amp;#x9AD8;&amp;#x6821;&amp;#x91D1;&amp;#x878D;&amp;#x5B66;&amp;#x4E13;&amp;#x4E1A;&amp;#xFF0C;&amp;#x7814;&amp;#x7A76;&amp;#x751F;&amp;#x6BD5;&amp;#x4E1A;&amp;#x4E8E;&amp;#x5883;&amp;#x5916;&amp;#x67D0;&amp;#x9AD8;&amp;#x6821;&amp;#x91D1;&amp;#x878D;&amp;#x5B66;&amp;#x4E13;&amp;#x4E1A;&amp;#x91D1;&amp;#x878D;&amp;#x5DE5;&amp;#x7A0B;&amp;#x65B9;&amp;#x5411;&amp;#xFF0C;&amp;#x73B0;&amp;#x4EFB;&amp;#x804C;&amp;#x4E8E;&amp;#x67D0;&amp;#x4E16;&amp;#x754C;500&amp;#x5F3A;&amp;#x516C;&amp;#x53F8;&amp;#x671F;&amp;#x8D27;&amp;#x7BA1;&amp;#x7406;&amp;#x90E8;&amp;#x95E8;&amp;#x3002;&amp;#x7531;&amp;#x4E8E;&amp;#x5DE5;&amp;#x4F5C;&amp;#x539F;&amp;#x56E0;&amp;#x4E0E;&amp;#x90E8;&amp;#x5206;&amp;#x671F;&amp;#x8D27;&amp;#x516C;&amp;#x53F8;&amp;#x53CA;&amp;#x7814;&amp;#x7A76;&amp;#x673A;&amp;#x6784;&amp;#x6709;&amp;#x8F83;&amp;#x591A;&amp;#x8054;&amp;#x7CFB;&amp;#xFF0C;&amp;#x56E0;&amp;#x800C;&amp;#x9690;&amp;#x85CF;&amp;#x8BE6;&amp;#x7EC6;&amp;#x4FE1;&amp;#x606F;&amp;#x3002;&amp;#x524D;&amp;#x6B21;Live&amp;#x300A;&amp;#x671F;&amp;#x8D27;&amp;#x5206;&amp;#x6790;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x5165;&amp;#x95E8;&amp;#x300B;&amp;#x83B7;&amp;#x5F97;&amp;#x4E86;&amp;#x4F18;&amp;#x79C0;&amp;#x8BC4;&amp;#x4EF7;&amp;#xFF0C;&amp;#x5E0C;&amp;#x671B;&amp;#x518D;&amp;#x6B21;&amp;#x548C;&amp;#x5BF9;&amp;#x91D1;&amp;#x878D;&amp;#x5E02;&amp;#x573A;&amp;#xFF08;&amp;#x5C24;&amp;#x5176;&amp;#x662F;&amp;#x5546;&amp;#x54C1;&amp;#x671F;&amp;#x8D27;&amp;#xFF09;&amp;#x611F;&amp;#x5174;&amp;#x8DA3;&amp;#x7684;&amp;#x670B;&amp;#x53CB;&amp;#x4EEC;&amp;#x8FDB;&amp;#x884C;&amp;#x9AD8;&amp;#x8D28;&amp;#x91CF;&amp;#x7684;&amp;#x4EA4;&amp;#x6D41;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x671F;&amp;#x8D27;&amp;#xFF0C;&amp;#x4EE5;&amp;#x5176;&amp;#x6760;&amp;#x6746;&amp;#x7279;&amp;#x6027;&amp;#x4E3A;&amp;#x4EBA;&amp;#x6240;&amp;#x77E5;&amp;#x6653;&amp;#x3002;&amp;#x9AD8;&amp;#x98CE;&amp;#x9669;&amp;#x4E0E;&amp;#x9AD8;&amp;#x56DE;&amp;#x62A5;&amp;#x5E76;&amp;#x5B58;&amp;#xFF0C;&amp;#x56E0;&amp;#x6B64;&amp;#x5438;&amp;#x5F15;&amp;#x7740;&amp;#x8BF8;&amp;#x591A;&amp;#x9010;&amp;#x5229;&amp;#x8005;&amp;#x8FDB;&amp;#x5165;&amp;#x671F;&amp;#x8D27;&amp;#x5E02;&amp;#x573A;&amp;#x4EA4;&amp;#x6613;&amp;#x3002;&amp;#x90A3;&amp;#x4E48;&amp;#x5728;&amp;#x79CD;&amp;#x7C7B;&amp;#x7EB7;&amp;#x7E41;&amp;#x590D;&amp;#x6742;&amp;#x7684;&amp;#x5546;&amp;#x54C1;&amp;#x671F;&amp;#x8D27;&amp;#x5E02;&amp;#x573A;&amp;#x4E2D;&amp;#xFF0C;&amp;#x8FDB;&amp;#x884C;&amp;#x5355;&amp;#x8FB9;&amp;#x4EA4;&amp;#x6613;&amp;#x9700;&amp;#x8981;&amp;#x6CE8;&amp;#x610F;&amp;#x54EA;&amp;#x4E9B;&amp;#x8981;&amp;#x70B9;&amp;#x5462;&amp;#xFF1F;&amp;#x76AE;&amp;#x5361;&amp;#x4E18;&amp;#x5E0C;&amp;#x671B;&amp;#x4EE5;&amp;#x81EA;&amp;#x8EAB;&amp;#x7ECF;&amp;#x9A8C;&amp;#x53CA;&amp;#x6559;&amp;#x8BAD;&amp;#x603B;&amp;#x7ED3;&amp;#x51FA;&amp;#x7684;&amp;#x4EA4;&amp;#x6613;&amp;#x611F;&amp;#x609F;&amp;#x4E3A;&amp;#x542C;&amp;#x4F17;&amp;#x670B;&amp;#x53CB;&amp;#x4EEC;&amp;#x5E26;&amp;#x6765;&amp;#x542F;&amp;#x53D1;&amp;#x4E0E;&amp;#x601D;&amp;#x8003;&amp;#x3002;&amp;#x6CE8;&amp;#x610F;&amp;#xFF1A;&amp;#x4E2A;&amp;#x4EBA;&amp;#x4E0D;&amp;#x5BF9;&amp;#x6295;&amp;#x8D44;&amp;#x8FDB;&amp;#x884C;&amp;#x4EFB;&amp;#x4F55;&amp;#x5EFA;&amp;#x8BAE;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x672C;&amp;#x6B21; Live &amp;#x4E3B;&amp;#x8981;&amp;#x5305;&amp;#x62EC;&amp;#x4EE5;&amp;#x4E0B;&amp;#x5185;&amp;#x5BB9;&lt;/p&gt;
+&lt;p&gt;&amp;#x2022; &amp;#x7814;&amp;#x7A76;&amp;#x50A8;&amp;#x5907;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x8D44;&amp;#x8BAF;&lt;br&gt;&amp;#x2022; &amp;#x8D8B;&amp;#x52BF;&amp;#x5206;&amp;#x6790;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x4FE1;&amp;#x53F7;&lt;br&gt;&amp;#x2022; &amp;#x5E02;&amp;#x573A;&amp;#x903B;&amp;#x8F91;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x76EE;&amp;#x6807;&lt;br&gt;&amp;#x2022; &amp;#x4E2A;&amp;#x4EBA;&amp;#x6027;&amp;#x683C;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x65B9;&amp;#x5F0F;&lt;br&gt;&amp;#x2022; &amp;#x98CE;&amp;#x9669;&amp;#x63A7;&amp;#x5236;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x5FC3;&amp;#x6001;&lt;br&gt;&amp;#x2022; &amp;#x5206;&amp;#x4EAB;&amp;#x5C0F;&amp;#x7ED3;&amp;#xFF0C;&amp;#x6709;&amp;#x95EE;&amp;#x5FC5;&amp;#x7B54;&lt;/p&gt;
+&lt;h2 id=&quot;u5609_u5BBE_u5206_u4EAB&quot;&gt;&lt;a href=&quot;#u5609_u5BBE_u5206_u4EAB&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5609;&amp;#x5BBE;&amp;#x5206;&amp;#x4EAB;&quot;&gt;&lt;/a&gt;&amp;#x5609;&amp;#x5BBE;&amp;#x5206;&amp;#x4EAB;&lt;/h2&gt;&lt;h3 id=&quot;u7814_u7A76_u50A8_u5907_u4E0E_u4EA4_u6613_u8D44_u8BAF&quot;&gt;&lt;a href=&quot;#u7814_u7A76_u50A8_u5907_u4E0E_u4EA4_u6613_u8D44_u8BAF&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7814;&amp;#x7A76;&amp;#x50A8;&amp;#x5907;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x8D44;&amp;#x8BAF;&quot;&gt;&lt;/a&gt;&amp;#x7814;&amp;#x7A76;&amp;#x50A8;&amp;#x5907;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x8D44;&amp;#x8BAF;&lt;/h3&gt;&lt;h4 id=&quot;u7814_u7A76_u5206_u6790_u6846_u67B6&quot;&gt;&lt;a href=&quot;#u7814_u7A76_u5206_u6790_u6846_u67B6&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7814;&amp;#x7A76;&amp;#x5206;&amp;#x6790;&amp;#x6846;&amp;#x67B6;&quot;&gt;&lt;/a&gt;&amp;#x7814;&amp;#x7A76;&amp;#x5206;&amp;#x6790;&amp;#x6846;&amp;#x67B6;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x5B8F;&amp;#x89C2;&lt;/li&gt;
+&lt;li&gt;&amp;#x4EA7;&amp;#x4E1A;&lt;/li&gt;
+&lt;li&gt;&amp;#x57FA;&amp;#x5DEE;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;u4EA4_u6613_u8D44_u8BAF&quot;&gt;&lt;a href=&quot;#u4EA4_u6613_u8D44_u8BAF&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4EA4;&amp;#x6613;&amp;#x8D44;&amp;#x8BAF;&quot;&gt;&lt;/a&gt;&amp;#x4EA4;&amp;#x6613;&amp;#x8D44;&amp;#x8BAF;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x6280;&amp;#x672F;&amp;#x9762;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x884C;&amp;#x60C5;&amp;#xFF1A;&amp;#x6BD4;&amp;#x5982;&amp;#x6587;&amp;#x534E;&amp;#x8D22;&amp;#x7ECF;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x7B79;&amp;#x7801;&amp;#x9762;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x57FA;&amp;#x672C;&amp;#x9762;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5B8F;&amp;#x89C2;&amp;#xFF1A;&amp;#x5E02;&amp;#x573A;&amp;#x4E3B;&amp;#x6D41;&amp;#x5206;&amp;#x6790;&amp;#xFF0C;&amp;#x592E;&amp;#x884C;&amp;#x516C;&amp;#x5F00;&amp;#x64CD;&amp;#x4F5C;&amp;#x60C5;&amp;#x51B5;&amp;#xFF08;&amp;#x4E86;&amp;#x89E3;&amp;#x8D44;&amp;#x91D1;&amp;#x9762;&amp;#x60C5;&amp;#x51B5;&amp;#xFF09;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x534E;&amp;#x5C14;&amp;#x8857;&amp;#x89C1;&amp;#x95FB;&lt;a href=&quot;http://wallstreetcn.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://wallstreetcn.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x91D1;&amp;#x5341;&amp;#x7F51;&lt;a href=&quot;https://www.jin10.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.jin10.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x6C47;&amp;#x901A;&amp;#x7F51;&lt;a href=&quot;http://www.fx678.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.fx678.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x4EA4;&amp;#x6613;&amp;#x54C1;&amp;#x79CD;/&amp;#x4EA7;&amp;#x4E1A;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x4E86;&amp;#x89E3;&amp;#x4EA7;&amp;#x54C1;&amp;#x7684;&amp;#x65B9;&amp;#x65B9;&amp;#x9762;&amp;#x9762;&lt;/li&gt;
+&lt;li&gt;&amp;#x671F;&amp;#x8D27;&amp;#x4EA4;&amp;#x6613;&amp;#x6240;&amp;#x624B;&amp;#x518C;&lt;/li&gt;
+&lt;li&gt;&amp;#x516C;&amp;#x4F17;&amp;#x53F7;&amp;#xFF08;&amp;#x516C;&amp;#x4F17;&amp;#x53F7;&amp;#x63A8;&amp;#x8350;&amp;#xFF1A;&amp;#x5BF9;&amp;#x51B2;&amp;#x6295;&amp;#x7814;&amp;#x3001;&amp;#x4E2D;&amp;#x4FE1;&amp;#x671F;&amp;#x8D27;&amp;#x7814;&amp;#x7A76;&amp;#x8D44;&amp;#x8BAF;&amp;#x3001;&amp;#x6251;&amp;#x514B;&amp;#x6295;&amp;#x8D44;&amp;#x5BB6;&amp;#x3002;&amp;#x5C24;&amp;#x5176;&amp;#x6DB5;&amp;#x76D6;&amp;#x9ED1;&amp;#x8272;&amp;#x54C1;&amp;#x79CD;&amp;#x8D44;&amp;#x8BAF;&amp;#xFF1A;&amp;#x94F6;&amp;#x6CB3;&amp;#x94A2;&amp;#x94C1;&amp;#x4E8B;&amp;#x4E1A;&amp;#x90E8;&amp;#x3001;&amp;#x9ED1;&amp;#x91D1;HUI&amp;#x3001;&amp;#x70B9;&amp;#x4ECA;&amp;#x77F3;&amp;#x3002;&amp;#xFF09;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x57FA;&amp;#x5DEE;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x9ED1;&amp;#x8272;&amp;#x54C1;&amp;#x79CD;&amp;#xFF0C;&amp;#x6211;&amp;#x7684;&amp;#x94A2;&amp;#x94C1;&amp;#x7F51;&lt;a href=&quot;http://www.mysteel.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.mysteel.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x6709;&amp;#x8272;&amp;#x54C1;&amp;#x79CD;&amp;#xFF0C;&amp;#x4E0A;&amp;#x6D77;&amp;#x6709;&amp;#x8272;&amp;#x7F51;&lt;a href=&quot;https://www.smm.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.smm.cn/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x5316;&amp;#x5DE5;&amp;#x54C1;&amp;#x79CD;&amp;#xFF0C;&amp;#x4E2D;&amp;#x7EA4;&amp;#x7F51;&lt;a href=&quot;http://www.ccfei.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.ccfei.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x5316;&amp;#x5DE5;&amp;#x54C1;&amp;#x79CD;&amp;#xFF0C;&amp;#x9686;&amp;#x4F17;&amp;#x8D44;&amp;#x8BAF;&amp;#x7F51;&lt;a href=&quot;http://www.oilchem.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.oilchem.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;u8D8B_u52BF_u5206_u6790_u4E0E_u4EA4_u6613_u4FE1_u53F7&quot;&gt;&lt;a href=&quot;#u8D8B_u52BF_u5206_u6790_u4E0E_u4EA4_u6613_u4FE1_u53F7&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8D8B;&amp;#x52BF;&amp;#x5206;&amp;#x6790;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x4FE1;&amp;#x53F7;&quot;&gt;&lt;/a&gt;&amp;#x8D8B;&amp;#x52BF;&amp;#x5206;&amp;#x6790;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x4FE1;&amp;#x53F7;&lt;/h3&gt;&lt;h4 id=&quot;u4EF7_u683C_u8D8B_u52BF_u5206_u6790&quot;&gt;&lt;a href=&quot;#u4EF7_u683C_u8D8B_u52BF_u5206_u6790&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4EF7;&amp;#x683C;&amp;#x8D8B;&amp;#x52BF;&amp;#x5206;&amp;#x6790;&quot;&gt;&lt;/a&gt;&amp;#x4EF7;&amp;#x683C;&amp;#x8D8B;&amp;#x52BF;&amp;#x5206;&amp;#x6790;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x5B8F;&amp;#x89C2;&amp;gt;&amp;#x4EA7;&amp;#x4E1A;&amp;gt;&amp;#x57FA;&amp;#x5DEE;&lt;ul&gt;
+&lt;li&gt;&amp;#x5B8F;&amp;#x89C2;&lt;ul&gt;
+&lt;li&gt;&amp;#x592E;&amp;#x5988;&amp;#x7684;&amp;#x8D27;&amp;#x5E01;&amp;#x653F;&amp;#x7B56;&lt;/li&gt;
+&lt;li&gt;&amp;#x7ECF;&amp;#x6D4E;&amp;#x5468;&amp;#x671F;&amp;#xFF1A;&amp;#x7F8E;&amp;#x6797;&amp;#x6295;&amp;#x8D44;&amp;#x65F6;&amp;#x949F;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#x54C1;&amp;#x79CD;&amp;#x5F3A;&amp;#x5F31;&amp;#xFF08;pairs trading?&amp;#xFF09;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;u5E02_u573A_u903B_u8F91_u4E0E_u4EA4_u6613_u76EE_u6807&quot;&gt;&lt;a href=&quot;#u5E02_u573A_u903B_u8F91_u4E0E_u4EA4_u6613_u76EE_u6807&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5E02;&amp;#x573A;&amp;#x903B;&amp;#x8F91;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x76EE;&amp;#x6807;&quot;&gt;&lt;/a&gt;&amp;#x5E02;&amp;#x573A;&amp;#x903B;&amp;#x8F91;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x76EE;&amp;#x6807;&lt;/h3&gt;&lt;h4 id=&quot;u4E3B_u6D41_u8BA4_u8BC6&quot;&gt;&lt;a href=&quot;#u4E3B_u6D41_u8BA4_u8BC6&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4E3B;&amp;#x6D41;&amp;#x8BA4;&amp;#x8BC6;&quot;&gt;&lt;/a&gt;&amp;#x4E3B;&amp;#x6D41;&amp;#x8BA4;&amp;#x8BC6;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x4E3B;&amp;#x6D41;&amp;#x591A;&amp;#x5934;&amp;#x4E0E;&amp;#x4E3B;&amp;#x6D41;&amp;#x7A7A;&amp;#x5934;&amp;#x903B;&amp;#x8F91;&lt;/li&gt;
+&lt;li&gt;&amp;#x77ED;&amp;#x671F;&amp;#x884C;&amp;#x60C5;&amp;#x80CC;&amp;#x79BB;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;u4E2A_u4EBA_u6027_u683C_u4E0E_u4EA4_u6613_u65B9_u5F0F&quot;&gt;&lt;a href=&quot;#u4E2A_u4EBA_u6027_u683C_u4E0E_u4EA4_u6613_u65B9_u5F0F&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4E2A;&amp;#x4EBA;&amp;#x6027;&amp;#x683C;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x65B9;&amp;#x5F0F;&quot;&gt;&lt;/a&gt;&amp;#x4E2A;&amp;#x4EBA;&amp;#x6027;&amp;#x683C;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x65B9;&amp;#x5F0F;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x98CE;&amp;#x9669;&amp;#x80FD;&amp;#x529B;&amp;#x6D4B;&amp;#x8BC4;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x6027;&amp;#x683C;&amp;#x5206;&amp;#x7C7B;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x8C28;&amp;#x614E;&amp;#xFF08;&amp;#x77ED;&amp;#x7EBF;&amp;#x4EA4;&amp;#x6613;&amp;#xFF0C;&amp;#x9707;&amp;#x8361;&amp;#x884C;&amp;#x60C5;&amp;#x4E0E;&amp;#x5E03;&amp;#x6797;&amp;#x5E26;&amp;#xFF0C;&amp;#x53F3;&amp;#x4FA7;&amp;#x4EA4;&amp;#x6613;&amp;#xFF0C;&amp;#x4E09;&amp;#x5230;&amp;#x4E94;&amp;#x5206;&amp;#x949F;&amp;#x6280;&amp;#x672F;&amp;#x6307;&amp;#x6807;&amp;#xFF09;&lt;/li&gt;
+&lt;li&gt;&amp;#x6FC0;&amp;#x8FDB;&amp;#xFF08;&amp;#x957F;&amp;#x7EBF;&amp;#x4EA4;&amp;#x6613;&amp;#xFF0C;&amp;#x5DE6;&amp;#x4FA7;&amp;#x4EA4;&amp;#x6613;&amp;#xFF0C;&amp;#x5206;&amp;#x6BB5;&amp;#x5EFA;&amp;#x4ED3;&amp;#xFF0C;&amp;#x4E00;&amp;#x5C0F;&amp;#x65F6;&amp;#x7EBF;&amp;#x6280;&amp;#x672F;&amp;#x6307;&amp;#x6807;&amp;#xFF09;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x4EA4;&amp;#x6613;&amp;#x65B9;&amp;#x5F0F;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x6280;&amp;#x672F;&amp;#x56FE;&amp;#x5F62;&lt;/li&gt;
+&lt;li&gt;&amp;#x5F00;&amp;#x4ED3;&amp;#x65B9;&amp;#x5F0F;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;u98CE_u9669_u63A7_u5236_u4E0E_u4EA4_u6613_u5FC3_u6001&quot;&gt;&lt;a href=&quot;#u98CE_u9669_u63A7_u5236_u4E0E_u4EA4_u6613_u5FC3_u6001&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x98CE;&amp;#x9669;&amp;#x63A7;&amp;#x5236;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x5FC3;&amp;#x6001;&quot;&gt;&lt;/a&gt;&amp;#x98CE;&amp;#x9669;&amp;#x63A7;&amp;#x5236;&amp;#x4E0E;&amp;#x4EA4;&amp;#x6613;&amp;#x5FC3;&amp;#x6001;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x4E25;&amp;#x683C;&amp;#x6B62;&amp;#x635F;&lt;/li&gt;
+&lt;li&gt;&amp;#x63A7;&amp;#x5236;&amp;#x5408;&amp;#x7406;&amp;#x7684;&amp;#x6760;&amp;#x6746;&amp;#x6BD4;&amp;#x4F8B;&lt;/li&gt;
+&lt;li&gt;&amp;#x63A7;&amp;#x5236;&amp;#x4E8F;&amp;#x635F;&amp;#x5C31;&amp;#x662F;&amp;#x63A7;&amp;#x5236;&amp;#x6050;&amp;#x60E7;&amp;#xFF1B;&amp;#x63A7;&amp;#x5236;&amp;#x76C8;&amp;#x5229;&amp;#x5C31;&amp;#x662F;&amp;#x63A7;&amp;#x5236;&amp;#x6B32;&amp;#x671B;&lt;/li&gt;
+&lt;li&gt;&amp;#x5408;&amp;#x7406;&amp;#x7684;&amp;#x98CE;&amp;#x9669;&amp;#x6BD4;&amp;#x4F8B;&amp;#xFF08;&amp;#x6536;&amp;#x76CA;&amp;#x98CE;&amp;#x9669;1&amp;#xFF1A;3&amp;#x4EE5;&amp;#x4E0A;&amp;#xFF09;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;u89C2_u4F17_u63D0_u95EE&quot;&gt;&lt;a href=&quot;#u89C2_u4F17_u63D0_u95EE&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x89C2;&amp;#x4F17;&amp;#x63D0;&amp;#x95EE;&quot;&gt;&lt;/a&gt;&amp;#x89C2;&amp;#x4F17;&amp;#x63D0;&amp;#x95EE;&lt;/h2&gt;&lt;p&gt;Q: &amp;#x53EF;&amp;#x5426;&amp;#x63A8;&amp;#x8350;&amp;#x51E0;&amp;#x672C;&amp;#x8FDB;&amp;#x9636;&amp;#x7684;&amp;#x671F;&amp;#x8D27;&amp;#x4E66;&amp;#x7C4D;&amp;#x5462;&amp;#xFF1F;&amp;#x8C22;&amp;#x8C22;&amp;#xFF01;&lt;/p&gt;
+&lt;p&gt;A: &amp;#x5728;&amp;#x4E86;&amp;#x89E3;&amp;#x57FA;&amp;#x672C;&amp;#x9762;&amp;#x8D44;&amp;#x8BAF;&amp;#x7B49;&amp;#x7684;&amp;#x57FA;&amp;#x7840;&amp;#x4E4B;&amp;#x4E0A;&amp;#xFF0C;&amp;#x5176;&amp;#x4ED6;&amp;#x90FD;&amp;#x662F;&amp;#x7384;&amp;#x5B66;&amp;#x2026; &amp;#x63A8;&amp;#x8350;&amp;#x7D22;&amp;#x7F57;&amp;#x65AF;&amp;#x7684;&amp;#x300A;&amp;#x8D85;&amp;#x8D8A;&amp;#x91D1;&amp;#x878D;&amp;#x300B;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Live_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Live_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Live&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;Live&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;p&gt;&amp;#x8BE
+    
+    </summary>
+    
+      <category term="知乎Live" scheme="http://wiki.greenwicher.com/categories/%E7%9F%A5%E4%B9%8ELive/"/>
+    
+    
+      <category term="期货, 金融, 交易, 策略" scheme="http://wiki.greenwicher.com/tags/%E6%9C%9F%E8%B4%A7-%E9%87%91%E8%9E%8D-%E4%BA%A4%E6%98%93-%E7%AD%96%E7%95%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【金融】期货分析与交易入门</title>
     <link href="http://wiki.greenwicher.com/2018/01/01/zhihu-lives-intro-to-future-analysis-and-trading/"/>
     <id>http://wiki.greenwicher.com/2018/01/01/zhihu-lives-intro-to-future-analysis-and-trading/</id>
     <published>2018-01-01T14:01:59.000Z</published>
-    <updated>2018-01-01T15:38:31.000Z</updated>
+    <updated>2018-01-02T10:55:17.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Live_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Live_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Live&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;Live&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;p&gt;&amp;#x8BE6;&amp;#x89C1;&lt;a href=&quot;https://www.zhihu.com/lives/866736511348011008/messages&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/lives/866736511348011008/messages&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#x7814;&amp;#x7A76;&amp;#x751F;&amp;#x6BD5;&amp;#x4E1A;&amp;#x4E8E;&amp;#x67D0;&amp;#x9AD8;&amp;#x6821;&amp;#x91D1;&amp;#x878D;&amp;#x5B66;&amp;#x4E13;&amp;#x4E1A;&amp;#x91D1;&amp;#x878D;&amp;#x5DE5;&amp;#x7A0B;&amp;#x65B9;&amp;#x5411;&amp;#xFF0C;&amp;#x73B0;&amp;#x4EFB;&amp;#x804C;&amp;#x4E8E;&amp;#x56FD;&amp;#x5185;&amp;#x67D0;&amp;#x5927;&amp;#x578B;&amp;#x8D38;&amp;#x6613;&amp;#x5546;&amp;#x671F;&amp;#x8D27;&amp;#x7BA1;&amp;#x7406;&amp;#x90E8;&amp;#x95E8;&amp;#x3002;&amp;#x5177;&amp;#x6709;7&amp;#x5E74;&amp;#x8BC1;&amp;#x5238;&amp;#x5E02;&amp;#x573A;&amp;#x4EA4;&amp;#x6613;&amp;#x7ECF;&amp;#x9A8C;&amp;#xFF0C;3&amp;#x5E74;&amp;#x671F;&amp;#x8D27;&amp;#x5E02;&amp;#x573A;&amp;#x4EA4;&amp;#x6613;&amp;#x7ECF;&amp;#x9A8C;&amp;#x3002;&amp;#x7531;&amp;#x4E8E;&amp;#x5DE5;&amp;#x4F5C;&amp;#x5173;&amp;#x7CFB;&amp;#x4E0E;&amp;#x67D0;&amp;#x51E0;&amp;#x5BB6;&amp;#x671F;&amp;#x8D27;&amp;#x516C;&amp;#x53F8;&amp;#x7814;&amp;#x7A76;&amp;#x90E8;&amp;#x6709;&amp;#x8F83;&amp;#x591A;&amp;#x8054;&amp;#x7CFB;&amp;#xFF0C;&amp;#x56E0;&amp;#x800C;&amp;#x9690;&amp;#x85CF;&amp;#x4E3B;&amp;#x8BB2;&amp;#x4EBA;&amp;#x8BE6;&amp;#x7EC6;&amp;#x4FE1;&amp;#x606F;&amp;#x3002;&amp;#x5E0C;&amp;#x671B;&amp;#x4E0E;&amp;#x5BF9;&amp;#x91D1;&amp;#x878D;&amp;#x5E02;&amp;#x573A;&amp;#xFF0C;&amp;#x5C24;&amp;#x5176;&amp;#x662F;&amp;#x5BF9;&amp;#x5546;&amp;#x54C1;&amp;#x671F;&amp;#x8D27;&amp;#x611F;&amp;#x5174;&amp;#x8DA3;&amp;#x7684;&amp;#x670B;&amp;#x53CB;&amp;#x4EEC;&amp;#x8FDB;&amp;#x884C;&amp;#x9AD8;&amp;#x8D28;&amp;#x91CF;&amp;#x7684;&amp;#x4EA4;&amp;#x6D41;&amp;#x3002;&lt;/p&gt;
@@ -499,11 +607,11 @@
   </entry>
   
   <entry>
-    <title>vn.py的过去、现在和将来</title>
+    <title>【金融】vn.py的过去、现在和将来</title>
     <link href="http://wiki.greenwicher.com/2017/07/29/zhihu-live-vnpy/"/>
     <id>http://wiki.greenwicher.com/2017/07/29/zhihu-live-vnpy/</id>
     <published>2017-07-29T07:24:00.000Z</published>
-    <updated>2018-01-01T15:47:57.000Z</updated>
+    <updated>2018-01-02T10:55:12.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Live_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Live_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Live&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;Live&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;p&gt;&amp;#x6211;&amp;#x662F;&amp;#x7528; python &amp;#x7684;&amp;#x4EA4;&amp;#x6613;&amp;#x5458;&amp;#xFF0C;&amp;#x77E5;&amp;#x4E4E; Python &amp;#x548C;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x8BDD;&amp;#x9898;&amp;#x7684;&amp;#x4F18;&amp;#x79C0;&amp;#x56DE;&amp;#x7B54;&amp;#x8005;&amp;#xFF0C;&amp;#x91D1;&amp;#x878D;&amp;#x5DE5;&amp;#x7A0B;&amp;#x7855;&amp;#x58EB;&amp;#xFF0C;&amp;#x76EE;&amp;#x524D;&amp;#x5728;&amp;#x5747;&amp;#x76F4;&amp;#x8D44;&amp;#x4EA7;&amp;#x62C5;&amp;#x4EFB;&amp;#x671F;&amp;#x6743;&amp;#x4E1A;&amp;#x52A1;&amp;#x4E3B;&amp;#x7BA1;&amp;#x3002;&amp;#x540C;&amp;#x65F6;&amp;#x6211;&amp;#x4E5F;&amp;#x662F;&amp;#x5F00;&amp;#x6E90;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x6846;&amp;#x67B6; vn.py &amp;#x7684;&amp;#x4F5C;&amp;#x8005;&amp;#xFF0C;&amp;#x9879;&amp;#x76EE;&amp;#x76EE;&amp;#x524D;&amp;#x662F;&amp;#x56FD;&amp;#x5185;&amp;#x7528;&amp;#x6237;&amp;#x6700;&amp;#x591A;&amp;#x7684;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x5F00;&amp;#x6E90;&amp;#x9879;&amp;#x76EE;&amp;#x4E4B;&amp;#x4E00;&amp;#x3002;&lt;/p&gt;
 &lt;p&gt;vn.py &amp;#x9879;&amp;#x76EE;&amp;#x5728; Github &amp;#x4E0A;&amp;#x7684; Star &amp;#x6570;&amp;#x91CF;&amp;#x5DF2;&amp;#x7ECF;&amp;#x7A81;&amp;#x7834; 3287 &amp;#xFF0C;&amp;#x6211;&amp;#x672C;&amp;#x4EBA;&amp;#x5728;&amp;#x77E5;&amp;#x4E4E;&amp;#x4E0A;&amp;#x524D;&amp;#x540E;&amp;#x52A0;&amp;#x8D77;&amp;#x6765;&amp;#x4E5F;&amp;#x5DF2;&amp;#x7ECF;&amp;#x5F00;&amp;#x8FC7; 4 &amp;#x6B21; Live &amp;#x4E86;&amp;#xFF0C;&amp;#x7EC8;&amp;#x4E8E;&amp;#x6709;&amp;#x4FE1;&amp;#x5FC3;&amp;#x6765;&amp;#x8BB2;&amp;#x4E00;&amp;#x8BB2;&amp;#x81EA;&amp;#x5DF1;&amp;#x6700;&amp;#x4E3A;&amp;#x5F97;&amp;#x610F;&amp;#x7684;&amp;#x4F5C;&amp;#x54C1; vn.py &amp;#x3002;&lt;/p&gt;
@@ -1332,11 +1440,11 @@
   </entry>
   
   <entry>
-    <title>量化交易职业发展</title>
+    <title>【金融】量化交易职业发展</title>
     <link href="http://wiki.greenwicher.com/2017/06/29/zhihu-live-quant-career/"/>
     <id>http://wiki.greenwicher.com/2017/06/29/zhihu-live-quant-career/</id>
     <published>2017-06-28T16:26:00.000Z</published>
-    <updated>2018-01-01T15:45:37.000Z</updated>
+    <updated>2018-01-02T10:55:05.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Live_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Live_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Live&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;Live&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;p&gt;2005-2009&amp;#x4E2D;&amp;#x5C71;&amp;#x5927;&amp;#x5B66;&amp;#x6570;&amp;#x5B66;&amp;#x4E0E;&amp;#x5E94;&amp;#x7528;&amp;#x6570;&amp;#x5B66;&amp;#x672C;&amp;#x79D1;&amp;#xFF0C;2009-2011&amp;#x7F8E;&amp;#x56FD;&amp;#x65AF;&amp;#x5766;&amp;#x798F;&amp;#x5927;&amp;#x5B66;&amp;#x8BA1;&amp;#x7B97;&amp;#x4E0E;&amp;#x6570;&amp;#x5B66;&amp;#x5DE5;&amp;#x7A0B;&amp;#x7855;&amp;#x58EB;&amp;#xFF0C;&amp;#x6B64;&amp;#x540E;&amp;#x5728;&amp;#x7F8E;&amp;#x56FD;&amp;#x4ECE;&amp;#x4E8B;&amp;#x9AD8;&amp;#x9891;&amp;#x4E0E;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x4E24;&amp;#x5E74;&amp;#xFF0C;2013&amp;#x5E74;&amp;#x56DE;&amp;#x56FD;&amp;#xFF0C;&amp;#x5728;&amp;#x671F;&amp;#x8D27;&amp;#x516C;&amp;#x53F8;&amp;#x548C;&amp;#x79C1;&amp;#x52DF;&amp;#x8BC1;&amp;#x5238;&amp;#x6295;&amp;#x8D44;&amp;#x57FA;&amp;#x91D1;&amp;#x90FD;&amp;#x5DE5;&amp;#x4F5C;&amp;#x8FC7;&amp;#x3002;&amp;#x4ECE;&amp;#x4E1A;&amp;#x4EE5;&amp;#x6765;&amp;#x4EA4;&amp;#x6613;&amp;#x8FC7;&amp;#x7F8E;&amp;#x56FD;&amp;#x3001;&amp;#x65E5;&amp;#x672C;&amp;#x3001;&amp;#x65B0;&amp;#x52A0;&amp;#x5761;&amp;#x3001;&amp;#x4E2D;&amp;#x56FD;&amp;#x7684;&amp;#x671F;&amp;#x8D27;&amp;#x5E02;&amp;#x573A;&amp;#xFF0C;&amp;#x719F;&amp;#x6089;&amp;#x5404;&amp;#x79CD;&amp;#x9AD8;&amp;#x4E2D;&amp;#x4F4E;&amp;#x9891;&amp;#x671F;&amp;#x8D27;&amp;#x4EA4;&amp;#x6613;&amp;#x3002;&amp;#x76EE;&amp;#x524D;&amp;#x4E3B;&amp;#x8981;&amp;#x4ECE;&amp;#x4E8B;CTA&amp;#x5546;&amp;#x54C1;&amp;#x671F;&amp;#x8D27;&amp;#x4E2D;&amp;#x4F4E;&amp;#x9891;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x3002;&lt;/p&gt;
 &lt;p&gt;&amp;#x7ED3;&amp;#x5408;&amp;#x81EA;&amp;#x5DF1;&amp;#x8FD9;6&amp;#x5E74;&amp;#x6765;&amp;#x5728;&amp;#x4E2D;&amp;#x7F8E;&amp;#x91CF;&amp;#x5316;&amp;#x9886;&amp;#x57DF;&amp;#x7684;&amp;#x5DE5;&amp;#x4F5C;&amp;#x7ECF;&amp;#x5386;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x7684;&amp;#x57FA;&amp;#x672C;&amp;#x6982;&amp;#x5FF5;&amp;#x4EE5;&amp;#x53CA;&amp;#x5EFA;&amp;#x6A21;&amp;#x65B9;&amp;#x6CD5;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x804C;&amp;#x4E1A;&amp;#x53D1;&amp;#x5C55;&amp;#x7684;&amp;#x7ECF;&amp;#x9A8C;&amp;#xFF0C;&amp;#x6700;&amp;#x540E;&amp;#x7559;&amp;#x6709;&amp;#x95EE;&amp;#x7B54;&amp;#x65F6;&amp;#x95F4;&amp;#x3002;&lt;/p&gt;
