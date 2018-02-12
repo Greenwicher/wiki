@@ -1,0 +1,333 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>【金融】量化交易面试真题解析1 | Greenwicher&#39;s Wiki</title>
+  <meta name="author" content="LIU Weizhi">
+  
+  <meta name="description" content="My Personal Wiki">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="【金融】量化交易面试真题解析1"/>
+  <meta property="og:site_name" content="Greenwicher&#39;s Wiki"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="Greenwicher&#39;s Wiki" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">Greenwicher&#39;s Wiki</a><span class="split"></span><span class="title">【金融】量化交易面试真题解析1</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2018-02-12</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <p>&#x8BF7;&#x89C1;<a href="https://www.zhihu.com/lives/890517816137125888" target="_blank" rel="external">https://www.zhihu.com/lives/890517816137125888</a></p>
+<h2 id="Live_u7B80_u4ECB"><a href="#Live_u7B80_u4ECB" class="headerlink" title="Live&#x7B80;&#x4ECB;"></a>Live&#x7B80;&#x4ECB;</h2><p>&#x77E5;&#x4E4E;id:&#x6559;&#x7236;&#x3002;&#x66FE;&#x7ECF;&#x5168;&#x56FD;&#x5965;&#x8D5B;&#x83B7;&#x5956;&#xFF0C;&#x4FDD;&#x9001;&#x56FD;&#x5185;top2&#x672C;&#x79D1;&#x3002;&#x51FA;&#x56FD;&#x53D6;&#x5F97;&#x7269;&#x7406;&#x5B66;&#x535A;&#x58EB;&#x5B66;&#x4F4D;&#xFF0C;&#x6BD5;&#x4E1A;&#x540E;&#x8FDB;&#x5165;&#x6D77;&#x5916;&#x77E5;&#x540D;&#x5BF9;&#x51B2;&#x57FA;&#x91D1;&#xFF0C;&#x4E00;&#x76F4;&#x4ECE;&#x4E8B;&#x91CF;&#x5316;&#x4EA4;&#x6613;&#x5458;&#x548C;&#x7814;&#x7A76;&#x5458;&#x804C;&#x4F4D;&#x3002;&#x638C;&#x63E1;&#x4E30;&#x5BCC;&#x7684;&#x5168;&#x5E73;&#x53F0;&#x7ECF;&#x9A8C;&#xFF0C;&#x64C5;&#x957F;&#x671F;&#x8D27;&#x548C;&#x5916;&#x6C47;&#x7684;&#x77ED;&#x7EBF;&#x548C;&#x65E5;&#x5185;&#x7B56;&#x7565;&#x3002;</p>
+<p>&#x672C;&#x6B21;live&#x9009;&#x53D6;&#x6211;&#x4ECE;&#x4E1A;&#x4EE5;&#x6765;&#x9047;&#x5230;&#x7684;&#x4E00;&#x4E9B;&#x91CF;&#x5316;&#x79C1;&#x52DF;&#x7684;&#x5178;&#x578B;&#x9762;&#x8BD5;&#x9898;&#x771F;&#x9898;&#x6765;&#x7ED9;&#x542C;&#x4F17;&#x8BB2;&#x89E3;&#xFF0C;&#x4E3B;&#x8981;&#x9762;&#x5411;junior&#x804C;&#x4F4D;&#x3002;&#x6211;&#x5728;&#x4ECE;&#x4E1A;&#x591A;&#x5E74;&#x6765;&#x66FE;&#x7ECF;&#x53C2;&#x52A0;&#x8FC7;&#x56FD;&#x5185;&#x5916;&#x51E0;&#x5341;&#x5BB6;&#x91CF;&#x5316;&#x5BF9;&#x51B2;&#x57FA;&#x91D1;&#x516C;&#x53F8;&#x7684;&#x9762;&#x8BD5;&#xFF0C;&#x4E5F;&#x9762;&#x8BD5;&#x8FC7;&#x4E00;&#x4E9B;&#x5E94;&#x8058;&#x8005;&#xFF0C;&#x5728;&#x8FD9;&#x4E9B;&#x9762;&#x8BD5;&#x7ECF;&#x5386;&#x4E2D;&#x6211;&#x6311;&#x9009;&#x5927;&#x7EA6;10&#x4E2A;&#x7ECF;&#x5E38;&#x88AB;&#x95EE;&#x5230;&#x7684;&#x6216;&#x8005;&#x975E;&#x5E38;&#x5178;&#x578B;&#x7684;&#x9762;&#x8BD5;&#x9898;&#xFF0C;&#x6211;&#x4F1A;&#x7ED9;&#x51FA;&#x89E3;&#x9898;&#x7684;&#x7B54;&#x6848;&#xFF0C;&#x601D;&#x8DEF;&#x4EE5;&#x53CA;&#x5206;&#x6790;&#x516C;&#x53F8;&#x51FA;&#x9898;&#x7684;&#x601D;&#x8DEF;&#x3002;&#x8FD9;&#x4E9B;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x6307;&#x5F15;&#x4F60;&#x5982;&#x4F55;&#x51C6;&#x5907;&#x9762;&#x8BD5;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x4E34;&#x9635;&#x78E8;&#x67AA;&#x7684;&#x7EC3;&#x4E60;&#x3002;&#x5982;&#x679C;&#x4F60;&#x662F;&#x4E00;&#x4E2A;&#x60F3;&#x8FDB;&#x5165;&#x91CF;&#x5316;&#x4EA4;&#x6613;&#x8FD9;&#x4E2A;&#x9886;&#x57DF;&#x7684;&#x65B0;&#x4EBA;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x80FD;&#x5B8C;&#x5168;&#x638C;&#x63E1;&#x8BFE;&#x7A0B;&#x91CC;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x901A;&#x8FC7;junior&#x804C;&#x4F4D;&#x7684;&#x9762;&#x8BD5;&#x5E94;&#x8BE5;&#x57FA;&#x672C;&#x4E0A;&#x6CA1;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x672C;&#x6B21; Live &#x4E3B;&#x8981;&#x5305;&#x62EC;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;</p>
+<p>&#x2022;  Quant Developer &#x771F;&#x9898;<br>    (1) &#x51E0;&#x9053;&#x51FA;&#x73B0;&#x9891;&#x7387;&#x5F88;&#x9AD8;&#x7684;&#x7F16;&#x7A0B;&#x9898;<br>&#x2022;  Quant Researcher &#x771F;&#x9898;<br>    (1) &#x6982;&#x7387;&#x9898;<br>    (2) mini project<br>    (3) &#x8BA8;&#x8BBA;&#x9898;<br>&#x2022; &#x51C6;&#x5907;&#x9762;&#x8BD5;&#x7684;&#x601D;&#x8DEF;&#xFF0C;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#xFF0C;&#x65F6;&#x95F4;&#x8868;<br>&#x2022; &#x5173;&#x4E8E;&#x673A;&#x5668;&#x5B66;&#x4E60;&#xFF0C;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;</p>
+<h2 id="u5609_u5BBE_u5206_u4EAB"><a href="#u5609_u5BBE_u5206_u4EAB" class="headerlink" title="&#x5609;&#x5BBE;&#x5206;&#x4EAB;"></a>&#x5609;&#x5BBE;&#x5206;&#x4EAB;</h2><h3 id="Quant_Developer_u771F_u9898"><a href="#Quant_Developer_u771F_u9898" class="headerlink" title="Quant Developer&#x771F;&#x9898;"></a>Quant Developer&#x771F;&#x9898;</h3><ul>
+<li><p>&#x5F53;&#x505A;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x9762;&#x8BD5;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x51C6;&#x5907;&#x592A;&#x591A;&#x91D1;&#x878D;&#x77E5;&#x8BC6;</p>
+</li>
+<li><p>&#x771F;&#x9898;1&#xFF1A;&#x5FEB;&#x901F;&#x6392;&#x5E8F;&#x7684;&#x7B97;&#x6CD5;&#x548C;&#x4F2A;&#x4EE3;&#x7801;&#xFF0C;&#x4EE5;&#x53CA;&#x590D;&#x6742;&#x5EA6;</p>
+</li>
+<li><p>&#x771F;&#x9898;2&#xFF1A;sequentially processing array&#xFF0C;O&#xFF08;N&#xFF09;&#x590D;&#x6742;&#x5EA6;</p>
+<ul>
+<li><p>&#x7ED9;&#x5B9A;&#x65F6;&#x95F4;&#x5E8F;&#x5217;&#xFF0C;&#x8BA1;&#x7B97;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x3010;&#x66F4;&#x65B0;&#x5F53;&#x524D;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x4EE5;&#x53CA;&#x6700;&#x9AD8;&#x4EF7;&#x683C;&#x3011;</p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/maxdrawdown.jpg" alt="maxdrawdown"></p>
+</li>
+<li><p>&#x7ED9;&#x5B9A;&#x4E24;&#x4E2A;&#x4ECE;&#x5C0F;&#x5230;&#x5927;&#x6392;&#x5217;&#x597D;&#x7684;&#x6570;&#x7EC4;&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x91CC;&#x90FD;&#x6CA1;&#x6709;&#x91CD;&#x590D;&#x5143;&#x7D20;&#xFF0C;&#x627E;&#x51FA;&#x5171;&#x540C;&#x7684;&#x6574;&#x6570;&#x51FA;&#x6765;&#x3010;&#x53CC;&#x6307;&#x9488;&#x3011;</p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/common-elements2.jpg" alt="common-elements"></p>
+</li>
+</ul>
+</li>
+<li><p>&#x771F;&#x9898;3&#xFF1A;&#x7ECF;&#x5178;&#x9012;&#x5F52;&#x95EE;&#x9898;</p>
+<ul>
+<li><p>&#x516B;&#x7687;&#x540E;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x6C49;&#x8BFA;&#x5854;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x7528;&#x9012;&#x5F52;&#x6C42;&#x6570;&#x7EC4;&#x4E4B;&#x548C;</p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/calsum.jpg" alt="calsum"></p>
+</li>
+</ul>
+</li>
+<li><p>&#x771F;&#x9898;4&#xFF1A;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x7528;&#x8FC7;&#x54EA;&#x4E9B;&#xFF1F;&#x5982;&#x4F55;&#x89E3;&#x51B3;&#x540C;&#x4E00;&#x6210;&#x5458;&#x53D8;&#x91CF;&#x88AB;&#x591A;&#x4E2A;&#x65B9;&#x6CD5;&#x8C03;&#x7528;&#x7684;&#x60C5;&#x51B5;&#xFF1F;</p>
+<ul>
+<li>singleton&#xFF08;&#x5355;&#x4F8B;&#x6A21;&#x5F0F;&#xFF09;</li>
+<li>factory</li>
+<li>filter</li>
+</ul>
+</li>
+<li><p>&#x771F;&#x9898;5&#xFF1A;&#x5173;&#x4E8E;Java&#xFF0C;mutable&#x548C;immutable&#x5BF9;&#x8C61;&#x7684;&#x5DEE;&#x522B;&#xFF1F;&#x5982;&#x4F55;&#x5C06;&#x524D;&#x8005;&#x8F6C;&#x6362;&#x4E3A;&#x540E;&#x8005;&#xFF1F;</p>
+</li>
+</ul>
+<h3 id="Quant_Researcher_u771F_u9898"><a href="#Quant_Researcher_u771F_u9898" class="headerlink" title="Quant Researcher&#x771F;&#x9898;"></a>Quant Researcher&#x771F;&#x9898;</h3><ul>
+<li><p>&#x91CD;&#x5728;&#x7814;&#x7A76;&#x80FD;&#x529B;&#xFF0C;&#x505A;mini project</p>
+</li>
+<li><p>&#x771F;&#x9898;6&#xFF1A;&#x6570;&#x636E;&#x5206;&#x6790;</p>
+<ul>
+<li><p>&#x6E05;&#x6D17;&#x6570;&#x636E;</p>
+</li>
+<li><p>&#x6709;&#x4EC0;&#x4E48;&#x53D1;&#x73B0;</p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/time-series.jpg" alt="time-series"></p>
+</li>
+<li><p>pair trading</p>
+</li>
+<li><p>&#x5199;&#x62A5;&#x544A;&#xFF0C;&#x505A;presentation</p>
+</li>
+</ul>
+</li>
+<li><p>&#x771F;&#x9898;7&#xFF1A;&#x5E02;&#x573A;&#x6DF1;&#x5EA6;&#x6570;&#x636E;&#x3001;&#x9010;&#x7B14;&#x4EA4;&#x6613;&#x6570;&#x636E;</p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/level-data.jpg" alt="level-data"></p>
+<ul>
+<li><p>&#x5982;&#x4F55;&#x5229;&#x7528;&#x6DF1;&#x5EA6;&#x6570;&#x636E;&#xFF0C;&#x6765;&#x518D;&#x73B0;order flow&#xFF0C;&#x6570;&#x636E;&#x6709;&#x4F55;&#x7279;&#x70B9;&#xFF0C;&#x6709;&#x54EA;&#x4E9B;&#x6F5C;&#x5728;&#x4EA4;&#x6613;&#x7B56;&#x7565;</p>
+</li>
+<li><p>type 1/2</p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/order-flow-data-type1.jpg" alt="order-flow-data-type1"></p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/order-flow-data-type2.jpg" alt="order-flow-data-type2"></p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/order-flow-data.jpg" alt="order-flow-data"></p>
+</li>
+<li><p>&#x5206;&#x6790;&#x6570;&#x636E;</p>
+<p><img src="/2018/02/12/zhihu-live-quant-interviews-1/time-series2.jpg" alt="time-series2"></p>
+</li>
+</ul>
+</li>
+<li><p>&#x771F;&#x9898;8&#xFF1A;&#x6982;&#x7387;&#x95EE;&#x9898;</p>
+<ul>
+<li>&#x597D;&#x6570;&#xFF1A;&#x5DE6;&#x8FB9;&#x548C;&#x53F3;&#x8FB9;&#x7684;&#x6570;&#x90FD;&#x6BD4;&#x4ED6;&#x5C0F;&#xFF0C;&#x7ED9;&#x5B9A;&#x6570;&#x7EC4;&#x5927;&#x5C0F;&#x4E3A;n&#xFF0C;&#x8BD5;&#x95EE;&#x597D;&#x6570;&#x4E2A;&#x6570;&#x7684;&#x671F;&#x671B;&#x662F;&#x591A;&#x5C11; &#x3010;&#x8FC7;&#x5EA6;&#x7B80;&#x5316;&#x4E4B;&#x540E;&#xFF0C;$(n-2)/3+1$&#x3011;</li>
+</ul>
+</li>
+</ul>
+<h3 id="u51C6_u5907_u9762_u8BD5_u7684_u601D_u8DEF_uFF0C_u6CE8_u610F_u4E8B_u9879_uFF0C_u65F6_u95F4_u8868"><a href="#u51C6_u5907_u9762_u8BD5_u7684_u601D_u8DEF_uFF0C_u6CE8_u610F_u4E8B_u9879_uFF0C_u65F6_u95F4_u8868" class="headerlink" title="&#x51C6;&#x5907;&#x9762;&#x8BD5;&#x7684;&#x601D;&#x8DEF;&#xFF0C;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#xFF0C;&#x65F6;&#x95F4;&#x8868;"></a>&#x51C6;&#x5907;&#x9762;&#x8BD5;&#x7684;&#x601D;&#x8DEF;&#xFF0C;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#xFF0C;&#x65F6;&#x95F4;&#x8868;</h3><ul>
+<li>&#x91CD;&#x5728;&#x601D;&#x8DEF;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x7279;&#x522B;&#x5728;&#x4E4E;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7EC6;&#x8282;</li>
+<li>&#x505A;&#x81EA;&#x5DF1;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x628A;&#x8BDD;&#x9898;&#x5F15;&#x5BFC;&#x5230;&#x81EA;&#x5DF1;&#x719F;&#x6089;&#x7684;&#x95EE;&#x9898;&#x4E0A;&#x9762;&#x6765;&#xFF1B;&#x5426;&#x5219;&#x9762;&#x8BD5;&#x5B98;&#x4E5F;&#x53EA;&#x80FD;&#x901A;&#x8FC7;&#x4F20;&#x7EDF;&#x9898;&#x76EE;&#x6765;&#x4E86;&#x89E3;&#x4F60;&#x7684;&#x80FD;&#x529B;</li>
+<li>&#x65F6;&#x95F4;&#x8868;<ul>
+<li>&#x65F6;&#x95F4;&#x77ED;&#xFF1A;&#x7ECF;&#x5178;&#x9898;&#xFF08;&#x5982;&#x4E0A;&#x6240;&#x8FF0;&#xFF09;</li>
+<li>&#x65F6;&#x95F4;&#x7A0D;&#x957F;&#xFF1A;&#x4EE5;&#x4E0A;&#xFF0C;&#x4EE5;&#x53CA;&#x642D;&#x5EFA;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x91CF;&#x5316;&#x4EA4;&#x6613;&#x7CFB;&#x7EDF;</li>
+<li>&#x65F6;&#x95F4;&#x5145;&#x88D5;&#xFF1A;&#x4EE5;&#x4E0A;&#xFF0C;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x7684;&#x5B66;&#x4E60;&#x7B97;&#x6CD5;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x3001;&#x63D0;&#x5347;&#x7814;&#x7A76;&#x80FD;&#x529B;&#x7B49;&#x7B49;</li>
+</ul>
+</li>
+</ul>
+<h3 id="u5173_u4E8E_u673A_u5668_u5B66_u4E60_uFF0C_u6DF1_u5EA6_u5B66_u4E60"><a href="#u5173_u4E8E_u673A_u5668_u5B66_u4E60_uFF0C_u6DF1_u5EA6_u5B66_u4E60" class="headerlink" title="&#x5173;&#x4E8E;&#x673A;&#x5668;&#x5B66;&#x4E60;&#xFF0C;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;"></a>&#x5173;&#x4E8E;&#x673A;&#x5668;&#x5B66;&#x4E60;&#xFF0C;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;</h3><ul>
+<li>&#x7B54;&#x4E3B;&#x7ECF;&#x5386;&#x7684;&#x516C;&#x53F8;&#x5F88;&#x5C11;&#x6709;&#x4EBA;&#x7528;&#x673A;&#x5668;&#x5B66;&#x4E60;&#xFF0C;&#x56E0;&#x4E3A;&#x91D1;&#x878D;&#x5E02;&#x573A;&#x7684;&#x4FE1;&#x566A;&#x6BD4;&#x592A;&#x4F4E;&#xFF0C;&#x5BB9;&#x6613;&#x8FC7;&#x62DF;&#x5408;</li>
+<li>&#x627E;feature&#x6216;&#x8005;&#x8BF4;indicator&#x5F88;&#x91CD;&#x8981;&#xFF08;&#x4EBA;&#x5DE5;&#x6316;&#x6398;&#x4FE1;&#x606F;&#xFF09;</li>
+<li>&#x4E86;&#x89E3;&#x76EE;&#x6807;&#x516C;&#x53F8;&#x662F;&#x5426;&#x8981;&#x6C42;&#x673A;&#x5668;&#x5B66;&#x4E60;&#xFF0C;&#x5426;&#x5219;&#x4E5F;&#x4E0D;&#x9700;&#x8981;&#x7279;&#x522B;&#x51C6;&#x5907;&#x8FD9;&#x5757;</li>
+</ul>
+<h2 id="u89C2_u4F17_u63D0_u95EE"><a href="#u89C2_u4F17_u63D0_u95EE" class="headerlink" title="&#x89C2;&#x4F17;&#x63D0;&#x95EE;"></a>&#x89C2;&#x4F17;&#x63D0;&#x95EE;</h2><p>Q: &#x6559;&#x7236;&#x80FD;&#x8BF4;&#x8BF4;&#x770B;&#x73B0;&#x5728;&#x4E3B;&#x6D41;&#x91CF;&#x5316;&#x4EA4;&#x6613;&#x516C;&#x53F8;quant&#x7684;&#x85AA;&#x91D1;&#x5417;&#xFF1F;<br>A: &#x7F8E;&#x56FD;&#x7684;&#x8BDD;&#xFF0C;&#x535A;&#x58EB;&#x521A;&#x6BD5;&#x4E1A;&#x5341;&#x4E07;&#x7F8E;&#x91D1;&#x5DE6;&#x53F3;&#xFF0C;&#x5956;&#x91D1;&#x51E0;&#x4E07;&#x7F8E;&#x91D1;&#xFF1B;&#x56FD;&#x5185;&#x8D77;&#x85AA;&#x6BD4;&#x8F83;&#x4F4E;</p>
+<hr>
+
+<p>Q: &#x6CA1;&#x4EBA;&#x95EE;&#x4E86;&#xFF1F;&#x6211;&#x518D;&#x95EE;&#x4E00;&#x4E2A;&#x54C8;&#x3002;30&#x5C81;&#xFF0C;&#x503A;&#x5E02;&#x4ECE;&#x4E1A;&#x591A;&#x5E74;&#x4E86;&#xFF0C;&#x60F3;&#x8F6C;&#x884C;&#x505A;&#x91CF;&#x5316;&#x6295;&#x8D44;&#xFF0C;&#x5E74;&#x9F84;&#x4E0A;&#x662F;&#x4E0D;&#x662F;&#x4E0D;&#x7ED9;&#x529B;&#x4E86;&#xFF1F;<br>A: &#x91CF;&#x5316;&#x4EA4;&#x6613;&#x5E76;&#x4E0D;&#x662F;&#x9752;&#x6625;&#x996D;&#xFF1B;&#x53CD;&#x800C;&#x5E74;&#x9F84;&#x8D8A;&#x5927;&#xFF0C;&#x7814;&#x7A76;&#x8D8A;&#x591A;&#xFF0C;&#x7ECF;&#x9A8C;&#x8D8A;&#x591A;&#xFF0C;&#x8D8A;&#x53D7;&#x6B22;&#x8FCE;</p>
+<hr>
+
+<p>Q: &#x60F3;&#x95EE;&#x4E0B;&#x6559;&#x7236;&#x5982;&#x679C;&#x51C6;&#x5907;&#x56FD;&#x5185;&#x7684;&#x9762;&#x8BD5;&#x7684;&#x8BDD;&#xFF0C;&#x9700;&#x8981;&#x53BB;&#x7EC3;&#x4E60;&#x7F16;&#x5199;&#x54EA;&#x4E9B;&#x7B56;&#x7565;&#x5462;&#xFF1F;<br>A: &#x7B54;&#x4E3B;&#x4E00;&#x5F00;&#x59CB;&#x5199;&#x7684;&#x662F;pair trading&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x8D8B;&#x52BF;&#x65B9;&#x9762;&#x7684;&#x7B56;&#x7565;</p>
+<hr>
+
+<p>Q: &#x6559;&#x7236;&#xFF0C;&#x6211;&#x60F3;&#x95EE;&#x4E00;&#x4E0B;&#x5982;&#x679C;&#x6709;&#x4E00;&#x4E2A;&#x81EA;&#x5DF1;&#x505A;&#x7684;&#x56DE;&#x6D4B;&#x7CFB;&#x7EDF;&#x548C;&#x7B56;&#x7565;&#x62FF;&#x53BB;&#x9762;&#x8BD5;&#xFF0C;&#x9700;&#x8981;&#x8FD9;&#x4E2A;&#x7B56;&#x7565;&#x5DF2;&#x7ECF;&#x5728;&#x5B9E;&#x76D8;&#x8DD1;&#x4E86;&#x5417;&#xFF1F;&#x516C;&#x53F8;&#x770B;&#x4E0D;&#x770B;&#x91CD;&#x9762;&#x8BD5;&#x5BF9;&#x8C61;&#x7684;&#x7B56;&#x7565;&#x5B9E;&#x76D8;&#x8DD1;&#x7684;&#x6548;&#x679C;&#xFF1F;<br>A: &#x53EA;&#x662F;&#x5C55;&#x793A;&#x4E2A;&#x4EBA;&#x80FD;&#x529B;&#x4E0E;&#x70ED;&#x60C5;&#xFF0C;&#x5F53;&#x7136;&#x5982;&#x679C;&#x80FD;&#x5B9E;&#x76D8;&#x8DD1;&#x5E76;&#x4E14;&#x6548;&#x679C;&#x4E0D;&#x9519;&#x5C31;&#x66F4;&#x597D;&#x4E86;</p>
+<hr>
+
+<h2 id="u53C2_u8003_u8D44_u6599"><a href="#u53C2_u8003_u8D44_u6599" class="headerlink" title="&#x53C2;&#x8003;&#x8D44;&#x6599;"></a>&#x53C2;&#x8003;&#x8D44;&#x6599;</h2>	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+			
+			
+		
+	
+		
+			
+			
+			
+		
+			
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2018/02/10/zhihu-live-how-to-design-your-life-like-a-game/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2018 LIU Weizhi
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

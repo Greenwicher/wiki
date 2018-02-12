@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wiki.greenwicher.com/"/>
-  <updated>2018-02-10T10:09:18.693Z</updated>
+  <updated>2018-02-12T12:26:27.313Z</updated>
   <id>http://wiki.greenwicher.com/</id>
   
   <author>
@@ -14,6 +14,133 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【金融】量化交易面试真题解析1</title>
+    <link href="http://wiki.greenwicher.com/2018/02/12/zhihu-live-quant-interviews-1/"/>
+    <id>http://wiki.greenwicher.com/2018/02/12/zhihu-live-quant-interviews-1/</id>
+    <published>2018-02-12T11:10:00.000Z</published>
+    <updated>2018-02-12T12:26:27.313Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;#x8BF7;&amp;#x89C1;&lt;a href=&quot;https://www.zhihu.com/lives/890517816137125888&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/lives/890517816137125888&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Live_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Live_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Live&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;Live&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;p&gt;&amp;#x77E5;&amp;#x4E4E;id:&amp;#x6559;&amp;#x7236;&amp;#x3002;&amp;#x66FE;&amp;#x7ECF;&amp;#x5168;&amp;#x56FD;&amp;#x5965;&amp;#x8D5B;&amp;#x83B7;&amp;#x5956;&amp;#xFF0C;&amp;#x4FDD;&amp;#x9001;&amp;#x56FD;&amp;#x5185;top2&amp;#x672C;&amp;#x79D1;&amp;#x3002;&amp;#x51FA;&amp;#x56FD;&amp;#x53D6;&amp;#x5F97;&amp;#x7269;&amp;#x7406;&amp;#x5B66;&amp;#x535A;&amp;#x58EB;&amp;#x5B66;&amp;#x4F4D;&amp;#xFF0C;&amp;#x6BD5;&amp;#x4E1A;&amp;#x540E;&amp;#x8FDB;&amp;#x5165;&amp;#x6D77;&amp;#x5916;&amp;#x77E5;&amp;#x540D;&amp;#x5BF9;&amp;#x51B2;&amp;#x57FA;&amp;#x91D1;&amp;#xFF0C;&amp;#x4E00;&amp;#x76F4;&amp;#x4ECE;&amp;#x4E8B;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x5458;&amp;#x548C;&amp;#x7814;&amp;#x7A76;&amp;#x5458;&amp;#x804C;&amp;#x4F4D;&amp;#x3002;&amp;#x638C;&amp;#x63E1;&amp;#x4E30;&amp;#x5BCC;&amp;#x7684;&amp;#x5168;&amp;#x5E73;&amp;#x53F0;&amp;#x7ECF;&amp;#x9A8C;&amp;#xFF0C;&amp;#x64C5;&amp;#x957F;&amp;#x671F;&amp;#x8D27;&amp;#x548C;&amp;#x5916;&amp;#x6C47;&amp;#x7684;&amp;#x77ED;&amp;#x7EBF;&amp;#x548C;&amp;#x65E5;&amp;#x5185;&amp;#x7B56;&amp;#x7565;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x672C;&amp;#x6B21;live&amp;#x9009;&amp;#x53D6;&amp;#x6211;&amp;#x4ECE;&amp;#x4E1A;&amp;#x4EE5;&amp;#x6765;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x4E00;&amp;#x4E9B;&amp;#x91CF;&amp;#x5316;&amp;#x79C1;&amp;#x52DF;&amp;#x7684;&amp;#x5178;&amp;#x578B;&amp;#x9762;&amp;#x8BD5;&amp;#x9898;&amp;#x771F;&amp;#x9898;&amp;#x6765;&amp;#x7ED9;&amp;#x542C;&amp;#x4F17;&amp;#x8BB2;&amp;#x89E3;&amp;#xFF0C;&amp;#x4E3B;&amp;#x8981;&amp;#x9762;&amp;#x5411;junior&amp;#x804C;&amp;#x4F4D;&amp;#x3002;&amp;#x6211;&amp;#x5728;&amp;#x4ECE;&amp;#x4E1A;&amp;#x591A;&amp;#x5E74;&amp;#x6765;&amp;#x66FE;&amp;#x7ECF;&amp;#x53C2;&amp;#x52A0;&amp;#x8FC7;&amp;#x56FD;&amp;#x5185;&amp;#x5916;&amp;#x51E0;&amp;#x5341;&amp;#x5BB6;&amp;#x91CF;&amp;#x5316;&amp;#x5BF9;&amp;#x51B2;&amp;#x57FA;&amp;#x91D1;&amp;#x516C;&amp;#x53F8;&amp;#x7684;&amp;#x9762;&amp;#x8BD5;&amp;#xFF0C;&amp;#x4E5F;&amp;#x9762;&amp;#x8BD5;&amp;#x8FC7;&amp;#x4E00;&amp;#x4E9B;&amp;#x5E94;&amp;#x8058;&amp;#x8005;&amp;#xFF0C;&amp;#x5728;&amp;#x8FD9;&amp;#x4E9B;&amp;#x9762;&amp;#x8BD5;&amp;#x7ECF;&amp;#x5386;&amp;#x4E2D;&amp;#x6211;&amp;#x6311;&amp;#x9009;&amp;#x5927;&amp;#x7EA6;10&amp;#x4E2A;&amp;#x7ECF;&amp;#x5E38;&amp;#x88AB;&amp;#x95EE;&amp;#x5230;&amp;#x7684;&amp;#x6216;&amp;#x8005;&amp;#x975E;&amp;#x5E38;&amp;#x5178;&amp;#x578B;&amp;#x7684;&amp;#x9762;&amp;#x8BD5;&amp;#x9898;&amp;#xFF0C;&amp;#x6211;&amp;#x4F1A;&amp;#x7ED9;&amp;#x51FA;&amp;#x89E3;&amp;#x9898;&amp;#x7684;&amp;#x7B54;&amp;#x6848;&amp;#xFF0C;&amp;#x601D;&amp;#x8DEF;&amp;#x4EE5;&amp;#x53CA;&amp;#x5206;&amp;#x6790;&amp;#x516C;&amp;#x53F8;&amp;#x51FA;&amp;#x9898;&amp;#x7684;&amp;#x601D;&amp;#x8DEF;&amp;#x3002;&amp;#x8FD9;&amp;#x4E9B;&amp;#x5185;&amp;#x5BB9;&amp;#x53EF;&amp;#x4EE5;&amp;#x6307;&amp;#x5F15;&amp;#x4F60;&amp;#x5982;&amp;#x4F55;&amp;#x51C6;&amp;#x5907;&amp;#x9762;&amp;#x8BD5;&amp;#xFF0C;&amp;#x540C;&amp;#x65F6;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x4F5C;&amp;#x4E3A;&amp;#x4E34;&amp;#x9635;&amp;#x78E8;&amp;#x67AA;&amp;#x7684;&amp;#x7EC3;&amp;#x4E60;&amp;#x3002;&amp;#x5982;&amp;#x679C;&amp;#x4F60;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x60F3;&amp;#x8FDB;&amp;#x5165;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x8FD9;&amp;#x4E2A;&amp;#x9886;&amp;#x57DF;&amp;#x7684;&amp;#x65B0;&amp;#x4EBA;&amp;#xFF0C;&amp;#x5982;&amp;#x679C;&amp;#x4F60;&amp;#x80FD;&amp;#x5B8C;&amp;#x5168;&amp;#x638C;&amp;#x63E1;&amp;#x8BFE;&amp;#x7A0B;&amp;#x91CC;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x901A;&amp;#x8FC7;junior&amp;#x804C;&amp;#x4F4D;&amp;#x7684;&amp;#x9762;&amp;#x8BD5;&amp;#x5E94;&amp;#x8BE5;&amp;#x57FA;&amp;#x672C;&amp;#x4E0A;&amp;#x6CA1;&amp;#x95EE;&amp;#x9898;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x672C;&amp;#x6B21; Live &amp;#x4E3B;&amp;#x8981;&amp;#x5305;&amp;#x62EC;&amp;#x4EE5;&amp;#x4E0B;&amp;#x5185;&amp;#x5BB9;&lt;/p&gt;
+&lt;p&gt;&amp;#x2022;  Quant Developer &amp;#x771F;&amp;#x9898;&lt;br&gt;    (1) &amp;#x51E0;&amp;#x9053;&amp;#x51FA;&amp;#x73B0;&amp;#x9891;&amp;#x7387;&amp;#x5F88;&amp;#x9AD8;&amp;#x7684;&amp;#x7F16;&amp;#x7A0B;&amp;#x9898;&lt;br&gt;&amp;#x2022;  Quant Researcher &amp;#x771F;&amp;#x9898;&lt;br&gt;    (1) &amp;#x6982;&amp;#x7387;&amp;#x9898;&lt;br&gt;    (2) mini project&lt;br&gt;    (3) &amp;#x8BA8;&amp;#x8BBA;&amp;#x9898;&lt;br&gt;&amp;#x2022; &amp;#x51C6;&amp;#x5907;&amp;#x9762;&amp;#x8BD5;&amp;#x7684;&amp;#x601D;&amp;#x8DEF;&amp;#xFF0C;&amp;#x6CE8;&amp;#x610F;&amp;#x4E8B;&amp;#x9879;&amp;#xFF0C;&amp;#x65F6;&amp;#x95F4;&amp;#x8868;&lt;br&gt;&amp;#x2022; &amp;#x5173;&amp;#x4E8E;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#xFF0C;&amp;#x6DF1;&amp;#x5EA6;&amp;#x5B66;&amp;#x4E60;&lt;/p&gt;
+&lt;h2 id=&quot;u5609_u5BBE_u5206_u4EAB&quot;&gt;&lt;a href=&quot;#u5609_u5BBE_u5206_u4EAB&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5609;&amp;#x5BBE;&amp;#x5206;&amp;#x4EAB;&quot;&gt;&lt;/a&gt;&amp;#x5609;&amp;#x5BBE;&amp;#x5206;&amp;#x4EAB;&lt;/h2&gt;&lt;h3 id=&quot;Quant_Developer_u771F_u9898&quot;&gt;&lt;a href=&quot;#Quant_Developer_u771F_u9898&quot; class=&quot;headerlink&quot; title=&quot;Quant Developer&amp;#x771F;&amp;#x9898;&quot;&gt;&lt;/a&gt;Quant Developer&amp;#x771F;&amp;#x9898;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5F53;&amp;#x505A;&amp;#x7A0B;&amp;#x5E8F;&amp;#x5458;&amp;#x7684;&amp;#x9762;&amp;#x8BD5;&amp;#xFF0C;&amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#x51C6;&amp;#x5907;&amp;#x592A;&amp;#x591A;&amp;#x91D1;&amp;#x878D;&amp;#x77E5;&amp;#x8BC6;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;1&amp;#xFF1A;&amp;#x5FEB;&amp;#x901F;&amp;#x6392;&amp;#x5E8F;&amp;#x7684;&amp;#x7B97;&amp;#x6CD5;&amp;#x548C;&amp;#x4F2A;&amp;#x4EE3;&amp;#x7801;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x590D;&amp;#x6742;&amp;#x5EA6;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;2&amp;#xFF1A;sequentially processing array&amp;#xFF0C;O&amp;#xFF08;N&amp;#xFF09;&amp;#x590D;&amp;#x6742;&amp;#x5EA6;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x7ED9;&amp;#x5B9A;&amp;#x65F6;&amp;#x95F4;&amp;#x5E8F;&amp;#x5217;&amp;#xFF0C;&amp;#x8BA1;&amp;#x7B97;&amp;#x6700;&amp;#x5927;&amp;#x56DE;&amp;#x64A4;&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x5F53;&amp;#x524D;&amp;#x6700;&amp;#x5927;&amp;#x56DE;&amp;#x64A4;&amp;#x4EE5;&amp;#x53CA;&amp;#x6700;&amp;#x9AD8;&amp;#x4EF7;&amp;#x683C;&amp;#x3011;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/maxdrawdown.jpg&quot; alt=&quot;maxdrawdown&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x7ED9;&amp;#x5B9A;&amp;#x4E24;&amp;#x4E2A;&amp;#x4ECE;&amp;#x5C0F;&amp;#x5230;&amp;#x5927;&amp;#x6392;&amp;#x5217;&amp;#x597D;&amp;#x7684;&amp;#x6570;&amp;#x7EC4;&amp;#xFF0C;&amp;#x6BCF;&amp;#x4E00;&amp;#x4E2A;&amp;#x6570;&amp;#x7EC4;&amp;#x91CC;&amp;#x90FD;&amp;#x6CA1;&amp;#x6709;&amp;#x91CD;&amp;#x590D;&amp;#x5143;&amp;#x7D20;&amp;#xFF0C;&amp;#x627E;&amp;#x51FA;&amp;#x5171;&amp;#x540C;&amp;#x7684;&amp;#x6574;&amp;#x6570;&amp;#x51FA;&amp;#x6765;&amp;#x3010;&amp;#x53CC;&amp;#x6307;&amp;#x9488;&amp;#x3011;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/common-elements2.jpg&quot; alt=&quot;common-elements&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;3&amp;#xFF1A;&amp;#x7ECF;&amp;#x5178;&amp;#x9012;&amp;#x5F52;&amp;#x95EE;&amp;#x9898;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x516B;&amp;#x7687;&amp;#x540E;&amp;#x95EE;&amp;#x9898;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x6C49;&amp;#x8BFA;&amp;#x5854;&amp;#x95EE;&amp;#x9898;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x7528;&amp;#x9012;&amp;#x5F52;&amp;#x6C42;&amp;#x6570;&amp;#x7EC4;&amp;#x4E4B;&amp;#x548C;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/calsum.jpg&quot; alt=&quot;calsum&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;4&amp;#xFF1A;&amp;#x8BBE;&amp;#x8BA1;&amp;#x6A21;&amp;#x5F0F;&amp;#x662F;&amp;#x4EC0;&amp;#x4E48;&amp;#xFF1F;&amp;#x7528;&amp;#x8FC7;&amp;#x54EA;&amp;#x4E9B;&amp;#xFF1F;&amp;#x5982;&amp;#x4F55;&amp;#x89E3;&amp;#x51B3;&amp;#x540C;&amp;#x4E00;&amp;#x6210;&amp;#x5458;&amp;#x53D8;&amp;#x91CF;&amp;#x88AB;&amp;#x591A;&amp;#x4E2A;&amp;#x65B9;&amp;#x6CD5;&amp;#x8C03;&amp;#x7528;&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#xFF1F;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;singleton&amp;#xFF08;&amp;#x5355;&amp;#x4F8B;&amp;#x6A21;&amp;#x5F0F;&amp;#xFF09;&lt;/li&gt;
+&lt;li&gt;factory&lt;/li&gt;
+&lt;li&gt;filter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;5&amp;#xFF1A;&amp;#x5173;&amp;#x4E8E;Java&amp;#xFF0C;mutable&amp;#x548C;immutable&amp;#x5BF9;&amp;#x8C61;&amp;#x7684;&amp;#x5DEE;&amp;#x522B;&amp;#xFF1F;&amp;#x5982;&amp;#x4F55;&amp;#x5C06;&amp;#x524D;&amp;#x8005;&amp;#x8F6C;&amp;#x6362;&amp;#x4E3A;&amp;#x540E;&amp;#x8005;&amp;#xFF1F;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Quant_Researcher_u771F_u9898&quot;&gt;&lt;a href=&quot;#Quant_Researcher_u771F_u9898&quot; class=&quot;headerlink&quot; title=&quot;Quant Researcher&amp;#x771F;&amp;#x9898;&quot;&gt;&lt;/a&gt;Quant Researcher&amp;#x771F;&amp;#x9898;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x91CD;&amp;#x5728;&amp;#x7814;&amp;#x7A76;&amp;#x80FD;&amp;#x529B;&amp;#xFF0C;&amp;#x505A;mini project&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;6&amp;#xFF1A;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x6E05;&amp;#x6D17;&amp;#x6570;&amp;#x636E;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x6709;&amp;#x4EC0;&amp;#x4E48;&amp;#x53D1;&amp;#x73B0;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/time-series.jpg&quot; alt=&quot;time-series&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;pair trading&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5199;&amp;#x62A5;&amp;#x544A;&amp;#xFF0C;&amp;#x505A;presentation&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;7&amp;#xFF1A;&amp;#x5E02;&amp;#x573A;&amp;#x6DF1;&amp;#x5EA6;&amp;#x6570;&amp;#x636E;&amp;#x3001;&amp;#x9010;&amp;#x7B14;&amp;#x4EA4;&amp;#x6613;&amp;#x6570;&amp;#x636E;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/level-data.jpg&quot; alt=&quot;level-data&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5982;&amp;#x4F55;&amp;#x5229;&amp;#x7528;&amp;#x6DF1;&amp;#x5EA6;&amp;#x6570;&amp;#x636E;&amp;#xFF0C;&amp;#x6765;&amp;#x518D;&amp;#x73B0;order flow&amp;#xFF0C;&amp;#x6570;&amp;#x636E;&amp;#x6709;&amp;#x4F55;&amp;#x7279;&amp;#x70B9;&amp;#xFF0C;&amp;#x6709;&amp;#x54EA;&amp;#x4E9B;&amp;#x6F5C;&amp;#x5728;&amp;#x4EA4;&amp;#x6613;&amp;#x7B56;&amp;#x7565;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;type 1/2&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/order-flow-data-type1.jpg&quot; alt=&quot;order-flow-data-type1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/order-flow-data-type2.jpg&quot; alt=&quot;order-flow-data-type2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/order-flow-data.jpg&quot; alt=&quot;order-flow-data&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5206;&amp;#x6790;&amp;#x6570;&amp;#x636E;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/12/zhihu-live-quant-interviews-1/time-series2.jpg&quot; alt=&quot;time-series2&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x771F;&amp;#x9898;8&amp;#xFF1A;&amp;#x6982;&amp;#x7387;&amp;#x95EE;&amp;#x9898;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x597D;&amp;#x6570;&amp;#xFF1A;&amp;#x5DE6;&amp;#x8FB9;&amp;#x548C;&amp;#x53F3;&amp;#x8FB9;&amp;#x7684;&amp;#x6570;&amp;#x90FD;&amp;#x6BD4;&amp;#x4ED6;&amp;#x5C0F;&amp;#xFF0C;&amp;#x7ED9;&amp;#x5B9A;&amp;#x6570;&amp;#x7EC4;&amp;#x5927;&amp;#x5C0F;&amp;#x4E3A;n&amp;#xFF0C;&amp;#x8BD5;&amp;#x95EE;&amp;#x597D;&amp;#x6570;&amp;#x4E2A;&amp;#x6570;&amp;#x7684;&amp;#x671F;&amp;#x671B;&amp;#x662F;&amp;#x591A;&amp;#x5C11; &amp;#x3010;&amp;#x8FC7;&amp;#x5EA6;&amp;#x7B80;&amp;#x5316;&amp;#x4E4B;&amp;#x540E;&amp;#xFF0C;$(n-2)/3+1$&amp;#x3011;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;u51C6_u5907_u9762_u8BD5_u7684_u601D_u8DEF_uFF0C_u6CE8_u610F_u4E8B_u9879_uFF0C_u65F6_u95F4_u8868&quot;&gt;&lt;a href=&quot;#u51C6_u5907_u9762_u8BD5_u7684_u601D_u8DEF_uFF0C_u6CE8_u610F_u4E8B_u9879_uFF0C_u65F6_u95F4_u8868&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x51C6;&amp;#x5907;&amp;#x9762;&amp;#x8BD5;&amp;#x7684;&amp;#x601D;&amp;#x8DEF;&amp;#xFF0C;&amp;#x6CE8;&amp;#x610F;&amp;#x4E8B;&amp;#x9879;&amp;#xFF0C;&amp;#x65F6;&amp;#x95F4;&amp;#x8868;&quot;&gt;&lt;/a&gt;&amp;#x51C6;&amp;#x5907;&amp;#x9762;&amp;#x8BD5;&amp;#x7684;&amp;#x601D;&amp;#x8DEF;&amp;#xFF0C;&amp;#x6CE8;&amp;#x610F;&amp;#x4E8B;&amp;#x9879;&amp;#xFF0C;&amp;#x65F6;&amp;#x95F4;&amp;#x8868;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x91CD;&amp;#x5728;&amp;#x601D;&amp;#x8DEF;&amp;#xFF0C;&amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#x7279;&amp;#x522B;&amp;#x5728;&amp;#x4E4E;&amp;#x7F16;&amp;#x7A0B;&amp;#x8BED;&amp;#x8A00;&amp;#x7EC6;&amp;#x8282;&lt;/li&gt;
+&lt;li&gt;&amp;#x505A;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684;&amp;#x4E1C;&amp;#x897F;&amp;#xFF0C;&amp;#x628A;&amp;#x8BDD;&amp;#x9898;&amp;#x5F15;&amp;#x5BFC;&amp;#x5230;&amp;#x81EA;&amp;#x5DF1;&amp;#x719F;&amp;#x6089;&amp;#x7684;&amp;#x95EE;&amp;#x9898;&amp;#x4E0A;&amp;#x9762;&amp;#x6765;&amp;#xFF1B;&amp;#x5426;&amp;#x5219;&amp;#x9762;&amp;#x8BD5;&amp;#x5B98;&amp;#x4E5F;&amp;#x53EA;&amp;#x80FD;&amp;#x901A;&amp;#x8FC7;&amp;#x4F20;&amp;#x7EDF;&amp;#x9898;&amp;#x76EE;&amp;#x6765;&amp;#x4E86;&amp;#x89E3;&amp;#x4F60;&amp;#x7684;&amp;#x80FD;&amp;#x529B;&lt;/li&gt;
+&lt;li&gt;&amp;#x65F6;&amp;#x95F4;&amp;#x8868;&lt;ul&gt;
+&lt;li&gt;&amp;#x65F6;&amp;#x95F4;&amp;#x77ED;&amp;#xFF1A;&amp;#x7ECF;&amp;#x5178;&amp;#x9898;&amp;#xFF08;&amp;#x5982;&amp;#x4E0A;&amp;#x6240;&amp;#x8FF0;&amp;#xFF09;&lt;/li&gt;
+&lt;li&gt;&amp;#x65F6;&amp;#x95F4;&amp;#x7A0D;&amp;#x957F;&amp;#xFF1A;&amp;#x4EE5;&amp;#x4E0A;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x642D;&amp;#x5EFA;&amp;#x8F7B;&amp;#x91CF;&amp;#x7EA7;&amp;#x7684;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x7CFB;&amp;#x7EDF;&lt;/li&gt;
+&lt;li&gt;&amp;#x65F6;&amp;#x95F4;&amp;#x5145;&amp;#x88D5;&amp;#xFF1A;&amp;#x4EE5;&amp;#x4E0A;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x7CFB;&amp;#x7EDF;&amp;#x7684;&amp;#x5B66;&amp;#x4E60;&amp;#x7B97;&amp;#x6CD5;&amp;#x6570;&amp;#x636E;&amp;#x7ED3;&amp;#x6784;&amp;#x3001;&amp;#x63D0;&amp;#x5347;&amp;#x7814;&amp;#x7A76;&amp;#x80FD;&amp;#x529B;&amp;#x7B49;&amp;#x7B49;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;u5173_u4E8E_u673A_u5668_u5B66_u4E60_uFF0C_u6DF1_u5EA6_u5B66_u4E60&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u673A_u5668_u5B66_u4E60_uFF0C_u6DF1_u5EA6_u5B66_u4E60&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5173;&amp;#x4E8E;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#xFF0C;&amp;#x6DF1;&amp;#x5EA6;&amp;#x5B66;&amp;#x4E60;&quot;&gt;&lt;/a&gt;&amp;#x5173;&amp;#x4E8E;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#xFF0C;&amp;#x6DF1;&amp;#x5EA6;&amp;#x5B66;&amp;#x4E60;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x7B54;&amp;#x4E3B;&amp;#x7ECF;&amp;#x5386;&amp;#x7684;&amp;#x516C;&amp;#x53F8;&amp;#x5F88;&amp;#x5C11;&amp;#x6709;&amp;#x4EBA;&amp;#x7528;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#xFF0C;&amp;#x56E0;&amp;#x4E3A;&amp;#x91D1;&amp;#x878D;&amp;#x5E02;&amp;#x573A;&amp;#x7684;&amp;#x4FE1;&amp;#x566A;&amp;#x6BD4;&amp;#x592A;&amp;#x4F4E;&amp;#xFF0C;&amp;#x5BB9;&amp;#x6613;&amp;#x8FC7;&amp;#x62DF;&amp;#x5408;&lt;/li&gt;
+&lt;li&gt;&amp;#x627E;feature&amp;#x6216;&amp;#x8005;&amp;#x8BF4;indicator&amp;#x5F88;&amp;#x91CD;&amp;#x8981;&amp;#xFF08;&amp;#x4EBA;&amp;#x5DE5;&amp;#x6316;&amp;#x6398;&amp;#x4FE1;&amp;#x606F;&amp;#xFF09;&lt;/li&gt;
+&lt;li&gt;&amp;#x4E86;&amp;#x89E3;&amp;#x76EE;&amp;#x6807;&amp;#x516C;&amp;#x53F8;&amp;#x662F;&amp;#x5426;&amp;#x8981;&amp;#x6C42;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#xFF0C;&amp;#x5426;&amp;#x5219;&amp;#x4E5F;&amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#x7279;&amp;#x522B;&amp;#x51C6;&amp;#x5907;&amp;#x8FD9;&amp;#x5757;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;u89C2_u4F17_u63D0_u95EE&quot;&gt;&lt;a href=&quot;#u89C2_u4F17_u63D0_u95EE&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x89C2;&amp;#x4F17;&amp;#x63D0;&amp;#x95EE;&quot;&gt;&lt;/a&gt;&amp;#x89C2;&amp;#x4F17;&amp;#x63D0;&amp;#x95EE;&lt;/h2&gt;&lt;p&gt;Q: &amp;#x6559;&amp;#x7236;&amp;#x80FD;&amp;#x8BF4;&amp;#x8BF4;&amp;#x770B;&amp;#x73B0;&amp;#x5728;&amp;#x4E3B;&amp;#x6D41;&amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x516C;&amp;#x53F8;quant&amp;#x7684;&amp;#x85AA;&amp;#x91D1;&amp;#x5417;&amp;#xFF1F;&lt;br&gt;A: &amp;#x7F8E;&amp;#x56FD;&amp;#x7684;&amp;#x8BDD;&amp;#xFF0C;&amp;#x535A;&amp;#x58EB;&amp;#x521A;&amp;#x6BD5;&amp;#x4E1A;&amp;#x5341;&amp;#x4E07;&amp;#x7F8E;&amp;#x91D1;&amp;#x5DE6;&amp;#x53F3;&amp;#xFF0C;&amp;#x5956;&amp;#x91D1;&amp;#x51E0;&amp;#x4E07;&amp;#x7F8E;&amp;#x91D1;&amp;#xFF1B;&amp;#x56FD;&amp;#x5185;&amp;#x8D77;&amp;#x85AA;&amp;#x6BD4;&amp;#x8F83;&amp;#x4F4E;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;Q: &amp;#x6CA1;&amp;#x4EBA;&amp;#x95EE;&amp;#x4E86;&amp;#xFF1F;&amp;#x6211;&amp;#x518D;&amp;#x95EE;&amp;#x4E00;&amp;#x4E2A;&amp;#x54C8;&amp;#x3002;30&amp;#x5C81;&amp;#xFF0C;&amp;#x503A;&amp;#x5E02;&amp;#x4ECE;&amp;#x4E1A;&amp;#x591A;&amp;#x5E74;&amp;#x4E86;&amp;#xFF0C;&amp;#x60F3;&amp;#x8F6C;&amp;#x884C;&amp;#x505A;&amp;#x91CF;&amp;#x5316;&amp;#x6295;&amp;#x8D44;&amp;#xFF0C;&amp;#x5E74;&amp;#x9F84;&amp;#x4E0A;&amp;#x662F;&amp;#x4E0D;&amp;#x662F;&amp;#x4E0D;&amp;#x7ED9;&amp;#x529B;&amp;#x4E86;&amp;#xFF1F;&lt;br&gt;A: &amp;#x91CF;&amp;#x5316;&amp;#x4EA4;&amp;#x6613;&amp;#x5E76;&amp;#x4E0D;&amp;#x662F;&amp;#x9752;&amp;#x6625;&amp;#x996D;&amp;#xFF1B;&amp;#x53CD;&amp;#x800C;&amp;#x5E74;&amp;#x9F84;&amp;#x8D8A;&amp;#x5927;&amp;#xFF0C;&amp;#x7814;&amp;#x7A76;&amp;#x8D8A;&amp;#x591A;&amp;#xFF0C;&amp;#x7ECF;&amp;#x9A8C;&amp;#x8D8A;&amp;#x591A;&amp;#xFF0C;&amp;#x8D8A;&amp;#x53D7;&amp;#x6B22;&amp;#x8FCE;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;Q: &amp;#x60F3;&amp;#x95EE;&amp;#x4E0B;&amp;#x6559;&amp;#x7236;&amp;#x5982;&amp;#x679C;&amp;#x51C6;&amp;#x5907;&amp;#x56FD;&amp;#x5185;&amp;#x7684;&amp;#x9762;&amp;#x8BD5;&amp;#x7684;&amp;#x8BDD;&amp;#xFF0C;&amp;#x9700;&amp;#x8981;&amp;#x53BB;&amp;#x7EC3;&amp;#x4E60;&amp;#x7F16;&amp;#x5199;&amp;#x54EA;&amp;#x4E9B;&amp;#x7B56;&amp;#x7565;&amp;#x5462;&amp;#xFF1F;&lt;br&gt;A: &amp;#x7B54;&amp;#x4E3B;&amp;#x4E00;&amp;#x5F00;&amp;#x59CB;&amp;#x5199;&amp;#x7684;&amp;#x662F;pair trading&amp;#xFF0C;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x8003;&amp;#x8651;&amp;#x8D8B;&amp;#x52BF;&amp;#x65B9;&amp;#x9762;&amp;#x7684;&amp;#x7B56;&amp;#x7565;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;Q: &amp;#x6559;&amp;#x7236;&amp;#xFF0C;&amp;#x6211;&amp;#x60F3;&amp;#x95EE;&amp;#x4E00;&amp;#x4E0B;&amp;#x5982;&amp;#x679C;&amp;#x6709;&amp;#x4E00;&amp;#x4E2A;&amp;#x81EA;&amp;#x5DF1;&amp;#x505A;&amp;#x7684;&amp;#x56DE;&amp;#x6D4B;&amp;#x7CFB;&amp;#x7EDF;&amp;#x548C;&amp;#x7B56;&amp;#x7565;&amp;#x62FF;&amp;#x53BB;&amp;#x9762;&amp;#x8BD5;&amp;#xFF0C;&amp;#x9700;&amp;#x8981;&amp;#x8FD9;&amp;#x4E2A;&amp;#x7B56;&amp;#x7565;&amp;#x5DF2;&amp;#x7ECF;&amp;#x5728;&amp;#x5B9E;&amp;#x76D8;&amp;#x8DD1;&amp;#x4E86;&amp;#x5417;&amp;#xFF1F;&amp;#x516C;&amp;#x53F8;&amp;#x770B;&amp;#x4E0D;&amp;#x770B;&amp;#x91CD;&amp;#x9762;&amp;#x8BD5;&amp;#x5BF9;&amp;#x8C61;&amp;#x7684;&amp;#x7B56;&amp;#x7565;&amp;#x5B9E;&amp;#x76D8;&amp;#x8DD1;&amp;#x7684;&amp;#x6548;&amp;#x679C;&amp;#xFF1F;&lt;br&gt;A: &amp;#x53EA;&amp;#x662F;&amp;#x5C55;&amp;#x793A;&amp;#x4E2A;&amp;#x4EBA;&amp;#x80FD;&amp;#x529B;&amp;#x4E0E;&amp;#x70ED;&amp;#x60C5;&amp;#xFF0C;&amp;#x5F53;&amp;#x7136;&amp;#x5982;&amp;#x679C;&amp;#x80FD;&amp;#x5B9E;&amp;#x76D8;&amp;#x8DD1;&amp;#x5E76;&amp;#x4E14;&amp;#x6548;&amp;#x679C;&amp;#x4E0D;&amp;#x9519;&amp;#x5C31;&amp;#x66F4;&amp;#x597D;&amp;#x4E86;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id=&quot;u53C2_u8003_u8D44_u6599&quot;&gt;&lt;a href=&quot;#u53C2_u8003_u8D44_u6599&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&quot;&gt;&lt;/a&gt;&amp;#x53C2;&amp;#x8003;&amp;#x8D44;&amp;#x6599;&lt;/h2&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#x8BF7;&amp;#x89C1;&lt;a href=&quot;https://www.zhihu.com/lives/890517816137125888&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/lives/89051
+    
+    </summary>
+    
+      <category term="知乎Live" scheme="http://wiki.greenwicher.com/categories/%E7%9F%A5%E4%B9%8ELive/"/>
+    
+    
+      <category term="量化交易, Quant, 面试" scheme="http://wiki.greenwicher.com/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93-Quant-%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>【管理】如何像游戏一样设计你生活乐趣？</title>
@@ -235,7 +362,7 @@
     <link href="http://wiki.greenwicher.com/2018/02/03/book-principles/"/>
     <id>http://wiki.greenwicher.com/2018/02/03/book-principles/</id>
     <published>2018-02-03T03:18:00.000Z</published>
-    <updated>2018-02-10T07:41:33.007Z</updated>
+    <updated>2018-02-12T06:03:23.217Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#x8BF7;&amp;#x89C1;&lt;a href=&quot;https://book.douban.com/subject/27608239/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://book.douban.com/subject/27608239/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;u7B2C_u4E00_u90E8_u5206__u6211_u7684_u5386_u7A0B&quot;&gt;&lt;a href=&quot;#u7B2C_u4E00_u90E8_u5206__u6211_u7684_u5386_u7A0B&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7B2C;&amp;#x4E00;&amp;#x90E8;&amp;#x5206; &amp;#x6211;&amp;#x7684;&amp;#x5386;&amp;#x7A0B;&quot;&gt;&lt;/a&gt;&amp;#x7B2C;&amp;#x4E00;&amp;#x90E8;&amp;#x5206; &amp;#x6211;&amp;#x7684;&amp;#x5386;&amp;#x7A0B;&lt;/h2&gt;&lt;h2 id=&quot;u7B2C_u4E8C_u90E8_u5206__u751F_u6D3B_u539F_u5219&quot;&gt;&lt;a href=&quot;#u7B2C_u4E8C_u90E8_u5206__u751F_u6D3B_u539F_u5219&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7B2C;&amp;#x4E8C;&amp;#x90E8;&amp;#x5206; &amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&quot;&gt;&lt;/a&gt;&amp;#x7B2C;&amp;#x4E8C;&amp;#x90E8;&amp;#x5206; &amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&lt;/h2&gt;&lt;h3 id=&quot;1__u62E5_u62B1_u73B0_u5B9E_uFF0C_u5E94_u5BF9_u73B0_u5B9E&quot;&gt;&lt;a href=&quot;#1__u62E5_u62B1_u73B0_u5B9E_uFF0C_u5E94_u5BF9_u73B0_u5B9E&quot; class=&quot;headerlink&quot; title=&quot;1 &amp;#x62E5;&amp;#x62B1;&amp;#x73B0;&amp;#x5B9E;&amp;#xFF0C;&amp;#x5E94;&amp;#x5BF9;&amp;#x73B0;&amp;#x5B9E;&quot;&gt;&lt;/a&gt;1 &amp;#x62E5;&amp;#x62B1;&amp;#x73B0;&amp;#x5B9E;&amp;#xFF0C;&amp;#x5E94;&amp;#x5BF9;&amp;#x73B0;&amp;#x5B9E;&lt;/h3&gt;&lt;blockquote&gt;
@@ -584,7 +711,56 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;4-4__u8BA4_u8BC6_u81EA_u5DF1_u548C_u4ED6_u4EBA_u7684_u7279_u6027&quot;&gt;&lt;a href=&quot;#4-4__u8BA4_u8BC6_u81EA_u5DF1_u548C_u4ED6_u4EBA_u7684_u7279_u6027&quot; class=&quot;headerlink&quot; title=&quot;4.4 &amp;#x8BA4;&amp;#x8BC6;&amp;#x81EA;&amp;#x5DF1;&amp;#x548C;&amp;#x4ED6;&amp;#x4EBA;&amp;#x7684;&amp;#x7279;&amp;#x6027;&quot;&gt;&lt;/a&gt;4.4 &amp;#x8BA4;&amp;#x8BC6;&amp;#x81EA;&amp;#x5DF1;&amp;#x548C;&amp;#x4ED6;&amp;#x4EBA;&amp;#x7684;&amp;#x7279;&amp;#x6027;&lt;/h4&gt;&lt;h3 id=&quot;5__u5B66_u4E60_u5982_u4F55_u6709_u6548_u51B3_u7B56&quot;&gt;&lt;a href=&quot;#5__u5B66_u4E60_u5982_u4F55_u6709_u6548_u51B3_u7B56&quot; class=&quot;headerlink&quot; title=&quot;5 &amp;#x5B66;&amp;#x4E60;&amp;#x5982;&amp;#x4F55;&amp;#x6709;&amp;#x6548;&amp;#x51B3;&amp;#x7B56;&quot;&gt;&lt;/a&gt;5 &amp;#x5B66;&amp;#x4E60;&amp;#x5982;&amp;#x4F55;&amp;#x6709;&amp;#x6548;&amp;#x51B3;&amp;#x7B56;&lt;/h3&gt;&lt;h3 id=&quot;u751F_u6D3B_u539F_u5219_u603B_u7ED3&quot;&gt;&lt;a href=&quot;#u751F_u6D3B_u539F_u5219_u603B_u7ED3&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x603B;&amp;#x7ED3;&quot;&gt;&lt;/a&gt;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x603B;&amp;#x7ED3;&lt;/h3&gt;&lt;h3 id=&quot;u751F_u6D3B_u539F_u5219_u6982_u8981_u4E0E_u5217_u8868&quot;&gt;&lt;a href=&quot;#u751F_u6D3B_u539F_u5219_u6982_u8981_u4E0E_u5217_u8868&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x6982;&amp;#x8981;&amp;#x4E0E;&amp;#x5217;&amp;#x8868;&quot;&gt;&lt;/a&gt;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x6982;&amp;#x8981;&amp;#x4E0E;&amp;#x5217;&amp;#x8868;&lt;/h3&gt;&lt;h2 id=&quot;u7B2C_u4E09_u90E8_u5206__u5DE5_u4F5C_u539F_u5219&quot;&gt;&lt;a href=&quot;#u7B2C_u4E09_u90E8_u5206__u5DE5_u4F5C_u539F_u5219&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7B2C;&amp;#x4E09;&amp;#x90E8;&amp;#x5206; &amp;#x5DE5;&amp;#x4F5C;&amp;#x539F;&amp;#x5219;&quot;&gt;&lt;/a&gt;&amp;#x7B2C;&amp;#x4E09;&amp;#x90E8;&amp;#x5206; &amp;#x5DE5;&amp;#x4F5C;&amp;#x539F;&amp;#x5219;&lt;/h2&gt;</content>
+&lt;h4 id=&quot;4-4__u8BA4_u8BC6_u81EA_u5DF1_u548C_u4ED6_u4EBA_u7684_u7279_u6027&quot;&gt;&lt;a href=&quot;#4-4__u8BA4_u8BC6_u81EA_u5DF1_u548C_u4ED6_u4EBA_u7684_u7279_u6027&quot; class=&quot;headerlink&quot; title=&quot;4.4 &amp;#x8BA4;&amp;#x8BC6;&amp;#x81EA;&amp;#x5DF1;&amp;#x548C;&amp;#x4ED6;&amp;#x4EBA;&amp;#x7684;&amp;#x7279;&amp;#x6027;&quot;&gt;&lt;/a&gt;4.4 &amp;#x8BA4;&amp;#x8BC6;&amp;#x81EA;&amp;#x5DF1;&amp;#x548C;&amp;#x4ED6;&amp;#x4EBA;&amp;#x7684;&amp;#x7279;&amp;#x6027;&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;#x5728;&amp;#x4EFB;&amp;#x4F55;&amp;#x751F;&amp;#x547D;&amp;#x5386;&amp;#x7A0B;&amp;#x4E2D;&amp;#xFF0C;&amp;#x4E86;&amp;#x89E3;&amp;#x4EBA;&amp;#x7684;&amp;#x7279;&amp;#x6027;&amp;#x90FD;&amp;#x662F;&amp;#x5FC5;&amp;#x8981;&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x6B65;&amp;#x3002;&amp;#x4F60;&amp;#x505A;&amp;#x4EC0;&amp;#x4E48;&amp;#x5E76;&amp;#x4E0D;&amp;#x91CD;&amp;#x8981;&amp;#xFF0C;&amp;#x53EA;&amp;#x8981;&amp;#x4F60;&amp;#x505A;&amp;#x7684;&amp;#x7B26;&amp;#x5408;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684;&amp;#x4E2A;&amp;#x6027;&amp;#x548C;&amp;#x4EBA;&amp;#x751F;&amp;#x7406;&amp;#x60F3;&amp;#x3002;&amp;#x4EBA;&amp;#x4EBA;&amp;#x90FD;&amp;#x6709;&amp;#x957F;&amp;#x5904;&amp;#x548C;&amp;#x77ED;&amp;#x5904;&amp;#xFF0C;&amp;#x4EBA;&amp;#x4EBA;&amp;#x90FD;&amp;#x80FD;&amp;#x5728;&amp;#x751F;&amp;#x6D3B;&amp;#x4E2D;&amp;#x626E;&amp;#x6F14;&amp;#x91CD;&amp;#x8981;&amp;#x89D2;&amp;#x8272;&amp;#x3002;&amp;#x5927;&amp;#x81EA;&amp;#x7136;&amp;#x5851;&amp;#x9020;&amp;#x4E07;&amp;#x4E8B;&amp;#x4E07;&amp;#x7269;&amp;#x7686;&amp;#x6709;&amp;#x76EE;&amp;#x7684;&amp;#x3002;&amp;#x4F60;&amp;#x6700;&amp;#x9700;&amp;#x8981;&amp;#x7684;&amp;#x52C7;&amp;#x6C14;&amp;#x4E0D;&amp;#x662F;&amp;#x9A71;&amp;#x4F7F;&amp;#x4F60;&amp;#x6218;&amp;#x80DC;&amp;#x522B;&amp;#x4EBA;&amp;#x7684;&amp;#x52C7;&amp;#x6C14;&amp;#xFF0C;&amp;#x800C;&amp;#x662F;&amp;#x4E0D;&amp;#x7BA1;&amp;#x5176;&amp;#x4ED6;&amp;#x4EBA;&amp;#x5BF9;&amp;#x4F60;&amp;#x6709;&amp;#x4F55;&amp;#x5180;&amp;#x671B;&amp;#xFF0C;&amp;#x4F60;&amp;#x59CB;&amp;#x7EC8;&amp;#x575A;&amp;#x6301;&amp;#x505A;&amp;#x6700;&amp;#x771F;&amp;#x5B9E;&amp;#x7684;&amp;#x81EA;&amp;#x6211;&amp;#x7684;&amp;#x52C7;&amp;#x6C14;&amp;#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x6865;&amp;#x6C34;&amp;#x4E3B;&amp;#x8981;&amp;#x7528;&amp;#x7684;&amp;#x56DB;&amp;#x79CD;&amp;#x6D4B;&amp;#x8BD5;&amp;#xFF08;&lt;a href=&quot;http://assessments.principles.com&amp;#xFF09;&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://assessments.principles.com&amp;#xFF09;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MBTI&lt;/li&gt;
+&lt;li&gt;&amp;#x804C;&amp;#x573A;&amp;#x4EBA;&amp;#x683C;&amp;#x91CF;&amp;#x8868;&lt;/li&gt;
+&lt;li&gt;&amp;#x56E2;&amp;#x961F;&amp;#x503E;&amp;#x5411;&amp;#x7B80;&amp;#x8868;&lt;/li&gt;
+&lt;li&gt;&amp;#x5206;&amp;#x5C42;&amp;#x7CFB;&amp;#x7EDF;&amp;#x7406;&amp;#x8BBA;&lt;/li&gt;
+&lt;li&gt;&amp;#x5927;&amp;#x4E94;&amp;#x7C7B;&amp;#x4EBA;&amp;#x683C;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x4EBA;&amp;#x683C;&amp;#x7279;&amp;#x5F81;&amp;#x4E0E;&amp;#x884C;&amp;#x4E3A;&amp;#x504F;&amp;#x597D;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5185;&amp;#x5411;&amp;#x4E0E;&amp;#x5916;&amp;#x5411;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x76F4;&amp;#x89C9;&amp;#x4E0E;&amp;#x611F;&amp;#x77E5;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x601D;&amp;#x8003;&amp;#x4E0E;&amp;#x611F;&amp;#x89C9;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x8BA1;&amp;#x5212;&amp;#x4E0E;&amp;#x53D1;&amp;#x89C9;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x521B;&amp;#x9020;&amp;#x8005;&amp;#x3001;&amp;#x63A8;&amp;#x8FDB;&amp;#x8005;&amp;#x3001;&amp;#x6539;&amp;#x8FDB;&amp;#x8005;&amp;#x3001;&amp;#x8D2F;&amp;#x5F7B;&amp;#x8005;&amp;#x4E0E;&amp;#x53D8;&amp;#x901A;&amp;#x8005;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/02/03/book-principles/five_roles.jpg&quot; alt=&quot;five_roles&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5173;&amp;#x6CE8;&amp;#x4EFB;&amp;#x52A1;&amp;#x4E0E;&amp;#x5173;&amp;#x6CE8;&amp;#x76EE;&amp;#x6807;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x804C;&amp;#x573A;&amp;#x4EBA;&amp;#x683C;&amp;#x91CF;&amp;#x8868;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x5851;&amp;#x9020;&amp;#x8005;&amp;#x662F;&amp;#x80FD;&amp;#x4ECE;&amp;#x6784;&amp;#x60F3;&amp;#x4E00;&amp;#x8DEF;&amp;#x8D70;&amp;#x5230;&amp;#x6784;&amp;#x60F3;&amp;#x5B9E;&amp;#x73B0;&amp;#x7684;&amp;#x4EBA;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x80FD;&amp;#x63D0;&amp;#x51FA;&amp;#x72EC;&amp;#x7279;&amp;#x548C;&amp;#x6709;&amp;#x4EF7;&amp;#x503C;&amp;#x7684;&amp;#x613F;&amp;#x666F;&amp;#xFF0C;&amp;#x5E76;&amp;#x4EE5;&amp;#x7F8E;&amp;#x5999;&amp;#x7684;&amp;#x65B9;&amp;#x5F0F;&amp;#x5B9E;&amp;#x73B0;&amp;#x613F;&amp;#x666F;&lt;/li&gt;
+&lt;li&gt;&amp;#x5851;&amp;#x9020;&amp;#x8005; = &amp;#x7406;&amp;#x60F3;&amp;#x5BB6; + &amp;#x52A1;&amp;#x5B9E;&amp;#x601D;&amp;#x8003;&amp;#x8005; + &amp;#x575A;&amp;#x6BC5;&amp;#x8005;&lt;/li&gt;
+&lt;li&gt;&amp;#x7279;&amp;#x5F81;&amp;#xFF1A;&amp;#x6781;&amp;#x5BCC;&amp;#x597D;&amp;#x5947;&amp;#x5FC3;&amp;#xFF1B;&amp;#x6709;&amp;#x628A;&amp;#x4E8B;&amp;#x60C5;&amp;#x5F04;&amp;#x6E05;&amp;#x695A;&amp;#x7684;&amp;#x5F3A;&amp;#x70C8;&amp;#x51B2;&amp;#x52A8;&amp;#xFF1B;&amp;#x8FD1;&amp;#x4E4E;&amp;#x53DB;&amp;#x9006;&amp;#x7684;&amp;#x72EC;&amp;#x7ACB;&amp;#x601D;&amp;#x8003;&amp;#xFF1B;&amp;#x9700;&amp;#x8981;&amp;#x5B8F;&amp;#x5927;&amp;#x522B;&amp;#x81F4;&amp;#x7684;&amp;#x68A6;&amp;#x60F3;&amp;#xFF1B;&amp;#x52A1;&amp;#x5B9E;&amp;#x5E76;&amp;#x575A;&amp;#x6BC5;&amp;#x5F97;&amp;#x6392;&amp;#x9664;&amp;#x4E07;&amp;#x96BE;&amp;#x3001;&amp;#x5B9E;&amp;#x73B0;&amp;#x76EE;&amp;#x6807;&amp;#xFF1B;&amp;#x4E86;&amp;#x89E3;&amp;#x81EA;&amp;#x5DF1;&amp;#x548C;&amp;#x5176;&amp;#x4ED6;&amp;#x4EBA;&amp;#x7684;&amp;#x957F;&amp;#x5904;&amp;#x548C;&amp;#x77ED;&amp;#x5904;&amp;#xFF0C;&amp;#x6240;&amp;#x4EE5;&amp;#x80FD;&amp;#x534F;&amp;#x8C03;&amp;#x56E2;&amp;#x961F;&amp;#x6765;&amp;#x5B9E;&amp;#x73B0;&amp;#x76EE;&amp;#x6807;&amp;#xFF1B;&amp;#x540C;&amp;#x65F6;&amp;#x6301;&amp;#x6709;&amp;#x76F8;&amp;#x4E92;&amp;#x51B2;&amp;#x7A81;&amp;#x7684;&amp;#x60F3;&amp;#x6CD5;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECE;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x89D2;&amp;#x5EA6;&amp;#x6765;&amp;#x770B;&amp;#x5230;&amp;#x8FD9;&amp;#x4E9B;&amp;#x60F3;&amp;#x6CD5;&amp;#xFF1B;&amp;#x80FD;&amp;#x5728;&amp;#x5168;&amp;#x5C40;&amp;#x548C;&amp;#x7EC6;&amp;#x8282;&amp;#x4E4B;&amp;#x95F4;&amp;#x81EA;&amp;#x5982;&amp;#x5730;&amp;#x6765;&amp;#x56DE;&amp;#x8DF3;&amp;#x8DC3;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;4-5__u65E0_u8BBA_u4F60_u8981_u5B9E_u73B0_u4EC0_u4E48_u76EE_u6807_uFF0C_u8BA9_u5408_u9002_u7684_u4EBA_u5404_u53F8_u5176_u804C_u4EE5_u652F_u6301_u4F60_u7684_u76EE_u6807_uFF0C_u662F_u6210_u529F_u7684_u5173_u952E&quot;&gt;&lt;a href=&quot;#4-5__u65E0_u8BBA_u4F60_u8981_u5B9E_u73B0_u4EC0_u4E48_u76EE_u6807_uFF0C_u8BA9_u5408_u9002_u7684_u4EBA_u5404_u53F8_u5176_u804C_u4EE5_u652F_u6301_u4F60_u7684_u76EE_u6807_uFF0C_u662F_u6210_u529F_u7684_u5173_u952E&quot; class=&quot;headerlink&quot; title=&quot;4.5 &amp;#x65E0;&amp;#x8BBA;&amp;#x4F60;&amp;#x8981;&amp;#x5B9E;&amp;#x73B0;&amp;#x4EC0;&amp;#x4E48;&amp;#x76EE;&amp;#x6807;&amp;#xFF0C;&amp;#x8BA9;&amp;#x5408;&amp;#x9002;&amp;#x7684;&amp;#x4EBA;&amp;#x5404;&amp;#x53F8;&amp;#x5176;&amp;#x804C;&amp;#x4EE5;&amp;#x652F;&amp;#x6301;&amp;#x4F60;&amp;#x7684;&amp;#x76EE;&amp;#x6807;&amp;#xFF0C;&amp;#x662F;&amp;#x6210;&amp;#x529F;&amp;#x7684;&amp;#x5173;&amp;#x952E;&quot;&gt;&lt;/a&gt;4.5 &amp;#x65E0;&amp;#x8BBA;&amp;#x4F60;&amp;#x8981;&amp;#x5B9E;&amp;#x73B0;&amp;#x4EC0;&amp;#x4E48;&amp;#x76EE;&amp;#x6807;&amp;#xFF0C;&amp;#x8BA9;&amp;#x5408;&amp;#x9002;&amp;#x7684;&amp;#x4EBA;&amp;#x5404;&amp;#x53F8;&amp;#x5176;&amp;#x804C;&amp;#x4EE5;&amp;#x652F;&amp;#x6301;&amp;#x4F60;&amp;#x7684;&amp;#x76EE;&amp;#x6807;&amp;#xFF0C;&amp;#x662F;&amp;#x6210;&amp;#x529F;&amp;#x7684;&amp;#x5173;&amp;#x952E;&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;#x65E0;&amp;#x8BBA;&amp;#x5728;&amp;#x79C1;&amp;#x4EBA;&amp;#x751F;&amp;#x6D3B;&amp;#x8FD8;&amp;#x662F;&amp;#x5DE5;&amp;#x4F5C;&amp;#x4E2D;&amp;#xFF0C;&amp;#x4F60;&amp;#x548C;&amp;#x5176;&amp;#x4ED6;&amp;#x4EBA;&amp;#x5408;&amp;#x4F5C;&amp;#x7684;&amp;#x6700;&amp;#x597D;&amp;#x65B9;&amp;#x5F0F;&amp;#x90FD;&amp;#x662F;&amp;#xFF0C;&amp;#x628A;&amp;#x5177;&amp;#x6709;&amp;#x4E92;&amp;#x8865;&amp;#x6027;&amp;#x7279;&amp;#x5F81;&amp;#x7684;&amp;#x4EBA;&amp;#x642D;&amp;#x914D;&amp;#x5728;&amp;#x4E00;&amp;#x8D77;&amp;#xFF0C;&amp;#x521B;&amp;#x5EFA;&amp;#x6700;&amp;#x9002;&amp;#x4E8E;&amp;#x5B8C;&amp;#x6210;&amp;#x4EFB;&amp;#x52A1;&amp;#x7684;&amp;#x56E2;&amp;#x961F;&amp;#x7EC4;&amp;#x5408;&amp;#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x7BA1;&amp;#x7406;&amp;#x4F60;&amp;#x81EA;&amp;#x5DF1;&amp;#xFF0C;&amp;#x5E76;&amp;#x534F;&amp;#x8C03;&amp;#x5176;&amp;#x4ED6;&amp;#x4EBA;&amp;#x5B9E;&amp;#x73B0;&amp;#x4F60;&amp;#x7684;&amp;#x76EE;&amp;#x6807;&lt;ul&gt;
+&lt;li&gt;&amp;#x5408;&amp;#x7406;&amp;#x5206;&amp;#x5DE5;&amp;#xFF0C;&amp;#x5B9E;&amp;#x73B0;1+1&amp;gt;2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;5__u5B66_u4E60_u5982_u4F55_u6709_u6548_u51B3_u7B56&quot;&gt;&lt;a href=&quot;#5__u5B66_u4E60_u5982_u4F55_u6709_u6548_u51B3_u7B56&quot; class=&quot;headerlink&quot; title=&quot;5 &amp;#x5B66;&amp;#x4E60;&amp;#x5982;&amp;#x4F55;&amp;#x6709;&amp;#x6548;&amp;#x51B3;&amp;#x7B56;&quot;&gt;&lt;/a&gt;5 &amp;#x5B66;&amp;#x4E60;&amp;#x5982;&amp;#x4F55;&amp;#x6709;&amp;#x6548;&amp;#x51B3;&amp;#x7B56;&lt;/h3&gt;&lt;h3 id=&quot;u751F_u6D3B_u539F_u5219_u603B_u7ED3&quot;&gt;&lt;a href=&quot;#u751F_u6D3B_u539F_u5219_u603B_u7ED3&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x603B;&amp;#x7ED3;&quot;&gt;&lt;/a&gt;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x603B;&amp;#x7ED3;&lt;/h3&gt;&lt;h3 id=&quot;u751F_u6D3B_u539F_u5219_u6982_u8981_u4E0E_u5217_u8868&quot;&gt;&lt;a href=&quot;#u751F_u6D3B_u539F_u5219_u6982_u8981_u4E0E_u5217_u8868&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x6982;&amp;#x8981;&amp;#x4E0E;&amp;#x5217;&amp;#x8868;&quot;&gt;&lt;/a&gt;&amp;#x751F;&amp;#x6D3B;&amp;#x539F;&amp;#x5219;&amp;#x6982;&amp;#x8981;&amp;#x4E0E;&amp;#x5217;&amp;#x8868;&lt;/h3&gt;&lt;h2 id=&quot;u7B2C_u4E09_u90E8_u5206__u5DE5_u4F5C_u539F_u5219&quot;&gt;&lt;a href=&quot;#u7B2C_u4E09_u90E8_u5206__u5DE5_u4F5C_u539F_u5219&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7B2C;&amp;#x4E09;&amp;#x90E8;&amp;#x5206; &amp;#x5DE5;&amp;#x4F5C;&amp;#x539F;&amp;#x5219;&quot;&gt;&lt;/a&gt;&amp;#x7B2C;&amp;#x4E09;&amp;#x90E8;&amp;#x5206; &amp;#x5DE5;&amp;#x4F5C;&amp;#x539F;&amp;#x5219;&lt;/h2&gt;</content>
     
     <summary type="html">
     
@@ -4625,1661 +4801,6 @@
       <category term="推荐" scheme="http://wiki.greenwicher.com/tags/%E6%8E%A8%E8%8D%90/"/>
     
       <category term="点评" scheme="http://wiki.greenwicher.com/tags/%E7%82%B9%E8%AF%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Starting Your Career as a Wall Street Quant</title>
-    <link href="http://wiki.greenwicher.com/2016/06/29/%E9%98%85%E8%AF%BB-Starting_Your_Career_as_a_Wall_Street_Quant/"/>
-    <id>http://wiki.greenwicher.com/2016/06/29/阅读-Starting_Your_Career_as_a_Wall_Street_Quant/</id>
-    <published>2016-06-28T16:00:00.000Z</published>
-    <updated>2016-08-01T04:54:19.000Z</updated>
-    
-    <content type="html">
-
-&lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-08-01 Mon&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;#x3011;
-&lt;/p&gt;
-
-&lt;p&gt;
-&amp;#x65AD;&amp;#x65AD;&amp;#x7EED;&amp;#x7EED;&amp;#x7684;&amp;#x770B;&amp;#x5B8C;&amp;#x4E86;&lt;a href=&quot;https://book.douban.com/subject/2214134/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Starting Your Career as a Wall Street Quant&lt;/a&gt;&amp;#xFF0C;&amp;#x8FD9;&amp;#x672C;&amp;#x4E66;&amp;#x88AB;&amp;#x4F5C;&amp;#x8005;&amp;#x63CF;&amp;#x8FF0;&amp;#x4E3A;&amp;#x7B2C;&amp;#x4E00;&amp;#x672C;&amp;#x8BE6;&amp;#x5C3D;&amp;#x7684;Quant&amp;#x6C42;&amp;#x804C;&amp;#x4E66;&amp;#x7C4D;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x8BF4;&amp;#x8FD9;&amp;#x672C;&amp;#x4E66;&amp;#x4E5F;&amp;#x662F;&amp;#x81EA;&amp;#x5DF1;&amp;#x5B8C;&amp;#x5B8C;&amp;#x6574;&amp;#x6574;&amp;#x770B;&amp;#x8FC7;&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x672C;&amp;#x975E;&amp;#x5C0F;&amp;#x8BF4;&amp;#x7C7B;&amp;#x82F1;&amp;#x6587;&amp;#x4E66;&amp;#x7C4D;&amp;#x3002;&amp;#x770B;&amp;#x8FD9;&amp;#x672C;&amp;#x4E66;&amp;#x7684;&amp;#x521D;&amp;#x8877;&amp;#x662F;&amp;#x60F3;&amp;#x8981;&amp;#x4E86;&amp;#x89E3;&amp;#x4F5C;&amp;#x4E3A;&amp;#x4E00;&amp;#x4E2A;Quant&amp;#xFF0C;&amp;#x5230;&amp;#x5E95;&amp;#x9700;&amp;#x8981;&amp;#x54EA;&amp;#x4E9B;&amp;#x6280;&amp;#x80FD;&amp;#x88AB;&amp;#x70B9;&amp;#x4EAE;&amp;#x3002;&amp;#x5927;&amp;#x4F53;&amp;#x800C;&amp;#x8A00;&amp;#xFF0C;&amp;#x91D1;&amp;#x878D;&amp;#x3001;&amp;#x6570;&amp;#x5B66;&amp;#x4EE5;&amp;#x53CA;&amp;#x8BA1;&amp;#x7B97;&amp;#x673A;&amp;#xFF0C;&amp;#x800C;&amp;#x5176;&amp;#x4E2D;&amp;#x6570;&amp;#x7406;&amp;#x91CF;&amp;#x5316;&amp;#x5206;&amp;#x6790;&amp;#x80FD;&amp;#x529B;&amp;#xFF08;&amp;#x8BA1;&amp;#x91CF;&amp;#x7EDF;&amp;#x8BA1;&amp;#x3001;&amp;#x6982;&amp;#x7387;&amp;#x6A21;&amp;#x578B;&amp;#x3001;&amp;#x5FAE;&amp;#x5206;&amp;#x65B9;&amp;#x7A0B;&amp;#x3001;&amp;#x8499;&amp;#x7279;&amp;#x5361;&amp;#x6D1B;&amp;#x4EFF;&amp;#x771F;&amp;#x3001;&amp;#x968F;&amp;#x673A;&amp;#x79EF;&amp;#x5206;&amp;#xFF09;&amp;#x662F;&amp;#x6700;&amp;#x4E3A;&amp;#x91CD;&amp;#x8981;&amp;#x7684;&amp;#xFF0C;&amp;#x8FD9;&amp;#x4E5F;&amp;#x662F;&amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;&amp;#x79F0;&amp;#x4F5C;Quant&amp;#x7684;&amp;#x539F;&amp;#x56E0;&amp;#xFF1B;&amp;#x91D1;&amp;#x878D;&amp;#x4EE5;&amp;#x53CA;&amp;#x7ECF;&amp;#x6D4E;&amp;#x76F8;&amp;#x5173;&amp;#x7684;&amp;#x77E5;&amp;#x8BC6;&amp;#x638C;&amp;#x63E1;&amp;#x5927;&amp;#x6982;&amp;#x5C31;&amp;#x597D;&amp;#xFF0C;&amp;#x4E0D;&amp;#x8981;&amp;#x505A;&amp;#x95E8;&amp;#x5916;&amp;#x6C49;&amp;#x5C31;&amp;#x597D;&amp;#xFF1B;&amp;#x8BA1;&amp;#x7B97;&amp;#x673A;&amp;#x91CD;&amp;#x70B9;&amp;#x5728;&amp;#x6267;&amp;#x884C;&amp;#x6548;&amp;#x7387;&amp;#x4EE5;&amp;#x53CA;&amp;#x597D;&amp;#x7684;&amp;#x5F00;&amp;#x53D1;&amp;#x6A21;&amp;#x5F0F;&amp;#x4E0A;&amp;#xFF0C;&amp;#x987A;&amp;#x5E26;&amp;#x7EC3;&amp;#x4E60;&amp;#x89E3;&amp;#x51B3;&amp;#x5B9E;&amp;#x9645;&amp;#x95EE;&amp;#x9898;&amp;#x7684;&amp;#x80FD;&amp;#x529B;&amp;#x3002;&amp;#x6574;&amp;#x4F53;&amp;#x800C;&amp;#x8A00;&amp;#xFF0C;&amp;#x672C;&amp;#x4E66;&amp;#x4ECE;objective&amp;#xFF0C;education&amp;#xFF0C;experience&amp;#xFF0C;&amp;#x548C;bright future&amp;#x56DB;&amp;#x4E2A;&amp;#x65B9;&amp;#x9762;&amp;#x63A2;&amp;#x8BA8;&amp;#x4E86;&amp;#x6210;&amp;#x4E3A;Quant&amp;#x6240;&amp;#x9700;&amp;#x8981;&amp;#x548C;&amp;#x7ECF;&amp;#x5386;&amp;#x7684;&amp;#x65B9;&amp;#x65B9;&amp;#x9762;&amp;#x3002;&amp;#x5404;&amp;#x4E2A;&amp;#x90E8;&amp;#x5206;&amp;#x4F53;&amp;#x7CFB;&amp;#x7ED3;&amp;#x6784;&amp;#x6E05;&amp;#x6670;&amp;#x5E76;&amp;#x4E14;&amp;#x914D;&amp;#x6709;&amp;#x7FD4;&amp;#x5B9E;&amp;#x7684;&amp;#x4F8B;&amp;#x5B50;&amp;#x548C;&amp;#x5EFA;&amp;#x8BAE;&amp;#xFF0C;&amp;#x53EF;&amp;#x4F9B;&amp;#x8BFB;&amp;#x8005;&amp;#x5728;&amp;#x9700;&amp;#x8981;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x53C2;&amp;#x8003;&amp;#x5B66;&amp;#x4E60;&amp;#x3002;
-&lt;/p&gt;
-
-&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;Introduction: Get Ready to Launch&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-1-1&quot;&gt;Chapter 0: Why You Should Read This Book&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Goal
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;help you find a quant job in the financial investment industry
-&lt;/li&gt;
-&lt;li&gt;readers are expected to be more informed and more shrewed job hunter after reading
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Readers
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;people who are not familar with quant jobs
-&lt;/li&gt;
-&lt;li&gt;people who are eager to be a quant
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Features
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;author as a working quant
-&lt;/li&gt;
-&lt;li&gt;practical, no-BS guide
-&lt;/li&gt;
-&lt;li&gt;first book on finding a quant job
-&lt;/li&gt;
-&lt;li&gt;every facet of the job search process and what it&amp;apos;s like to work on Wall Street
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Supplementary website: &lt;a href=&quot;http://www.quantcareer.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;QuantCareer.com&lt;/a&gt; [not working now]
-&lt;/li&gt;
-&lt;li&gt;Major section of a typical quant resume
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Objective
-&lt;/li&gt;
-&lt;li&gt;Education
-&lt;/li&gt;
-&lt;li&gt;Experience
-&lt;/li&gt;
-&lt;li&gt;Bright Future
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-A thousand-mile journey begins with the first step.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-2&quot;&gt;Objective: Get a Job as a Wall Street Quant&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-1&quot;&gt;Chapter 1: The Lure of a Quant Career&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-1-1&quot;&gt;A Rewarding Career&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Monetary: a six-figure compensation (salary plus bonus, in US dollars) is almost a given, rougly $200k~$300k and even million bucks for some lucky and bright quants
-&lt;/li&gt;
-&lt;li&gt;Psychological: &lt;code&gt;aphrodisiac&lt;/code&gt;
-&lt;/li&gt;
-&lt;li&gt;Spiritual: solve the challenges
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-If you cannot see the risk to every poential reward, you should not be working as a quant - in fact, you shouldn&amp;apos;t be considering a financial career to begin with.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;outline-container-sec-2-1-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-1-2&quot;&gt;What is a Quant&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-2&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Anyone who possesses strong quantitative skills and work with quantitative models is a quant. On Wall Street, a quant designs, constructs, implements, tests and presents quant models in the specific financial area he or she works in.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Modeling process
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Model design: proprietary model / ad hoc model
-&lt;/li&gt;
-&lt;li&gt;Model construction: transform the model from framework to implementable form
-&lt;/li&gt;
-&lt;li&gt;Model implementation: convert the mathematical or statistical form to actual programming code
-&lt;/li&gt;
-&lt;li&gt;Model testing: check the results and improve the implementation
-&lt;/li&gt;
-&lt;li&gt;Model presentation: report to the upper management or clients; finalize the model into a product / service
-&lt;/li&gt;
-&lt;li&gt;[Model selling or supporting]
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Quant types
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Quantitative trader: employ quantitative models to trade financial instruments
-&lt;/li&gt;
-&lt;li&gt;Financial engineer: build and implement the models, true research-oriented quant
-&lt;/li&gt;
-&lt;li&gt;Quantitative analyst: more involved in model implementation than design and often possesses superior qualitative knowledge
-&lt;/li&gt;
-&lt;li&gt;Quantitative developer: converts abstract modeling ideas into expertly written &lt;code&gt;efficient&lt;/code&gt; programming code for implementation and production
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-1-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-1-3&quot;&gt;A Typical Workday in a Quant&amp;apos;s Life&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-3&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Typical daily schedule
-&lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/2016/06/29/&amp;#x9605;&amp;#x8BFB;-Starting_Your_Career_as_a_Wall_Street_Quant/quant_daily.jpg&quot; alt=&quot;quant_daily.jpg&quot; width=&quot;40%&quot;&gt;&lt;figcaption&gt;quant_daily.jpg&lt;/figcaption&gt;&lt;/center&gt;&lt;/p&gt;&lt;/div&gt; 
-&lt;/li&gt;
-&lt;li&gt;Different quants
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Quant traders: ultimately modeling people, toying with the models (refine, improve, calibrate, test)
-&lt;/li&gt;
-&lt;li&gt;Financial engineers and quant analysts: work life like a Ph.D. student or newly minted, tenure-track assistant professor
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Workload
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;quant works hard, usually thirteen- to fourteen-hour workdays
-&lt;/li&gt;
-&lt;li&gt;as you climb up the corporate ladder, you&amp;apos;ll be working harder and harder
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-1-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-1-4&quot;&gt;Is a Quant Job Right for You?&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-4&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Pros
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;money
-&lt;/li&gt;
-&lt;li&gt;perceived prestige
-&lt;/li&gt;
-&lt;li&gt;doing work you may actually enjoy
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Cons
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;boring work
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;exhaustive literature search
-&lt;/li&gt;
-&lt;li&gt;empirical implementation
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;limited respect and recognition if working in middle or back office
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;division of office
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;front: the salespeople and the traders
-&lt;/li&gt;
-&lt;li&gt;middle: research groups
-&lt;/li&gt;
-&lt;li&gt;back: non-essential, non-revenue-generating units (eg. accounting, trade checking, IT support, etc.)
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;stress
-&lt;/li&gt;
-&lt;li&gt;difficult managers
-&lt;/li&gt;
-&lt;li&gt;intense competition
-&lt;/li&gt;
-&lt;li&gt;lack of certainty with respect to income or job satisfication
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-If you find the right job with the right group at the right firm at the right time, and if you work very hard, and if you are smart and creative, and if you are lucky, you might just win the Wall Street lottery, make seven figures a year and become the envy of the rest of us, yours truly included.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-1-5&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-1-5&quot;&gt;Non-Quant Finance Jobs&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-5&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Quant people tend to be the straight shooters and lack the necessary political skills to climb to the top, both in power and in money.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Corporate Finance (Investment Banking)
-&lt;/li&gt;
-&lt;li&gt;Equity/Fixed Income Analysis
-&lt;/li&gt;
-&lt;li&gt;Venture Capital and Private Equity
-&lt;/li&gt;
-&lt;li&gt;Non-Quant Trading
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-1-6&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-1-6&quot;&gt;Where Quants Work&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-6&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Global integrated banks
-&lt;/li&gt;
-&lt;li&gt;Investment banks
-&lt;/li&gt;
-&lt;li&gt;Specialized financial service companies
-&lt;/li&gt;
-&lt;li&gt;Mutual funds
-&lt;/li&gt;
-&lt;li&gt;Hedge funds
-&lt;/li&gt;
-&lt;li&gt;Venture capital and private equity funds
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-1-7&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-1-7&quot;&gt;Designing an Overall Strategy for Getting a Quant Job&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1-7&quot;&gt;
-&lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;What kind of positions are you interested in?
-&lt;/li&gt;
-&lt;li&gt;List things you desire out of your job.
-&lt;/li&gt;
-&lt;li&gt;Now list your qualifications. Include your education and past quant-oriented jobs.
-&lt;/li&gt;
-&lt;li&gt;List anyone you know personally or have met in the past who works in Wall Street-type finance
-&lt;/li&gt;
-&lt;li&gt;Jot down places where you can find more contacts.
-&lt;/li&gt;
-&lt;li&gt;Finally, make a list of alternative options you&amp;apos;d take if you can&amp;apos;t find the quant job you desire within a reasonable amount of time.
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-2&quot;&gt;Chapter 2: Brushing Up Your Resume&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;your resume should possess the following characteristics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;use a clean layout
-&lt;/li&gt;
-&lt;li&gt;stick to classic fonts
-&lt;/li&gt;
-&lt;li&gt;list only the import items
-&lt;/li&gt;
-&lt;li&gt;be concise but be concrete
-&lt;/li&gt;
-&lt;li&gt;use action verbs
-&lt;/li&gt;
-&lt;li&gt;one page or two pages?
-&lt;/li&gt;
-&lt;li&gt;proofread, proofread, proofread
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-1&quot;&gt;Traditional vs. Creative&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-1&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Trust me, the resume is not the place where you try to be creative. Doing non-conventional things like putting your picture on the resume is still not acceptable.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-2&quot;&gt;Components of a Resume&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-2&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;perfonal info
-&lt;/li&gt;
-&lt;li&gt;objective
-&lt;/li&gt;
-&lt;li&gt;quantitative and techniqual skills
-&lt;/li&gt;
-&lt;li&gt;education
-&lt;/li&gt;
-&lt;li&gt;experience
-&lt;/li&gt;
-&lt;li&gt;publications, working papers or academic activities
-&lt;/li&gt;
-&lt;li&gt;other relevant info
-&lt;/li&gt;
-&lt;li&gt;references
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-3&quot;&gt;Writing Your Resume&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-4&quot;&gt;Improving Your Resume&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-5&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-5&quot;&gt;Tailoring Your Resume to a Position&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-5&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-One popular route many job hunters follow is to have multiple versions of their resumes, each version tailored for a particular type of job.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-6&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-6&quot;&gt;From CV to Resume&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-7&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-7&quot;&gt;The Single Most Critical Aspect of Your Resume&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-7&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-When you put down a skill on your resume, make sure you can back it up with concrete evidence.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-8&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-8&quot;&gt;Creating a Cover Letter&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-9&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-9&quot;&gt;Refining the Cover Letter&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-2-10&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-2-10&quot;&gt;Appendix: Sample Resume&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-10&quot;&gt;
-&lt;p&gt;
-&lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/2016/06/29/&amp;#x9605;&amp;#x8BFB;-Starting_Your_Career_as_a_Wall_Street_Quant/resume.jpg&quot; alt=&quot;resume.jpg&quot; width=&quot;60%&quot;&gt;&lt;figcaption&gt;resume.jpg&lt;/figcaption&gt;&lt;/center&gt;&lt;/p&gt;&lt;/div&gt; 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-3&quot;&gt;Chapter 3: Hunting for Openings&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-For many potential quants, the most difficult part of the job hunt process is probably finding where the job are.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-3-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-3-1&quot;&gt;When to Start Looking&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-1&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The answer is simple: start looking as early as possible. Be an early bird.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;large firms and smaller firms
-&lt;/li&gt;
-&lt;li&gt;opportunities
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;recruiting season
-&lt;/li&gt;
-&lt;li&gt;the annual ASSA (Alliance of Social Science Associations) meeting
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;final year PhD student: thesis defense
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The best time of the year to look for a quant job is in January, February or March. These three months are when the year-end bonuses are paid and a lot of people either switch jobs or quit the industry altogether, resulting in a lot of available openings - many of which need to be filled urgently (after all, somebody&amp;apos;s got to do the work).
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-3-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-3-2&quot;&gt;Where to Find Job Openings&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-2&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-First of all, forget about mass-appeal job websites like Monster or Hot Jobs.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;The annual ASSA (AEA or AFA) meeting
-&lt;/li&gt;
-&lt;li&gt;Your graduate-study department
-&lt;/li&gt;
-&lt;li&gt;Your school&amp;apos;s career office
-&lt;/li&gt;
-&lt;li&gt;Career or job fairs
-&lt;/li&gt;
-&lt;li&gt;Niche websites that cater to quants
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;JobsintheMoney.com
-&lt;/li&gt;
-&lt;li&gt;Wilmott.com (with lots of general career advice)
-&lt;/li&gt;
-&lt;li&gt;AnalyticRecruiting.com (run by a leading headhunter firm)
-&lt;/li&gt;
-&lt;li&gt;QuantFinanceJobs.com
-&lt;/li&gt;
-&lt;li&gt;QUANTster.com
-&lt;/li&gt;
-&lt;li&gt;www.quantcareer.com
-&lt;/li&gt;
-&lt;li&gt;www.aeaweb.org/joe
-&lt;/li&gt;
-&lt;li&gt;www.afajof.org/association/jobs.asp
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Professional societies for finance workers
-&lt;/li&gt;
-&lt;li&gt;Bloomberg terminals
-&lt;/li&gt;
-&lt;li&gt;Major daily newspapers as well as their websites
-&lt;/li&gt;
-&lt;li&gt;Headhunters
-&lt;/li&gt;
-&lt;li&gt;Listservs and websites run by student organizations at your school or other schools
-&lt;/li&gt;
-&lt;li&gt;Any contacts you can think of
-&lt;/li&gt;
-&lt;li&gt;Cold calling
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;the company&amp;apos;s website
-&lt;/li&gt;
-&lt;li&gt;finance professional society
-&lt;/li&gt;
-&lt;li&gt;finance-oriented journals and trade magazines
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Journal of Finance
-&lt;/li&gt;
-&lt;li&gt;Journal of Financial Studies
-&lt;/li&gt;
-&lt;li&gt;Institutional Investor (www.institutionalinvestor.com or www.dailyii.com)
-&lt;/li&gt;
-&lt;li&gt;Journal of Portfolio Management
-&lt;/li&gt;
-&lt;li&gt;Journal of Wealth Management
-&lt;/li&gt;
-&lt;li&gt;Euromoney
-&lt;/li&gt;
-&lt;li&gt;Bloomberg Markets
-&lt;/li&gt;
-&lt;li&gt;Wall Street Journal
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-3-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-3-3&quot;&gt;Working With Headhunters&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-3&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;about headhunters
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;a person who identifies and approaches suitable candidates employed elsewhere to fill business positions
-&lt;/li&gt;
-&lt;li&gt;the headhunter screens candidate for suitability for a position or a number of positions
-&lt;/li&gt;
-&lt;li&gt;the headhunter may also approach candidates deemed suitable
-&lt;/li&gt;
-&lt;li&gt;the headhunter is independent of the firms they recruit for
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;motivation of headhunters
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;legitimate headhunters are &lt;code&gt;always&lt;/code&gt; paied by the hiring firms for their services
-&lt;/li&gt;
-&lt;li&gt;if you fail to get an offer after two or three tries, you likely won&amp;apos;t hear from the same headhunter again
-&lt;/li&gt;
-&lt;li&gt;they have to bring the bread home, and they can only earn the bread if they succeed in placing candidates
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;where to find them
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;quant ads
-&lt;/li&gt;
-&lt;li&gt;career fairs
-&lt;/li&gt;
-&lt;li&gt;websites of headhunter firms
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Analytic Recruiting (www.analyticrecruiting.com)
-&lt;/li&gt;
-&lt;li&gt;Pathway Resourcing (www.pathwayresourcing.com)
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;from your past contacts with headhunters
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;what you should say to them
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;use phones instead of e-mails
-&lt;/li&gt;
-&lt;li&gt;summary of your resume
-&lt;/li&gt;
-&lt;li&gt;ask tips/improvement on the resume
-&lt;/li&gt;
-&lt;li&gt;tell the truth about how much are you currently making
-&lt;/li&gt;
-&lt;li&gt;expected pay for the new position
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-3-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-3-4&quot;&gt;Leveraging Contacts for Job Search&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-4&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The most attractive jobs are often taken before the public knows about them, and the jobs that are publicly posted are usually just okay.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;insider
-&lt;/li&gt;
-&lt;li&gt;referral bonus policy
-&lt;/li&gt;
-&lt;li&gt;suggestions
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;collect contacts on Wall Street
-&lt;/li&gt;
-&lt;li&gt;utilize the contacts
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-3-5&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-3-5&quot;&gt;Connecting With Contacts at Seminars or Happy Hours&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-5&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-I tell myself that no matter what happens, 100 years from now everyone in the room will be dead.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;
-By encouraging them to talk about themselves and thus making them feel good, you make them like you.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;
-After you&amp;apos;ve made the connection, be sure to keep it warm.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-4&quot;&gt;Chapter 4: Acing the Quant Interview&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-4&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-4-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-1&quot;&gt;Types of Interviews&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;In terms of medium
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;phone interviews
-&lt;/li&gt;
-&lt;li&gt;in-person interviews
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;In terms of content
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;informational interviews
-&lt;/li&gt;
-&lt;li&gt;technical interviews
-&lt;/li&gt;
-&lt;li&gt;case interviews
-&lt;/li&gt;
-&lt;li&gt;combinationof the three
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-2&quot;&gt;Interviewer Styles&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-3&quot;&gt;Scheduling and Interview&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-3&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Schedule first the intervies for positions that you are the least interested in and place the important interviews (for the jobs that you really wat) in the middle of the pack.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;
-The bottom line is, if you have any wiggle room at all at controlling an interview&amp;apos;s time and day, use that flexibility to your greatest advantage.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-4&quot;&gt;Before Intervie Time&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-4&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Any practive is better than no practice. (mock intervies)
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;backgroud check
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;compnay.department
-&lt;/li&gt;
-&lt;li&gt;position
-&lt;/li&gt;
-&lt;li&gt;interviewers
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-5&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-5&quot;&gt;General Tips for Handling Interviews&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-5&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Prepare, prepare, prepare.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Groom and dress well for the in-person interview.
-&lt;/li&gt;
-&lt;li&gt;Be sure to have had a good night&amp;apos;s sleep and, in the morning, taken a shower.
-&lt;/li&gt;
-&lt;li&gt;If it&amp;apos;s a phone interview and you plan to use a cellphone, make sure your phone is fully charged and has good signal strength.
-&lt;/li&gt;
-&lt;li&gt;For an onsite interview, or an offsite interview where you have an appointed time, it should be plenty obvious that you must arrive on time.
-&lt;/li&gt;
-&lt;li&gt;When you meet  the interviewer for a face-to-face interview, try to initiate the greeting as well as handshake.
-&lt;/li&gt;
-&lt;li&gt;As you talk to the interviewer, it&amp;apos;s vitally important that you maintain constant eye contact, meaning you look him or her in the eyes.
-&lt;/li&gt;
-&lt;li&gt;As you make eye contact, you should also smile from time to time.
-&lt;/li&gt;
-&lt;li&gt;Candidate&amp;apos;s communication skills.
-&lt;/li&gt;
-&lt;li&gt;Speed of speech is important.
-&lt;/li&gt;
-&lt;li&gt;Speak clearly.
-&lt;/li&gt;
-&lt;li&gt;Your body language is important
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;how you sit
-&lt;/li&gt;
-&lt;li&gt;how you listen to
-&lt;/li&gt;
-&lt;li&gt;how you properly use your hands
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-6&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-6&quot;&gt;Intelligent Questions to Ask&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-6&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-A jog interview is a two-way exchange: the interviewer examines your qualification, and you, the candidate, find out if the job and the environment are right for you.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;intelligent questions
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;questions that can actually flatter the interviewer
-&lt;/li&gt;
-&lt;li&gt;questions that you really care about
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-7&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-7&quot;&gt;Stupid Questions to Ask&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-8&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-8&quot;&gt;More General Tips&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-9&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-9&quot;&gt;Tips for Short Interviews&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-9&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;be likeable
-&lt;/li&gt;
-&lt;li&gt;size the opportunity and drag the interview into your comfort zone
-&lt;/li&gt;
-&lt;li&gt;you might want to make some deliberate (but harmeless) mistakes, to allow the interviewer to point them out, which in turn allows you to talk and talk and talk
-&lt;/li&gt;
-&lt;li&gt;if you are given a difficult technical question, work through it as fast as you can, but make sure you don&amp;apos;t lose precious time on any particular step.
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-10&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-10&quot;&gt;Tips for Long Interviews&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-10&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The best way to prepare for long interviews is to know your stuff well, the stuff here being all those skills your resume says you possess and the quantitative education your resume says yuo undertook.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-For long interviews, the closing is especially important.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-11&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-11&quot;&gt;Handling Background Questions&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-12&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-12&quot;&gt;Dealing With Difficult Questions&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-12&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Answer the tough question truthfully, politely, and confidently.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-13&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-13&quot;&gt;Answering Technical Questions&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-13&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;modeling know-how: from theory to empirical techniques to programming aptitude
-&lt;/li&gt;
-&lt;li&gt;short technical questions: define some concepts and solve a quick problem
-&lt;/li&gt;
-&lt;li&gt;long technical questions: more advanced concept or longer problem to solve
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;think out loud
-&lt;/li&gt;
-&lt;li&gt;you need to know when you get stuck
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-14&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-14&quot;&gt;Handling Case Questions&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-14&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;case questions are actually not common at quant interviews
-&lt;/li&gt;
-&lt;li&gt;some quant interviewers do ask case questions
-&lt;/li&gt;
-&lt;li&gt;No right or wrong answers but they want to see how you think
-&lt;/li&gt;
-&lt;li&gt;Every problem requires two major steps
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;identifying the issues
-&lt;/li&gt;
-&lt;li&gt;comming up with solutions to these issues
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-As mentioned before, a subtle yet powerful efffect of thinking aloud is you turn the problem solving itself into a collaborative effort, with the interviewer acting as your senior partner (since he or she knows the anser). Thus, you also prove your teamwork ability. One stone, two (or is it three?) birds.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;
-In other words, don&amp;apos;t use a job interview as the time to show off your creativity or originality.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;types of case questions
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;involes using quant skills to solve a fairly big problem
-&lt;/li&gt;
-&lt;li&gt;brainteasers, puzzles that test your general logical reasoning without resorting to technical skills
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;how to approach case questions
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;rephrase: make sure you and the interviewer are on the same page regarding every detail
-&lt;/li&gt;
-&lt;li&gt;it&amp;apos;s the thought process that counts / thinking out aloud
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-15&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-15&quot;&gt;The Dont&amp;apos;s of Interviewing&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-15&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;don&amp;apos;t be late
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t show up in casual wear
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t forget to bring a copy of your resume
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t forget to make eye contact and smile
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t your tableside manners
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t argure with the interviewer
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t look or act arrogant
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t be too aggressive
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t interrupt the interviewer
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t act clownish
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t ask stupid questions
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t ramble or BS
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t overuse excuses
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t put on an act
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t talk too much
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t read off index cards
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t lie
-&lt;/li&gt;
-&lt;li&gt;don&amp;apos;t forget to send your interviewer a thank-you note
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-16&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-16&quot;&gt;Taking a Break (Between Interviews)&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-17&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-17&quot;&gt;What to Do If Interview Not Going Well&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-17&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-First, don&amp;apos;t forget to shate the interviewer&amp;apos;s hand at the end and offer thanks in a sincere tone. Second, don&amp;apos;t forget to send him or her a thank-you note when you get home.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-18&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-18&quot;&gt;If You Speak English With an Accent&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-4-19&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-2-4-19&quot;&gt;Interviews That Are Not Interviews&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-4-19&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;written exams
-&lt;/li&gt;
-&lt;li&gt;fun group event
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-3&quot;&gt;Education: Arm Yourself with Knowledge&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-1&quot;&gt;Chapter 5: Undergraduate Preparations&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-1-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-1-1&quot;&gt;Basic Concepts of Quantitative Finance&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-1-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Quantitative analysis
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;subjects: mathematics, statistics, econometrics
-&lt;/li&gt;
-&lt;li&gt;theory and empirical work / &amp;#x77E5;&amp;#x5176;&amp;#x6240;&amp;#x4EE5;&amp;#x7136;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Finance
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;fair pricing of assets
-&lt;/li&gt;
-&lt;li&gt;different assets
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;equity
-&lt;/li&gt;
-&lt;li&gt;bonds
-&lt;/li&gt;
-&lt;li&gt;commodity
-&lt;/li&gt;
-&lt;li&gt;derivatives
-&lt;/li&gt;
-&lt;li&gt;&amp;#x2026;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-1-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-1-2&quot;&gt;Quant Opportunities for Undergrads&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-1-2&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Conduct background material search via the Internet
-&lt;/li&gt;
-&lt;li&gt;Verify basic mathematics in the model
-&lt;/li&gt;
-&lt;li&gt;Help collect data
-&lt;/li&gt;
-&lt;li&gt;Get involved in testing and debugging the model
-&lt;/li&gt;
-&lt;li&gt;Assist in putting together product presentation
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-1-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-1-3&quot;&gt;Must-Take Courses in College&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-1-3&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The first thing to keep in mind is that Wall Street recruiters like to see candidates who take on challenges and grow.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Mathematics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;calculus
-&lt;/li&gt;
-&lt;li&gt;linear algebra
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Statistics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;probability theory
-&lt;/li&gt;
-&lt;li&gt;basic statistics
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Economics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;microeconomics
-&lt;/li&gt;
-&lt;li&gt;macroeconomics
-&lt;/li&gt;
-&lt;li&gt;international finance
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Econnometrics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;regressions
-&lt;/li&gt;
-&lt;li&gt;hypothesis testing
-&lt;/li&gt;
-&lt;li&gt;time series models
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Finance
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;investment theory
-&lt;/li&gt;
-&lt;li&gt;different assets
-&lt;/li&gt;
-&lt;li&gt;financial modeling
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Computer science
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;C++ / C# / Java
-&lt;/li&gt;
-&lt;li&gt;object oriented programming paradigm
-&lt;/li&gt;
-&lt;li&gt;algorithm design and implementation
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-1-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-1-4&quot;&gt;Job Now, or Grad School First?&lt;/h4&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-2&quot;&gt;Chapter 6: Graduate Studies&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-2-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-2-1&quot;&gt;Quant Opportunities for Grad Degree Holders&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-2-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;senior quant v.s. junior quant
-&lt;/li&gt;
-&lt;li&gt;modeling experience and finance knowledge
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-2-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-2-2&quot;&gt;Quant-Oriented Graduate Programs&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-2-2&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;general-purpose programs
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;mathematics
-&lt;/li&gt;
-&lt;li&gt;applied mathematics
-&lt;/li&gt;
-&lt;li&gt;statistics
-&lt;/li&gt;
-&lt;li&gt;economics
-&lt;/li&gt;
-&lt;li&gt;econometrics
-&lt;/li&gt;
-&lt;li&gt;finance
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;specialized programs
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;quantitative finance
-&lt;/li&gt;
-&lt;li&gt;methematical finance
-&lt;/li&gt;
-&lt;li&gt;financial mathematics
-&lt;/li&gt;
-&lt;li&gt;financial engineering
-&lt;/li&gt;
-&lt;li&gt;analytical finance
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;author recommends specialized programs because
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;training relevant to the fruture career as a quant
-&lt;/li&gt;
-&lt;li&gt;comprehensive coverage of the various areas of quantitative fiannce
-&lt;/li&gt;
-&lt;li&gt;taught by industry veterans
-&lt;/li&gt;
-&lt;li&gt;internship positions
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-2-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-2-3&quot;&gt;Ph.D. vs. Master&amp;apos;s&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-2-3&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Ph.D. graduates should hold no illusion that Wall Street is a haven for intellectuals: it&amp;apos;s only a haven if you can use your brain power to make money for your employer; otherwise, it&amp;apos;s quite a cruel place to be (highly stressful, super-competitive, intoxicatingly money-crazy).
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-2-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-2-4&quot;&gt;Must-Take Courses in Grad School&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-2-4&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Mathematics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;calculus
-&lt;/li&gt;
-&lt;li&gt;linear algebra
-&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;differential equations&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;computation mathematics&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;operations research
-&lt;/li&gt;
-&lt;li&gt;applied optimization
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Statistics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;more focus on the econnometrics instead
-&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;survival analysis&lt;/b&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Economics
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;more focus on the finance instead
-&lt;/li&gt;
-&lt;li&gt;stochastic process
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Econnometrics&lt;/b&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;non-linear models
-&lt;/li&gt;
-&lt;li&gt;non-parametric methods
-&lt;/li&gt;
-&lt;li&gt;time series
-&lt;/li&gt;
-&lt;li&gt;statistical packages
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Fiannce
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&lt;b&gt;continuous-time finance&lt;/b&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Computer Science
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;algorithm-heavy course
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-3&quot;&gt;Chapter 7: Self-Education&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-3&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-3-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-1&quot;&gt;Power Reading List for the Impatient&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-1&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The books recommended in this section are must-reads because they cover exactly the kind of quantitative knowledge you need to know if you want to become a Wall Street quant.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1872626/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Analysis of Financial Time Series&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/3431143/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Options, Futures and Other Derivatives&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/2797351/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fixed Income Mathematics&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1907521/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Financial Modeling of the Equity Market&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-2&quot;&gt;Self-Education for the Aspiring Quant&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-3&quot;&gt;Mathematics&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-3&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1686144/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mathematics for Economists&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-4&quot;&gt;Statistics&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-4&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1703249/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Introduction to Mathematical Statistics&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-5&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-5&quot;&gt;Economics&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-5&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1786066/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Trading and Exchanges&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/11647608/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Economics Principles and Policy&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-6&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-6&quot;&gt;Econometrics&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-6&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;three major areas
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;microeconometrics / cross-sectional modeling
-&lt;/li&gt;
-&lt;li&gt;macroeconometrics / time series analysis
-&lt;/li&gt;
-&lt;li&gt;panel data modeling
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/2778036/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Introductory Econometrics for Finance&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1609627/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Econometric Analysis&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1872626/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Analysis of Financial Time Series&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-7&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-7&quot;&gt;Finance&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-7&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/5312857/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Investments&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/3431143/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Options, Futures and Other Derivatives&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/2797351/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fixed Income Mathematics&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1907521/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Financial Modeling of the Equity Market&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/2126066/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Investment Strategies of Hedge Funds&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-8&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-8&quot;&gt;Computer Science&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-8&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;general programming: C++ / C# / Java
-&lt;/li&gt;
-&lt;li&gt;data-processing language: Perl / Python / SQL
-&lt;/li&gt;
-&lt;li&gt;IT knowledge
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Microsoft Windows / Linux
-&lt;/li&gt;
-&lt;li&gt;Microsoft Office suite
-&lt;/li&gt;
-&lt;li&gt;VBA
-&lt;/li&gt;
-&lt;li&gt;Shell programming
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-3-3-9&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-3-3-9&quot;&gt;To CFA or Not to CFA&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-9&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;The CFA is largely a buy-side phenomenon; few people on the sell side care about the title, let alone go for it. In particular, the CFA is popular among people whoe work in asset management such as mutual funds. The three CFA exams and the necessary preparations for these exams cover a wide range of topics in finance, but the emphasis is far from the kind of quantitative analysis (mathematical and statistical modeling).
-&lt;/li&gt;
-&lt;li&gt;Readers aspiring to be quants should enroll in a quantitative analysis-heavy graduate program.
-&lt;/li&gt;
-&lt;li&gt;Becoming a CFA (or just passing the exams) can never be disadcantageous.
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-4&quot;&gt;Experience: Acquire Real-world Skills&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-4-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4-1&quot;&gt;Chapter 8: Working While in School&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-1&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-I highly recommend a ``real&amp;apos;&amp;apos; job if possible.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-4-1-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-4-1-1&quot;&gt;Quant Internships&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-4-1-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;part-time job and full-time summer job
-&lt;/li&gt;
-&lt;li&gt;suggestions
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;start early
-&lt;/li&gt;
-&lt;li&gt;internship positions are usually unadvertised
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Many internship positions are rewarded to applicants who come in through contacts or cold calling.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;what employers look for an intern are
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;enthusiasm
-&lt;/li&gt;
-&lt;li&gt;intellectual curiosity
-&lt;/li&gt;
-&lt;li&gt;maturity
-&lt;/li&gt;
-&lt;li&gt;adequate computer skills
-&lt;/li&gt;
-&lt;li&gt;obedience
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;An internship also serves as a self-discovery tool. A Wall Street career is not for everybody.
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-4-1-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-4-1-2&quot;&gt;Academic Research&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-4-1-2&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The only advice I have is, get involved in empirical research projects, not theoretical ones.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-4-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4-2&quot;&gt;Chapter 9: Already a Full-Timer&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-2&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-4-2-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-4-2-1&quot;&gt;Evaluating Your Quantitative Skills&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-4-2-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;any quantitative work before?
-&lt;/li&gt;
-&lt;li&gt;is your quantitative knowledge relevant to the quant job you&amp;apos;d like to have?
-&lt;/li&gt;
-&lt;li&gt;the most important qualification for being a quant
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;smart
-&lt;/li&gt;
-&lt;li&gt;willingness to work hard
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-4-2-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-4-2-2&quot;&gt;Skills and Starting Position&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-4-2-2&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Try to find a job that will take maximum advantage of your existing skills.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-4-2-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-4-2-3&quot;&gt;Leveraging Contacts&lt;/h4&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-5&quot;&gt;Bright Future: Go Far and Prosper&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-5-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-5-1&quot;&gt;Chapter 10: Evaluating Offers and Starting Job&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-1&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-5-1-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-5-1-1&quot;&gt;Oral Offer vs. Written Offer&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-1-1&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-You should always wait until you get the official written offer in the mail before you decide whether to cancel any other impending interviews.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-It&amp;apos;s adequate to simply thank the caller (eg. HR manager) for the information.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-5-1-2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-5-1-2&quot;&gt;The Money Game&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-1-2&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;base salary
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;corporation titles
-&lt;/li&gt;
-&lt;li&gt;pay grade
-&lt;/li&gt;
-&lt;li&gt;``exempt&amp;apos;&amp;apos; employee
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;bonus
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;market conditions
-&lt;/li&gt;
-&lt;li&gt;the firm
-&lt;/li&gt;
-&lt;li&gt;the department
-&lt;/li&gt;
-&lt;li&gt;the group
-&lt;/li&gt;
-&lt;li&gt;the job
-&lt;/li&gt;
-&lt;li&gt;your expected contribution
-&lt;/li&gt;
-&lt;li&gt;exagggeration / firm-wide bonus pool
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-For us mere mortals, keeping expectations low is probably the best strategy.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;signing bonus
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-5-1-3&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-5-1-3&quot;&gt;Resting Days&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-1-3&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;vacation days
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;the number of vacation days varies greatly from firm to firm
-&lt;/li&gt;
-&lt;li&gt;whereas companies used to make a distinction between vacation days and personal days
-&lt;/li&gt;
-&lt;li&gt;what you are entitled to may not be what you can actually get
-&lt;/li&gt;
-&lt;li&gt;almost all firms allow you to roll over some unused vacation days from year to year, but there are ususlly strings attached
-&lt;/li&gt;
-&lt;li&gt;most big firms allow you to cash out your unused vacation days when your employment terminates
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;sick days
-&lt;/li&gt;
-&lt;li&gt;other day off
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;marriage
-&lt;/li&gt;
-&lt;li&gt;childbirth
-&lt;/li&gt;
-&lt;li&gt;family death
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-5-1-4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-5-1-4&quot;&gt;Titles and Positions&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-1-4&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;corporate titles
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;analyst
-&lt;/li&gt;
-&lt;li&gt;associate
-&lt;/li&gt;
-&lt;li&gt;assistant vice president
-&lt;/li&gt;
-&lt;li&gt;vice president
-&lt;/li&gt;
-&lt;li&gt;senior vice president / director / principal
-&lt;/li&gt;
-&lt;li&gt;managing director
-&lt;/li&gt;
-&lt;li&gt;top corporate excutives (eg. the CEO, the COO)
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;functional titles
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;quantitative analyst, quantitative developer, financial engineer, quantitative trader
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-5-1-5&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-5-1-5&quot;&gt;Other Things in the Offer Letter&lt;/h4&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-5-1-6&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-5-1-6&quot;&gt;Negotiating Offers&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-1-6&quot;&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-First of all, you should know that every offer can be negotiated.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Never lie about having another offer.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-The important thing is, call them. Do not use e-mail, as e-mail is totally ineffective for negotiating anything.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Never try to insinuate a threat.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-5-1-7&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-5-1-7&quot;&gt;Starting Your New Job&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-5-1-7&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;``honeymooon&amp;apos;&amp;apos; period and daily routine
-&lt;/li&gt;
-&lt;li&gt;coworkers
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-Be sure to leverage the experience and knowledge of your coworkers - which, of course, also means you should be frineds with your coworkers.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;boss
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-It&amp;apos;s vitally important you understand how your boss thinks.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-If a faceless Wall Street firm has a personal side at all, it can be found among the HR people.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;office politics
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-When you have conflicts, there will be politics.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-At the beginning of your carrer, it&amp;apos;s probably best to stay away from such distractions as much as possible.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    
-    <summary type="html">
-    
-      
-
-&lt;p&gt;
-&amp;#x3010;&amp;#x66F4;&amp;#x65B0;&amp;#x65E5;&amp;#x671F;&amp;#xFF1A;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;&amp;lt;2016-08-01 Mon&amp;gt;&lt;/span&gt;&lt;
-    
-    </summary>
-    
-      <category term="阅读" scheme="http://wiki.greenwicher.com/categories/%E9%98%85%E8%AF%BB/"/>
-    
-    
-      <category term="Quant" scheme="http://wiki.greenwicher.com/tags/Quant/"/>
-    
-      <category term="求职" scheme="http://wiki.greenwicher.com/tags/%E6%B1%82%E8%81%8C/"/>
-    
-      <category term="职业规划" scheme="http://wiki.greenwicher.com/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
